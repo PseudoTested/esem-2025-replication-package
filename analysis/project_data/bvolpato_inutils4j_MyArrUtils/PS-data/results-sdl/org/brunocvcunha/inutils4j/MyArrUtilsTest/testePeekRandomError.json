@@ -1,0 +1,15 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyArrUtilsTest",
+  "testMethodName" : "testePeekRandomError",
+  "testOutcomes" : [ "PASSED(5)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 2, org.brunocvcunha.inutils4j.MyArrUtils)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.AssertionError> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(IF, 9, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.AssertionError> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(IF, 9, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.AssertionError> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(THROW, 10, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "THREW_EXCEPTION(2, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.AssertionError> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(THROW, 10, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.AssertionError> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 16, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.AssertionError> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 16, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.AssertionError> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ]
+  },
+  "timeTaken" : 67
+}

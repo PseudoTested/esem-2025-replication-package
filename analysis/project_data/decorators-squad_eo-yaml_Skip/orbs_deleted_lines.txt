@@ -1,0 +1,206 @@
+src/main/java9/module-info.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComments.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrintVisitor.java
+src/main/java/com/amihaiemil/eoyaml/Scalar.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedFlowLines.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlScalar.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/Node.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlNode.java
+src/main/java/com/amihaiemil/eoyaml/GreaterIndentation.java
+src/main/java/com/amihaiemil/eoyaml/YamlInput.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlDump.java
+src/main/java/com/amihaiemil/eoyaml/YamlToJsonVisitor.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/Indented.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlDump.java
+src/main/java/com/amihaiemil/eoyaml/Edited.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/YamlStream.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Backwards.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/StartMarkers.java
+src/main/java/com/amihaiemil/eoyaml/Yaml.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/YamlComment.java
+src/main/java/com/amihaiemil/eoyaml/WellIndented.java
+src/main/java/com/amihaiemil/eoyaml/ReadFlowMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadFlowSequence.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlIndentationException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlPrintException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlReadingException.java
+src/main/java/com/amihaiemil/eoyaml/ReadLiteralBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlDump.java
+src/main/java/com/amihaiemil/eoyaml/YamlLine.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/extensions/package-info.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseScalar.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Follows.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadFoldedBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlVisitor.java
+src/main/java/com/amihaiemil/eoyaml/YamlNode.java
+src/main/java/com/amihaiemil/eoyaml/Comment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/YamlNodeNotFoundException.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadPlainScalar.java
+src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ScalarComment.java
+src/main/java/com/amihaiemil/eoyaml/InlineComment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadComment.java
+src/main/java/com/amihaiemil/eoyaml/SameIndentationLevel.java
+src/main/java/com/amihaiemil/eoyaml/Comments.java
+src/main/java/com/amihaiemil/eoyaml/BaseFoldedScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlLines.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlInput.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/FirstCommentFound.java
+src/main/java/com/amihaiemil/eoyaml/YamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/Skip.java
+1:/**
+2: * Copyright (c) 2016-2024, Mihai Emil Andronache
+3: * All rights reserved.
+4: *
+5: * Redistribution and use in source and binary forms, with or without
+6: *  modification, are permitted provided that the following conditions are met:
+7: * Redistributions of source code must retain the above copyright notice, this
+8: *  list of conditions and the following disclaimer.
+9: *  Redistributions in binary form must reproduce the above copyright notice,
+10: *  this list of conditions and the following disclaimer in the documentation
+11: *  and/or other materials provided with the distribution.
+12: * Neither the name of the copyright holder nor the names of its
+13: *  contributors may be used to endorse or promote products derived from
+14: *  this software without specific prior written permission.
+15: * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+16: * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+17: * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+18: * ARE
+19: * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+20: * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+21: * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+22: * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+23: * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+24: * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+25: * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+26: * SUCH DAMAGE.
+27: */
+34:/**
+35: * Decorator over some YamlLines which makes sure that lines
+36: * which satisfy one of the given conditions are ignored from
+37: * iteration.
+38: * @author Mihai Andronache (amihaiemil@gmail.com)
+39: * @version $Id: 7aadc97f6a26fadd1c4b683e31a3004a527ec551 $
+40: * @since 4.2.0
+41: */
+44:    /**
+45:     * YamlLines.
+46:     */
+49:    /**
+50:     * If a YamlLine meets any of these conditions, it is skipped.
+51:     */
+54:    /**
+55:     * Ctor.
+56:     * @param yamlLines The Yaml lines.
+57:     * @param conditions Conditions.
+58:     *  If a YamlLine meets any of these conditions, it is skipped.
+59:     */
+65:    @Override
+75:                previous = current;
+79:                        break;
+91:    @Override
+96:    /**
+97:     * Condition that a YamlLine has to satisfy in order to be
+98:     * skipped/ignored from iteration.
+99:     * @author Mihai Andronache (amihaiemil@gmail.com)
+100:     * @version $Id: 7aadc97f6a26fadd1c4b683e31a3004a527ec551 $
+101:     * @since 4.2.0
+102:     */
+105:        /**
+106:         * Is this condition met or not?
+107:         * @param line YamlLine.
+108:         * @return True or false.
+109:         */
+114:    /**
+115:     * A wrapper line that keeps track of current and previous line.
+116:     * <br/>
+117:     * It also can arbitrary store a line in order to be used as a reference
+118:     * downstream when evaluating the current iteration line condition.
+119:     * <br/>
+120:     * The current line is used as delegate for {@link YamlLine} API
+121:     * and previous line is a {@link Line} in order to carry over the
+122:     * "stored" state.
+123:     * <br/>
+124:     * <br/>
+125:     * <br/>
+126:     * Used by {@link Skip#iterator()} to feed current line {@link Condition}.
+127:     */
+130:        /**
+131:         * Current line.
+132:         */
+135:        /**
+136:         * Previous line.
+137:         */
+140:        /**
+141:         * Arbitrary stored line.
+142:         */
+145:        /**
+146:         * Ctor.
+147:         * @param current Current line.
+148:         * @param previous Previous line.
+149:         */
+153:            final YamlLine store;
+154:            if (previous instanceof Line) {
+155:                final Line prevLine = (Line) previous;
+156:                store = prevLine.stored;
+157:            } else {
+158:                store = new NullYamlLine();
+160:            this.stored = store;
+163:        @Override
+168:        @Override
+173:        @Override
+178:        /**
+179:         * Previous line. Usually a skip {@link Line}
+180:         * @return YamlLine.
+181:         */
+182:        YamlLine getPrevious() {
+183:            return this.previous;
+186:        /**
+187:         * Stores a line.
+188:         * @param line A {@link YamlLine}.
+189:         */
+191:            this.stored = line;
+194:        /**
+195:         * Get currently stored line.
+196:         * @return YamlLine
+197:         */
+202:        /**
+203:         * Unwraps to current line.
+204:         * @return YamlLine.
+205:         */
+src/main/java/com/amihaiemil/eoyaml/Concatenated.java
+src/main/java/com/amihaiemil/eoyaml/AllYamlLines.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComment.java

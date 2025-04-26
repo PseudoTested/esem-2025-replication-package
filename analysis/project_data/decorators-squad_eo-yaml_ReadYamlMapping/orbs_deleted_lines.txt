@@ -1,0 +1,264 @@
+src/main/java9/module-info.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComments.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrintVisitor.java
+src/main/java/com/amihaiemil/eoyaml/Scalar.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedFlowLines.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlScalar.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/Node.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlNode.java
+src/main/java/com/amihaiemil/eoyaml/GreaterIndentation.java
+src/main/java/com/amihaiemil/eoyaml/YamlInput.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlDump.java
+src/main/java/com/amihaiemil/eoyaml/YamlToJsonVisitor.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/Indented.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlDump.java
+src/main/java/com/amihaiemil/eoyaml/Edited.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/YamlStream.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Backwards.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/StartMarkers.java
+src/main/java/com/amihaiemil/eoyaml/Yaml.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/YamlComment.java
+src/main/java/com/amihaiemil/eoyaml/WellIndented.java
+src/main/java/com/amihaiemil/eoyaml/ReadFlowMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadFlowSequence.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlIndentationException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlPrintException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlReadingException.java
+src/main/java/com/amihaiemil/eoyaml/ReadLiteralBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlDump.java
+src/main/java/com/amihaiemil/eoyaml/YamlLine.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/extensions/package-info.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseScalar.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Follows.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadFoldedBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlVisitor.java
+src/main/java/com/amihaiemil/eoyaml/YamlNode.java
+src/main/java/com/amihaiemil/eoyaml/Comment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/YamlNodeNotFoundException.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadPlainScalar.java
+src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ScalarComment.java
+src/main/java/com/amihaiemil/eoyaml/InlineComment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadComment.java
+src/main/java/com/amihaiemil/eoyaml/SameIndentationLevel.java
+src/main/java/com/amihaiemil/eoyaml/Comments.java
+src/main/java/com/amihaiemil/eoyaml/BaseFoldedScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlLines.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlInput.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java
+1:/**
+2: * Copyright (c) 2016-2024, Mihai Emil Andronache
+3: * All rights reserved.
+4: *
+5: * Redistribution and use in source and binary forms, with or without
+6: *  modification, are permitted provided that the following conditions are met:
+7: * Redistributions of source code must retain the above copyright notice, this
+8: *  list of conditions and the following disclaimer.
+9: *  Redistributions in binary form must reproduce the above copyright notice,
+10: *  this list of conditions and the following disclaimer in the documentation
+11: *  and/or other materials provided with the distribution.
+12: * Neither the name of the copyright holder nor the names of its
+13: *  contributors may be used to endorse or promote products derived from
+14: *  this software without specific prior written permission.
+15: * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+16: * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+17: * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+18: * ARE
+19: * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+20: * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+21: * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+22: * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+23: * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+24: * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+25: * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+26: * SUCH DAMAGE.
+27: */
+30:import com.amihaiemil.eoyaml.exceptions.YamlReadingException;
+40:/**
+41: * Block-style YamlMapping read from somewhere. YAML directives and
+42: * document start/end markers are ignored. This is assumed
+43: * to be a plain YAML mapping.
+44: * @checkstyle CyclomaticComplexity (300 lines)
+45: * @checkstyle ExecutableStatementCount (300 lines)
+46: * @author Mihai Andronache (amihaiemil@gmail.com)
+47: * @version $Id: 9c4c41b399e2fe1995cdc459759235e64f72159e $
+48: * @since 1.0.0
+49: */
+52:    /**
+53:     * Regex for a key in a mapping.
+54:     */
+60:    /**
+61:     * Yaml line just previous to the one where this mapping starts. E.g.
+62:     * <pre>
+63:     * 0  mapping:
+64:     * 1    key1: elem1
+65:     * 2    key2: elem2
+66:     * </pre>
+67:     * In the above example the mapping consists of keys key1 and key2, while
+68:     * "previous" is line 0. If the mapping starts at the root, then line
+69:     * "previous" is {@link com.amihaiemil.eoyaml.YamlLine.NullYamlLine}; E.g.
+70:     * <pre>
+71:     * 0  key1: elem1
+72:     * 1  key2: elem2
+73:     * </pre>
+74:     */
+77:    /**
+78:     * All the lines of this YAML document.
+79:     */
+82:    /**
+83:     * Only the significant lines of this YamlMapping.
+84:     */
+87:    /**
+88:     * Where to stop looking for comments.
+89:     */
+92:    /**
+93:     * Ctor.
+94:     * @param lines Given lines.
+95:     */
+100:    /**
+101:     * Ctor.
+102:     * @checkstyle ParameterNumber (100 lines)
+103:     * @param commentStop Where to
+104:     * @param previous Line just before the start of this mapping.
+105:     * @param lines Given lines.
+106:     */
+122:                            line -> line.trimmed().startsWith("#"),
+123:                            line -> line.trimmed().startsWith("---"),
+124:                            line -> line.trimmed().startsWith("..."),
+125:                            line -> line.trimmed().startsWith("%"),
+135:    @Override
+142:                break;
+148:                    if(trimmed.startsWith("-")) {
+149:                        dashKey = line;
+150:                        if(keys.size() > 0) {
+151:                            dashKey = null;
+152:                            continue;
+155:                    if(dashKey != null
+156:                        && line.indentation() == dashKey.indentation()
+157:                        && line.number() != dashKey.number()) {
+158:                        continue;
+160:                    //@checkstyle NestedIfDepth (50 lines)
+167:                            keys.add(new ReadScalarKey(keyQ, this.all, line));
+183:    @Override
+194:    @Override
+197:        //@checkstyle LineLength (50 lines)
+218:                            line -> line.trimmed().startsWith("..."),
+219:                            line -> line.trimmed().startsWith("%"),
+230:    /**
+231:     * The YamlNode value associated with a String (scalar) key.
+232:     * @param key String key.
+233:     * @return YamlNode.
+234:     * @checkstyle ReturnCount (50 lines)
+235:     * @checkstyle LineLength (30 lines)
+236:     */
+249:                    || trimmed.matches("^" + Pattern.quote(relaxedKey) + ":[ ]*>$")
+265:                        && trimmed.length() > 1
+278:    /**
+279:     * Escape [ and ] for regex matching when key starts with "[ and ends with
+280:     * "].
+281:     * @param key Provided key.
+282:     * @return Relaxed key for pattern matching.
+283:     */
+287:            final int openIndex = 1;
+288:            final int closedIndex = key.length() - 1;
+290:            builder.insert(openIndex, "\\\\");
+291:            builder.insert(closedIndex, "\\\\");
+299:    /**
+300:     * The YamlNode value associated with a YamlNode key
+301:     * (a "complex" key starting with '?').
+302:     * @param key YamlNode key.
+303:     * @return YamlNode.
+304:     */
+316:                        || colonLine.trimmed().matches("^\\:[ ]*\\>$")
+321:                        && (colonLine.trimmed().length() > 1)
+325:                        throw new YamlReadingException(
+326:                            "No value found for existing complex key: "
+327:                          + System.lineSeparator()
+328:                          + key.toString()
+329:                        );
+331:                    break;
+338:    /**
+339:     * Returns true if the line is a dash mapping entry.
+340:     * @param line Line.
+341:     * @return True of false.
+342:     */
+348:    /**
+349:     * Get the line previous to the given one or NullYamlLine if the
+350:     * given line is the first one.
+351:     * @param line Given YamlLine.
+352:     * @return YamlLine previous to it.
+353:     */
+364:    /**
+365:     * A plain scalar mapping key.
+366:     * @author Mihai Andronace (amihaiemil@gmail.com)
+367:     * @version $Id: 9c4c41b399e2fe1995cdc459759235e64f72159e $
+368:     * @since 3.1.3
+369:     */
+372:        /**
+373:         * String key.
+374:         */
+377:        /**
+378:         * All YAML Lines of the document.
+379:         */
+382:        /**
+383:         * Line where the plain scalar key is found.
+384:         */
+387:        /**
+388:         * Constructor.
+389:         *
+390:         * @param key String key.
+391:         * @param all All lines of the document.
+392:         * @param scalarLine YamlLine containing the scalar.
+393:         */
+402:        /**
+403:         * Unescaped String value of this scalar. Pay attention, if the
+404:         * scalar's value is the "null" String, then we return null, because
+405:         * "null" is a reserved keyword in YAML, indicating a null Scalar.
+406:         *
+407:         * @return String or null if the Strings value is "null".
+408:         * @checkstyle ReturnCount (50 lines)
+409:         */
+410:        @Override
+415:        @Override
+421:                final int lineNumber = this.scalarLine.number();
+428:                                    line -> line.number() >= lineNumber,
+429:                                    line -> line.trimmed().startsWith("..."),
+430:                                    line -> line.trimmed().startsWith("%"),
+src/main/java/com/amihaiemil/eoyaml/RtYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/FirstCommentFound.java
+src/main/java/com/amihaiemil/eoyaml/YamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/Skip.java
+src/main/java/com/amihaiemil/eoyaml/Concatenated.java
+src/main/java/com/amihaiemil/eoyaml/AllYamlLines.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComment.java

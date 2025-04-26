@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/technology/tabula/TextElement.java",
+  "packageName" : "technology.tabula",
+  "className" : "TextElement",
+  "typeMetricsHashMap" : {
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 23,
+      "coveredCount" : 8,
+      "effectualCount" : 8,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 34.78,
+      "effectualPercentage" : 34.78,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 16,
+      "coveredCount" : 13,
+      "effectualCount" : 13,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 81.25,
+      "effectualPercentage" : 81.25,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 44,
+      "coveredCount" : 16,
+      "effectualCount" : 16,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 36.36,
+      "effectualPercentage" : 36.36,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 49,
+      "coveredCount" : 34,
+      "effectualCount" : 34,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 69.39,
+      "effectualPercentage" : 69.39,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 3,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 1,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 23,
+      "coveredCount" : 20,
+      "effectualCount" : 20,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 86.96,
+      "effectualPercentage" : 86.96,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(IF, 76, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 10, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 10, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 109, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 51, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 19, technology.tabula.TextElement)", "Stmt(EXPRESSION, 92, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 59, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 26, technology.tabula.TextElement, DEFAULT)", "Stmt(FOR_EACH, 100, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 67, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 1, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 108, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 75, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 9, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 9, technology.tabula.TextElement, NON_DEFAULT)", "Decision(true, IF, 12, technology.tabula.TextElement)", "Stmt(FOR_EACH, 50, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 91, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 58, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 0, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 99, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 66, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 33, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 8, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 8, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 107, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 74, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 13, technology.tabula.TextElement)", "Stmt(EXPRESSION, 49, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 24, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 21, technology.tabula.TextElement)", "Stmt(EXPRESSION, 90, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 57, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 32, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 98, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 65, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 40, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 106, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 73, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 14, technology.tabula.TextElement)", "Stmt(VARIABLE_DECLARATION, 114, technology.tabula.TextElement, DEFAULT)", "Stmt(CONTINUE, 56, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 22, technology.tabula.TextElement)", "Stmt(EXPRESSION, 89, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 64, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 97, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 72, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 39, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 6, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 6, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 105, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 47, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 113, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 88, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 55, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 96, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 30, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 104, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 104, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(IF, 71, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 5, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 112, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 79, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 46, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 46, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(IF, 87, technology.tabula.TextElement, DEFAULT)", "Stmt(CONTINUE, 54, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 95, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 4, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 103, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 37, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 111, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 78, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 45, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 17, technology.tabula.TextElement)", "Stmt(EXPRESSION, 86, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 53, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 28, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 94, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 3, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 102, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 69, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 44, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 44, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(RETURN, 11, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 11, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 110, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 77, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 52, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 18, technology.tabula.TextElement)", "Stmt(FOR_EACH, 60, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 93, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 68, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 2, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 101, technology.tabula.TextElement, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(IF, 76, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 10, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 10, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 109, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 51, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 19, technology.tabula.TextElement)", "Stmt(EXPRESSION, 92, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 59, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 26, technology.tabula.TextElement, DEFAULT)", "Stmt(FOR_EACH, 100, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 67, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 1, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 108, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 75, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 9, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 9, technology.tabula.TextElement, NON_DEFAULT)", "Decision(true, IF, 12, technology.tabula.TextElement)", "Stmt(FOR_EACH, 50, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 91, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 58, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 0, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 99, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 66, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 33, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 8, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 8, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 107, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 74, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 13, technology.tabula.TextElement)", "Stmt(EXPRESSION, 49, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 24, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 21, technology.tabula.TextElement)", "Stmt(EXPRESSION, 90, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 57, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 32, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 98, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 65, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 40, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 106, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 73, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 14, technology.tabula.TextElement)", "Stmt(VARIABLE_DECLARATION, 114, technology.tabula.TextElement, DEFAULT)", "Stmt(CONTINUE, 56, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 22, technology.tabula.TextElement)", "Stmt(EXPRESSION, 89, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 64, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 97, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 72, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 39, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 6, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 6, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 105, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 47, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 113, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 88, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 55, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 96, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 30, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 104, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 104, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(IF, 71, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 5, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 112, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 79, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 46, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 46, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(IF, 87, technology.tabula.TextElement, DEFAULT)", "Stmt(CONTINUE, 54, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 95, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 4, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 103, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 37, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 111, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 78, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 45, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 17, technology.tabula.TextElement)", "Stmt(EXPRESSION, 86, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 53, technology.tabula.TextElement, DEFAULT)", "Stmt(IF, 28, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 94, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 3, technology.tabula.TextElement, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 102, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 69, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 44, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 44, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(RETURN, 11, technology.tabula.TextElement, DEFAULT)", "Stmt(RETURN, 11, technology.tabula.TextElement, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 110, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 77, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 52, technology.tabula.TextElement, DEFAULT)", "Decision(true, IF, 18, technology.tabula.TextElement)", "Stmt(FOR_EACH, 60, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 93, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 68, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 2, technology.tabula.TextElement, DEFAULT)", "Stmt(EXPRESSION, 101, technology.tabula.TextElement, DEFAULT)" ],
+  "totalElementCount" : 161,
+  "totalCoveredCount" : 96,
+  "totalEffectualCount" : 96,
+  "totalCoverageGap" : 0
+}

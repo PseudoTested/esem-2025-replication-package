@@ -1,0 +1,73 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "ReadYamlMapping$ReadScalarKey",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey)" : {
+      "startLine" : 418,
+      "endLine" : 418,
+      "startCol" : 17,
+      "endCol" : 64
+    },
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 397,
+      "endLine" : 397,
+      "startCol" : 13,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 398,
+      "endLine" : 398,
+      "startCol" : 13,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 399,
+      "endLine" : 399,
+      "startCol" : 13,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 3, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 412,
+      "endLine" : 412,
+      "startCol" : 13,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 3, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, NON_DEFAULT)" : {
+      "startLine" : 412,
+      "endLine" : 412,
+      "startCol" : 13,
+      "endCol" : 28
+    },
+    "Stmt(IF, 4, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 418,
+      "endLine" : 439,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(LAMBDA, 5, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 422,
+      "endLine" : 438,
+      "startCol" : 17,
+      "endCol" : 18
+    },
+    "Stmt(EXPRESSION, 6, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 419,
+      "endLine" : 419,
+      "startCol" : 17,
+      "endCol" : 53
+    },
+    "Stmt(RETURN, 7, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" : {
+      "startLine" : 440,
+      "endLine" : 440,
+      "startCol" : 13,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 7, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, NON_DEFAULT)" : {
+      "startLine" : 440,
+      "endLine" : 440,
+      "startCol" : 13,
+      "endCol" : 27
+    }
+  }
+}

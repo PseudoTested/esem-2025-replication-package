@@ -1,0 +1,98 @@
+src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyListUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyObjectUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyConcurrencyUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyFileUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyVideoUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MySystemUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStreamUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyZipUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyArrUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyTextRegex.java
+src/main/java/org/brunocvcunha/inutils4j/MyNumberUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyDateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyImageUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyClasspathUtils.java
+src/main/java/org/brunocvcunha/inutils4j/FixType.java
+src/main/java/org/brunocvcunha/inutils4j/thirdparty/DateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyHTTPUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionDifferenceHandler.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionUtils.java
+1:/*
+2: * Copyright © 2014 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
+3: *
+4: * Licensed under the Apache License, Version 2.0 (the "License");
+5: * you may not use this file except in compliance with the License.
+6: * You may obtain a copy of the License at
+7: *
+8: *     http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: * Unless required by applicable law or agreed to in writing, software
+11: * distributed under the License is distributed on an "AS IS" BASIS,
+12: * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: * See the License for the specific language governing permissions and
+14: * limitations under the License.
+15: */
+22:import java.lang.annotation.Annotation;
+27:import org.apache.log4j.Logger;
+29:/**
+30: * Reflection (In)utilities.
+31: * 
+32: * @author Bruno Candido Volpato da Cunha
+33: */
+36:  private static Logger log = Logger.getLogger(MyReflectionUtils.class);
+38:  /**
+39:   * Builds a instance of the class for a map containing the values, without specifying the handler for differences
+40:   * 
+41:   * @param clazz The class to build instance
+42:   * @param values The values map
+43:   * @return The instance
+44:   * @throws InstantiationException Error instantiating
+45:   * @throws IllegalAccessException Access error
+46:   * @throws IntrospectionException Introspection error
+47:   * @throws IllegalArgumentException Argument invalid
+48:   * @throws InvocationTargetException Invalid target
+49:   */
+57:  /**
+58:   * Builds a instance of the class for a map containing the values
+59:   * 
+60:   * @param clazz Class to build
+61:   * @param values Values map
+62:   * @param differenceHandler The difference handler
+63:   * @return The created instance
+64:   * @throws InstantiationException Error instantiating
+65:   * @throws IllegalAccessException Access error
+66:   * @throws IntrospectionException Introspection error
+67:   * @throws IllegalArgumentException Argument invalid
+68:   * @throws InvocationTargetException Invalid target
+69:   */
+74:    log.debug("Building new instance of Class " + clazz.getName());
+81:      if (value == null) {
+82:        log.debug("Value for field " + key + " is null, so ignoring it...");
+83:        continue;
+85:      
+86:      log.debug(
+87:          "Invoke setter for " + key + " (" + value.getClass() + " / " + value.toString() + ")");
+95:              break;
+103:      } else {
+105:        Object newValue = differenceHandler.handleDifference(value, setter.getParameterTypes()[0]);
+106:        setter.invoke(instance, newValue);
+115:  /**
+116:   * Get the closest annotation for a method (inherit from class)
+117:   * 
+118:   * @param method method
+119:   * @param typeOfT type of annotation inspected
+120:   * @return annotation instance
+121:   */
+122:  public static <T extends Annotation> T getClosestAnnotation(Method method, Class<T> typeOfT) {
+123:    T annotation = method.getAnnotation(typeOfT);
+124:    if (annotation == null) {
+126:      Class<?> clazzToIntrospect = method.getDeclaringClass();
+127:      while (annotation == null && clazzToIntrospect != null) {
+128:        annotation = clazzToIntrospect.getAnnotation(typeOfT);
+129:        clazzToIntrospect = clazzToIntrospect.getSuperclass();
+133:    return annotation;
+135:  
+136:  
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyDefaultReflectionDifferenceHandler.java

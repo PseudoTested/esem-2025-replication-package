@@ -1,0 +1,99 @@
+src/main/java/info/debatty/java/stringsimilarity/Jaccard.java
+src/main/java/info/debatty/java/stringsimilarity/Damerau.java
+src/main/java/info/debatty/java/stringsimilarity/experimental/Sift4.java
+src/main/java/info/debatty/java/stringsimilarity/SorensenDice.java
+src/main/java/info/debatty/java/stringsimilarity/CharacterInsDelInterface.java
+src/main/java/info/debatty/java/stringsimilarity/WeightedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NormalizedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NGram.java
+src/main/java/info/debatty/java/stringsimilarity/CharacterSubstitutionInterface.java
+src/main/java/info/debatty/java/stringsimilarity/QGram.java
+src/main/java/info/debatty/java/stringsimilarity/Levenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/ShingleBased.java
+src/main/java/info/debatty/java/stringsimilarity/JaroWinkler.java
+src/main/java/info/debatty/java/stringsimilarity/Cosine.java
+src/main/java/info/debatty/java/stringsimilarity/OptimalStringAlignment.java
+1:/*
+2: * The MIT License
+3: *
+4: * Copyright 2016 Thibault Debatty.
+5: *
+6: * Permission is hereby granted, free of charge, to any person obtaining a copy
+7: * of this software and associated documentation files (the "Software"), to deal
+8: * in the Software without restriction, including without limitation the rights
+9: * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+10: * copies of the Software, and to permit persons to whom the Software is
+11: * furnished to do so, subject to the following conditions:
+12: *
+13: * The above copyright notice and this permission notice shall be included in
+14: * all copies or substantial portions of the Software.
+15: *
+16: * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+17: * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+18: * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+19: * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+20: * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+21: * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+22: * THE SOFTWARE.
+23: */
+27:import net.jcip.annotations.Immutable;
+28:
+29:/**
+30: * Implementation of the the Optimal String Alignment (sometimes called the
+31: * restricted edit distance) variant of the Damerau-Levenshtein distance.
+32: *
+33: * The difference between the two algorithms consists in that the Optimal String
+34: * Alignment algorithm computes the number of edit operations needed to make the
+35: * strings equal under the condition that no substring is edited more than once,
+36: * whereas Damerau-Levenshtein presents no such restriction.
+37: *
+38: * @author Michail Bogdanos
+39: */
+40:@Immutable
+43:    /**
+44:     * Compute the distance between strings: the minimum number of operations
+45:     * needed to transform one string into the other (insertion, deletion,
+46:     * substitution of a single character, or a transposition of two adjacent
+47:     * characters) while no substring is edited more than once.
+48:     *
+49:     * @param s1 The first string to compare.
+50:     * @param s2 The second string to compare.
+51:     * @return the OSA distance
+52:     * @throws NullPointerException if s1 or s2 is null.
+53:     */
+55:        if (s1 == null) {
+56:            throw new NullPointerException("s1 must not be null");
+57:        }
+58:
+59:        if (s2 == null) {
+60:            throw new NullPointerException("s2 must not be null");
+61:        }
+62:
+63:        if (s1.equals(s2)) {
+64:            return 0;
+65:        }
+69:        if (n == 0) {
+70:            return m;
+71:        }
+72:
+73:        if (m == 0) {
+74:            return n;
+75:        }
+76:
+77:        // Create the distance matrix H[0 .. s1.length+1][0 .. s2.length+1
+80:        //initialize top row and leftmost column
+88:        //fill the distance matrix
+94:                //if s1[i - 1] = s2[j - 1] then cost = 0, else cost = 1
+106:                //transposition check
+src/main/java/info/debatty/java/stringsimilarity/examples/PrecomputedCosine.java
+src/main/java/info/debatty/java/stringsimilarity/examples/Examples.java
+src/main/java/info/debatty/java/stringsimilarity/examples/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/examples/nischay21.java
+src/main/java/info/debatty/java/stringsimilarity/LongestCommonSubsequence.java
+src/main/java/info/debatty/java/stringsimilarity/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/RatcliffObershelp.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/MetricStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringDistance.java

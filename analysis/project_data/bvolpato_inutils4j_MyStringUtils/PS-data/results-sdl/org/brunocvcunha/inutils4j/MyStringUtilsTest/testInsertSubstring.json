@@ -1,0 +1,22 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testInsertSubstring",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 107, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BR]UNO> but was:<[]UNO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Decision(false, IF, 107, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 920, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BR]UNO> but was:<[]UNO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(IF, 920, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BR]UNO> but was:<[]UNO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 921, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BR]UNO> but was:<[]UNO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 921, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BR]UNO> but was:<[]UNO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 922, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BRU]NO> but was:<[]NO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 922, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BRU]NO> but was:<[]NO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 923, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BRUNO]> but was:<[U]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 923, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BRUNO]> but was:<[U]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 924, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BRUNO]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 924, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[BRUNO]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 925, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[BR]UNO> but was:<[]UNO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 925, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[BR]UNO> but was:<[]UNO> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 12
+}

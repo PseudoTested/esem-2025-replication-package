@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/com/facebook/ads/sdk/serverside/CAPIGatewayEndpoint.java" : [ "com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint" ]
+  }
+}

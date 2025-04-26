@@ -1,0 +1,295 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/sdk/serverside/CAPIGatewayEndpoint.java",
+  "packageName" : "com.facebook.ads.sdk.serverside",
+  "className" : "CAPIGatewayEndpoint",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)" : {
+      "startLine" : 71,
+      "endLine" : 71,
+      "startCol" : 13,
+      "endCol" : 31
+    },
+    "Decision(true, IF, 1, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 13,
+      "endCol" : 28
+    },
+    "Decision(true, IF, 2, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 17,
+      "endCol" : 42
+    },
+    "Decision(true, IF, 3, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)" : {
+      "startLine" : 124,
+      "endLine" : 124,
+      "startCol" : 33,
+      "endCol" : 54
+    },
+    "Stmt(EXPRESSION, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 35,
+      "endLine" : 35,
+      "startCol" : 9,
+      "endCol" : 38
+    },
+    "Stmt(EXPRESSION, 1, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 36,
+      "endLine" : 36,
+      "startCol" : 9,
+      "endCol" : 39
+    },
+    "Stmt(EXPRESSION, 2, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 37,
+      "endLine" : 37,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 38,
+      "endLine" : 38,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 4, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 39,
+      "endLine" : 39,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(TRY, 5, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 43,
+      "endLine" : 47,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 6, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 46,
+      "endLine" : 46,
+      "startCol" : 13,
+      "endCol" : 94
+    },
+    "Stmt(EXPRESSION, 7, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 13,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 8, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 8, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(EXPRESSION, 9, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 57,
+      "endLine" : 57,
+      "startCol" : 9,
+      "endCol" : 29
+    },
+    "Stmt(EXPRESSION, 10, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 9,
+      "endCol" : 53
+    },
+    "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 9,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 9,
+      "endCol" : 32
+    },
+    "Stmt(IF, 12, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 71,
+      "endLine" : 73,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(LAMBDA, 13, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 72,
+      "endLine" : 72,
+      "startCol" : 13,
+      "endCol" : 118
+    },
+    "Stmt(IF, 14, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 77,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 15, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 13,
+      "endCol" : 45
+    },
+    "Stmt(RETURN, 16, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 13,
+      "endCol" : 73
+    },
+    "Stmt(RETURN, 16, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 13,
+      "endCol" : 73
+    },
+    "Stmt(EXPRESSION, 17, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 79,
+      "endLine" : 79,
+      "startCol" : 9,
+      "endCol" : 71
+    },
+    "Stmt(TRY, 18, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 80,
+      "endLine" : 93,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 19, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 89,
+      "endLine" : 89,
+      "startCol" : 13,
+      "endCol" : 41
+    },
+    "Stmt(THROW, 20, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 13,
+      "endCol" : 112
+    },
+    "Stmt(EXPRESSION, 21, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 13,
+      "endCol" : 59
+    },
+    "Stmt(IF, 22, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 87,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 23, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 17,
+      "endCol" : 60
+    },
+    "Stmt(RETURN, 24, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 17,
+      "endCol" : 113
+    },
+    "Stmt(RETURN, 24, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 17,
+      "endCol" : 113
+    },
+    "Stmt(THROW, 25, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 17,
+      "endCol" : 131
+    },
+    "Stmt(EXPRESSION, 26, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 9,
+      "endCol" : 47
+    },
+    "Stmt(EXPRESSION, 27, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 9,
+      "endCol" : 39
+    },
+    "Stmt(RETURN, 28, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 104,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 28, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 104,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(EXPRESSION, 29, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 13,
+      "endCol" : 67
+    },
+    "Stmt(EXPRESSION, 30, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 116,
+      "endLine" : 116,
+      "startCol" : 29,
+      "endCol" : 56
+    },
+    "Stmt(EXPRESSION, 31, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 117,
+      "endLine" : 119,
+      "startCol" : 29,
+      "endCol" : 30
+    },
+    "Stmt(IF, 32, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 124,
+      "endLine" : 130,
+      "startCol" : 29,
+      "endCol" : 29
+    },
+    "Stmt(EXPRESSION, 33, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 128,
+      "endLine" : 128,
+      "startCol" : 33,
+      "endCol" : 76
+    },
+    "Stmt(EXPRESSION, 34, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 129,
+      "endLine" : 129,
+      "startCol" : 33,
+      "endCol" : 135
+    },
+    "Stmt(EXPRESSION, 35, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 126,
+      "endLine" : 126,
+      "startCol" : 33,
+      "endCol" : 158
+    },
+    "Stmt(INNER_CLASS, 36, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 112,
+      "endLine" : 132,
+      "startCol" : 13,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 37, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : {
+      "startLine" : 133,
+      "endLine" : 133,
+      "startCol" : 13,
+      "endCol" : 26
+    },
+    "Stmt(RETURN, 37, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : {
+      "startLine" : 133,
+      "endLine" : 133,
+      "startCol" : 13,
+      "endCol" : 26
+    }
+  }
+}

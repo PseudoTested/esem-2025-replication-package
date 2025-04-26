@@ -1,0 +1,13 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/IntSquareMatrix.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "IntSquareMatrix$Type",
+  "coverageElementPositions" : {
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.IntSquareMatrix$Type, DEFAULT)" : {
+      "startLine" : 54,
+      "endLine" : 54,
+      "startCol" : 13,
+      "endCol" : 23
+    }
+  }
+}

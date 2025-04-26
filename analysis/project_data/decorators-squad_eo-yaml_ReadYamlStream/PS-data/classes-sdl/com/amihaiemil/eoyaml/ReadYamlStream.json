@@ -1,0 +1,121 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/ReadYamlStream.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "ReadYamlStream",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.amihaiemil.eoyaml.ReadYamlStream)" : {
+      "startLine" : 77,
+      "endLine" : 77,
+      "startCol" : 16,
+      "endCol" : 44
+    },
+    "Decision(true, IF, 1, com.amihaiemil.eoyaml.ReadYamlStream)" : {
+      "startLine" : 104,
+      "endLine" : 104,
+      "startCol" : 16,
+      "endCol" : 45
+    },
+    "Decision(true, IF, 2, com.amihaiemil.eoyaml.ReadYamlStream)" : {
+      "startLine" : 106,
+      "endLine" : 106,
+      "startCol" : 20,
+      "endCol" : 65
+    },
+    "Stmt(LAMBDA, 0, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 57,
+      "endLine" : 65,
+      "startCol" : 9,
+      "endCol" : 10
+    },
+    "Stmt(LAMBDA, 1, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 69,
+      "startCol" : 9,
+      "endCol" : 10
+    },
+    "Stmt(FOR_EACH, 2, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 82,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(IF, 3, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 77,
+      "endLine" : 81,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 4, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 78,
+      "endLine" : 80,
+      "startCol" : 17,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 5, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 22
+    },
+    "Stmt(RETURN, 5, com.amihaiemil.eoyaml.ReadYamlStream, NON_DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 22
+    },
+    "Stmt(FOR_EACH, 6, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 102,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 101,
+      "startCol" : 13,
+      "endCol" : 35
+    },
+    "Stmt(FOR_EACH, 8, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 112,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(IF, 9, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 111,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 10, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 106,
+      "endLine" : 110,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 11, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 21,
+      "endCol" : 43
+    },
+    "Stmt(BREAK, 12, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 107,
+      "endLine" : 107,
+      "startCol" : 21,
+      "endCol" : 26
+    },
+    "Stmt(RETURN, 13, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : {
+      "startLine" : 113,
+      "endLine" : 113,
+      "startCol" : 9,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 13, com.amihaiemil.eoyaml.ReadYamlStream, NON_DEFAULT)" : {
+      "startLine" : 113,
+      "endLine" : 113,
+      "startCol" : 9,
+      "endCol" : 46
+    }
+  }
+}

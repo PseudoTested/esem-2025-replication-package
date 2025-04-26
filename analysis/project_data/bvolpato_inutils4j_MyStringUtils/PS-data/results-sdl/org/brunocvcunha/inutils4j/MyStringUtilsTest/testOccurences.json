@@ -1,0 +1,7 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testOccurences",
+  "testOutcomes" : [ "PASSED(3)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : { },
+  "timeTaken" : 4
+}

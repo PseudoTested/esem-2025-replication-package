@@ -1,0 +1,21 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.Int2RangeTest",
+  "testMethodName" : "testInt2Range",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 0, org.xmlcml.euclid.Int2Range)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.yrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.yrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 52, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: empty expected:<[(NULL,NULL)]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 52, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: empty expected:<[(NULL,NULL)]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 18
+}

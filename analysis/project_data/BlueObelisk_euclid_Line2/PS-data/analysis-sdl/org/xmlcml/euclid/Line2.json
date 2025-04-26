@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/Line2.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "Line2",
+  "typeMetricsHashMap" : {
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 46,
+      "coveredCount" : 35,
+      "effectualCount" : 34,
+      "coverageGap" : [ "Stmt(EXPRESSION, 39, org.xmlcml.euclid.Line2, DEFAULT)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 76.09,
+      "effectualPercentage" : 73.91,
+      "coverageGapPercentage" : 2.17
+    },
+    "IF" : {
+      "elementCount" : 25,
+      "coveredCount" : 21,
+      "effectualCount" : 21,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 84.0,
+      "effectualPercentage" : 84.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 3,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 66,
+      "coveredCount" : 56,
+      "effectualCount" : 56,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 84.85,
+      "effectualPercentage" : 84.85,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 25,
+      "coveredCount" : 18,
+      "effectualCount" : 17,
+      "coverageGap" : [ "Decision(true, IF, 8, org.xmlcml.euclid.Line2)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 72.0,
+      "effectualPercentage" : 68.0,
+      "coverageGapPercentage" : 4.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 44,
+      "coveredCount" : 33,
+      "effectualCount" : 32,
+      "coverageGap" : [ "Stmt(VARIABLE_DECLARATION, 41, org.xmlcml.euclid.Line2, DEFAULT)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 75.0,
+      "effectualPercentage" : 72.73,
+      "coverageGapPercentage" : 2.27
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(IF, 95, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 12, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 14, org.xmlcml.euclid.Line2)", "Stmt(IF, 79, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 112, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 112, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 145, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 145, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 29, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 96, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 13, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 13, org.xmlcml.euclid.Line2)", "Stmt(IF, 146, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 14, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 80, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 113, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 130, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 130, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 31, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 31, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 97, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 114, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 114, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 147, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 147, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(IF, 15, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 16, org.xmlcml.euclid.Line2)", "Stmt(EXPRESSION, 81, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 98, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 98, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 131, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 32, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 65, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 65, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 82, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 115, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 115, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 148, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 148, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Decision(true, IF, 15, org.xmlcml.euclid.Line2)", "Stmt(TRY, 16, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 74, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 107, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 140, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 8, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 41, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 18, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 58, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 58, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(IF, 91, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 25, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 75, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 75, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 108, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 108, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 141, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 9, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 142, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 59, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 92, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 10, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 3, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 76, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 109, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 110, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 143, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 27, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 93, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 93, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 94, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 2, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 77, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 78, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 111, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 144, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 19, org.xmlcml.euclid.Line2)", "Stmt(IF, 28, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 37, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 5, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 103, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 136, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 22, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 54, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 54, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 87, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 120, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 5, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 4, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 38, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 104, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 137, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 22, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 55, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 88, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 121, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 138, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 39, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 7, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 122, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 122, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 23, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 56, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 24, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 89, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 89, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 106, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 106, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Decision(true, IF, 6, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 139, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 139, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 90, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 123, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 23, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 24, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 57, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 99, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 132, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 132, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 33, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 83, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 83, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 116, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 116, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 34, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 100, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 133, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 8, org.xmlcml.euclid.Line2)", "Stmt(EXPRESSION, 18, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 84, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 117, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 150, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 150, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 101, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 134, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 19, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 19, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(IF, 52, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 12, org.xmlcml.euclid.Line2)", "Stmt(IF, 85, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 118, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 36, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 102, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 102, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 135, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 11, org.xmlcml.euclid.Line2)", "Stmt(IF, 20, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 53, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 86, org.xmlcml.euclid.Line2, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(IF, 95, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 12, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 14, org.xmlcml.euclid.Line2)", "Stmt(IF, 79, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 112, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 112, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 145, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 145, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 29, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 96, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 13, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 13, org.xmlcml.euclid.Line2)", "Stmt(IF, 146, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 14, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 80, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 113, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 130, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 130, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 31, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 31, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 97, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 114, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 114, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 147, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 147, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(IF, 15, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 16, org.xmlcml.euclid.Line2)", "Stmt(EXPRESSION, 81, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 98, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 98, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 131, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 32, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 65, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 65, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 82, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 115, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 115, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 148, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 148, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Decision(true, IF, 15, org.xmlcml.euclid.Line2)", "Stmt(TRY, 16, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 74, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 107, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 140, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 8, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 18, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 58, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 58, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(IF, 91, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 25, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 75, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 75, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 108, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 108, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 141, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 9, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 142, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 59, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 92, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 10, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 3, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 76, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 109, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 110, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 143, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 27, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 93, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 93, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 94, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 2, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 77, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 78, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 111, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 144, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 19, org.xmlcml.euclid.Line2)", "Stmt(IF, 28, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 37, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 5, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 103, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 136, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 22, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 54, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 54, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 87, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 120, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 5, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 4, org.xmlcml.euclid.Line2)", "Stmt(VARIABLE_DECLARATION, 38, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 104, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 137, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 22, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 55, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 88, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 121, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 138, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 7, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 122, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 122, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 23, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 56, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 24, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 89, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 89, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 106, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 106, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Decision(true, IF, 6, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 139, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 139, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 90, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 123, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 23, org.xmlcml.euclid.Line2)", "Stmt(RETURN, 24, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 57, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 99, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 132, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 132, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 33, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 83, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 83, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(RETURN, 116, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 116, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 34, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 100, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 133, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 18, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 84, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 117, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 150, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 150, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 101, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 134, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 19, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 19, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(IF, 52, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 12, org.xmlcml.euclid.Line2)", "Stmt(IF, 85, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(IF, 118, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 36, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 102, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(RETURN, 102, org.xmlcml.euclid.Line2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 135, org.xmlcml.euclid.Line2, DEFAULT)", "Decision(true, IF, 11, org.xmlcml.euclid.Line2)", "Stmt(IF, 20, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 53, org.xmlcml.euclid.Line2, DEFAULT)", "Stmt(EXPRESSION, 86, org.xmlcml.euclid.Line2, DEFAULT)" ],
+  "totalElementCount" : 210,
+  "totalCoveredCount" : 164,
+  "totalEffectualCount" : 161,
+  "totalCoverageGap" : 3
+}

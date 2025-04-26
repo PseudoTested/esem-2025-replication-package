@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "ReadYamlMapping",
+  "typeMetricsHashMap" : {
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 2,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 1,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 2,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 16,
+      "coveredCount" : 14,
+      "effectualCount" : 14,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 87.5,
+      "effectualPercentage" : 87.5,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 3,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 22,
+      "coveredCount" : 21,
+      "effectualCount" : 21,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 95.45,
+      "effectualPercentage" : 95.45,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 23,
+      "coveredCount" : 17,
+      "effectualCount" : 17,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 73.91,
+      "effectualPercentage" : 73.91,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 23,
+      "coveredCount" : 17,
+      "effectualCount" : 17,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 73.91,
+      "effectualPercentage" : 73.91,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Decision(true, IF, 22, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(RETURN, 24, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 24, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Stmt(FOR_EACH, 32, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 65, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 7, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 40, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 14, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(VARIABLE_DECLARATION, 25, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 58, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(FOR_EACH, 33, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 66, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 7, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 8, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 41, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 15, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 16, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 22, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 55, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(LAMBDA_RETURN, 30, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 5, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 38, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 46, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 56, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 31, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 64, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 6, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 39, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 9, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 14, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 47, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, LOOP, 17, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 53, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 28, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 61, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 61, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 1, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(LAMBDA, 3, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 36, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 10, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(RETURN, 44, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 44, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 18, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(EXPRESSION, 19, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 21, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 54, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 29, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 29, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 62, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 2, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(FOR_EACH, 4, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 37, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 11, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(VARIABLE_DECLARATION, 45, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 19, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 26, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 59, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 3, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 34, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 67, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 67, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 12, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 9, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 42, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 20, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 17, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(WHILE, 52, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 21, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(EXPRESSION, 27, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(BREAK, 60, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 35, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 43, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 43, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 13, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 18, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 51, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 51, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" ],
+  "effectualCovered" : [ "Decision(true, IF, 22, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(RETURN, 24, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 24, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Stmt(FOR_EACH, 32, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 65, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 7, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 40, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 14, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(VARIABLE_DECLARATION, 25, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 58, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(FOR_EACH, 33, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 66, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 7, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 8, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 41, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 15, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 16, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 22, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 55, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(LAMBDA_RETURN, 30, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 5, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 38, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 46, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 56, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 31, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 64, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 6, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 39, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 9, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 14, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 47, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, LOOP, 17, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 53, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 28, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 61, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 61, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 1, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(LAMBDA, 3, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 36, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 10, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(RETURN, 44, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 44, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 18, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(EXPRESSION, 19, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 21, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 54, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 29, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 29, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 62, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 2, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(FOR_EACH, 4, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 37, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 11, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(VARIABLE_DECLARATION, 45, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 19, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 26, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 59, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 3, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 34, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 67, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 67, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 12, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 9, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 42, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 20, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 17, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(WHILE, 52, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Decision(true, IF, 21, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(EXPRESSION, 27, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(BREAK, 60, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(IF, 35, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 43, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 43, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)", "Decision(true, IF, 13, com.amihaiemil.eoyaml.ReadYamlMapping)", "Stmt(IF, 18, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 51, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)", "Stmt(RETURN, 51, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" ],
+  "totalElementCount" : 99,
+  "totalCoveredCount" : 80,
+  "totalEffectualCount" : 80,
+  "totalCoverageGap" : 0
+}

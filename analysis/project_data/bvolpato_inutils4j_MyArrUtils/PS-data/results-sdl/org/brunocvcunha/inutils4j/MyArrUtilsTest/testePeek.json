@@ -1,0 +1,12 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyArrUtilsTest",
+  "testMethodName" : "testePeek",
+  "testOutcomes" : [ "PASSED(6)", "PASSED(4)", "PASSED(2)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(RETURN, 6, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because \"random\" is null <org.brunocvcunha.inutils4j.MyArrUtilsTest.testePeek(MyArrUtilsTest.java:66)>)" ],
+    "Stmt(RETURN, 6, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.lang.Integer.intValue()\" because \"random\" is null <org.brunocvcunha.inutils4j.MyArrUtilsTest.testePeek(MyArrUtilsTest.java:66)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 7, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 7, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ]
+  },
+  "timeTaken" : 23
+}

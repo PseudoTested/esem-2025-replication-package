@@ -1,0 +1,22 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.JsonYamlDumpTest",
+  "testMethodName" : "canDumpJsonObject",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(1)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 0, com.amihaiemil.eoyaml.JsonYamlDump)" : [ "FAILED(0)" ],
+    "Decision(true, IF, 1, com.amihaiemil.eoyaml.JsonYamlDump)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(IF, 1, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(IF, 1, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(IF, 4, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(IF, 4, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 8, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 8, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 30
+}

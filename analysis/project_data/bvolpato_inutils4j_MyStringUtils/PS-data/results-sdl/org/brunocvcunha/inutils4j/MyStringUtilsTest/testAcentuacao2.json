@@ -1,0 +1,28 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testAcentuacao2",
+  "testOutcomes" : [ "PASSED(4)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 369, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 369, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 370, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 370, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 371, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 371, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 372, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 372, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 373, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 373, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 374, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 374, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 375, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<...criticos na valoriza[cao de fatores subjetivos assume importantes posico]es no estabeleciment...> but was:<...criticos na valoriza[çao de fatores subjetivos assume importantes posiçõ]es no estabeleciment...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 375, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<...criticos na valoriza[cao de fatores subjetivos assume importantes posico]es no estabeleciment...> but was:<...criticos na valoriza[çao de fatores subjetivos assume importantes posiçõ]es no estabeleciment...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 376, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<...riticos na valorizac[ao de fatores subjetivos assume importantes posico]es no estabeleciment...> but was:<...riticos na valorizac[̧ao de fatores subjetivos assume importantes posiçõ]es no estabeleciment...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 376, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<...riticos na valorizac[ao de fatores subjetivos assume importantes posico]es no estabeleciment...> but was:<...riticos na valorizac[̧ao de fatores subjetivos assume importantes posiçõ]es no estabeleciment...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 377, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[O cuidado em identificar pontos criticos na valorizacao de fatores subjetivos assume importantes posicoes no estabelecimento dos relacionamentos verticais entre as hierarquias.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 377, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[O cuidado em identificar pontos criticos na valorizacao de fatores subjetivos assume importantes posicoes no estabelecimento dos relacionamentos verticais entre as hierarquias.]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 378, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[O cuidado em identificar pontos criticos na valorizacao de fatores subjetivos assume importantes posicoes no estabelecimento dos relacionamentos verticais entre as hierarquias.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 378, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[O cuidado em identificar pontos criticos na valorizacao de fatores subjetivos assume importantes posicoes no estabelecimento dos relacionamentos verticais entre as hierarquias.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 33
+}

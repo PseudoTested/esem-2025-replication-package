@@ -1,0 +1,19 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.SkipTest",
+  "testMethodName" : "worksWithNoLines",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 0, com.amihaiemil.eoyaml.Skip)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.Skip.iterator(Skip.java:73)>)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.Skip.iterator(Skip.java:73)>)" ],
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 2, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 2, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Iterator.hasNext()\" because \"iterator\" is null <org.hamcrest.collection.IsIterableWithSize.featureValueOf(IsIterableWithSize.java:21)>)" ],
+    "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Iterator.hasNext()\" because \"iterator\" is null <org.hamcrest.collection.IsIterableWithSize.featureValueOf(IsIterableWithSize.java:21)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 15, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Iterator.hasNext()\" because \"iterator\" is null <org.hamcrest.collection.IsIterableWithSize.featureValueOf(IsIterableWithSize.java:21)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 15, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Iterator.hasNext()\" because \"iterator\" is null <org.hamcrest.collection.IsIterableWithSize.featureValueOf(IsIterableWithSize.java:21)>)" ]
+  },
+  "timeTaken" : 23
+}

@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/com/amihaiemil/eoyaml/Skip.java" : [ "com.amihaiemil.eoyaml.Skip", "com.amihaiemil.eoyaml.Skip$Condition", "com.amihaiemil.eoyaml.Skip$Line" ]
+  }
+}

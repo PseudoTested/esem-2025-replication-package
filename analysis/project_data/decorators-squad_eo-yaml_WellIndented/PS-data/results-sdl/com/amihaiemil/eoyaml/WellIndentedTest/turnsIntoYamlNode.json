@@ -1,0 +1,12 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.WellIndentedTest",
+  "testMethodName" : "turnsIntoYamlNode",
+  "testOutcomes" : [ "PASSED(793)", "PASSED(1)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.nextYamlNode(com.amihaiemil.eoyaml.YamlLine)\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.WellIndented.nextYamlNode(WellIndented.java:185)>)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.WellIndented, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.nextYamlNode(com.amihaiemil.eoyaml.YamlLine)\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.WellIndented.nextYamlNode(WellIndented.java:185)>)" ],
+    "Stmt(RETURN, 25, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : [ "FAILED(5)" ],
+    "Stmt(RETURN, 25, com.amihaiemil.eoyaml.WellIndented, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 871
+}

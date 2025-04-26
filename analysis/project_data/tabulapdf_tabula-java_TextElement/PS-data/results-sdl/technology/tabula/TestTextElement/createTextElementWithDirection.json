@@ -1,0 +1,30 @@
+{
+  "testClassName" : "technology.tabula.TestTextElement",
+  "testMethodName" : "createTextElementWithDirection",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 0, technology.tabula.TextElement, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.TextElement, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 2, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 2, technology.tabula.TextElement, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 3, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 3, technology.tabula.TextElement, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 4, technology.tabula.TextElement, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.apache.pdfbox.pdmodel.font.PDFont.getName()\" because the return value of \"technology.tabula.TextElement.getFont()\" is null <technology.tabula.TestTextElement.createTextElementWithDirection(TestTextElement.java:46)>)" ],
+    "Stmt(EXPRESSION, 4, technology.tabula.TextElement, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.apache.pdfbox.pdmodel.font.PDFont.getName()\" because the return value of \"technology.tabula.TextElement.getFont()\" is null <technology.tabula.TestTextElement.createTextElementWithDirection(TestTextElement.java:46)>)" ],
+    "Stmt(EXPRESSION, 5, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 5, technology.tabula.TextElement, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(RETURN, 6, technology.tabula.TextElement, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[A]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 6, technology.tabula.TextElement, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(RETURN, 8, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(RETURN, 8, technology.tabula.TextElement, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(RETURN, 9, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 9, technology.tabula.TextElement, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 10, technology.tabula.TextElement, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.apache.pdfbox.pdmodel.font.PDFont.getName()\" because the return value of \"technology.tabula.TextElement.getFont()\" is null <technology.tabula.TestTextElement.createTextElementWithDirection(TestTextElement.java:46)>)" ],
+    "Stmt(RETURN, 10, technology.tabula.TextElement, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.apache.pdfbox.pdmodel.font.PDFont.getName()\" because the return value of \"technology.tabula.TextElement.getFont()\" is null <technology.tabula.TestTextElement.createTextElementWithDirection(TestTextElement.java:46)>)" ],
+    "Stmt(RETURN, 11, technology.tabula.TextElement, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 11, technology.tabula.TextElement, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ]
+  },
+  "timeTaken" : 33
+}

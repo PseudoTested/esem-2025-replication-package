@@ -1,0 +1,91 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/JsonYamlDump.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "JsonYamlDump",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.amihaiemil.eoyaml.JsonYamlDump)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Decision(true, IF, 1, com.amihaiemil.eoyaml.JsonYamlDump)" : {
+      "startLine" : 65,
+      "endLine" : 65,
+      "startCol" : 13,
+      "endCol" : 43
+    },
+    "Decision(true, IF, 2, com.amihaiemil.eoyaml.JsonYamlDump)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 20,
+      "endCol" : 49
+    },
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 53,
+      "endLine" : 53,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(IF, 1, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 64,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 63,
+      "startCol" : 13,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 3, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 61,
+      "endLine" : 61,
+      "startCol" : 13,
+      "endCol" : 39
+    },
+    "Stmt(IF, 4, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 74,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(IF, 5, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 74,
+      "startCol" : 16,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 6, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 73,
+      "startCol" : 13,
+      "endCol" : 14
+    },
+    "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 68,
+      "endLine" : 68,
+      "startCol" : 13,
+      "endCol" : 63
+    },
+    "Stmt(EXPRESSION, 8, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 13,
+      "endCol" : 63
+    },
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 9,
+      "endCol" : 20
+    }
+  }
+}

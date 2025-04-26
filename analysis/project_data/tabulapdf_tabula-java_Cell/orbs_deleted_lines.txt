@@ -1,0 +1,61 @@
+src/main/java/technology/tabula/RectangleSpatialIndex.java
+src/main/java/technology/tabula/TextChunk.java
+src/main/java/technology/tabula/Page.java
+src/main/java/technology/tabula/ObjectExtractorStreamEngine.java
+src/main/java/technology/tabula/PageDims.java
+src/main/java/technology/tabula/TextElement.java
+src/main/java/technology/tabula/Pair.java
+src/main/java/technology/tabula/writers/Writer.java
+src/main/java/technology/tabula/writers/CSVWriter.java
+src/main/java/technology/tabula/writers/JSONWriter.java
+src/main/java/technology/tabula/writers/TSVWriter.java
+src/main/java/technology/tabula/RectangularTextContainer.java
+src/main/java/technology/tabula/CommandLineApp.java
+src/main/java/technology/tabula/Ruling.java
+src/main/java/technology/tabula/QuickSort.java
+src/main/java/technology/tabula/Table.java
+src/main/java/technology/tabula/TableWithRulingLines.java
+src/main/java/technology/tabula/Utils.java
+src/main/java/technology/tabula/ObjectExtractor.java
+src/main/java/technology/tabula/ProjectionProfile.java
+src/main/java/technology/tabula/json/TableSerializer.java
+src/main/java/technology/tabula/json/RectangularTextContainerSerializer.java
+src/main/java/technology/tabula/Rectangle.java
+src/main/java/technology/tabula/CohenSutherlandClipping.java
+src/main/java/technology/tabula/HasText.java
+src/main/java/technology/tabula/TextStripper.java
+src/main/java/technology/tabula/detectors/NurminenDetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/DetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/SpreadsheetDetectionAlgorithm.java
+src/main/java/technology/tabula/extractors/ExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/BasicExtractionAlgorithm.java
+src/main/java/technology/tabula/Cell.java
+4:import java.util.Collections;
+6:@SuppressWarnings("serial")
+11:		this.setPlaceholder(false);
+12:		this.setSpanning(false);
+17:		this.setPlaceholder(false);
+18:		this.setSpanning(false);
+24:	@Override
+25:	public String getText(boolean useLineReturns) {
+26:		if (this.textElements.size() == 0) {
+27:			return "";
+28:		}
+29:		StringBuilder sb = new StringBuilder();
+30:		this.textElements.sort(Rectangle.ILL_DEFINED_ORDER);
+31:		double curTop = this.textElements.get(0).getTop();
+32:		for (TextChunk tc : this.textElements) {
+33:			if (useLineReturns && tc.getTop() > curTop) {
+34:				sb.append('\r');
+35:			}
+36:			sb.append(tc.getText());
+37:			curTop = tc.getTop();
+38:		}
+39:		return sb.toString().trim();
+42:	@Override
+43:	public String getText() {
+44:		return getText(true);
+src/main/java/technology/tabula/PageIterator.java
+src/main/java/technology/tabula/debug/Debug.java
+src/main/java/technology/tabula/Line.java

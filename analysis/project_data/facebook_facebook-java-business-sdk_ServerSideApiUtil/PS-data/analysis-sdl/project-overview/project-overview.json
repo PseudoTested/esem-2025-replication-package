@@ -1,0 +1,199 @@
+{
+  "fileName" : "project-overview",
+  "typeMetricsHashMap" : {
+    "IF" : {
+      "elementCount" : 27,
+      "coveredCount" : 22,
+      "effectualCount" : 22,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 81.48,
+      "effectualPercentage" : 81.48,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "TRY" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DECISION" : {
+      "elementCount" : 27,
+      "coveredCount" : 15,
+      "effectualCount" : 15,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 55.56,
+      "effectualPercentage" : 55.56,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 11,
+      "coveredCount" : 8,
+      "effectualCount" : 8,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 72.73,
+      "effectualPercentage" : 72.73,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 30,
+      "coveredCount" : 16,
+      "effectualCount" : 16,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 53.33,
+      "effectualPercentage" : 53.33,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "THROW" : {
+      "elementCount" : 12,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "RETURN" : {
+      "elementCount" : 38,
+      "coveredCount" : 18,
+      "effectualCount" : 16,
+      "coverageGap" : [ "Stmt(RETURN, 90, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)", "Stmt(RETURN, 90, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" ],
+      "coveredPercentage" : 47.37,
+      "effectualPercentage" : 42.11,
+      "coverageGapPercentage" : 5.26,
+      "coverageGapSize" : 2
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    }
+  },
+  "totalEffectualCount" : 87,
+  "totalCoverageGap" : 2,
+  "totalElementCount" : 149,
+  "totalCoveredCount" : 89
+}

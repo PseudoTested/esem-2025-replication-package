@@ -1,0 +1,13 @@
+{
+  "testClassName" : "technology.tabula.TestLine",
+  "testMethodName" : "testErrorAddTextChunkIntTextChunk",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 0, technology.tabula.Line)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.IndexOutOfBoundsException> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(IF, 2, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.IndexOutOfBoundsException> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(IF, 2, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.IndexOutOfBoundsException> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(THROW, 3, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.IndexOutOfBoundsException> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ],
+    "Stmt(THROW, 3, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.Exception: Unexpected exception, expected<java.lang.IllegalArgumentException> but was<java.lang.IndexOutOfBoundsException> <org.junit.internal.runners.statements.ExpectException.evaluate(ExpectException.java:30)>)" ]
+  },
+  "timeTaken" : 7
+}

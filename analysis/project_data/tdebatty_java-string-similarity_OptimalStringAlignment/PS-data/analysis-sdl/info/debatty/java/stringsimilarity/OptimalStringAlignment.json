@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/OptimalStringAlignment.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "OptimalStringAlignment",
+  "typeMetricsHashMap" : {
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 11,
+      "coveredCount" : 11,
+      "effectualCount" : 11,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 7,
+      "coveredCount" : 7,
+      "effectualCount" : 7,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 10,
+      "coveredCount" : 10,
+      "effectualCount" : 10,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 6,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 3,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(IF, 8, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 10, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(FOR, 10, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(FOR, 12, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(FOR, 14, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 4, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 0, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 2, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 2, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, LOOP, 8, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 4, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, LOOP, 6, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 6, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 25, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(IF, 17, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 19, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 21, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 23, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Decision(true, IF, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(EXPRESSION, 11, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 13, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(FOR, 15, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 3, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(THROW, 1, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 1, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(THROW, 3, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, LOOP, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Decision(true, LOOP, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 24, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 26, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 26, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Decision(true, IF, 0, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(EXPRESSION, 16, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 18, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(IF, 20, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(IF, 8, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 10, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(FOR, 10, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(FOR, 12, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(FOR, 14, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 4, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 0, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 2, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 2, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, LOOP, 8, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 4, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, LOOP, 6, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(IF, 6, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 25, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(IF, 17, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 19, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 21, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 23, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Decision(true, IF, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(EXPRESSION, 11, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 13, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(FOR, 15, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 3, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(THROW, 1, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, IF, 1, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(THROW, 3, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Decision(true, LOOP, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Decision(true, LOOP, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 24, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 26, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 26, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)", "Decision(true, IF, 0, info.debatty.java.stringsimilarity.OptimalStringAlignment)", "Stmt(EXPRESSION, 16, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(EXPRESSION, 18, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(IF, 20, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)", "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)" ],
+  "totalElementCount" : 43,
+  "totalCoveredCount" : 43,
+  "totalEffectualCount" : 43,
+  "totalCoverageGap" : 0
+}

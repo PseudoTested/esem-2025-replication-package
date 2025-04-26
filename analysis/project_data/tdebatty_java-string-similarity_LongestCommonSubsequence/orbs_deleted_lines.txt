@@ -1,0 +1,92 @@
+src/main/java/info/debatty/java/stringsimilarity/Jaccard.java
+src/main/java/info/debatty/java/stringsimilarity/Damerau.java
+src/main/java/info/debatty/java/stringsimilarity/experimental/Sift4.java
+src/main/java/info/debatty/java/stringsimilarity/SorensenDice.java
+src/main/java/info/debatty/java/stringsimilarity/CharacterInsDelInterface.java
+src/main/java/info/debatty/java/stringsimilarity/WeightedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NormalizedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NGram.java
+src/main/java/info/debatty/java/stringsimilarity/CharacterSubstitutionInterface.java
+src/main/java/info/debatty/java/stringsimilarity/QGram.java
+src/main/java/info/debatty/java/stringsimilarity/Levenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/ShingleBased.java
+src/main/java/info/debatty/java/stringsimilarity/JaroWinkler.java
+src/main/java/info/debatty/java/stringsimilarity/Cosine.java
+src/main/java/info/debatty/java/stringsimilarity/OptimalStringAlignment.java
+src/main/java/info/debatty/java/stringsimilarity/examples/PrecomputedCosine.java
+src/main/java/info/debatty/java/stringsimilarity/examples/Examples.java
+src/main/java/info/debatty/java/stringsimilarity/examples/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/examples/nischay21.java
+src/main/java/info/debatty/java/stringsimilarity/LongestCommonSubsequence.java
+4:import net.jcip.annotations.Immutable;
+6:/**
+7: * The longest common subsequence (LCS) problem consists in finding the longest
+8: * subsequence common to two (or more) sequences. It differs from problems of
+9: * finding common substrings: unlike substrings, subsequences are not required
+10: * to occupy consecutive positions within the original sequences.
+11: *
+12: * It is used by the diff utility, by Git for reconciling multiple changes, etc.
+13: *
+14: * The LCS distance between Strings X (length n) and Y (length m) is n + m - 2
+15: * |LCS(X, Y)| min = 0 max = n + m
+16: *
+17: * LCS distance is equivalent to Levenshtein distance, when only insertion and
+18: * deletion is allowed (no substitution), or when the cost of the substitution
+19: * is the double of the cost of an insertion or deletion.
+20: *
+21: * ! This class currently implements the dynamic programming approach, which has
+22: * a space requirement O(m * n)!
+23: *
+24: * @author Thibault Debatty
+25: */
+26:@Immutable
+29:    /**
+30:     * Return the LCS distance between strings s1 and s2, computed as |s1| +
+31:     * |s2| - 2 * |LCS(s1, s2)|.
+32:     *
+33:     * @param s1 The first string to compare.
+34:     * @param s2 The second string to compare.
+35:     * @return the LCS distance between strings s1 and s2, computed as |s1| +
+36:     * |s2| - 2 * |LCS(s1, s2)|
+37:     * @throws NullPointerException if s1 or s2 is null.
+38:     */
+40:        if (s1 == null) {
+41:            throw new NullPointerException("s1 must not be null");
+44:        if (s2 == null) {
+45:            throw new NullPointerException("s2 must not be null");
+48:        if (s1.equals(s2)) {
+49:            return 0;
+55:    /**
+56:     * Return the length of Longest Common Subsequence (LCS) between strings s1
+57:     * and s2.
+58:     *
+59:     * @param s1 The first string to compare.
+60:     * @param s2 The second string to compare.
+61:     * @return the length of LCS(s1, s2)
+62:     * @throws NullPointerException if s1 or s2 is null.
+63:     */
+65:        if (s1 == null) {
+66:            throw new NullPointerException("s1 must not be null");
+69:        if (s2 == null) {
+70:            throw new NullPointerException("s2 must not be null");
+73:        /* function LCSLength(X[1..m], Y[1..n])
+74:         C = array(0..m, 0..n)
+76:         for i := 0..m
+77:         C[i,0] = 0
+79:         for j := 0..n
+80:         C[0,j] = 0
+82:         for i := 1..m
+83:         for j := 1..n
+84:         if X[i] = Y[j]
+85:         C[i,j] := C[i-1,j-1] + 1
+86:         else
+87:         C[i,j] := max(C[i,j-1], C[i-1,j])
+88:         return C[m,n]
+89:         */
+src/main/java/info/debatty/java/stringsimilarity/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/RatcliffObershelp.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/MetricStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringDistance.java

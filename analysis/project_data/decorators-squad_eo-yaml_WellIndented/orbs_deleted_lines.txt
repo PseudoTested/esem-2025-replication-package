@@ -1,0 +1,181 @@
+src/main/java9/module-info.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComments.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrintVisitor.java
+src/main/java/com/amihaiemil/eoyaml/Scalar.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedFlowLines.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlScalar.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/Node.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlNode.java
+src/main/java/com/amihaiemil/eoyaml/GreaterIndentation.java
+src/main/java/com/amihaiemil/eoyaml/YamlInput.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlDump.java
+src/main/java/com/amihaiemil/eoyaml/YamlToJsonVisitor.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/Indented.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlDump.java
+src/main/java/com/amihaiemil/eoyaml/Edited.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/YamlStream.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Backwards.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/StartMarkers.java
+src/main/java/com/amihaiemil/eoyaml/Yaml.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/YamlComment.java
+src/main/java/com/amihaiemil/eoyaml/WellIndented.java
+1:/**
+2: * Copyright (c) 2016-2024, Mihai Emil Andronache
+3: * All rights reserved.
+4: *
+5: * Redistribution and use in source and binary forms, with or without
+6: *  modification, are permitted provided that the following conditions are met:
+7: * Redistributions of source code must retain the above copyright notice, this
+8: *  list of conditions and the following disclaimer.
+9: *  Redistributions in binary form must reproduce the above copyright notice,
+10: *  this list of conditions and the following disclaimer in the documentation
+11: *  and/or other materials provided with the distribution.
+12: * Neither the name of the copyright holder nor the names of its
+13: *  contributors may be used to endorse or promote products derived from
+14: *  this software without specific prior written permission.
+15: * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+16: * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+17: * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+18: * ARE
+19: * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+20: * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+21: * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+22: * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+23: * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+24: * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+25: * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+26: * SUCH DAMAGE.
+27: */
+35:/**
+36: * YamlLines decorator which iterates over them and verifies
+37: * that their indentation is correct.<br><br>
+38: *
+39: * This class can be used as follows:
+40: *
+41: * <pre>
+42: *
+43: * YamlLines wellIndented = new SameIndentationLevel(
+44: *     new WellIndented(lines)
+45: * );//Iterate over the lines which are at the same indentation level
+46: * </pre>
+47: * or
+48: * <pre>
+49: *
+50: * YamlLines wellIndented = new SameIndentationLevel(
+51: *     new WellIndented(
+52: *         new NoDirectivesOrMarkers(
+53: *             lines
+54: *         )//ignore markers or directives
+55: *     )
+56: * );//Iterate over the lines which are at the same indentation level
+57: * </pre>
+58: * @checkstyle ExecutableStatementCount (400 lines)
+59: * @checkstyle CyclomaticComplexity (400 lines)
+60: * @checkstyle NestedIfDepth (400 lines)
+61: * @author Mihai Andronache (amihaiemil@gmail.com)
+62: * @version $Id: 0101ae4d063a6134305870983e6e436c7f0f3a19 $
+63: * @since 3.1.2
+64: */
+67:    /**
+68:     * YamlLines.
+69:     */
+72:    /**
+73:     * Ctor.
+74:     * @param yamlLines The Yaml lines.
+75:     */
+80:    /**
+81:     * Returns an iterator over these Yaml lines.
+82:     * It will verify that each line is properly indented in relation
+83:     * to the previous one and will complain if the indentation is not
+84:     * correct.
+85:     * @checkstyle LineLength (50 lines)
+86:     * @return Iterator over these yaml lines.
+87:     */
+88:    @Override
+102:                    if(">|".contains(prevLineLastChar)) {
+103:                        withinBlockScalar = true;
+106:                    if(previous.trimmed().matches("^\\s*-.*:(|\\s.*)$")
+107:                        || previous.trimmed().matches("^\\s*-.*-(|\\s.*)$")) {
+108:                        withinBlockScalar = false;
+109:                        prevIndent += 2;
+114:                            if (lineIndent < prevIndent + 2) {
+115:                                throw new YamlIndentationException(
+116:                                    "Indentation of line " + (line.number() + 1)
+117:                                    + " [" + line.trimmed() + "]"
+118:                                    + " is not ok. It should be greater than the one"
+119:                                    + " of line " + (previous.number() + 1)
+120:                                    + " [" + previous.trimmed() + "]"
+121:                                    + " by at least 2 spaces."
+122:                                );
+128:                                        "Indentation of line " + (line.number() + 1)
+129:                                        + " [" + line.trimmed() + "]"
+130:                                        + " is greater than the one of line "
+131:                                        + (previous.number() + 1)
+132:                                        + " [" + previous.trimmed() + "]. "
+133:                                        + "It should be less or equal."
+147:    @Override
+src/main/java/com/amihaiemil/eoyaml/ReadFlowMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadFlowSequence.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlIndentationException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlPrintException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlReadingException.java
+src/main/java/com/amihaiemil/eoyaml/ReadLiteralBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlDump.java
+src/main/java/com/amihaiemil/eoyaml/YamlLine.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/extensions/package-info.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseScalar.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Follows.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadFoldedBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlVisitor.java
+src/main/java/com/amihaiemil/eoyaml/YamlNode.java
+src/main/java/com/amihaiemil/eoyaml/Comment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/YamlNodeNotFoundException.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadPlainScalar.java
+src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ScalarComment.java
+src/main/java/com/amihaiemil/eoyaml/InlineComment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadComment.java
+src/main/java/com/amihaiemil/eoyaml/SameIndentationLevel.java
+src/main/java/com/amihaiemil/eoyaml/Comments.java
+src/main/java/com/amihaiemil/eoyaml/BaseFoldedScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlLines.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlInput.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/FirstCommentFound.java
+src/main/java/com/amihaiemil/eoyaml/YamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/Skip.java
+src/main/java/com/amihaiemil/eoyaml/Concatenated.java
+src/main/java/com/amihaiemil/eoyaml/AllYamlLines.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComment.java

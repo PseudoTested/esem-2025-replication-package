@@ -1,0 +1,64 @@
+src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyListUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyObjectUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyConcurrencyUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyFileUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyVideoUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MySystemUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStreamUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyZipUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyArrUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyTextRegex.java
+src/main/java/org/brunocvcunha/inutils4j/MyNumberUtils.java
+1:/*
+2: * Copyright © 2014 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
+3: *
+4: * Licensed under the Apache License, Version 2.0 (the "License");
+5: * you may not use this file except in compliance with the License.
+6: * You may obtain a copy of the License at
+7: *
+8: *     http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: * Unless required by applicable law or agreed to in writing, software
+11: * distributed under the License is distributed on an "AS IS" BASIS,
+12: * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: * See the License for the specific language governing permissions and
+14: * limitations under the License.
+15: */
+20:/**
+21: * Number Utilities
+22: * @author Bruno Candido Volpato da Cunha
+23: *
+24: */
+27:  // https://stackoverflow.com/questions/363681/generating-random-integers-in-a-range-with-java
+28:  /**
+29:   * Returns an integer between interval
+30:   * @param min Minimum value
+31:   * @param max Maximum value
+32:   * @return int number
+33:   */
+39:  // https://stackoverflow.com/questions/13725478/java-random-long-value-in-an-interval
+40:  /**
+41:   * Returns a long between interval
+42:   * @param min Minimum value
+43:   * @param max Maximum value
+44:   * @return long number
+45:   */
+50:  
+51:  /**
+52:   * Toss a Coin ;-)
+53:   * @return true = heads, false = tails
+54:   */
+55:  public static boolean tossCoin() {
+56:    return new Random().nextInt(2) == 1; 
+58:  
+src/main/java/org/brunocvcunha/inutils4j/MyDateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyImageUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyClasspathUtils.java
+src/main/java/org/brunocvcunha/inutils4j/FixType.java
+src/main/java/org/brunocvcunha/inutils4j/thirdparty/DateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyHTTPUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionDifferenceHandler.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyDefaultReflectionDifferenceHandler.java

@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/Skip.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "Skip",
+  "typeMetricsHashMap" : {
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "BREAK" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "WHILE" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "IF" : {
+      "elementCount" : 3,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 3,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 6,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DECISION" : {
+      "elementCount" : 5,
+      "coveredCount" : 5,
+      "effectualCount" : 5,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "THROW" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "RETURN" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    }
+  },
+  "covered" : [ "Stmt(IF, 2, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Decision(true, IF, 4, com.amihaiemil.eoyaml.Skip)", "Decision(true, LOOP, 2, com.amihaiemil.eoyaml.Skip)", "Stmt(EXPRESSION, 10, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Decision(true, IF, 0, com.amihaiemil.eoyaml.Skip)", "Stmt(BREAK, 8, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(IF, 6, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 4, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 15, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 13, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 11, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Decision(true, IF, 3, com.amihaiemil.eoyaml.Skip)", "Decision(true, LOOP, 1, com.amihaiemil.eoyaml.Skip)", "Stmt(IF, 9, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(FOR, 5, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(WHILE, 3, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)", "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)", "Stmt(EXPRESSION, 12, com.amihaiemil.eoyaml.Skip, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(IF, 2, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Decision(true, IF, 4, com.amihaiemil.eoyaml.Skip)", "Decision(true, LOOP, 2, com.amihaiemil.eoyaml.Skip)", "Stmt(EXPRESSION, 10, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Decision(true, IF, 0, com.amihaiemil.eoyaml.Skip)", "Stmt(BREAK, 8, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(IF, 6, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 4, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 15, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 13, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 11, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Decision(true, IF, 3, com.amihaiemil.eoyaml.Skip)", "Decision(true, LOOP, 1, com.amihaiemil.eoyaml.Skip)", "Stmt(IF, 9, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(FOR, 5, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(WHILE, 3, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)", "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, DEFAULT)", "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)", "Stmt(EXPRESSION, 12, com.amihaiemil.eoyaml.Skip, DEFAULT)" ],
+  "totalElementCount" : 24,
+  "totalCoveredCount" : 24,
+  "totalEffectualCount" : 24,
+  "totalCoverageGap" : 0
+}

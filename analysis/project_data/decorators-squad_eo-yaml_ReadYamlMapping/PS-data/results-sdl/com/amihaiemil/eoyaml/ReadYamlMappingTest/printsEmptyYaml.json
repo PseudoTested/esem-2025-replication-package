@@ -1,0 +1,26 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.ReadYamlMappingTest",
+  "testMethodName" : "printsEmptyYaml",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLine.number()\" because \"this.previous\" is null <com.amihaiemil.eoyaml.ReadYamlMapping.comment(ReadYamlMapping.java:230)>)" ],
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLine.number()\" because \"this.previous\" is null <com.amihaiemil.eoyaml.ReadYamlMapping.comment(ReadYamlMapping.java:230)>)" ],
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.Skip.iterator(Skip.java:67)>)" ],
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.Skip.iterator(Skip.java:67)>)" ],
+    "Stmt(LAMBDA, 3, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.significant\" is null <com.amihaiemil.eoyaml.ReadYamlMapping.keys(ReadYamlMapping.java:124)>)" ],
+    "Stmt(LAMBDA, 3, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.significant\" is null <com.amihaiemil.eoyaml.ReadYamlMapping.keys(ReadYamlMapping.java:124)>)" ],
+    "Stmt(FOR_EACH, 4, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(FOR_EACH, 4, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 24, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Set.isEmpty()\" because the return value of \"com.amihaiemil.eoyaml.BaseYamlMapping.keys()\" is null <com.amihaiemil.eoyaml.BaseYamlMapping.isEmpty(BaseYamlMapping.java:159)>)" ],
+    "Stmt(RETURN, 24, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 25, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 25, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(LAMBDA_RETURN, 30, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(LAMBDA_RETURN, 30, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 31, com.amihaiemil.eoyaml.ReadYamlMapping, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 31, com.amihaiemil.eoyaml.ReadYamlMapping, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ]
+  },
+  "timeTaken" : 16
+}

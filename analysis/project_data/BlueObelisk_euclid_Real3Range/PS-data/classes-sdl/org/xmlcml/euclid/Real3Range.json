@@ -1,0 +1,295 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/Real3Range.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "Real3Range",
+  "coverageElementPositions" : {
+    "Decision(true, LOOP, 0, org.xmlcml.euclid.Real3Range)" : {
+      "startLine" : 41,
+      "endLine" : 41,
+      "startCol" : 25,
+      "endCol" : 29
+    },
+    "Decision(true, LOOP, 1, org.xmlcml.euclid.Real3Range)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 25,
+      "endCol" : 29
+    },
+    "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 41,
+      "endLine" : 43,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 42,
+      "endLine" : 42,
+      "startCol" : 13,
+      "endCol" : 42
+    },
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 54,
+      "endLine" : 54,
+      "startCol" : 9,
+      "endCol" : 30
+    },
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 64,
+      "endLine" : 64,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 65,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(FOR, 6, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 77,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 13,
+      "endCol" : 55
+    },
+    "Stmt(RETURN, 8, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 87,
+      "endLine" : 89,
+      "startCol" : 9,
+      "endCol" : 49
+    },
+    "Stmt(RETURN, 8, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 87,
+      "endLine" : 89,
+      "startCol" : 9,
+      "endCol" : 49
+    },
+    "Stmt(RETURN, 9, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 102,
+      "startCol" : 9,
+      "endCol" : 44
+    },
+    "Stmt(RETURN, 9, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 102,
+      "startCol" : 9,
+      "endCol" : 44
+    },
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 113,
+      "endLine" : 114,
+      "startCol" : 9,
+      "endCol" : 73
+    },
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 113,
+      "endLine" : 114,
+      "startCol" : 9,
+      "endCol" : 73
+    },
+    "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 123,
+      "endLine" : 123,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 123,
+      "endLine" : 123,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 132,
+      "endLine" : 132,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 132,
+      "endLine" : 132,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 14, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 151,
+      "endLine" : 151,
+      "startCol" : 9,
+      "endCol" : 38
+    },
+    "Stmt(EXPRESSION, 15, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 161,
+      "endLine" : 161,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 16, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 171,
+      "endLine" : 171,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 17, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 182,
+      "endLine" : 184,
+      "startCol" : 9,
+      "endCol" : 38
+    },
+    "Stmt(RETURN, 17, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 182,
+      "endLine" : 184,
+      "startCol" : 9,
+      "endCol" : 38
+    },
+    "Stmt(VARIABLE_DECLARATION, 18, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 181,
+      "endLine" : 181,
+      "startCol" : 18,
+      "endCol" : 38
+    },
+    "Stmt(EXPRESSION, 19, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 194,
+      "endLine" : 194,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 20, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 195,
+      "endLine" : 195,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 196,
+      "endLine" : 196,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 193,
+      "endLine" : 193,
+      "startCol" : 18,
+      "endCol" : 38
+    },
+    "Stmt(RETURN, 23, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 204,
+      "endLine" : 205,
+      "startCol" : 9,
+      "endCol" : 78
+    },
+    "Stmt(RETURN, 23, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 204,
+      "endLine" : 205,
+      "startCol" : 9,
+      "endCol" : 78
+    },
+    "Stmt(RETURN, 24, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 213,
+      "endLine" : 214,
+      "startCol" : 9,
+      "endCol" : 78
+    },
+    "Stmt(RETURN, 24, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 213,
+      "endLine" : 214,
+      "startCol" : 9,
+      "endCol" : 78
+    },
+    "Stmt(EXPRESSION, 25, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 224,
+      "endLine" : 224,
+      "startCol" : 9,
+      "endCol" : 42
+    },
+    "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 225,
+      "endLine" : 225,
+      "startCol" : 9,
+      "endCol" : 42
+    },
+    "Stmt(EXPRESSION, 27, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 227,
+      "endLine" : 227,
+      "startCol" : 9,
+      "endCol" : 30
+    },
+    "Stmt(EXPRESSION, 28, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 228,
+      "endLine" : 228,
+      "startCol" : 9,
+      "endCol" : 30
+    },
+    "Stmt(FOR_EACH, 29, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 230,
+      "endLine" : 232,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 231,
+      "endLine" : 231,
+      "startCol" : 13,
+      "endCol" : 53
+    },
+    "Stmt(VARIABLE_DECLARATION, 31, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 222,
+      "endLine" : 222,
+      "startCol" : 16,
+      "endCol" : 38
+    },
+    "Stmt(VARIABLE_DECLARATION, 32, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 223,
+      "endLine" : 223,
+      "startCol" : 16,
+      "endCol" : 38
+    },
+    "Stmt(VARIABLE_DECLARATION, 33, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 226,
+      "endLine" : 226,
+      "startCol" : 20,
+      "endCol" : 47
+    },
+    "Stmt(VARIABLE_DECLARATION, 34, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 229,
+      "endLine" : 229,
+      "startCol" : 13,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, DEFAULT)" : {
+      "startLine" : 241,
+      "endLine" : 242,
+      "startCol" : 9,
+      "endCol" : 43
+    },
+    "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : {
+      "startLine" : 241,
+      "endLine" : 242,
+      "startCol" : 9,
+      "endCol" : 43
+    }
+  }
+}

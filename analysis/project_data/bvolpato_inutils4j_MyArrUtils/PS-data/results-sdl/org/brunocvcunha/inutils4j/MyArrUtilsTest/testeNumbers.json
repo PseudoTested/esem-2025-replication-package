@@ -1,0 +1,28 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyArrUtilsTest",
+  "testMethodName" : "testeNumbers",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 10, org.brunocvcunha.inutils4j.MyArrUtils)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 10, org.brunocvcunha.inutils4j.MyArrUtils)" : [ "THREW_EXCEPTION(1, java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 <org.brunocvcunha.inutils4j.MyArrUtils.reverse(MyArrUtils.java:190)>)" ],
+    "Stmt(EXPRESSION, 33, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 33, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(WHILE, 34, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(WHILE, 34, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 35, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 35, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 36, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 36, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 37, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 37, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 38, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 38, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 39, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 39, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(VARIABLE_DECLARATION, 40, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(VARIABLE_DECLARATION, 40, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 41, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 41, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 33
+}

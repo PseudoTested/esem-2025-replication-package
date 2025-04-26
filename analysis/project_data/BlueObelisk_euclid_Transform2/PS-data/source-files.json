@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/org/xmlcml/euclid/Transform2.java" : [ "org.xmlcml.euclid.Transform2$Type", "org.xmlcml.euclid.Transform2" ]
+  }
+}

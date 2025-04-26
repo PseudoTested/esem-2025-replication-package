@@ -1,0 +1,28 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testAcentuacao3",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 369, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 369, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 370, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 370, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 371, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 371, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 372, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 372, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 373, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 373, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 374, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 374, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 375, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<...ue a crescente influ[encia da midia obstaculiza a apreciacao da importancia das direco]es preferenciais no ...> but was:<...ue a crescente influ[ência da midia obstaculiza a apreciaçao da importância das direçõ]es preferenciais no ...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 375, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<...ue a crescente influ[encia da midia obstaculiza a apreciacao da importancia das direco]es preferenciais no ...> but was:<...ue a crescente influ[ência da midia obstaculiza a apreciaçao da importância das direçõ]es preferenciais no ...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 376, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<...e a crescente influe[ncia da midia obstaculiza a apreciacao da importancia das direco]es preferenciais no ...> but was:<...e a crescente influe[̂ncia da midia obstaculiza a apreciaçao da importância das direçõ]es preferenciais no ...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 376, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<...e a crescente influe[ncia da midia obstaculiza a apreciacao da importancia das direco]es preferenciais no ...> but was:<...e a crescente influe[̂ncia da midia obstaculiza a apreciaçao da importância das direçõ]es preferenciais no ...> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 377, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[Nunca e demais lembrar o peso e o significado destes problemas, uma vez que a crescente influencia da midia obstaculiza a apreciacao da importancia das direcoes preferenciais no sentido do progresso.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 377, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[Nunca e demais lembrar o peso e o significado destes problemas, uma vez que a crescente influencia da midia obstaculiza a apreciacao da importancia das direcoes preferenciais no sentido do progresso.]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 378, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[Nunca e demais lembrar o peso e o significado destes problemas, uma vez que a crescente influencia da midia obstaculiza a apreciacao da importancia das direcoes preferenciais no sentido do progresso.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 378, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[Nunca e demais lembrar o peso e o significado destes problemas, uma vez que a crescente influencia da midia obstaculiza a apreciacao da importancia das direcoes preferenciais no sentido do progresso.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 29
+}

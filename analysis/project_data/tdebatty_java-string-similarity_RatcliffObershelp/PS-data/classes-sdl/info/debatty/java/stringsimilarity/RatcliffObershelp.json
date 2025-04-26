@@ -1,0 +1,283 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/RatcliffObershelp.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "RatcliffObershelp",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, info.debatty.java.stringsimilarity.RatcliffObershelp)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 1, info.debatty.java.stringsimilarity.RatcliffObershelp)" : {
+      "startLine" : 64,
+      "endLine" : 64,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 2, info.debatty.java.stringsimilarity.RatcliffObershelp)" : {
+      "startLine" : 68,
+      "endLine" : 68,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 3, info.debatty.java.stringsimilarity.RatcliffObershelp)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Decision(true, LOOP, 4, info.debatty.java.stringsimilarity.RatcliffObershelp)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 25,
+      "endCol" : 39
+    },
+    "Decision(true, LOOP, 5, info.debatty.java.stringsimilarity.RatcliffObershelp)" : {
+      "startLine" : 121,
+      "endLine" : 121,
+      "startCol" : 33,
+      "endCol" : 48
+    },
+    "Decision(true, IF, 6, info.debatty.java.stringsimilarity.RatcliffObershelp)" : {
+      "startLine" : 123,
+      "endLine" : 123,
+      "startCol" : 21,
+      "endCol" : 74
+    },
+    "Stmt(IF, 0, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 62,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 1, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 61,
+      "endLine" : 61,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 2, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 64,
+      "endLine" : 66,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 3, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 65,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 4, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 68,
+      "endLine" : 70,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 69,
+      "endLine" : 69,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.RatcliffObershelp, NON_DEFAULT)" : {
+      "startLine" : 69,
+      "endLine" : 69,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(FOR_EACH, 6, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 77,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 7, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 13,
+      "endCol" : 45
+    },
+    "Stmt(RETURN, 8, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 79,
+      "endLine" : 79,
+      "startCol" : 9,
+      "endCol" : 67
+    },
+    "Stmt(RETURN, 8, info.debatty.java.stringsimilarity.RatcliffObershelp, NON_DEFAULT)" : {
+      "startLine" : 79,
+      "endLine" : 79,
+      "startCol" : 9,
+      "endCol" : 67
+    },
+    "Stmt(VARIABLE_DECLARATION, 9, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 72,
+      "endLine" : 72,
+      "startCol" : 22,
+      "endCol" : 51
+    },
+    "Stmt(VARIABLE_DECLARATION, 10, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 9,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.RatcliffObershelp, NON_DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 9,
+      "endCol" : 41
+    },
+    "Stmt(IF, 12, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 111,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 13, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 13,
+      "endCol" : 28
+    },
+    "Stmt(EXPRESSION, 14, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 13,
+      "endCol" : 36
+    },
+    "Stmt(EXPRESSION, 15, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 110,
+      "endLine" : 110,
+      "startCol" : 13,
+      "endCol" : 34
+    },
+    "Stmt(VARIABLE_DECLARATION, 16, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 20,
+      "endCol" : 67
+    },
+    "Stmt(VARIABLE_DECLARATION, 17, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 101,
+      "startCol" : 20,
+      "endCol" : 67
+    },
+    "Stmt(VARIABLE_DECLARATION, 18, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 26,
+      "endCol" : 76
+    },
+    "Stmt(VARIABLE_DECLARATION, 19, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 104,
+      "startCol" : 20,
+      "endCol" : 79
+    },
+    "Stmt(VARIABLE_DECLARATION, 20, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 105,
+      "endLine" : 105,
+      "startCol" : 20,
+      "endCol" : 79
+    },
+    "Stmt(VARIABLE_DECLARATION, 21, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 106,
+      "endLine" : 106,
+      "startCol" : 26,
+      "endCol" : 70
+    },
+    "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 113,
+      "endLine" : 113,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.RatcliffObershelp, NON_DEFAULT)" : {
+      "startLine" : 113,
+      "endLine" : 113,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(VARIABLE_DECLARATION, 23, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 22,
+      "endCol" : 51
+    },
+    "Stmt(VARIABLE_DECLARATION, 24, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 16,
+      "endCol" : 44
+    },
+    "Stmt(FOR, 25, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 128,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 26, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 121,
+      "endLine" : 127,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 27, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 123,
+      "endLine" : 126,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 28, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 124,
+      "endLine" : 124,
+      "startCol" : 21,
+      "endCol" : 49
+    },
+    "Stmt(EXPRESSION, 29, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 125,
+      "endLine" : 125,
+      "startCol" : 21,
+      "endCol" : 49
+    },
+    "Stmt(VARIABLE_DECLARATION, 30, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 122,
+      "endLine" : 122,
+      "startCol" : 24,
+      "endCol" : 53
+    },
+    "Stmt(RETURN, 31, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 130,
+      "endLine" : 130,
+      "startCol" : 9,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 31, info.debatty.java.stringsimilarity.RatcliffObershelp, NON_DEFAULT)" : {
+      "startLine" : 130,
+      "endLine" : 130,
+      "startCol" : 9,
+      "endCol" : 32
+    },
+    "Stmt(VARIABLE_DECLARATION, 32, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 117,
+      "endLine" : 117,
+      "startCol" : 13,
+      "endCol" : 23
+    },
+    "Stmt(VARIABLE_DECLARATION, 33, info.debatty.java.stringsimilarity.RatcliffObershelp, DEFAULT)" : {
+      "startLine" : 118,
+      "endLine" : 118,
+      "startCol" : 16,
+      "endCol" : 36
+    }
+  }
+}

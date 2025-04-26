@@ -1,0 +1,16 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testeNumbers",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(TRY, 626, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(TRY, 626, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 627, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 627, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 628, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 628, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 629, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(RETURN, 629, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 5
+}

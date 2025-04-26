@@ -1,0 +1,281 @@
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/DynamicIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/Interval.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/RedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/ThriftyList.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/StaticIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/OrderLinkedRedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/optimization/HungarianAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/KnuthMorrisPrattAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/DamerauLevenshteinAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/geometry/ClosestPointPairAlgorithm.java
+src/main/java/org/xmlcml/xml/XPathGenerator.java
+src/main/java/org/xmlcml/xml/XMLConstants.java
+src/main/java/org/xmlcml/xml/XMLUtil.java
+src/main/java/org/xmlcml/stml/STMLType.java
+src/main/java/org/xmlcml/stml/attribute/StringSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IdAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DictRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/StringArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/AttributeFactory.java
+src/main/java/org/xmlcml/stml/attribute/UnitsAttribute.java
+src/main/java/org/xmlcml/stml/attribute/NamespaceRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DelimiterAttribute.java
+src/main/java/org/xmlcml/stml/STMLArray.java
+src/main/java/org/xmlcml/stml/interfacex/HasUnits.java
+src/main/java/org/xmlcml/stml/interfacex/HasDelimiter.java
+src/main/java/org/xmlcml/stml/interfacex/HasDictRef.java
+src/main/java/org/xmlcml/stml/interfacex/HasArraySize.java
+src/main/java/org/xmlcml/stml/interfacex/HasScalar.java
+src/main/java/org/xmlcml/stml/interfacex/HasDataType.java
+src/main/java/org/xmlcml/stml/AbstractSTMTool.java
+src/main/java/org/xmlcml/stml/STMLElement.java
+src/main/java/org/xmlcml/stml/STMLScalar.java
+src/main/java/org/xmlcml/stml/STMLAttribute.java
+src/main/java/org/xmlcml/stml/STMLConstants.java
+src/main/java/org/xmlcml/euclid/Euclid.java
+src/main/java/org/xmlcml/euclid/Int2Range.java
+1:/**
+2: *    Copyright 2011 Peter Murray-Rust
+3: *
+4: *    Licensed under the Apache License, Version 2.0 (the "License");
+5: *    you may not use this file except in compliance with the License.
+6: *    You may obtain a copy of the License at
+7: *
+8: *        http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: *    Unless required by applicable law or agreed to in writing, software
+11: *    distributed under the License is distributed on an "AS IS" BASIS,
+12: *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: *    See the License for the specific language governing permissions and
+14: *    limitations under the License.
+15: */
+20:/**
+21: * 
+22: * 2-D int limits
+23: * 
+24: * Contains two IntRanges. Can therefore be used to describe 2-dimensional
+25: * limits (for example axes of graphs, rectangles in graphics, limits of a
+26: * molecule, etc.)
+27: * <P>
+28: * Default is two default/invalid IntRange components. Adding points will create
+29: * valid ranges.
+30: * 
+31: * @author (C) P. Murray-Rust, 1996
+32: */
+34:    /**
+35:     * X-range
+36:     */
+38:    /**
+39:     * Y-range
+40:     */
+42:    /**
+43:     * creates zero range.
+44:     * 
+45:     * 
+46:     */
+51:    /**
+52:     * initialise with min and max values;
+53:     * 
+54:     * @param xr X-range
+55:     * @param yr Y-range
+56:     */
+63:    /**
+64:     * copy constructor
+65:     * 
+66:     * @param r the IntRange object to be copied
+67:     */
+74:    
+75:    /**
+76:     * copy constructor
+77:     * 
+78:     * @param r the IntRange object to be copied
+79:     */
+80:    public Int2Range(Real2Range r) {
+81:        xrange = new IntRange(r.xrange);
+82:        yrange = new IntRange(r.yrange);
+84:    /**
+85:     * a Int2Range is valid if both its constituent ranges are
+86:     * 
+87:     * @return valid
+88:     */
+93:    /**
+94:     * is equal to.
+95:     * 
+96:     * @param r2 the intRange to be compared with this intRange
+97:     * @return true if equal
+98:     */
+106:    
+107:    @Override
+108:    public boolean equals(Object o) {
+109:    	boolean equals = false;
+110:    	if (o != null && o instanceof Int2Range) {
+111:    		Int2Range i2r =(Int2Range) o;
+112:    		equals = this.getXRange().equals(i2r.getXRange()) && 
+113:    				 this.getYRange().equals(i2r.getYRange());
+114:    	}
+115:    	return equals;
+117:    
+118:    @Override
+119:    public int hashCode() {
+120:    	return 17*xrange.hashCode() + 31*yrange.hashCode();
+122:    
+123:    /**
+124:     * merge two ranges and take the maximum extents
+125:     * 
+126:     * @param r2 the intRange to be added with this intRange
+127:     * @return range
+128:     */
+130:        if (!isValid()) {
+131:            if (r2 == null || !r2.isValid()) {
+132:                return new Int2Range();
+133:            } else {
+134:                return new Int2Range(r2);
+135:            }
+137:        if (r2 == null || !r2.isValid()) {
+138:            return new Int2Range(this);
+142:    /**
+143:     * intersect two ranges and take the range common to both; return invalid
+144:     * range if no overlap or either is null/invalid
+145:     * 
+146:     * @param r2
+147:     * @return range
+148:     * 
+149:     */
+151:        if (!isValid() || r2 == null || !r2.isValid()) {
+152:            return new Int2Range();
+158:    /**
+159:     * get xrange
+160:     * 
+161:     * @return range
+162:     */
+166:    /**
+167:     * get yrange
+168:     * 
+169:     * @return range
+170:     */
+174:	/** extends XRange.
+175:	 * 
+176:	 * does not alter this. Uses range.extendBy(). Positive numbers will expand the range 
+177:	 * 
+178:	 * @param leftSide 
+179:	 * @param rightSide
+180:	 */
+181:	public Int2Range  getInt2RangeExtendedInX(int leftSide, int rightSide) {
+182:		Int2Range i2r = new Int2Range(this);
+183:		if (i2r.xrange != null) {
+184:			i2r.xrange = i2r.xrange.getRangeExtendedBy(leftSide, rightSide);
+185:		}
+186:		return i2r;
+188:	/** extends XRange.
+189:	 * 
+190:	 * does not alter this. Uses range.extendBy(). Positive numbers will expand the range 
+191:	 * 
+192:	 * @param topExtend
+193:	 * @param bottomExtend
+194:	 */
+195:	public Int2Range getInt2RangeExtendedInY(int topExtend, int bottomExtend) {
+196:		Int2Range i2r = new Int2Range(this);
+197:		if (i2r.yrange != null) {
+198:			i2r.yrange = i2r.yrange.getRangeExtendedBy(topExtend, bottomExtend);
+199:		}
+200:		return i2r;
+203:    /**
+204:     * is an Int2 within a Int2Range
+205:     * 
+206:     * @param p
+207:     * @return includes
+208:     */
+210:        if (!isValid()) {
+215:    /**
+216:     * is one Int2Range completely within another
+217:     * 
+218:     * @param r
+219:     * @return includes
+220:     */
+222:        if (!isValid() || r == null || !r.isValid()) {
+229:    /**
+230:     * add a Int2 to a range
+231:     * 
+232:     * @param p
+233:     */
+238:    /**
+239:     * to string.
+240:     * 
+241:     * @return string
+242:     */
+246:    
+247:    /** do two boxes touch?
+248:     * 
+249:     * if box a extends to x and box b extends from x+1 they are touching.
+250:     * uses IntRange.touches()
+251:     * 
+252:     * Note that if box a and b share an integer coordinate then they *intersect*, not touch
+253:     * 
+254:     * @param bbox
+255:     * @return
+256:     */
+257:	public boolean touches(Int2Range bbox) {
+258:		return this.xrange.touches(bbox.xrange) || this.yrange.touches(bbox.yrange);
+src/main/java/org/xmlcml/euclid/Real2RangeComparator.java
+src/main/java/org/xmlcml/euclid/ParsedSymop.java
+src/main/java/org/xmlcml/euclid/Util.java
+src/main/java/org/xmlcml/euclid/test/StringTestBase.java
+src/main/java/org/xmlcml/euclid/test/DoubleTestBase.java
+src/main/java/org/xmlcml/euclid/test/EuclidTestBase.java
+src/main/java/org/xmlcml/euclid/Angle.java
+src/main/java/org/xmlcml/euclid/Real3Range.java
+src/main/java/org/xmlcml/euclid/Bivariate.java
+src/main/java/org/xmlcml/euclid/Line2AndReal2Calculator.java
+src/main/java/org/xmlcml/euclid/RealRange.java
+src/main/java/org/xmlcml/euclid/EuclidConstants.java
+src/main/java/org/xmlcml/euclid/IntSet.java
+src/main/java/org/xmlcml/euclid/Real2.java
+src/main/java/org/xmlcml/euclid/Int.java
+src/main/java/org/xmlcml/euclid/Axis.java
+src/main/java/org/xmlcml/euclid/Polar.java
+src/main/java/org/xmlcml/euclid/RealArray.java
+src/main/java/org/xmlcml/euclid/Real2Array.java
+src/main/java/org/xmlcml/euclid/RealComparator.java
+src/main/java/org/xmlcml/euclid/RandomNumberGenerator.java
+src/main/java/org/xmlcml/euclid/JodaDate.java
+src/main/java/org/xmlcml/euclid/RealRangeComparator.java
+src/main/java/org/xmlcml/euclid/Real2Range.java
+src/main/java/org/xmlcml/euclid/IntMatrix.java
+src/main/java/org/xmlcml/euclid/IntArray.java
+src/main/java/org/xmlcml/euclid/Int2.java
+src/main/java/org/xmlcml/euclid/Window2.java
+src/main/java/org/xmlcml/euclid/RealSquareMatrix.java
+src/main/java/org/xmlcml/euclid/Point3Vector.java
+src/main/java/org/xmlcml/euclid/EuclidException.java
+src/main/java/org/xmlcml/euclid/Real.java
+src/main/java/org/xmlcml/euclid/RealRangeList.java
+src/main/java/org/xmlcml/euclid/Transform2.java
+src/main/java/org/xmlcml/euclid/StringComparator.java
+src/main/java/org/xmlcml/euclid/IntRange.java
+src/main/java/org/xmlcml/euclid/Point2.java
+src/main/java/org/xmlcml/euclid/Vector2.java
+src/main/java/org/xmlcml/euclid/Line3.java
+src/main/java/org/xmlcml/euclid/Line2.java
+src/main/java/org/xmlcml/euclid/Vector3.java
+src/main/java/org/xmlcml/euclid/Point3.java
+src/main/java/org/xmlcml/euclid/EuclidTestUtils.java
+src/main/java/org/xmlcml/euclid/Transform3.java
+src/main/java/org/xmlcml/euclid/EC.java
+src/main/java/org/xmlcml/euclid/RealRangeArray.java
+src/main/java/org/xmlcml/euclid/RealInterval.java
+src/main/java/org/xmlcml/euclid/Real2Vector.java
+src/main/java/org/xmlcml/euclid/EuclidRuntimeException.java
+src/main/java/org/xmlcml/euclid/UnivariateBin.java
+src/main/java/org/xmlcml/euclid/IntRangeArray.java
+src/main/java/org/xmlcml/euclid/Real2Interval.java
+src/main/java/org/xmlcml/euclid/Plane3.java
+src/main/java/org/xmlcml/euclid/Complex.java
+src/main/java/org/xmlcml/euclid/ArrayBase.java
+src/main/java/org/xmlcml/euclid/IntSquareMatrix.java
+src/main/java/org/xmlcml/euclid/RealMatrix.java
+src/main/java/org/xmlcml/euclid/DoubleTool.java
+src/main/java/org/xmlcml/euclid/Univariate.java

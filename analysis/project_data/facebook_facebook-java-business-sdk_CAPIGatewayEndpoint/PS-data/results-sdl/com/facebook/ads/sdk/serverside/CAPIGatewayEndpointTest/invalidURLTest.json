@@ -1,0 +1,16 @@
+{
+  "testClassName" : "com.facebook.ads.sdk.serverside.CAPIGatewayEndpointTest",
+  "testMethodName" : "invalidURLTest",
+  "testOutcomes" : [ "PASSED(3)", "PASSED(1)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(TRY, 5, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : [ "FAILED(2)" ],
+    "Stmt(TRY, 5, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(THROW, 6, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(THROW, 6, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 7, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 7, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 17
+}

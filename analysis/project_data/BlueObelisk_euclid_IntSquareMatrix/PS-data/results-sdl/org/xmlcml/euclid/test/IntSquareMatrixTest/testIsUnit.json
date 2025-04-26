@@ -1,0 +1,26 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testIsUnit",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 6, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 6, org.xmlcml.euclid.IntSquareMatrix)" : [ "TIMED_OUT(200)" ],
+    "Decision(true, LOOP, 7, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 7, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(true, IF, 8, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, IF, 8, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 31, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 31, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 32, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 32, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 33, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 33, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 222
+}

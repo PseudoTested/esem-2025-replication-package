@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/NGram.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "NGram",
+  "typeMetricsHashMap" : {
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DECISION" : {
+      "elementCount" : 18,
+      "coveredCount" : 15,
+      "effectualCount" : 15,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 83.33,
+      "effectualPercentage" : 83.33,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR" : {
+      "elementCount" : 8,
+      "coveredCount" : 7,
+      "effectualCount" : 7,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 87.5,
+      "effectualPercentage" : 87.5,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "IF" : {
+      "elementCount" : 10,
+      "coveredCount" : 9,
+      "effectualCount" : 9,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 90.0,
+      "effectualPercentage" : 90.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "THROW" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "RETURN" : {
+      "elementCount" : 8,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 75.0,
+      "effectualPercentage" : 75.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 19,
+      "coveredCount" : 17,
+      "effectualCount" : 17,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 89.47,
+      "effectualPercentage" : 89.47,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 5,
+      "coveredCount" : 5,
+      "effectualCount" : 5,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    }
+  },
+  "covered" : [ "Stmt(EXPRESSION, 30, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 1, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 34, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 22, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 26, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 46, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 17, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 2, info.debatty.java.stringsimilarity.NGram)", "Stmt(THROW, 5, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 14, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 38, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)", "Decision(true, LOOP, 10, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 42, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 29, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 16, info.debatty.java.stringsimilarity.NGram)", "Stmt(FOR, 33, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 21, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 25, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 7, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 45, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 16, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 3, info.debatty.java.stringsimilarity.NGram)", "Stmt(IF, 4, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 15, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 37, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 8, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 11, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 41, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 28, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 17, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 32, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 20, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 24, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 44, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 44, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)", "Stmt(FOR, 15, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 0, info.debatty.java.stringsimilarity.NGram)", "Stmt(THROW, 3, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 12, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 36, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)", "Decision(true, IF, 8, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 40, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 27, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 31, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 2, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 19, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 23, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 43, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 1, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 47, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 18, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 13, info.debatty.java.stringsimilarity.NGram)", "Stmt(IF, 35, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 6, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 9, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 39, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 10, info.debatty.java.stringsimilarity.NGram, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(EXPRESSION, 30, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 1, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 34, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 22, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 26, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 46, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 17, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 2, info.debatty.java.stringsimilarity.NGram)", "Stmt(THROW, 5, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 14, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 38, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)", "Decision(true, LOOP, 10, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 42, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 29, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 16, info.debatty.java.stringsimilarity.NGram)", "Stmt(FOR, 33, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 21, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 25, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 7, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 45, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 16, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 3, info.debatty.java.stringsimilarity.NGram)", "Stmt(IF, 4, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 15, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 37, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 8, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 11, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 41, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 28, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 17, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 32, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 20, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 24, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 44, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 44, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)", "Stmt(FOR, 15, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 0, info.debatty.java.stringsimilarity.NGram)", "Stmt(THROW, 3, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 12, info.debatty.java.stringsimilarity.NGram)", "Stmt(EXPRESSION, 36, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)", "Decision(true, IF, 8, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 40, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 27, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 31, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 2, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 19, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(FOR, 23, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 43, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, IF, 1, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 47, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(EXPRESSION, 18, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 13, info.debatty.java.stringsimilarity.NGram)", "Stmt(IF, 35, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 6, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Decision(true, LOOP, 9, info.debatty.java.stringsimilarity.NGram)", "Stmt(VARIABLE_DECLARATION, 39, info.debatty.java.stringsimilarity.NGram, DEFAULT)", "Stmt(IF, 10, info.debatty.java.stringsimilarity.NGram, DEFAULT)" ],
+  "totalElementCount" : 70,
+  "totalCoveredCount" : 61,
+  "totalEffectualCount" : 61,
+  "totalCoverageGap" : 0
+}

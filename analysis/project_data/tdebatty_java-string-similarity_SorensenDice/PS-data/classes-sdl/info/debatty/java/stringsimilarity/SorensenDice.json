@@ -1,0 +1,151 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/SorensenDice.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "SorensenDice",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, info.debatty.java.stringsimilarity.SorensenDice)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 1, info.debatty.java.stringsimilarity.SorensenDice)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 2, info.debatty.java.stringsimilarity.SorensenDice)" : {
+      "startLine" : 89,
+      "endLine" : 89,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 3, info.debatty.java.stringsimilarity.SorensenDice)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 17,
+      "endCol" : 70
+    },
+    "Stmt(IF, 0, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 1, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 2, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 87,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 3, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 4, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 89,
+      "endLine" : 91,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 6, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(EXPRESSION, 7, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(FOR_EACH, 8, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 106,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(IF, 9, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 105,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 10, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 104,
+      "startCol" : 17,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 9,
+      "endCol" : 65
+    },
+    "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 9,
+      "endCol" : 65
+    },
+    "Stmt(VARIABLE_DECLARATION, 12, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 30,
+      "endCol" : 54
+    },
+    "Stmt(VARIABLE_DECLARATION, 13, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 94,
+      "endLine" : 94,
+      "startCol" : 30,
+      "endCol" : 54
+    },
+    "Stmt(VARIABLE_DECLARATION, 14, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 21,
+      "endCol" : 49
+    },
+    "Stmt(VARIABLE_DECLARATION, 15, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 9,
+      "endCol" : 38
+    },
+    "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 9,
+      "endCol" : 38
+    }
+  }
+}

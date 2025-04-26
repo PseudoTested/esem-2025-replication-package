@@ -1,0 +1,29 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.Int2RangeTest",
+  "testMethodName" : "testIsEqualTo",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 0, org.xmlcml.euclid.Int2Range)" : [ "FAILED(0)" ],
+    "Decision(true, IF, 2, org.xmlcml.euclid.Int2Range)" : [ "FAILED(0)" ],
+    "Decision(false, IF, 2, org.xmlcml.euclid.Int2Range)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.isEqualTo(org.xmlcml.euclid.IntRange)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.isEqualTo(Int2Range.java:127)>)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 11, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 11, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(RETURN, 12, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 12, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 13, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 13, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 15
+}

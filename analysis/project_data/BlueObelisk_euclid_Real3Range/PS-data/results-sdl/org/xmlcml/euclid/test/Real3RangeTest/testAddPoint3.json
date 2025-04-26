@@ -1,0 +1,32 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.Real3RangeTest",
+  "testMethodName" : "testAddPoint3",
+  "testOutcomes" : [ "PASSED(235)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 0, org.xmlcml.euclid.Real3Range)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Decision(false, LOOP, 0, org.xmlcml.euclid.Real3Range)" : [ "THREW_EXCEPTION(1, java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 <org.xmlcml.euclid.Real3Range.<init>(Real3Range.java:42)>)" ],
+    "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[0]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:234)>)" ],
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[0]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:234)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[0]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:234)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[0]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:234)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[1]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:237)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[1]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:237)>)" ],
+    "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[2]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:240)>)" ],
+    "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.add(double)\" because \"this.xyzrange[2]\" is null <org.xmlcml.euclid.Real3Range.add(Real3Range.java:240)>)" ],
+    "Stmt(EXPRESSION, 19, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 19, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 20, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: add expected:<((1.0,2.0),([1.2],4.0),(5.0,10.8))> but was:<((1.0,2.0),([3.0],4.0),(5.0,10.8))> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 20, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: add expected:<((1.0,2.0),([1.2],4.0),(5.0,10.8))> but was:<((1.0,2.0),([3.0],4.0),(5.0,10.8))> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: add expected:<...2.0),(1.2,4.0),(5.0,[10.8]))> but was:<...2.0),(1.2,4.0),(5.0,[6.0]))> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: add expected:<...2.0),(1.2,4.0),(5.0,[10.8]))> but was:<...2.0),(1.2,4.0),(5.0,[6.0]))> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 <org.xmlcml.euclid.Real3Range.add(Real3Range.java:234)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 <org.xmlcml.euclid.Real3Range.add(Real3Range.java:234)>)" ],
+    "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: add expected:<[((1.0,2.0),(1.2,4.0),(5.0,10.8))]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: add expected:<[((1.0,2.0),(1.2,4.0),(5.0,10.8))]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 349
+}

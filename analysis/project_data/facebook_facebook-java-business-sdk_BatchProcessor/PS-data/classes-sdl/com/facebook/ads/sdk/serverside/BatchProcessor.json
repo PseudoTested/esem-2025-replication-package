@@ -1,0 +1,103 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/sdk/serverside/BatchProcessor.java",
+  "packageName" : "com.facebook.ads.sdk.serverside",
+  "className" : "BatchProcessor",
+  "coverageElementPositions" : {
+    "Decision(true, LOOP, 0, com.facebook.ads.sdk.serverside.BatchProcessor)" : {
+      "startLine" : 24,
+      "endLine" : 24,
+      "startCol" : 12,
+      "endCol" : 23
+    },
+    "Decision(true, LOOP, 1, com.facebook.ads.sdk.serverside.BatchProcessor)" : {
+      "startLine" : 38,
+      "endLine" : 38,
+      "startCol" : 12,
+      "endCol" : 23
+    },
+    "Stmt(EXPRESSION, 0, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 18,
+      "endLine" : 18,
+      "startCol" : 5,
+      "endCol" : 31
+    },
+    "Stmt(EXPRESSION, 1, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 19,
+      "endLine" : 19,
+      "startCol" : 5,
+      "endCol" : 49
+    },
+    "Stmt(WHILE, 2, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 24,
+      "endLine" : 29,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 26,
+      "endLine" : 28,
+      "startCol" : 7,
+      "endCol" : 17
+    },
+    "Stmt(VARIABLE_DECLARATION, 4, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 25,
+      "endLine" : 25,
+      "startCol" : 45,
+      "endCol" : 63
+    },
+    "Stmt(VARIABLE_DECLARATION, 5, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 23,
+      "endLine" : 23,
+      "startCol" : 53,
+      "endCol" : 100
+    },
+    "Stmt(RETURN, 6, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 33,
+      "endLine" : 33,
+      "startCol" : 5,
+      "endCol" : 99
+    },
+    "Stmt(RETURN, 6, com.facebook.ads.sdk.serverside.BatchProcessor, NON_DEFAULT)" : {
+      "startLine" : 33,
+      "endLine" : 33,
+      "startCol" : 5,
+      "endCol" : 99
+    },
+    "Stmt(WHILE, 7, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 38,
+      "endLine" : 43,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(EXPRESSION, 8, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 40,
+      "endLine" : 42,
+      "startCol" : 7,
+      "endCol" : 17
+    },
+    "Stmt(VARIABLE_DECLARATION, 9, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 39,
+      "endLine" : 39,
+      "startCol" : 45,
+      "endCol" : 63
+    },
+    "Stmt(VARIABLE_DECLARATION, 10, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 37,
+      "endLine" : 37,
+      "startCol" : 53,
+      "endCol" : 107
+    },
+    "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.BatchProcessor, DEFAULT)" : {
+      "startLine" : 47,
+      "endLine" : 47,
+      "startCol" : 5,
+      "endCol" : 76
+    },
+    "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.BatchProcessor, NON_DEFAULT)" : {
+      "startLine" : 47,
+      "endLine" : 47,
+      "startCol" : 5,
+      "endCol" : 76
+    }
+  }
+}

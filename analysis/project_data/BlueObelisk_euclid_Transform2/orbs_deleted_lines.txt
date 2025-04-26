@@ -1,0 +1,670 @@
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/DynamicIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/Interval.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/RedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/ThriftyList.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/StaticIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/OrderLinkedRedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/optimization/HungarianAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/KnuthMorrisPrattAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/DamerauLevenshteinAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/geometry/ClosestPointPairAlgorithm.java
+src/main/java/org/xmlcml/xml/XPathGenerator.java
+src/main/java/org/xmlcml/xml/XMLConstants.java
+src/main/java/org/xmlcml/xml/XMLUtil.java
+src/main/java/org/xmlcml/stml/STMLType.java
+src/main/java/org/xmlcml/stml/attribute/StringSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IdAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DictRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/StringArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/AttributeFactory.java
+src/main/java/org/xmlcml/stml/attribute/UnitsAttribute.java
+src/main/java/org/xmlcml/stml/attribute/NamespaceRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DelimiterAttribute.java
+src/main/java/org/xmlcml/stml/STMLArray.java
+src/main/java/org/xmlcml/stml/interfacex/HasUnits.java
+src/main/java/org/xmlcml/stml/interfacex/HasDelimiter.java
+src/main/java/org/xmlcml/stml/interfacex/HasDictRef.java
+src/main/java/org/xmlcml/stml/interfacex/HasArraySize.java
+src/main/java/org/xmlcml/stml/interfacex/HasScalar.java
+src/main/java/org/xmlcml/stml/interfacex/HasDataType.java
+src/main/java/org/xmlcml/stml/AbstractSTMTool.java
+src/main/java/org/xmlcml/stml/STMLElement.java
+src/main/java/org/xmlcml/stml/STMLScalar.java
+src/main/java/org/xmlcml/stml/STMLAttribute.java
+src/main/java/org/xmlcml/stml/STMLConstants.java
+src/main/java/org/xmlcml/euclid/Euclid.java
+src/main/java/org/xmlcml/euclid/Int2Range.java
+src/main/java/org/xmlcml/euclid/Real2RangeComparator.java
+src/main/java/org/xmlcml/euclid/ParsedSymop.java
+src/main/java/org/xmlcml/euclid/Util.java
+src/main/java/org/xmlcml/euclid/test/StringTestBase.java
+src/main/java/org/xmlcml/euclid/test/DoubleTestBase.java
+src/main/java/org/xmlcml/euclid/test/EuclidTestBase.java
+src/main/java/org/xmlcml/euclid/Angle.java
+src/main/java/org/xmlcml/euclid/Real3Range.java
+src/main/java/org/xmlcml/euclid/Bivariate.java
+src/main/java/org/xmlcml/euclid/Line2AndReal2Calculator.java
+src/main/java/org/xmlcml/euclid/RealRange.java
+src/main/java/org/xmlcml/euclid/EuclidConstants.java
+src/main/java/org/xmlcml/euclid/IntSet.java
+src/main/java/org/xmlcml/euclid/Real2.java
+src/main/java/org/xmlcml/euclid/Int.java
+src/main/java/org/xmlcml/euclid/Axis.java
+src/main/java/org/xmlcml/euclid/Polar.java
+src/main/java/org/xmlcml/euclid/RealArray.java
+src/main/java/org/xmlcml/euclid/Real2Array.java
+src/main/java/org/xmlcml/euclid/RealComparator.java
+src/main/java/org/xmlcml/euclid/RandomNumberGenerator.java
+src/main/java/org/xmlcml/euclid/JodaDate.java
+src/main/java/org/xmlcml/euclid/RealRangeComparator.java
+src/main/java/org/xmlcml/euclid/Real2Range.java
+src/main/java/org/xmlcml/euclid/IntMatrix.java
+src/main/java/org/xmlcml/euclid/IntArray.java
+src/main/java/org/xmlcml/euclid/Int2.java
+src/main/java/org/xmlcml/euclid/Window2.java
+src/main/java/org/xmlcml/euclid/RealSquareMatrix.java
+src/main/java/org/xmlcml/euclid/Point3Vector.java
+src/main/java/org/xmlcml/euclid/EuclidException.java
+src/main/java/org/xmlcml/euclid/Real.java
+src/main/java/org/xmlcml/euclid/RealRangeList.java
+src/main/java/org/xmlcml/euclid/Transform2.java
+1:/**
+2: *    Copyright 2011 Peter Murray-Rust
+3: *
+4: *    Licensed under the Apache License, Version 2.0 (the "License");
+5: *    you may not use this file except in compliance with the License.
+6: *    You may obtain a copy of the License at
+7: *
+8: *        http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: *    Unless required by applicable law or agreed to in writing, software
+11: *    distributed under the License is distributed on an "AS IS" BASIS,
+12: *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: *    See the License for the specific language governing permissions and
+14: *    limitations under the License.
+15: */
+19:import java.awt.geom.AffineTransform;
+21:import org.apache.log4j.Logger;
+23:/**
+24: * 2-D transformation matrix class
+25: * 
+26: * Transform2 represents a transformation matrix for 2-D objects. Its actual
+27: * form may be implementation-dependent, but we have started with 3x3 matrices.
+28: * The following transformations will be supported as the class is developed:
+29: * 
+30: * 
+31: * 
+32: * TRFORM2_NULL no transformation allowed <BR>
+33: * ROT_ORIG rotation about the origin <BR>
+34: * ROT_TRANS rotation and translation <BR>
+35: * ROT_TRANS_SCALE rotation, translation and single scale factor <BR>
+36: * ROT_TRANS_AXIAL_SCALE rotation, translation + 3 axial scale factors <BR>
+37: * ROT_TRANS_SCALE_PERSP rotation, translation, scale, perspective <BR>
+38: * TRFORM3_ANY any matrix at all - user beware!
+39: * <P>
+40: * 
+41: * The basic stuff is all there - the user will do best to look at examples.
+42: * 
+43: * 
+44: * NOTE; this has been hacked in a hurry from Transform3. Many of the internal
+45: * routines are grossly overcomplicated. I'll clean it up some time.
+46: * 
+47: * @author (C) P. Murray-Rust, 1996
+48: * @author PMR 20 August 2003
+49: */
+51:    final static Logger LOG = Logger.getLogger(Transform2.class.getName());
+52:    /** type */
+54:        /** */
+56:        /** */
+58:        /** */
+60:        /** */
+61:        ROT_TRANS_SCALE(4, "rotation translation scale"),
+62:        /** */
+63:        ROT_TRANS_AXIAL_SCALE(5, "rotation translation axial scale"),
+64:        /** */
+65:        ROT_TRANS_SCALE_PERSP(6, "perspective"),
+66:        /** */
+68:        /** integer value */
+69:        public int i;
+70:        /** String value */
+73:            this.i = i;
+74:            this.s = s;
+77:    /**
+78:     * Transform2 inherits all public or protected members of RealSquareMatrix
+79:     * and its ancestors
+80:     */
+82:    /**
+83:     * default is a unit matrix
+84:     */
+92:    /**
+93:     * This gives a default unit matrix of type t (default ROT_ORIG)
+94:     * 
+95:     * @param t
+96:     *            Description of the Parameter
+97:     */
+98:    public Transform2(Type t) {
+100:        trnsfrm = t;
+102:    /** identity matrix with translation component
+103:     * 
+104:     * @param v amount to translate by
+105:     */
+112:    
+113:    public Transform2(AffineTransform at) {
+114:    	this();
+115:    	double[] dd = new double[6];
+116:    	at.getMatrix(dd);
+117:    	flmat[0][0] = dd[0];
+118:    	flmat[0][1] = dd[2];
+119:    	flmat[0][2] = dd[4];
+120:    	flmat[1][0] = dd[1];
+121:    	flmat[1][1] = dd[3];
+122:    	flmat[1][2] = dd[5];
+124:    
+125:    /** clockwise rotation about z- axis
+126:     * 
+127:     * @param zrot radians clockwise rotation
+128:     */
+137:        this.flmat[2][2] = 1.0;
+138:        this.trnsfrm = Type.ROT_ORIG;
+140:    /**
+141:     * from rotation about a point, given a matrix NOT CHECKED
+142:     * 
+143:     * @param t
+144:     *            Description of the Parameter
+145:     * @param p
+146:     *            Description of the Parameter
+147:     */
+150:        // translation = -M*r + r
+153:        this.flmat[0][0] = t.flmat[0][0];
+154:        this.flmat[0][1] = t.flmat[0][1];
+155:        this.flmat[1][0] = t.flmat[1][0];
+156:        this.flmat[1][1] = t.flmat[1][1];
+159:    /**
+160:     * rotation of one vector onto another
+161:     * 
+162:     * @param v1
+163:     *            Description of the Parameter
+164:     * @param v2
+165:     *            Description of the Parameter
+166:     * @exception EuclidRuntimeException
+167:     *                <code>v1</code> or <code>v2</code> is zero length
+168:     */
+176:    /**
+177:     * from 2 vector components - NOT checked for validity
+178:     * 
+179:     * @param v1
+180:     *            Description of the Parameter
+181:     * @param v2
+182:     *            Description of the Parameter
+183:     */
+191:            flmat[2][i] = 0.0;
+192:            flmat[i][2] = 0.0;
+197:    /**
+198:     * construct from an array. Formed by feeding in an existing array. to a
+199:     * cols*cols matrix array is of type m00, m01, m02, m10 ...
+200:     * 
+201:     * @param array
+202:     *            to create the Transform from
+203:     * @exception EuclidRuntimeException
+204:     *                array must have 9 elements
+205:     */
+210:    /**
+211:     * copy constructors - assumed to be an OK matrix.
+212:     * 
+213:     * @param m
+214:     *            the transform to copy
+215:     */
+216:    public Transform2(Transform2 m) {
+217:        super(m);
+218:        trnsfrm = m.trnsfrm;
+220:    /**
+221:     * from a 2x2 or 3x3 matrix
+222:     * 
+223:     * @param m
+224:     *            Description of the Parameter
+225:     * @exception EuclidRuntimeException
+226:     *                <code>m</code> must be 2*2 or 3*3
+227:     */
+230:        // 2x2 matrix. convert to 3x3
+232:            // convert to 3x3
+233:            for (int i = 0; i < 2; i++) {
+234:                for (int j = 0; j < 2; j++) {
+235:                    flmat[i][j] = m.flmat[i][j];
+236:                }
+237:            }
+238:        } else if (m.getCols() != 3) {
+239:            throw new EuclidRuntimeException("bad size for transform "+m.getCols());
+243:        this.trnsfrm = calculateMatrixType();
+245:    /**
+246:     * from a 2x2 rotation matrix and a translation vector
+247:     * 
+248:     * @param m
+249:     *            Description of the Parameter
+250:     * @param v
+251:     *            Description of the Parameter
+252:     * @exception EuclidRuntimeException
+253:     *                <code>m</code> must be 2*2
+254:     */
+257:        // 2x2 matrix. convert to 3x3
+259:            // convert to 3x3
+266:    /**
+267:     * clone
+268:     * 
+269:     * @param m
+270:     *            Description of the Parameter
+271:     * @return Description of the Return Value
+272:     */
+273:    public Transform2 clone(Transform2 m) {
+274:        // delete existing matrix in this
+275:        Transform2 temp = new Transform2((RealSquareMatrix) m);
+276:        temp.trnsfrm = m.trnsfrm;
+279:    
+280:	public static Transform2 getTranslationTransform(Real2 translation) {
+281:		Transform2 transform = null;
+282:		if (translation != null) {
+283:			transform = new Transform2(new Vector2(translation));
+284:		}
+285:		return transform;
+286:	}
+288:    /**
+289:     * Carries out graphics transform
+290:     *
+291:     * transforms between rectangular coordinates.
+292:     *  Example:
+293:     * <pre>
+294:     * Real2 inputDim = new Real2(2.7, 20000);
+295:     * Real2 outputDim = new Real2(-300, 300);
+296:     * </pre>
+297:     *
+298:     *@param  in                       Description of the Parameter
+299:     *@param  out                      Description of the Parameter
+300:     *@param  keepAspectRatio          Description of the Parameter
+301:     *@throws  ArithmeticException
+302:     */
+303:    public Transform2(Window2 in, Window2 out, boolean keepAspectRatio)
+304:             throws ArithmeticException {
+305:        this(in.origin, in.dim, out.origin, out.dim, keepAspectRatio);
+309:    /**
+310:     *  graphics transform (transforms between rectangular coordinates
+311:     *  ("windows") originIn maps onto originOut and dimensionIn (width, height)
+312:     *  onto dimensionOut. If keepAspectRatio id true, scales will be isotropic.
+313:     *  Note that ranges can be inverted by using negative coordinates in
+314:     *  dimensions. Example:<pre>
+315:     *Real2 inputDim = new Real2(2.7, 20000);
+316:     *Real2 outputDim = new Real2(-300, 300);
+317:     *</pre>
+318:     *
+319:     *@param  originIn                 Description of the Parameter
+320:     *@param  dimensionIn              Description of the Parameter
+321:     *@param  originOut                Description of the Parameter
+322:     *@param  dimensionOut             Description of the Parameter
+323:     *@param  keepAspectRatio          Description of the Parameter
+324:     *@throws  ArithmeticException
+325:     */
+326:    public Transform2(Real2 originIn, Real2 dimensionIn,
+327:            Real2 originOut, Real2 dimensionOut, boolean keepAspectRatio) throws ArithmeticException {
+329:        double scaleX;
+330:        double scaleY;
+331:        scaleX = dimensionOut.getX() / dimensionIn.getX();
+332:        scaleY = dimensionOut.getY() / dimensionIn.getY();
+333:        if (keepAspectRatio) {
+334:            if (Math.abs(scaleX) < Math.abs(scaleY)) {
+335:                scaleY = scaleX * (scaleY / Math.abs(scaleY));
+336:            }
+337:            if (Math.abs(scaleY) < Math.abs(scaleX)) {
+338:                scaleX = scaleY * (scaleX / Math.abs(scaleX));
+339:            }
+341:        flmat[0][0] = scaleX;
+342:        flmat[1][1] = scaleY;
+343:        flmat[0][2] = originOut.getX() - scaleX * originIn.getX();
+344:        flmat[1][2] = originOut.getY() - scaleY * originIn.getY();
+346:    /**
+347:     * seem to require this one
+348:     * 
+349:     * @param m
+350:     *            Description of the Parameter
+351:     * @return Description of the Return Value
+352:     */
+353:    Transform2 clone(RealSquareMatrix m) {
+354:        Transform2 temp = new Transform2(m);
+355:        temp.trnsfrm = calculateMatrixType();
+358:    /**
+359:     * Description of the Method
+360:     * 
+361:     * @param m
+362:     *            Description of the Parameter
+363:     * @return Description of the Return Value
+364:     */
+365:    public boolean isEqualTo(Transform2 m) {
+366:        return super.isEqualTo((RealSquareMatrix) m) && trnsfrm == m.trnsfrm;
+368:    
+369:    /** rotate about a point.
+370:     * 
+371:     * @param angle
+372:     * @param point
+373:     * @return tramsformation
+374:     */
+375:    public static Transform2 getRotationAboutPoint(Angle angle, Real2 point) {
+376:    	Transform2 t3 = new Transform2(new Vector2(point));
+377:    	Transform2 t2 = new Transform2(angle);
+378:    	Transform2 t1 = new Transform2(new Vector2(point.multiplyBy(-1.0)));
+379:    	return t3.concatenate(t2).concatenate(t1);
+382:    /**
+383:     * apply scales to each axis
+384:     * @param scaleX
+385:     * @param scaleY
+386:     * @return transform
+387:     * @deprecated use createScaleTransform
+388:     */
+389:    public static Transform2 applyScales(double scaleX, double scaleY) {
+390:    	return new Transform2(
+391:    		new double[] {
+392:				scaleX, 0.0, 0.0,
+393:				0.0, scaleY, 0.0,
+394:				0.0, 0.0, 1.0
+395:		});
+397:    
+398:    /**
+399:     * create diagonal scale matrix.
+400:     * 
+401:     * @param scaleX
+402:     * @param scaleY
+403:     * @return transform
+404:     */
+405:    public static Transform2 createScaleTransform(double scaleX, double scaleY) {
+406:    	return new Transform2(
+407:    		new double[] {
+408:				scaleX, 0.0, 0.0,
+409:				0.0, scaleY, 0.0,
+410:				0.0, 0.0, 1.0
+411:		});
+413:    
+414:    /**
+415:     * apply scale to each axis
+416:     * @param scale
+417:     * @return transform
+418:     */
+419:    public static Transform2 applyScale(double scale) {
+420:    	return Transform2.applyScales(scale, scale);
+422:    
+423:    public void applyScalesToThis(double scaleX, double scaleY) {
+424:    	Transform2 t2 = Transform2.applyScales(scaleX, scaleY);
+425:    	t2 = this.concatenate(t2);
+426:    	this.flmat = t2.flmat;
+428:    
+429:    /**
+430:     * concatenate
+431:     * 
+432:     * @param m2 postmultiplies this
+433:     * @return Description of the Return Value
+434:     */
+438:        // maximum value is matrix of greatest generality (horrible)
+440:        temp1.trnsfrm = (trnsfrm.i > m2.trnsfrm.i) ? trnsfrm : m2.trnsfrm;
+443:    /**
+444:     * set transformation type may attempt to orthonomalise if type includes a
+445:     * rotation
+446:     * 
+447:     * @param option
+448:     *            The new transformationType value
+449:     * @return Description of the Return Value
+450:     */
+452:        RealSquareMatrix s3 = new RealSquareMatrix();
+453:        if (option == Type.ROT_ORIG) {
+454:            s3 = new RealSquareMatrix(this.extractSubMatrixData(0, 1, 0, 1));
+455:            s3.orthonormalize();
+456:            this.replaceSubMatrixData(0, 0, s3);
+457:        } else if (option == Type.ROT_TRANS) {
+458:            s3 = new RealSquareMatrix(this.extractSubMatrixData(0, 1, 0, 1));
+459:            s3.orthonormalize();
+460:            this.replaceSubMatrixData(0, 0, s3);
+461:        } else if (option == Type.ROT_TRANS_SCALE) {
+462:            s3 = new RealSquareMatrix(this.extractSubMatrixData(0, 1, 0, 1));
+463:            double[] scale = s3.euclideanColumnLengths().getArray();
+464:            double scale3 = Math.exp(Math.log(scale[0] * scale[1]) / 2.0);
+465:            s3.orthonormalize();
+466:            RealArray sc1 = new RealArray(3, scale3);
+467:            RealSquareMatrix s = RealSquareMatrix.diagonal(sc1);
+468:            s3 = s.multiply(s3);
+469:            replaceSubMatrixData(0, 0, s3);
+470:        } else if (option == Type.ROT_TRANS_SCALE_PERSP) {
+471:        } else if (option == Type.ROT_TRANS_AXIAL_SCALE) {
+472:            s3 = new RealSquareMatrix(this.extractSubMatrixData(0, 1, 0, 1));
+473:            RealArray scale = s3.euclideanColumnLengths();
+474:            s3.orthonormalize();
+475:            RealSquareMatrix s = RealSquareMatrix.diagonal(scale);
+476:            s3 = s.multiply(s3);
+477:            replaceSubMatrixData(0, 0, s3);
+478:        } else if (option == Type.ANY) {
+479:        } else if (option == Type.NULL) {
+481:            return 1;
+483:        trnsfrm = option;
+486:    /**
+487:     * get transformation type
+488:     * 
+489:     * @return The transformationType value
+490:     */
+494:    /**
+495:     * get new matrix type
+496:     * 
+497:     * @return Description of the Return Value
+498:     */
+501:        RealArray c3 = extractColumnData(2);
+502:        if (c3 != null) {
+503:            if (Real.isZero(c3.elementAt(0), Real.getEpsilon()) &&
+504:            		Real.isZero(c3.elementAt(1), Real.getEpsilon())) {
+505:                return Type.NULL;
+506:            }
+508:        {
+509:            if (s3.isUnit()) {
+510:                return Type.NULL;
+511:            }
+512:            // unit matrix
+513:            if (s3.isUnitary()) {
+514:                return Type.ROT_ORIG;
+515:            }
+516:            // unitary matrix
+518:        if (s3.isUnitary()) {
+519:            return Type.ROT_TRANS;
+521:        // rot + trans; no scale
+522:        if (s3.isOrthogonal()) {
+523:            double[] scale = s3.euclideanColumnLengths().getArray();
+524:            if (Real.isEqual(scale[0], scale[1])) {
+525:                return Type.ROT_TRANS_SCALE;
+526:            }
+527:            return Type.ROT_TRANS_AXIAL_SCALE;
+531:    /**
+532:     * interpret current matrix as rotation about axis NOT YET CHECKED; 
+533:     * assume combined rotation and Xskew 
+534:     * and isotropic scale
+535:     * (cos -sin)  *  (1  d)    // d is tan(skew angle)
+536:     * (sin  cos)     (0  1)
+537:     * 
+538:     * gives
+539:     * (cos  d.cos-sin)
+540:     * (sin  d.sin+cos)
+541:     * 
+542:     * 
+543:     * @return The angleOfRotation value
+544:     */
+547:    	// antisymmetric, including unit 
+549:    		// this is the ony generic rotation that can be extracted
+554:    		} else if (Real.isZero(flmat[0][0], EPS)) {
+557:    	} else {
+558:    		LOG.trace("TRANSFORM "+this.toString());
+559:    		ang = null;
+563:    
+564:    /**
+565:     * interpret current matrix as rotation about axis NOT YET CHECKED; 
+566:     * assume combined rotation and Xskew 
+567:     * and isotropic scale
+568:     * (cos -sin)  *  (1  tand)    // d is tan(skew angle)
+569:     * (sin  cos)     (0  1)
+570:     * 
+571:     * gives
+572:     * (cos  tand.cos-sin)
+573:     * (sin  tand.sin+cos)
+574:     * 
+575:     * 
+576:     * @return The angleOfRotation value
+577:     */
+578:    public Angle getAngleOfRotationNew() {
+579:    	Angle ang = new Angle(Math.atan2(flmat[0][1], flmat[0][0]));
+582:    
+583:    /**
+584:     * interpret current matrix as rotation about axis NOT YET CHECKED; 
+585:     * assume combined rotation and Xskew 
+586:     * and isotropic scale
+587:     * (cos -sin)  *  (1  tand)    // d is tan(skew angle)
+588:     * (sin  cos)     (0  1)
+589:     * 
+590:     * gives
+591:     * (cos  tand.cos-sin)
+592:     * (sin  tand.sin+cos)
+593:     * 
+594:     * 
+595:     * @return The angleOfRotation value
+596:     */
+597:    public Angle getAngleOfSkew(double eps) {
+598:    	double tandcos = flmat[0][1] + flmat[1][0];
+599:    	double tandsin = flmat[1][1] - flmat[0][0];
+600:    	Angle d = new Angle(0);
+601:    	if (!Real.isZero(tandcos, eps) && !Real.isZero(tandsin, eps)) {
+602:			d = new Angle(Math.atan2(tandsin, tandcos));
+604:    	return d;
+606:    /**
+607:     * get Transformation to mirror ('flip') across an axis NOT YET CHECKED
+608:     * 
+609:     * @param r
+610:     *            Description of the Parameter
+611:     * @return Description of the Return Value
+612:     * @exception EuclidRuntimeException
+613:     */
+624:    /**
+625:     * get translation component only
+626:     * 
+627:     * @return The translation value
+628:     */
+632:    /**
+633:     * get translation component only
+634:     * 
+635:     * @param xy
+636:     */
+637:    public void setTranslation(Real2 xy) {
+638:        flmat[0][2] = xy.x;
+639:        flmat[1][2] = xy.y;
+641:    /**
+642:     * get scales (as a 2-element RealArray)
+643:     * 
+644:     * @return The scales value
+645:     */
+646:    public RealArray getScales() {
+647:        RealArray scales;
+649:        scales = s3.euclideanColumnLengths();
+650:        return scales;
+652:    
+653:    /**
+654:     * get Unitary matrix (that is eliminate scales and translation)
+655:     * 
+656:     * @return The rotationMatrix value
+657:     */
+661:        s3.normaliseByColumns();
+666:    /** remove translations
+667:     * does to alter this
+668:     * @return
+669:     */
+670:    public Transform2 removeTranslations() {
+671:    	double[] arr = this.getMatrixAsArray();
+672:    	arr[2] = 0.0;
+673:    	arr[5] = 0.0;
+674:    	return new Transform2(arr);
+676:    
+677:	/**
+678:	 * transform describing the rotation and stretching of a line.
+679:	 * used in bondTool.getTranformToRotateAndStretchBond(movingAtom, targetPoint);
+680:	 * 
+681:		Transform2 t = this.getTranformToRotateAndStretchLine(movingAtom, targetPoint) {
+682:	 * @param pivotPoint
+683:	 * @param movingPoint
+684:	 * @param targetPoint point to translate movingAtom to
+685:	 * @return
+686:	 */
+687:	public static Transform2 getTransformToRotateAndStretchLine(
+688:			Real2 pivotPoint, Real2 movingPoint, Real2 targetPoint) {
+689:		Vector2 pivotVector = new Vector2(movingPoint.subtract(pivotPoint));
+690:		Vector2 targetVector = new Vector2(targetPoint.subtract(pivotPoint));
+691:		Angle angle = pivotVector.getAngleMadeWith(targetVector);
+692:		Transform2 rotate = new Transform2(angle);
+693:		Transform2 rotateAboutOtherPoint = new Transform2(rotate, pivotPoint);
+694:		Vector2 deltaVector = new Vector2(targetVector.subtract(pivotVector));
+695:		Vector2 stretchVector = deltaVector.projectOnto(pivotVector);
+696:		Transform2 stretch = new Transform2(stretchVector);
+697:		Transform2 finalTransform = rotateAboutOtherPoint.concatenate(stretch);
+698:		return finalTransform;
+699:	}
+700:	
+701:    /**
+702:     * Description of the Method
+703:     * 
+704:     * @return Description of the Return Value
+705:     */
+706:    public String toString() {
+707:        String s = EC.S_LBRAK;
+708:        for (int i = 0; i < this.flmat.length; i++) {
+709:            for (int j = 0; j < this.flmat[i].length; j++) {
+710:                s += flmat[i][j];
+711:                s += EC.S_COMMA;
+712:            }
+713:            if (i < flmat.length - 1) {
+714:                s += EC.S_NEWLINE;
+715:            }
+717:        s += EC.S_RBRAK;
+721:    /**
+722:    	at.getMatrix(dd);
+723:    	flmat[0][0] = dd[0];
+724:    	flmat[0][1] = dd[2];
+725:    	flmat[0][2] = dd[4];
+726:    	flmat[1][0] = dd[1];
+727:    	flmat[1][1] = dd[3];
+728:    	flmat[1][2] = dd[5];
+729:     */
+730:    public AffineTransform getAffineTransform() {
+731:    	AffineTransform affineTransform = null;
+732:    	double[] dd = new double[6];
+733:    	if (flmat != null) {
+734:    		dd[0] = flmat[0][0];
+735:    		dd[2] = flmat[0][1];
+736:    		dd[4] = flmat[0][2];
+737:    		dd[1] = flmat[1][0];
+738:    		dd[3] = flmat[1][1];
+739:    		dd[5] = flmat[1][2];
+740:    		affineTransform = new AffineTransform(dd[0],dd[1],dd[2],dd[3],dd[4],dd[5]);
+742:    	return affineTransform;
+src/main/java/org/xmlcml/euclid/StringComparator.java
+src/main/java/org/xmlcml/euclid/IntRange.java
+src/main/java/org/xmlcml/euclid/Point2.java
+src/main/java/org/xmlcml/euclid/Vector2.java
+src/main/java/org/xmlcml/euclid/Line3.java
+src/main/java/org/xmlcml/euclid/Line2.java
+src/main/java/org/xmlcml/euclid/Vector3.java
+src/main/java/org/xmlcml/euclid/Point3.java
+src/main/java/org/xmlcml/euclid/EuclidTestUtils.java
+src/main/java/org/xmlcml/euclid/Transform3.java
+src/main/java/org/xmlcml/euclid/EC.java
+src/main/java/org/xmlcml/euclid/RealRangeArray.java
+src/main/java/org/xmlcml/euclid/RealInterval.java
+src/main/java/org/xmlcml/euclid/Real2Vector.java
+src/main/java/org/xmlcml/euclid/EuclidRuntimeException.java
+src/main/java/org/xmlcml/euclid/UnivariateBin.java
+src/main/java/org/xmlcml/euclid/IntRangeArray.java
+src/main/java/org/xmlcml/euclid/Real2Interval.java
+src/main/java/org/xmlcml/euclid/Plane3.java
+src/main/java/org/xmlcml/euclid/Complex.java
+src/main/java/org/xmlcml/euclid/ArrayBase.java
+src/main/java/org/xmlcml/euclid/IntSquareMatrix.java
+src/main/java/org/xmlcml/euclid/RealMatrix.java
+src/main/java/org/xmlcml/euclid/DoubleTool.java
+src/main/java/org/xmlcml/euclid/Univariate.java

@@ -1,0 +1,24 @@
+criterion: info.debatty.java.stringsimilarity.LongestCommonSubsequenceTest:43
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:27
+info.debatty.java.stringsimilarity.LongestCommonSubsequenceTest:45
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:44
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:48
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:52
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:69
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:90
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:91
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:95
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:108
+criterion: info.debatty.java.stringsimilarity.LongestCommonSubsequenceTest:43
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:27
+info.debatty.java.stringsimilarity.LongestCommonSubsequenceTest:45
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:44
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:48
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:52
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:69
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:92
+info.debatty.java.stringsimilarity.LongestCommonSubsequenceTest:47
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:90
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:91
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:95
+info.debatty.java.stringsimilarity.LongestCommonSubsequence:108

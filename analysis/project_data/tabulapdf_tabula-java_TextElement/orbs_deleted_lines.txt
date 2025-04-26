@@ -1,0 +1,140 @@
+src/main/java/technology/tabula/RectangleSpatialIndex.java
+src/main/java/technology/tabula/TextChunk.java
+src/main/java/technology/tabula/Page.java
+src/main/java/technology/tabula/ObjectExtractorStreamEngine.java
+src/main/java/technology/tabula/PageDims.java
+src/main/java/technology/tabula/TextElement.java
+8:@SuppressWarnings("serial")
+24:        super();
+33:    @Override
+38:    @Override
+59:    @Override public String toString() {
+60:        StringBuilder sb = new StringBuilder();
+61:        String s = super.toString();
+62:        sb.append(s.substring(0, s.length() - 1));
+63:        sb.append(String.format(",text=\"%s\"]", this.getText()));
+64:        return sb.toString();
+67:    @Override
+68:    public int hashCode() {
+69:        final int prime = 31;
+70:        int result = super.hashCode();
+71:        result = prime * result + java.lang.Float.floatToIntBits(dir);
+72:        result = prime * result + ((font == null) ? 0 : font.hashCode());
+73:        result = prime * result + java.lang.Float.floatToIntBits(fontSize);
+74:        result = prime * result + ((text == null) ? 0 : text.hashCode());
+75:        result = prime * result + java.lang.Float.floatToIntBits(widthOfSpace);
+76:        return result;
+79:    @Override
+81:        if (this == obj)
+82:            return true;
+83:        if (!super.equals(obj))
+84:            return false;
+85:        if (getClass() != obj.getClass())
+86:            return false;
+88:        if (java.lang.Float.floatToIntBits(dir) != java.lang.Float
+89:                .floatToIntBits(other.dir))
+90:            return false;
+91:        if (font == null) {
+92:            if (other.font != null)
+93:                return false;
+94:        } else if (!font.equals(other.font))
+95:            return false;
+96:        if (java.lang.Float.floatToIntBits(fontSize) != java.lang.Float
+97:                .floatToIntBits(other.fontSize))
+98:            return false;
+99:        if (text == null) {
+100:            if (other.text != null)
+101:                return false;
+102:        } else if (!text.equals(other.text))
+103:            return false;
+112:    /**
+113:     * heuristically merge a list of TextElement into a list of TextChunk
+114:     * ported from from PDFBox's PDFTextStripper.writePage, with modifications.
+115:     * Here be dragons
+116:     */
+121:        if (textElements.isEmpty()) {
+122:            return textChunks;
+125:        // it's a problem that this `remove` is side-effecty
+126:        // other things depend on `textElements` and it can sometimes lead to the first textElement in textElement
+127:        // not appearing in the final output because it's been removed here.
+128:        // https://github.com/tabulapdf/tabula-java/issues/78
+135:        float maxYForLine = firstTC.getBottom();
+136:        float maxHeightForLine = (float) firstTC.getHeight();
+137:        float minYTopForLine = firstTC.getTop();
+149:            // if same char AND overlapped, skip
+154:            // if chr is a space that overlaps with prevChar, skip
+159:            // Resets the average character width when we see a change in font
+160:            // or a change in the font size
+161:            if ((chr.getFont() != prevChar.getFont()) || !Utils.feq(chr.getFontSize(), prevChar.getFontSize())) {
+162:                previousAveCharWidth = -1;
+165:            // is there any vertical ruling that goes across chr and prevChar?
+167:            for (Ruling r : verticalRulings) {
+168:                if (
+169:                        (verticallyOverlapsRuling(prevChar, r) && verticallyOverlapsRuling(chr, r)) &&
+170:                                (prevChar.x < r.getPosition() && chr.x > r.getPosition()) || (prevChar.x > r.getPosition() && chr.x < r.getPosition())
+171:                        ) {
+172:                    acrossVerticalRuling = true;
+173:                    break;
+174:                }
+177:            // Estimate the expected width of the space based on the
+178:            // space character with some margin.
+182:                deltaSpace = java.lang.Float.MAX_VALUE;
+186:                deltaSpace = ((wordSpacing + lastWordSpacing) / 2.0f) * 0.5f;
+189:            // Estimate the expected width of the space based on the
+190:            // average character width with some margin. This calculation does not
+191:            // make a true average (average of averages) but we found that it gave the
+192:            // best results after numerous experiments. Based on experiments we also found that
+193:            // .3 worked well.
+201:            // Compares the values obtained by the average method and the wordSpacing method and picks
+202:            // the smaller number.
+209:            // new line?
+210:            sameLine = true;
+211:            if (!Utils.overlap(chr.getBottom(), chr.height, maxYForLine, maxHeightForLine)) {
+212:                endOfLastTextX = -1;
+213:                expectedStartOfNextWordX = -java.lang.Float.MAX_VALUE;
+214:                maxYForLine = -java.lang.Float.MAX_VALUE;
+215:                maxHeightForLine = -1;
+216:                minYTopForLine = java.lang.Float.MAX_VALUE;
+217:                sameLine = false;
+222:            // should we add a space?
+224:                    sameLine &&
+242:            maxYForLine = Math.max(chr.getBottom(), maxYForLine);
+243:            maxHeightForLine = (float) Math.max(maxHeightForLine, chr.getHeight());
+244:            minYTopForLine = Math.min(minYTopForLine, chr.getTop());
+249:                    sameLine &&
+256:            lastWordSpacing = wordSpacing;
+257:            previousAveCharWidth = (float) (sp != null ? (averageCharWidth + sp.getWidth()) / 2.0f : averageCharWidth);
+262:        // count up characters by directionality
+264:            // choose the dominant direction
+273:    private static boolean verticallyOverlapsRuling(TextElement te, Ruling r) {
+274:        return Math.max(0, Math.min(te.getBottom(), r.getY2()) - Math.max(te.getTop(), r.getY1())) > 0;
+src/main/java/technology/tabula/Pair.java
+src/main/java/technology/tabula/writers/Writer.java
+src/main/java/technology/tabula/writers/CSVWriter.java
+src/main/java/technology/tabula/writers/JSONWriter.java
+src/main/java/technology/tabula/writers/TSVWriter.java
+src/main/java/technology/tabula/RectangularTextContainer.java
+src/main/java/technology/tabula/CommandLineApp.java
+src/main/java/technology/tabula/Ruling.java
+src/main/java/technology/tabula/QuickSort.java
+src/main/java/technology/tabula/Table.java
+src/main/java/technology/tabula/TableWithRulingLines.java
+src/main/java/technology/tabula/Utils.java
+src/main/java/technology/tabula/ObjectExtractor.java
+src/main/java/technology/tabula/ProjectionProfile.java
+src/main/java/technology/tabula/json/TableSerializer.java
+src/main/java/technology/tabula/json/RectangularTextContainerSerializer.java
+src/main/java/technology/tabula/Rectangle.java
+src/main/java/technology/tabula/CohenSutherlandClipping.java
+src/main/java/technology/tabula/HasText.java
+src/main/java/technology/tabula/TextStripper.java
+src/main/java/technology/tabula/detectors/NurminenDetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/DetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/SpreadsheetDetectionAlgorithm.java
+src/main/java/technology/tabula/extractors/ExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/BasicExtractionAlgorithm.java
+src/main/java/technology/tabula/Cell.java
+src/main/java/technology/tabula/PageIterator.java
+src/main/java/technology/tabula/debug/Debug.java
+src/main/java/technology/tabula/Line.java

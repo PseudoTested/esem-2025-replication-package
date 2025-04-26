@@ -1,0 +1,30 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.Real3RangeTest",
+  "testMethodName" : "testReal3RangeReal3Range",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 0, org.xmlcml.euclid.Real3Range)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Decision(false, LOOP, 0, org.xmlcml.euclid.Real3Range)" : [ "THREW_EXCEPTION(0, java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 <org.xmlcml.euclid.Real3Range.<init>(Real3Range.java:42)>)" ],
+    "Decision(true, LOOP, 1, org.xmlcml.euclid.Real3Range)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Decision(false, LOOP, 1, org.xmlcml.euclid.Real3Range)" : [ "THREW_EXCEPTION(1, java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 <org.xmlcml.euclid.Real3Range.<init>(Real3Range.java:89)>)" ],
+    "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(FOR, 6, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(FOR, 6, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<([(1.0,2.0),(3.0,4.0),(5.0,6.0)])> but was:<([null,null,null])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<[((1.0,2.0),(3.0,4.0),(5.0,6.0))]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: real3 expected:<[((1.0,2.0),(3.0,4.0),(5.0,6.0))]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 28
+}

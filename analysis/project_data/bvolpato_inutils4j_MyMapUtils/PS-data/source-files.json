@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java" : [ "org.brunocvcunha.inutils4j.IntegerValueComparator", "org.brunocvcunha.inutils4j.MyMapUtils" ]
+  }
+}

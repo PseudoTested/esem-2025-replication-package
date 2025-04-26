@@ -1,0 +1,13 @@
+criterion: info.debatty.java.stringsimilarity.SorensenDiceTest:52
+info.debatty.java.stringsimilarity.SorensenDice:85
+info.debatty.java.stringsimilarity.SorensenDice:89
+info.debatty.java.stringsimilarity.SorensenDice:93
+info.debatty.java.stringsimilarity.ShingleBased:105
+info.debatty.java.stringsimilarity.ShingleBased:118
+info.debatty.java.stringsimilarity.SorensenDice:94
+info.debatty.java.stringsimilarity.SorensenDice:97
+info.debatty.java.stringsimilarity.SorensenDice:98
+info.debatty.java.stringsimilarity.SorensenDice:100
+info.debatty.java.stringsimilarity.SorensenDice:104
+info.debatty.java.stringsimilarity.SorensenDice:108
+info.debatty.java.stringsimilarity.SorensenDiceTest:53

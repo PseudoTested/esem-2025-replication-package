@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/sdk/serverside/utils/HashedListAdaptor.java",
+  "packageName" : "com.facebook.ads.sdk.serverside.utils",
+  "className" : "HashedListAdaptor",
+  "typeMetricsHashMap" : {
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 5,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 60.0,
+      "effectualPercentage" : 60.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 5,
+      "coveredCount" : 5,
+      "effectualCount" : 5,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 14,
+      "coveredCount" : 10,
+      "effectualCount" : 10,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 71.43,
+      "effectualPercentage" : 71.43,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 10,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 60.0,
+      "effectualPercentage" : 60.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 2,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(EXPRESSION, 28, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 30, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Decision(true, IF, 3, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)", "Stmt(RETURN, 32, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 32, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)", "Decision(true, LOOP, 1, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)", "Stmt(EXPRESSION, 20, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 22, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 24, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 26, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(TRY, 13, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 5, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Decision(true, IF, 4, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)", "Stmt(RETURN, 7, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 7, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)", "Stmt(IF, 9, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(FOR_EACH, 27, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 29, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 31, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(IF, 0, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 33, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(IF, 19, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 21, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(IF, 23, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 25, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 25, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)", "Stmt(FOR_EACH, 12, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 18, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(WHILE, 4, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 6, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 8, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(EXPRESSION, 28, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 30, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Decision(true, IF, 3, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)", "Stmt(RETURN, 32, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 32, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)", "Decision(true, LOOP, 1, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)", "Stmt(EXPRESSION, 20, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 22, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 24, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 26, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(TRY, 13, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 5, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Decision(true, IF, 4, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)", "Stmt(RETURN, 7, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 7, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)", "Stmt(IF, 9, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(FOR_EACH, 27, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 29, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 31, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(IF, 0, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 33, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(IF, 19, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 21, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(IF, 23, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 25, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(RETURN, 25, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)", "Stmt(FOR_EACH, 12, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 18, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(WHILE, 4, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(EXPRESSION, 6, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 8, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" ],
+  "totalElementCount" : 44,
+  "totalCoveredCount" : 32,
+  "totalEffectualCount" : 32,
+  "totalCoverageGap" : 0
+}

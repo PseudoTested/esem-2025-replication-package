@@ -1,0 +1,18 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testTruncate",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 42, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(0, java.lang.StringIndexOutOfBoundsException: begin 0, end 6, length 3 <java.base/java.lang.String.checkBoundsBeginEnd(String.java:4604)>)" ],
+    "Decision(false, IF, 42, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<Bruno[ Candido Volpato da Cunha]> but was:<Bruno[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 570, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[]> but was:<[Bruno]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 570, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[A]> but was:<[Bruno]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(IF, 571, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.StringIndexOutOfBoundsException: begin 0, end 6, length 3 <java.base/java.lang.String.checkBoundsBeginEnd(String.java:4604)>)" ],
+    "Stmt(IF, 571, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.StringIndexOutOfBoundsException: begin 0, end 6, length 3 <java.base/java.lang.String.checkBoundsBeginEnd(String.java:4604)>)" ],
+    "Stmt(RETURN, 572, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[]> but was:<[LOL]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 572, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[A]> but was:<[LOL]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 573, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[]> but was:<[Bruno]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 573, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[A]> but was:<[Bruno]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 6
+}

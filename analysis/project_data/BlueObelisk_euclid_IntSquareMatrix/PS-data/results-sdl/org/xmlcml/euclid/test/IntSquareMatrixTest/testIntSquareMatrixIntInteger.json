@@ -1,0 +1,7 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testIntSquareMatrixIntInteger",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : { },
+  "timeTaken" : 2
+}

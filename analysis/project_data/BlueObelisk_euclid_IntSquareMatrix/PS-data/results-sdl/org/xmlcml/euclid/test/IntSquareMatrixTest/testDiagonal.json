@@ -1,0 +1,20 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testDiagonal",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 2, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(1, junit.framework.AssertionFailedError: diagonal; unequal element at (2, 2), (3 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Decision(false, LOOP, 2, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(0, java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 <org.xmlcml.euclid.IntSquareMatrix.diagonal(IntSquareMatrix.java:140)>)" ],
+    "Stmt(FOR, 6, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(1, junit.framework.AssertionFailedError: diagonal; unequal element at (2, 2), (3 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(FOR, 6, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: diagonal; unequal element at (2, 2), (3 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(EXPRESSION, 7, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: diagonal; unequal element at (2, 2), (3 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(EXPRESSION, 7, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: diagonal; unequal element at (2, 2), (3 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: diagonal expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: diagonal expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 9, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: diagonal; unequal rows in matrices expected:<3> but was:<0> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 9, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, junit.framework.AssertionFailedError: diagonal; unequal rows in matrices expected:<3> but was:<0> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 10, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(1, junit.framework.AssertionFailedError: diagonal expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 10, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: diagonal expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ]
+  },
+  "timeTaken" : 10
+}

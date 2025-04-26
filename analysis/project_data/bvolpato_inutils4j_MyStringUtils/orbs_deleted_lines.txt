@@ -1,0 +1,1103 @@
+src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyListUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyObjectUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyConcurrencyUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyFileUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyVideoUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MySystemUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStreamUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java
+1:/*
+2: * Copyright © 2014 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
+3: *
+4: * Licensed under the Apache License, Version 2.0 (the "License");
+5: * you may not use this file except in compliance with the License.
+6: * You may obtain a copy of the License at
+7: *
+8: *     http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: * Unless required by applicable law or agreed to in writing, software
+11: * distributed under the License is distributed on an "AS IS" BASIS,
+12: * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: * See the License for the specific language governing permissions and
+14: * limitations under the License.
+15: */
+20:import java.awt.datatransfer.Clipboard;
+22:import java.awt.datatransfer.StringSelection;
+24:import java.io.BufferedInputStream;
+25:import java.io.BufferedReader;
+27:import java.io.ByteArrayOutputStream;
+30:import java.io.FileNotFoundException;
+31:import java.io.FileReader;
+35:import java.io.InputStreamReader;
+36:import java.io.PrintStream;
+39:import java.net.HttpURLConnection;
+40:import java.net.URL;
+41:import java.net.URLConnection;
+44:import java.nio.charset.Charset;
+48:import java.text.NumberFormat;
+53:import java.util.HashMap;
+58:import java.util.Locale;
+66:import java.util.zip.GZIPInputStream;
+70:import org.apache.commons.codec.binary.Hex;
+72:/**
+73: * String (In)utilities.
+74: * 
+75: * @author Bruno Candido Volpato da Cunha
+76: */
+79:  public static final int CREATE = 0;
+80:  public static final int APPEND = 1;
+81:  public static final int FILL = 2;
+82:  public static final NumberFormat _ffmt = NumberFormat.getInstance();
+85:  public static final String CARRIAGE = "\r";
+87:  public static String lineSeparator;
+91:  public static Pattern EMAIL_PATTERN = Pattern
+92:      .compile("[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})");
+96:    /**
+97:     * 
+98:     */
+99:    private static final long serialVersionUID = 1L;
+102:      add(UnicodeBlock.HIRAGANA);
+108:    /**
+109:     * 
+110:     */
+111:    private static final long serialVersionUID = 1L;
+114:      add(UnicodeBlock.CJK_COMPATIBILITY);
+115:      add(UnicodeBlock.CJK_COMPATIBILITY_FORMS);
+116:      add(UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS);
+117:      add(UnicodeBlock.CJK_COMPATIBILITY_IDEOGRAPHS_SUPPLEMENT);
+118:      add(UnicodeBlock.CJK_RADICALS_SUPPLEMENT);
+119:      add(UnicodeBlock.CJK_SYMBOLS_AND_PUNCTUATION);
+121:      add(UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_A);
+122:      add(UnicodeBlock.CJK_UNIFIED_IDEOGRAPHS_EXTENSION_B);
+123:      add(UnicodeBlock.KANGXI_RADICALS);
+124:      add(UnicodeBlock.IDEOGRAPHIC_DESCRIPTION_CHARACTERS);
+128:  public static final Set<UnicodeBlock> ARABIC_BLOCKS = new HashSet<UnicodeBlock>() {
+129:    /**
+130:     * 
+131:     */
+132:    private static final long serialVersionUID = 1L;
+135:      add(UnicodeBlock.ARABIC);
+140:    _ffmt.setMinimumIntegerDigits(1);
+141:    _ffmt.setMinimumFractionDigits(1);
+142:    _ffmt.setMaximumFractionDigits(2);
+144:    lineSeparator = RETURN;
+146:      lineSeparator = System.getProperty("line.separator");
+147:    } catch (Exception localException) {
+151:  
+153:  public static Map<String, Character> accentStrings  = new LinkedHashMap<String, Character>();
+156:    // HTML character entity references as defined in HTML 4
+157:    // see http://www.w3.org/TR/REC-html40/sgml/entities.html
+158:    escapeStrings.put("&amp;", new Character('\u0026'));
+159:    escapeStrings.put("&nbsp;", new Character('\u00A0'));
+160:    escapeStrings.put("&iexcl;", new Character('\u00A1'));
+161:    escapeStrings.put("&cent;", new Character('\u00A2'));
+162:    escapeStrings.put("&pound;", new Character('\u00A3'));
+163:    escapeStrings.put("&curren;", new Character('\u00A4'));
+164:    escapeStrings.put("&yen;", new Character('\u00A5'));
+165:    escapeStrings.put("&brvbar;", new Character('\u00A6'));
+166:    escapeStrings.put("&sect;", new Character('\u00A7'));
+167:    escapeStrings.put("&uml;", new Character('\u00A8'));
+168:    escapeStrings.put("&copy;", new Character('\u00A9'));
+169:    escapeStrings.put("&ordf;", new Character('\u00AA'));
+170:    escapeStrings.put("&laquo;", new Character('\u00AB'));
+171:    escapeStrings.put("&not;", new Character('\u00AC'));
+172:    escapeStrings.put("&shy;", new Character('\u00AD'));
+173:    escapeStrings.put("&reg;", new Character('\u00AE'));
+174:    escapeStrings.put("&macr;", new Character('\u00AF'));
+175:    escapeStrings.put("&deg;", new Character('\u00B0'));
+176:    escapeStrings.put("&plusmn;", new Character('\u00B1'));
+177:    escapeStrings.put("&sup2;", new Character('\u00B2'));
+178:    escapeStrings.put("&sup3;", new Character('\u00B3'));
+179:    escapeStrings.put("&acute;", new Character('\u00B4'));
+180:    accentStrings.put("&acute;", new Character('\u00B4'));
+181:    escapeStrings.put("&micro;", new Character('\u00B5'));
+182:    escapeStrings.put("&para;", new Character('\u00B6'));
+183:    escapeStrings.put("&middot;", new Character('\u00B7'));
+184:    escapeStrings.put("&cedil;", new Character('\u00B8'));
+185:    escapeStrings.put("&sup1;", new Character('\u00B9'));
+186:    escapeStrings.put("&ordm;", new Character('\u00BA'));
+187:    escapeStrings.put("&raquo;", new Character('\u00BB'));
+188:    escapeStrings.put("&frac14;", new Character('\u00BC'));
+189:    escapeStrings.put("&frac12;", new Character('\u00BD'));
+190:    escapeStrings.put("&frac34;", new Character('\u00BE'));
+191:    escapeStrings.put("&iquest;", new Character('\u00BF'));
+192:    escapeStrings.put("&Agrave;", new Character('\u00C0'));
+193:    accentStrings.put("&Agrave;", new Character('\u00C0'));
+194:    escapeStrings.put("&Aacute;", new Character('\u00C1'));
+195:    accentStrings.put("&Aacute;", new Character('\u00C1'));
+196:    escapeStrings.put("&Acirc;", new Character('\u00C2'));
+197:    accentStrings.put("&Acirc;", new Character('\u00C2'));
+198:    escapeStrings.put("&Atilde;", new Character('\u00C3'));
+199:    accentStrings.put("&Atilde;", new Character('\u00C3'));
+200:    escapeStrings.put("&Auml;", new Character('\u00C4'));
+201:    escapeStrings.put("&Aring;", new Character('\u00C5'));
+202:    escapeStrings.put("&AElig;", new Character('\u00C6'));
+203:    escapeStrings.put("&Ccedil;", new Character('\u00C7'));
+204:    accentStrings.put("&Ccedil;", new Character('\u00C7'));
+205:    escapeStrings.put("&Egrave;", new Character('\u00C8'));
+206:    accentStrings.put("&Egrave;", new Character('\u00C8'));
+207:    escapeStrings.put("&Eacute;", new Character('\u00C9'));
+208:    accentStrings.put("&Eacute;", new Character('\u00C9'));
+209:    escapeStrings.put("&Ecirc;", new Character('\u00CA'));
+210:    accentStrings.put("&Ecirc;", new Character('\u00CA'));
+211:    escapeStrings.put("&Euml;", new Character('\u00CB'));
+212:    escapeStrings.put("&Igrave;", new Character('\u00CC'));
+213:    accentStrings.put("&Igrave;", new Character('\u00CC'));
+214:    escapeStrings.put("&Iacute;", new Character('\u00CD'));
+215:    accentStrings.put("&Iacute;", new Character('\u00CD'));
+216:    escapeStrings.put("&Icirc;", new Character('\u00CE'));
+217:    accentStrings.put("&Icirc;", new Character('\u00CE'));
+218:    escapeStrings.put("&Iuml;", new Character('\u00CF'));
+219:    escapeStrings.put("&ETH;", new Character('\u00D0'));
+220:    escapeStrings.put("&Ntilde;", new Character('\u00D1'));
+221:    accentStrings.put("&Ntilde;", new Character('\u00D1'));
+222:    escapeStrings.put("&Ograve;", new Character('\u00D2'));
+223:    accentStrings.put("&Ograve;", new Character('\u00D2'));
+224:    escapeStrings.put("&Oacute;", new Character('\u00D3'));
+225:    accentStrings.put("&Oacute;", new Character('\u00D3'));
+226:    escapeStrings.put("&Ocirc;", new Character('\u00D4'));
+227:    accentStrings.put("&Ocirc;", new Character('\u00D4'));
+228:    escapeStrings.put("&Otilde;", new Character('\u00D5'));
+229:    accentStrings.put("&Otilde;", new Character('\u00D5'));
+230:    escapeStrings.put("&Ouml;", new Character('\u00D6'));
+231:    escapeStrings.put("&times;", new Character('\u00D7'));
+232:    escapeStrings.put("&Oslash;", new Character('\u00D8'));
+233:    escapeStrings.put("&Ugrave;", new Character('\u00D9'));
+234:    accentStrings.put("&Ugrave;", new Character('\u00D9'));
+235:    escapeStrings.put("&Uacute;", new Character('\u00DA'));
+236:    accentStrings.put("&Uacute;", new Character('\u00DA'));
+237:    escapeStrings.put("&Ucirc;", new Character('\u00DB'));
+238:    accentStrings.put("&Ucirc;", new Character('\u00DB'));
+239:    escapeStrings.put("&Uuml;", new Character('\u00DC'));
+240:    escapeStrings.put("&Yacute;", new Character('\u00DD'));
+241:    escapeStrings.put("&THORN;", new Character('\u00DE'));
+242:    escapeStrings.put("&szlig;", new Character('\u00DF'));
+243:    escapeStrings.put("&agrave;", new Character('\u00E0'));
+244:    accentStrings.put("&agrave;", new Character('\u00E0'));
+245:    escapeStrings.put("&aacute;", new Character('\u00E1'));
+246:    accentStrings.put("&aacute;", new Character('\u00E1'));
+247:    escapeStrings.put("&acirc;", new Character('\u00E2'));
+248:    accentStrings.put("&acirc;", new Character('\u00E2'));
+250:    accentStrings.put("&atilde;", new Character('\u00E3'));
+251:    escapeStrings.put("&auml;", new Character('\u00E4'));
+252:    escapeStrings.put("&aring;", new Character('\u00E5'));
+253:    escapeStrings.put("&aelig;", new Character('\u00E6'));
+255:    accentStrings.put("&ccedil;", new Character('\u00E7'));
+256:    escapeStrings.put("&egrave;", new Character('\u00E8'));
+257:    accentStrings.put("&egrave;", new Character('\u00E8'));
+258:    escapeStrings.put("&eacute;", new Character('\u00E9'));
+259:    accentStrings.put("&eacute;", new Character('\u00E9'));
+260:    escapeStrings.put("&ecirc;", new Character('\u00EA'));
+261:    accentStrings.put("&ecirc;", new Character('\u00EA'));
+262:    escapeStrings.put("&euml;", new Character('\u00EB'));
+263:    escapeStrings.put("&igrave;", new Character('\u00EC'));
+264:    accentStrings.put("&igrave;", new Character('\u00EC'));
+265:    escapeStrings.put("&iacute;", new Character('\u00ED'));
+266:    accentStrings.put("&iacute;", new Character('\u00ED'));
+267:    escapeStrings.put("&icirc;", new Character('\u00EE'));
+268:    accentStrings.put("&icirc;", new Character('\u00EE'));
+269:    escapeStrings.put("&iuml;", new Character('\u00EF'));
+270:    escapeStrings.put("&eth;", new Character('\u00F0'));
+271:    escapeStrings.put("&ntilde;", new Character('\u00F1'));
+272:    accentStrings.put("&ntilde;", new Character('\u00F1'));
+273:    escapeStrings.put("&ograve;", new Character('\u00F2'));
+274:    accentStrings.put("&ograve;", new Character('\u00F2'));
+275:    escapeStrings.put("&oacute;", new Character('\u00F3'));
+276:    accentStrings.put("&oacute;", new Character('\u00F3'));
+277:    escapeStrings.put("&ocirc;", new Character('\u00F4'));
+278:    accentStrings.put("&ocirc;", new Character('\u00F4'));
+279:    escapeStrings.put("&otilde;", new Character('\u00F5'));
+280:    accentStrings.put("&otilde;", new Character('\u00F5'));
+281:    escapeStrings.put("&ouml;", new Character('\u00F6'));
+282:    escapeStrings.put("&divide;", new Character('\u00F7'));
+283:    escapeStrings.put("&oslash;", new Character('\u00F8'));
+284:    escapeStrings.put("&ugrave;", new Character('\u00F9'));
+285:    accentStrings.put("&ugrave;", new Character('\u00F9'));
+286:    escapeStrings.put("&uacute;", new Character('\u00FA'));
+287:    accentStrings.put("&uacute;", new Character('\u00FA'));
+288:    escapeStrings.put("&ucirc;", new Character('\u00FB'));
+289:    accentStrings.put("&ucirc;", new Character('\u00FB'));
+290:    escapeStrings.put("&uuml;", new Character('\u00FC'));
+291:    escapeStrings.put("&yacute;", new Character('\u00FD'));
+292:    escapeStrings.put("&thorn;", new Character('\u00FE'));
+293:    escapeStrings.put("&yuml;", new Character('\u00FF'));
+294:    escapeStrings.put("&fnof;", new Character('\u0192'));
+295:    escapeStrings.put("&Alpha;", new Character('\u0391'));
+296:    escapeStrings.put("&Beta;", new Character('\u0392'));
+297:    escapeStrings.put("&Gamma;", new Character('\u0393'));
+298:    escapeStrings.put("&Delta;", new Character('\u0394'));
+299:    escapeStrings.put("&Epsilon;", new Character('\u0395'));
+300:    escapeStrings.put("&Zeta;", new Character('\u0396'));
+301:    escapeStrings.put("&Eta;", new Character('\u0397'));
+302:    escapeStrings.put("&Theta;", new Character('\u0398'));
+303:    escapeStrings.put("&Iota;", new Character('\u0399'));
+304:    escapeStrings.put("&Kappa;", new Character('\u039A'));
+305:    escapeStrings.put("&Lambda;", new Character('\u039B'));
+306:    escapeStrings.put("&Mu;", new Character('\u039C'));
+307:    escapeStrings.put("&Nu;", new Character('\u039D'));
+308:    escapeStrings.put("&Xi;", new Character('\u039E'));
+309:    escapeStrings.put("&Omicron;", new Character('\u039F'));
+310:    escapeStrings.put("&Pi;", new Character('\u03A0'));
+311:    escapeStrings.put("&Rho;", new Character('\u03A1'));
+312:    escapeStrings.put("&Sigma;", new Character('\u03A3'));
+313:    escapeStrings.put("&Tau;", new Character('\u03A4'));
+314:    escapeStrings.put("&Upsilon;", new Character('\u03A5'));
+315:    escapeStrings.put("&Phi;", new Character('\u03A6'));
+316:    escapeStrings.put("&Chi;", new Character('\u03A7'));
+317:    escapeStrings.put("&Psi;", new Character('\u03A8'));
+318:    escapeStrings.put("&Omega;", new Character('\u03A9'));
+319:    escapeStrings.put("&alpha;", new Character('\u03B1'));
+320:    escapeStrings.put("&beta;", new Character('\u03B2'));
+321:    escapeStrings.put("&gamma;", new Character('\u03B3'));
+322:    escapeStrings.put("&delta;", new Character('\u03B4'));
+323:    escapeStrings.put("&epsilon;", new Character('\u03B5'));
+324:    escapeStrings.put("&zeta;", new Character('\u03B6'));
+325:    escapeStrings.put("&eta;", new Character('\u03B7'));
+326:    escapeStrings.put("&theta;", new Character('\u03B8'));
+327:    escapeStrings.put("&iota;", new Character('\u03B9'));
+328:    escapeStrings.put("&kappa;", new Character('\u03BA'));
+329:    escapeStrings.put("&lambda;", new Character('\u03BB'));
+330:    escapeStrings.put("&mu;", new Character('\u03BC'));
+331:    escapeStrings.put("&nu;", new Character('\u03BD'));
+332:    escapeStrings.put("&xi;", new Character('\u03BE'));
+333:    escapeStrings.put("&omicron;", new Character('\u03BF'));
+334:    escapeStrings.put("&pi;", new Character('\u03C0'));
+335:    escapeStrings.put("&rho;", new Character('\u03C1'));
+336:    escapeStrings.put("&sigmaf;", new Character('\u03C2'));
+337:    escapeStrings.put("&sigma;", new Character('\u03C3'));
+338:    escapeStrings.put("&tau;", new Character('\u03C4'));
+339:    escapeStrings.put("&upsilon;", new Character('\u03C5'));
+340:    escapeStrings.put("&phi;", new Character('\u03C6'));
+341:    escapeStrings.put("&chi;", new Character('\u03C7'));
+342:    escapeStrings.put("&psi;", new Character('\u03C8'));
+343:    escapeStrings.put("&omega;", new Character('\u03C9'));
+344:    escapeStrings.put("&thetasym;", new Character('\u03D1'));
+345:    escapeStrings.put("&upsih;", new Character('\u03D2'));
+346:    escapeStrings.put("&piv;", new Character('\u03D6'));
+347:    escapeStrings.put("&bull;", new Character('\u2022'));
+348:    escapeStrings.put("&hellip;", new Character('\u2026'));
+349:    escapeStrings.put("&prime;", new Character('\u2032'));
+350:    escapeStrings.put("&Prime;", new Character('\u2033'));
+351:    escapeStrings.put("&oline;", new Character('\u203E'));
+352:    escapeStrings.put("&frasl;", new Character('\u2044'));
+353:    escapeStrings.put("&weierp;", new Character('\u2118'));
+354:    escapeStrings.put("&image;", new Character('\u2111'));
+355:    escapeStrings.put("&real;", new Character('\u211C'));
+356:    escapeStrings.put("&trade;", new Character('\u2122'));
+357:    escapeStrings.put("&alefsym;", new Character('\u2135'));
+358:    escapeStrings.put("&larr;", new Character('\u2190'));
+359:    escapeStrings.put("&uarr;", new Character('\u2191'));
+360:    escapeStrings.put("&rarr;", new Character('\u2192'));
+361:    escapeStrings.put("&darr;", new Character('\u2193'));
+362:    escapeStrings.put("&harr;", new Character('\u2194'));
+363:    escapeStrings.put("&crarr;", new Character('\u21B5'));
+364:    escapeStrings.put("&lArr;", new Character('\u21D0'));
+365:    escapeStrings.put("&uArr;", new Character('\u21D1'));
+366:    escapeStrings.put("&rArr;", new Character('\u21D2'));
+367:    escapeStrings.put("&dArr;", new Character('\u21D3'));
+368:    escapeStrings.put("&hArr;", new Character('\u21D4'));
+369:    escapeStrings.put("&forall;", new Character('\u2200'));
+370:    escapeStrings.put("&part;", new Character('\u2202'));
+371:    escapeStrings.put("&exist;", new Character('\u2203'));
+372:    escapeStrings.put("&empty;", new Character('\u2205'));
+373:    escapeStrings.put("&nabla;", new Character('\u2207'));
+374:    escapeStrings.put("&isin;", new Character('\u2208'));
+375:    escapeStrings.put("&notin;", new Character('\u2209'));
+376:    escapeStrings.put("&ni;", new Character('\u220B'));
+377:    escapeStrings.put("&prod;", new Character('\u220F'));
+378:    escapeStrings.put("&sum;", new Character('\u2211'));
+379:    escapeStrings.put("&minus;", new Character('\u2212'));
+380:    escapeStrings.put("&lowast;", new Character('\u2217'));
+381:    escapeStrings.put("&radic;", new Character('\u221A'));
+382:    escapeStrings.put("&prop;", new Character('\u221D'));
+383:    escapeStrings.put("&infin;", new Character('\u221E'));
+384:    escapeStrings.put("&ang;", new Character('\u2220'));
+385:    escapeStrings.put("&and;", new Character('\u2227'));
+386:    escapeStrings.put("&or;", new Character('\u2228'));
+387:    escapeStrings.put("&cap;", new Character('\u2229'));
+388:    escapeStrings.put("&cup;", new Character('\u222A'));
+389:    escapeStrings.put("&int;", new Character('\u222B'));
+390:    escapeStrings.put("&there4;", new Character('\u2234'));
+391:    escapeStrings.put("&sim;", new Character('\u223C'));
+392:    escapeStrings.put("&cong;", new Character('\u2245'));
+393:    escapeStrings.put("&asymp;", new Character('\u2248'));
+394:    escapeStrings.put("&ne;", new Character('\u2260'));
+395:    escapeStrings.put("&equiv;", new Character('\u2261'));
+396:    escapeStrings.put("&le;", new Character('\u2264'));
+397:    escapeStrings.put("&ge;", new Character('\u2265'));
+398:    escapeStrings.put("&sub;", new Character('\u2282'));
+399:    escapeStrings.put("&sup;", new Character('\u2283'));
+400:    escapeStrings.put("&nsub;", new Character('\u2284'));
+401:    escapeStrings.put("&sube;", new Character('\u2286'));
+402:    escapeStrings.put("&supe;", new Character('\u2287'));
+403:    escapeStrings.put("&oplus;", new Character('\u2295'));
+404:    escapeStrings.put("&otimes;", new Character('\u2297'));
+405:    escapeStrings.put("&perp;", new Character('\u22A5'));
+406:    escapeStrings.put("&sdot;", new Character('\u22C5'));
+407:    escapeStrings.put("&lceil;", new Character('\u2308'));
+408:    escapeStrings.put("&rceil;", new Character('\u2309'));
+409:    escapeStrings.put("&lfloor;", new Character('\u230A'));
+410:    escapeStrings.put("&rfloor;", new Character('\u230B'));
+411:    escapeStrings.put("&lang;", new Character('\u2329'));
+412:    escapeStrings.put("&rang;", new Character('\u232A'));
+413:    escapeStrings.put("&loz;", new Character('\u25CA'));
+414:    escapeStrings.put("&spades;", new Character('\u2660'));
+415:    escapeStrings.put("&clubs;", new Character('\u2663'));
+416:    escapeStrings.put("&hearts;", new Character('\u2665'));
+417:    escapeStrings.put("&diams;", new Character('\u2666'));
+418:    escapeStrings.put("&quot;", new Character('\u0022'));
+419:    escapeStrings.put("&lt;", new Character('\u003C'));
+420:    escapeStrings.put("&gt;", new Character('\u003E'));
+421:    escapeStrings.put("&OElig;", new Character('\u0152'));
+422:    escapeStrings.put("&oelig;", new Character('\u0153'));
+423:    escapeStrings.put("&Scaron;", new Character('\u0160'));
+424:    escapeStrings.put("&scaron;", new Character('\u0161'));
+425:    escapeStrings.put("&Yuml;", new Character('\u0178'));
+426:    escapeStrings.put("&circ;", new Character('\u02C6'));
+427:    escapeStrings.put("&tilde;", new Character('\u02DC'));
+428:    escapeStrings.put("&ensp;", new Character('\u2002'));
+429:    escapeStrings.put("&emsp;", new Character('\u2003'));
+430:    escapeStrings.put("&thinsp;", new Character('\u2009'));
+431:    escapeStrings.put("&zwnj;", new Character('\u200C'));
+432:    escapeStrings.put("&zwj;", new Character('\u200D'));
+433:    escapeStrings.put("&lrm;", new Character('\u200E'));
+434:    escapeStrings.put("&rlm;", new Character('\u200F'));
+435:    escapeStrings.put("&ndash;", new Character('\u2013'));
+436:    escapeStrings.put("&mdash;", new Character('\u2014'));
+437:    escapeStrings.put("&lsquo;", new Character('\u2018'));
+438:    escapeStrings.put("&rsquo;", new Character('\u2019'));
+439:    escapeStrings.put("&sbquo;", new Character('\u201A'));
+440:    escapeStrings.put("&ldquo;", new Character('\u201C'));
+441:    escapeStrings.put("&rdquo;", new Character('\u201D'));
+442:    escapeStrings.put("&bdquo;", new Character('\u201E'));
+443:    escapeStrings.put("&dagger;", new Character('\u2020'));
+444:    escapeStrings.put("&Dagger;", new Character('\u2021'));
+445:    escapeStrings.put("&permil;", new Character('\u2030'));
+446:    escapeStrings.put("&lsaquo;", new Character('\u2039'));
+447:    escapeStrings.put("&rsaquo;", new Character('\u203A'));
+448:    escapeStrings.put("&euro;", new Character('\u20AC'));
+450:  public static void main(String[] args) {
+451:    // String[] similarity = fileSimilar(new File(""), "FluxoCx");
+456:    Matcher match = pattern.matcher(str);
+459:    while (match.find()) {
+460:      ret.add(match.group());
+466:  /**
+467:   * Gets a specific line of a text (String)
+468:   * @param content text
+469:   * @param line line to get
+470:   * @return the specified line
+471:   */
+473:    if (content == null) {
+474:      return null;
+479:    if (contentSplit.length < line) {
+480:      return null;
+485:  /**
+486:   * Gets the first group of a regex 
+487:   * @param pattern Pattern
+488:   * @param str String to find
+489:   * @return the matching group
+490:   */
+491:  public static String regexFindFirst(String pattern, String str) {
+492:    return regexFindFirst(Pattern.compile(pattern), str, 1);
+495:  public static String regexFindFirst(String pattern, String str, int group) {
+496:    return regexFindFirst(Pattern.compile(pattern), str, group);
+499:  public static String regexFindFirst(Pattern pattern, String str, int group) {
+500:    Matcher match = pattern.matcher(str);
+502:    if (match.find()) {
+503:      return match.group(group);
+509:  public static List<String> linesThatContains(List<String> a, String[] strArr) {
+512:    line: for (String line : a) {
+513:      for (String str : strArr) {
+514:        if (line.contains(str)) {
+515:          retorno.add(line);
+516:          continue line;
+523:  public static List<String> linesThatContains(List<String> a, String str) {
+524:    return linesThatContains(a, new String[] {str});
+527:  public static List<String> deleteIfContains(List<String> a, String str) {
+528:    return deleteIfContains(a, new String[] {str});
+531:  public static List<String> deleteIfContains(List<String> a, String[] strArr) {
+534:    for (String line : a) {
+535:      boolean contains = false;
+536:      for (String str : strArr) {
+537:        if (line.contains(str)) {
+538:          contains = true;
+539:          break;
+543:      if (!contains) {
+544:        retorno.add(line);
+550:  public static List<String> deleteIfNotContains(List<String> a, String str) {
+553:    for (String line : a) {
+554:      if (line.contains(str)) {
+555:        retorno.add(line);
+561:  public static List<String> mixStringLists(List<String> a, List<String> b) {
+562:    String str;
+565:    for (Iterator<String> localIterator = a.iterator(); localIterator.hasNext();) {
+566:      str = localIterator.next();
+569:    for (Iterator<String> localIterator = b.iterator(); localIterator.hasNext();) {
+570:      str = localIterator.next();
+577:  @SuppressWarnings("unchecked")
+586:    for (Iterator<?> localIterator = b.iterator(); localIterator.hasNext();) {
+595:    
+597:    s = s.replace((char) 0xE1, 'a');
+598:    s = s.replace((char) 0xE3, 'a');
+600:    s = s.replace((char) 0xE9, 'e');
+602:    s = s.replace((char) 0xED, 'i');
+604:    s = s.replace((char) 0xF3, 'o');
+606:    s = s.replace((char) 0xFA, 'u');
+614:  public static List<List<String>> split(List<String> list, int count) {
+615:    throw new UnsupportedOperationException("Not implemented yet.");
+620:    if (type == FixType.DELETEREPEATED) {
+621:      comparator = new Unique();
+623:    if (type == FixType.ALPHABETICAL) {
+624:      comparator = new Sort();
+626:    if (type == FixType.ALPHABETICALDELETEREPEATED) {
+627:      comparator = new UniqueSort();
+632:    for (String str : list) {
+642:      if (type == APPEND) {
+643:        out = new BufferedWriter(new FileWriter(file, true));
+644:      } else {
+645:        out = new BufferedWriter(new FileWriter(file));
+648:      for (Object str : list) {
+649:        out.write(str + CARRIAGE_RETURN);
+651:      out.close();
+653:    } catch (Exception e) {
+654:      e.printStackTrace();
+655:      return false;
+662:        e.printStackTrace();
+674:    for (String str : content.split(delimiter)) {
+681:  public static List<String> getContentListSplit(InputStream is, String delimiter)
+683:    return getContentListSplit(getContent(is), delimiter);
+690:  /**
+691:   * Split string content into list
+692:   * @param content String content
+693:   * @return list 
+694:   */
+704:  
+705:  /**
+706:   * Split string content into list, ignoring matches of the pattern
+707:   * @param content String content
+708:   * @param ignorePattern Pattern to ignore
+709:   * @return list 
+710:   */
+711:  public static List<String> asListLinesIgnore(String content, Pattern ignorePattern) {
+716:      if (!ignorePattern.matcher(str).matches()) {
+717:        retorno.add(str);
+724:  public static List<String> getContentLines(File file, String codePage) throws IOException,
+725:      UnsupportedEncodingException {
+726:    String content = getContent(file, codePage);
+727:    if (content.contains(CARRIAGE_RETURN)) {
+728:      content = content.replace(CARRIAGE_RETURN, RETURN);
+731:    List<String> mutableList = new ArrayList<String>();
+732:    for (String str : content.split(RETURN)) {
+733:      mutableList.add(str);
+735:    return mutableList;
+738:  public static List<String> getContentLines(InputStreamReader reader) throws IOException {
+739:    String content = getContent(reader);
+740:    if (content.contains(CARRIAGE_RETURN)) {
+741:      content = content.replace(CARRIAGE_RETURN, RETURN);
+744:    return Arrays.asList(content.split(RETURN));
+747:  public static List<String> getContentLines(InputStream is) throws IOException {
+748:    String content = getContent(is);
+749:    if (content.contains(CARRIAGE_RETURN)) {
+750:      content = content.replace(CARRIAGE_RETURN, RETURN);
+753:    return Arrays.asList(content.split(RETURN));
+756:  public static Map<String, String> getContentMap(File file) throws IOException {
+757:    return getContentMap(file, ":");
+760:  public static Map<String, String> getContentMapSneaky(File file, String separator) {
+762:      return getContentMap(file, separator);
+764:      e.printStackTrace();
+771:    List<String> content = getContentLines(file);
+774:    for (String line : content) {
+775:      if (line.trim().length() > 0 && line.contains(separator)) {
+776:        String[] keyValue = line.split(separator);
+777:        if (keyValue.length < 2) {
+778:          continue;
+781:        if (line.contains("#escapedtwodots#")) {
+782:          map.put(keyValue[0].replace("#escapedtwodots#", ":"),
+783:              keyValue[1].replace("#escapedtwodots#", ":"));
+784:        } else {
+785:          map.put(keyValue[0], keyValue[1]);
+794:  /**
+795:   * Get content of a file as a Map&lt;String, String&gt;, using separator to split values
+796:   * @param file File to get content
+797:   * @param separator The separator
+798:   * @return The map with the values
+799:   * @throws IOException I/O Error
+800:   */
+801:  public static Map<String, String> getContentMap(File file, String separator) throws IOException {
+802:    List<String> content = getContentLines(file);
+804:      
+805:    for (String line : content) {
+806:      String[] spl = line.split(separator);
+807:      if (line.trim().length() > 0) {
+808:        map.put(spl[0], (spl.length > 1 ? spl[1] : ""));
+811:    
+815:  /**
+816:   * Save map to file
+817:   * @param map Map to save
+818:   * @param file File to save
+819:   * @throws IOException I/O error
+820:   */
+821:  public static void saveContentMap(Map<String, String> map, File file) throws IOException {
+823:    FileWriter out = new FileWriter(file);
+824:    for (String key : map.keySet()) {
+825:      if (map.get(key) != null) {
+826:        out.write(key.replace(":", "#escapedtwodots#") + ":"
+827:            + map.get(key).replace(":", "#escapedtwodots#") + "\r\n");
+830:    out.close();
+833:  public static List<String> getContentLinesSneaky(File file) {
+835:      return getContentLines(file);
+837:      e.printStackTrace();
+842:  public static List<String> getContentLines(File file) throws IOException {
+843:    return getContentLines(file, Charset.defaultCharset().displayName());
+848:  public static boolean fileHasText(File file, String text) {
+849:    if (file.exists()) {
+850:      InputStream in;
+852:        in = new BufferedInputStream(new FileInputStream(file));
+853:        return MyStreamUtils.streamHasText(in, text);
+854:      } catch (FileNotFoundException e) {
+855:        e.printStackTrace();
+862:  public static String getContent(InputStreamReader in) throws IOException {
+864:    StringBuffer sb = new StringBuffer();
+867:      int data = in.read();
+868:      while (data != -1) {
+869:        char theChar = (char) data;
+870:        sb.append(theChar);
+871:        data = in.read();
+875:      throw e;
+878:        in.close();
+880:        throw e;
+884:    return sb.toString();
+887:  public static String getContent(InputStream in) throws IOException {
+888:    final byte[] readBuffer = new byte[8192];
+890:    StringBuffer sb = new StringBuffer();
+892:      if (in.available() > 0) {
+893:        int bytesRead = 0;
+894:        while ((bytesRead = in.read(readBuffer)) != -1) {
+895:          sb.append(new String(readBuffer, 0, bytesRead));
+899:      throw e;
+902:        in.close();
+904:        throw e;
+908:    return sb.toString();
+911:  public static String getContent(File file, String codepage) throws IOException,
+912:      UnsupportedEncodingException {
+913:    return new String(getContent(file).getBytes(), codepage);
+916:  public static String getResourceContent(Class<?> clazz, String resource) {
+917:    URL url = clazz.getResource(resource);
+919:    if (url == null) {
+920:      return null;
+924:      String conteudo = getContent(url.openStream());
+925:      return conteudo;
+927:      e.printStackTrace();
+928:    } catch (Exception e) {
+929:      e.printStackTrace();
+935:  public static byte[] getContentBytes(File file) throws IOException {
+936:    ByteArrayOutputStream ous = null;
+937:    InputStream ios = null;
+939:      byte[] buffer = new byte[4096];
+940:      ous = new ByteArrayOutputStream();
+941:      ios = new FileInputStream(file);
+942:      int read = 0;
+943:      while ((read = ios.read(buffer)) != -1) {
+944:        ous.write(buffer, 0, read);
+948:        if (ous != null)
+949:          ous.close();
+954:        if (ios != null)
+955:          ios.close();
+959:    return ous.toByteArray();
+963:    InputStream in;
+965:      in = new BufferedInputStream(new FileInputStream(file));
+966:      return getContent(in);
+968:      throw e;
+972:  public static byte[] getUrlContentBytes(String stringUrl) {
+974:      URL url = new URL(stringUrl);
+975:      return MyStreamUtils.readContentBytes(url.openStream());
+976:    } catch (Exception e) {
+977:      e.printStackTrace();
+983:  /**
+984:   * Returns content for the given URL
+985:   * @param stringUrl URL
+986:   * @return Response content
+987:   */
+988:  public static String getContent(String stringUrl) {
+989:    if (stringUrl.equalsIgnoreCase("clipboard")) {
+991:        return getFromClipboard();
+992:      } catch (Exception e) {
+993:        //it's ok.
+996:    return getContent(stringUrl, null);
+998:  
+999:  /**
+1000:   * Returns content for the given URL
+1001:   * @param stringUrl URL
+1002:   * @param requestProperties Properties
+1003:   * @return Response content
+1004:   */
+1005:  public static String getContent(String stringUrl, Map<String, String> requestProperties) {
+1007:      URL url = new URL(stringUrl);
+1008:      URLConnection conn = url.openConnection();
+1009:      
+1010:      if (requestProperties != null) {
+1011:        for (Entry<String, String> entry : requestProperties.entrySet()) {
+1012:          conn.setRequestProperty(entry.getKey(), entry.getValue());
+1015:      
+1016:      if (conn instanceof HttpURLConnection) {
+1017:          HttpURLConnection httpURLConnection = (HttpURLConnection) conn;
+1018:          int errorCode = httpURLConnection.getResponseCode();
+1019:          InputStream err = httpURLConnection.getErrorStream();
+1020:          if (err != null) {
+1021:              if ("gzip".equals(conn.getContentEncoding())) {
+1022:                  err = new GZIPInputStream(err);
+1023:              }
+1024:              
+1025:              throw new IOException("Error fetching " + stringUrl + ": " + MyStreamUtils.readContent(err));
+1026:          }
+1027:          
+1029:      InputStream is = conn.getInputStream();
+1030:      if ("gzip".equals(conn.getContentEncoding())) {
+1031:         is = new GZIPInputStream(is);
+1034:      return MyStreamUtils.readContent(is);
+1035:    } catch (Exception e) {
+1036:      e.printStackTrace();
+1044:  @Deprecated
+1045:  public static boolean blank(String value) {
+1046:    return isBlank(value);
+1059:  public static String trim(String value) {
+1060:    return ((value == null) ? null : value.trim());
+1063:  public static String deNull(String value) {
+1064:    return ((value == null) ? "" : value);
+1079:    if (isBlank(s)) {
+1083:    if (Character.isUpperCase(c)) {
+1089:  public static String toUSLowerCase(String s) {
+1090:    return ((isBlank(s)) ? s : s.toLowerCase(Locale.US));
+1093:  public static String toUSUpperCase(String s) {
+1094:    return ((isBlank(s)) ? s : s.toUpperCase(Locale.US));
+1098:    if (source == null) {
+1099:      return null;
+1103:    for (int ii = 0; ii < nn; ++ii) {
+1104:      char c = source.charAt(ii);
+1105:      if (validator.isValid(c)) {
+1106:        buf.append(c);
+1112:  public static String replace(String source, String before, String after) {
+1113:    int pos = source.indexOf(before);
+1114:    if (pos == -1) {
+1115:      return source;
+1118:    StringBuilder sb = new StringBuilder(source.length() + 32);
+1120:    int blength = before.length();
+1121:    int start = 0;
+1122:    while (pos != -1) {
+1123:      sb.append(source.substring(start, pos));
+1124:      sb.append(after);
+1125:      start = pos + blength;
+1126:      pos = source.indexOf(before, start);
+1128:    sb.append(source.substring(start));
+1130:    return sb.toString();
+1133:  public static String pad(String value, int width) {
+1134:    if (width <= 0) {
+1135:      throw new IllegalArgumentException("Pad width must be greater than zero.");
+1137:    if (value.length() >= width) {
+1138:      return value;
+1140:    return value + spaces(width - value.length());
+1143:  public static String leftpad(String value, int width) {
+1144:    return prepad(value, width);
+1146:  
+1147:  public static String prepad(String value, int width) {
+1148:    return prepad(value, width, ' ');
+1150:  
+1151:  public static String prepad(String value, int width, char append) {
+1152:    if (width <= 0) {
+1153:      throw new IllegalArgumentException("Pad width must be greater than zero.");
+1155:    if (value.length() >= width) {
+1156:      return value;
+1158:    return fill(append, width - value.length()) + value;
+1166:    if (count < 0) {
+1167:      count = 0;
+1175:  public static boolean isNumber(String value) {
+1177:      Double.parseDouble(value);
+1193:  public static String format(float value) {
+1194:    return _ffmt.format(value);
+1197:  public static String format(double value) {
+1198:    return _ffmt.format(value);
+1201:  public static String coordsToString(int x, int y) {
+1203:    coordsToString(buf, x, y);
+1207:  public static void coordsToString(StringBuilder buf, int x, int y) {
+1208:    if (x >= 0) {
+1209:      buf.append("+");
+1211:    buf.append(x);
+1212:    if (y >= 0) {
+1213:      buf.append("+");
+1215:    buf.append(y);
+1235:    if (bytes == null) {
+1236:      return "";
+1239:    count = Math.min(count, bytes.length);
+1258:  public static byte[] unhexlate(String hex) {
+1259:    if ((hex == null) || (hex.length() % 2 != 0)) {
+1260:      return null;
+1263:    hex = hex.toLowerCase();
+1264:    byte[] data = new byte[hex.length() / 2];
+1265:    for (int ii = 0; ii < hex.length(); ii += 2) {
+1266:      int value = (byte) (XLATE.indexOf(hex.charAt(ii)) << 4);
+1267:      value += XLATE.indexOf(hex.charAt(ii + 1));
+1269:      data[(ii / 2)] = (byte) value;
+1272:    return data;
+1288:        vals[i] = Byte.parseByte(tok.nextToken().trim());
+1290:        return null;
+1301:        vals[i] = Short.parseShort(tok.nextToken().trim());
+1303:        return null;
+1316:        return null;
+1327:        vals[i] = Long.parseLong(tok.nextToken().trim());
+1329:        return null;
+1340:        vals[i] = Float.parseFloat(tok.nextToken().trim());
+1342:        return null;
+1353:        vals[i] = Double.parseDouble(tok.nextToken().trim());
+1355:        return null;
+1362:    return parseStringArray(source, false);
+1365:  public static String[] parseStringArray(String source, boolean intern) {
+1367:    int tpos = -1;
+1368:    int tstart = 0;
+1370:    if (source.length() == 0) {
+1371:      return new String[0];
+1374:    source = replace(source, ",,", "%COMMA%");
+1376:    while ((tpos = source.indexOf(",", tpos + 1)) != -1) {
+1377:      ++tcount;
+1381:    tpos = -1;
+1382:    tcount = 0;
+1384:    while ((tpos = source.indexOf(",", tpos + 1)) != -1) {
+1385:      tokens[tcount] = source.substring(tstart, tpos);
+1386:      tokens[tcount] = replace(tokens[tcount].trim(), "%COMMA%", ",");
+1387:      if (intern) {
+1388:        tokens[tcount] = tokens[tcount].intern();
+1390:      tstart = tpos + 1;
+1391:      ++tcount;
+1394:    tokens[tcount] = source.substring(tstart);
+1395:    tokens[tcount] = replace(tokens[tcount].trim(), "%COMMA%", ",");
+1400:  public static String join(Object[] values) {
+1401:    return join(values, false);
+1404:  public static String join(Object[] values, boolean escape) {
+1405:    return join(values, ", ", escape);
+1408:  public static String join(Object[] values, String separator) {
+1409:    return join(values, separator, false);
+1412:  public static String joinEscaped(String[] values) {
+1413:    return join(values, true);
+1417:    if (isBlank(source)) {
+1418:      return new String[0];
+1422:    int tpos = -1;
+1423:    int tstart = 0;
+1425:    while ((tpos = source.indexOf(sep, tpos + 1)) != -1) {
+1426:      ++tcount;
+1430:    tpos = -1;
+1431:    tcount = 0;
+1433:    while ((tpos = source.indexOf(sep, tpos + 1)) != -1) {
+1434:      tokens[tcount] = source.substring(tstart, tpos);
+1435:      tstart = tpos + 1;
+1436:      ++tcount;
+1439:    tokens[tcount] = source.substring(tstart);
+1444:  public static String toMatrixString(int[] values, int colCount, int fieldWidth) {
+1446:    StringBuilder valbuf = new StringBuilder();
+1448:    for (int i = 0; i < values.length; ++i) {
+1449:      valbuf.setLength(0);
+1450:      valbuf.append(values[i]);
+1452:      int spaces = fieldWidth - valbuf.length();
+1453:      for (int s = 0; s < spaces; ++s) {
+1454:        buf.append(" ");
+1457:      buf.append(valbuf);
+1459:      if ((i % colCount != colCount - 1) || (i == values.length - 1)) {
+1460:        continue;
+1462:      buf.append(lineSeparator);
+1504:  public static String shortClassName(Object object) {
+1505:    return ((object == null) ? "null" : shortClassName(object.getClass()));
+1508:  public static String shortClassName(Class<?> clazz) {
+1509:    return shortClassName(clazz.getName());
+1512:  public static String shortClassName(String name) {
+1513:    int didx = name.lastIndexOf(".");
+1514:    if (didx == -1) {
+1515:      return name;
+1517:    didx = name.lastIndexOf(".", didx - 1);
+1518:    if (didx == -1) {
+1519:      return name;
+1521:    return name.substring(didx + 1);
+1524:  public static String unStudlyName(String name) {
+1525:    boolean seenLower = false;
+1526:    StringBuilder nname = new StringBuilder();
+1527:    int nlen = name.length();
+1528:    for (int i = 0; i < nlen; ++i) {
+1529:      char c = name.charAt(i);
+1531:      if (Character.isUpperCase(c)) {
+1532:        if (seenLower) {
+1533:          nname.append("_");
+1535:        seenLower = false;
+1536:        nname.append(c);
+1537:      } else {
+1538:        seenLower = true;
+1539:        nname.append(Character.toUpperCase(c));
+1542:    return nname.toString();
+1548:    int lastidx = 0;
+1549:    while (lastidx < size) {
+1550:      if (lastidx + width >= size) {
+1551:        buf.append(str.substring(lastidx));
+1552:        break;
+1554:      int lastws = lastidx;
+1555:      int ii = lastidx;
+1556:      for (int ll = lastidx + width; ii < ll; ++ii) {
+1557:        char c = str.charAt(ii);
+1558:        if (c == '\n') {
+1559:          buf.append(str.substring(lastidx, ii + 1));
+1560:          lastidx = ii + 1;
+1561:          break;
+1563:        if (Character.isWhitespace(c)) {
+1564:          lastws = ii;
+1567:      if (lastws == lastidx) {
+1568:        buf.append(str.substring(lastidx, lastidx + width)).append(lineSeparator);
+1569:        lastidx += width;
+1570:      } else if (lastws > lastidx) {
+1571:        buf.append(str.substring(lastidx, lastws)).append(lineSeparator);
+1572:        lastidx = lastws + 1;
+1578:  protected static String join(Object[] values, String separator, boolean escape) {
+1580:    int vlength = values.length;
+1581:    for (int i = 0; i < vlength; ++i) {
+1582:      if (i > 0) {
+1583:        buf.append(separator);
+1585:      String value = (values[i] == null) ? "" : values[i].toString();
+1586:      buf.append((escape) ? replace(value, ",", ",,") : value);
+1602:    public abstract boolean isValid(char paramChar);
+1605:  public static class Formatter {
+1607:    public String toString(Object object) {
+1608:      return ((object == null) ? "null" : object.toString());
+1611:    public String getOpenBox() {
+1612:      return "(";
+1615:    public String getCloseBox() {
+1616:      return ")";
+1623:      if (arg0.equals(arg1)) {
+1624:        return 1;
+1633:      if (arg0.equals(arg1)) {
+1634:        return 0;
+1647:  public static String cleanCodeText(String text) {
+1649:    return trimClean(text);
+1654:    doubleOutput(text, fw, System.out);
+1657:  public static void doubleOutput(String text, FileWriter fw, PrintStream out) {
+1658:    out.println(text);
+1659:    // out.flush();
+1660:    // out.flush();
+1665:        fw.flush();
+1668:      e.printStackTrace();
+1672:  public static File chooseFile() {
+1673:    return chooseFile(new File("."));
+1676:  public static File chooseFile(String title) {
+1677:    return chooseFile(new File("c:\\tmp"), title);
+1681:    return chooseFile(dir, "Selecione um arquivo para salvar");
+1684:  public static File chooseFile(File dir, String title) {
+1685:    return chooseFile(dir, "Selecione um arquivo para salvar", JFileChooser.FILES_ONLY);
+1688:  public static File chooseFile(File dir, String title, int selectionMode) {
+1690:    chooser.setCurrentDirectory(dir);
+1691:    chooser.setDialogTitle(title);
+1692:    chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
+1693:    chooser.setDialogType(JFileChooser.SAVE_DIALOG);
+1695:    chooser.showSaveDialog(null);
+1712:    md.reset();
+1713:    byte[] bytes = new byte[byteArraySize];
+1714:    int numBytes;
+1715:    while ((numBytes = is.read(bytes)) != -1) {
+1716:      md.update(bytes, 0, numBytes);
+1718:    byte[] digest = md.digest();
+1719:    String result = new String(Hex.encodeHex(digest));
+1721:    is.close();
+1725:  public static String listToString(List<String> list) {
+1728:    for (String str : list) {
+1729:      ret = ret + str + CARRIAGE_RETURN;
+1735:  public static void writeSpecificLine(File file, int lineNumber, String content) {
+1738:      BufferedReader lnr = new BufferedReader(new FileReader(file));
+1740:      StringBuffer sb = new StringBuffer();
+1742:      int lineCursor = 0;
+1743:      while (lnr.ready()) {
+1744:        if (lineCursor == lineNumber) {
+1745:          sb.append(content + CARRIAGE_RETURN);
+1748:        String linha = lnr.readLine();
+1749:        sb.append(linha + CARRIAGE_RETURN);
+1751:        lineCursor++;
+1753:      lnr.close();
+1755:      FileWriter fw = new FileWriter(file);
+1756:      fw.write(sb.toString());
+1757:      fw.close();
+1760:      e.printStackTrace();
+1764:  /*
+1765:   * Removed - use https://github.com/rrice/java-string-similarity public static double
+1766:   * similarScore(String str1, String str2) { SimilarityStrategy strategy = new
+1767:   * JaroWinklerStrategy(); StringSimilarityService service = new StringSimilarityServiceImpl(
+1768:   * strategy);
+1769:   * 
+1770:   * return service.score(str1, str2); } public static String[] fileSimilar(File dir, String name) {
+1771:   * return fileSimilar(dir, name, 50); }
+1772:   * 
+1773:   * public static String[] fileSimilar(File dir, String name, int adherence) { File mostSimilar =
+1774:   * null; double similarity = 0;
+1775:   * 
+1776:   * for (File arq : dir.listFiles()) { if (arq.isDirectory()) { continue; }
+1777:   * 
+1778:   * double score = similarScore(arq.getName(), name);
+1779:   * 
+1780:   * if (score >= (adherence / 100.0) && score > similarity) { mostSimilar = arq; similarity =
+1781:   * score; } }
+1782:   * 
+1783:   * if (mostSimilar == null) { return new String[] { null, "0" }; } return new String[] {
+1784:   * mostSimilar.getName(), String.valueOf(similarity) }; }
+1785:   */
+1789:    while (text.contains(CARRIAGE_RETURN)) {
+1790:      text = text.replace(CARRIAGE_RETURN, " ");
+1793:    while (text.contains(CARRIAGE)) {
+1794:      text = text.replace(CARRIAGE, " ");
+1797:    while (text.contains(RETURN)) {
+1798:      text = text.replace(RETURN, " ");
+1801:    while (text.contains("\b")) {
+1802:      text = text.replace("\b", " ");
+1820:  public static String codePageConvert(String from, String to, String s) {
+1822:      return new String(s.getBytes(from), to);
+1823:    } catch (UnsupportedEncodingException e) {
+1824:      e.printStackTrace();
+1826:    return "";
+1865:  public static String invert(String s) {
+1866:    String temp = "";
+1867:    for (int i = s.length() - 1; i >= 0; i--)
+1868:      temp += s.charAt(i);
+1869:    return temp;
+1872:  public static List<String> getLinesThatContainsIgnoreCase(String str, String sub) {
+1873:    List<String> lines = new ArrayList<String>();
+1875:    String[] strArr = str.replace("\r\n", "\n").split("\n");
+1877:    for (String line : strArr) {
+1878:      if (line.toLowerCase().contains(sub.toLowerCase())) {
+1879:        lines.add(line);
+1883:    return lines;
+1886:  public static List<String> getLinesThatContains(String str, String sub) {
+1887:    List<String> lines = new ArrayList<String>();
+1889:    String[] strArr = str.replace("\r\n", "\n").split("\n");
+1891:    for (String line : strArr) {
+1892:      if (line.contains(sub)) {
+1893:        lines.add(line);
+1897:    return lines;
+1900:  public static List<String> getLinesThatNotContains(String str, String sub) {
+1901:    List<String> lines = new ArrayList<String>();
+1902:    String[] strArr = str.replace("\r\n", "\n").split("\n");
+1903:    for (String line : strArr) {
+1904:      if (!line.contains(sub)) {
+1905:        lines.add(line);
+1908:    return lines;
+1911:  public static List<String> getLinesThatNotContainsIgnoreCase(String str, String sub) {
+1912:    List<String> lines = new ArrayList<String>();
+1913:    String[] strArr = str.replace("\r\n", "\n").split("\n");
+1914:    for (String line : strArr) {
+1915:      if (!line.toLowerCase().contains(sub.toLowerCase())) {
+1916:        lines.add(line);
+1919:    return lines;
+1930:  public static String lastLine(String s) {
+1934:      String[] sa = s.split("\n");
+1935:      return sa[sa.length - 1];
+1940:  public static boolean isBinaryExtension(String name) {
+1941:    if (name.endsWith(".r") || name.endsWith(".jpeg") || name.endsWith(".jpg")
+1942:        || name.endsWith(".gif") || name.endsWith(".png") || name.endsWith(".class")
+1943:        || name.endsWith(".swf") || name.endsWith(".svn-base") || name.endsWith(".exe")
+1944:        || name.endsWith(".mp3") || name.endsWith(".mp4") || name.endsWith(".dll")
+1945:        || name.endsWith(".swc") || name.endsWith(".avi") || name.endsWith(".mpg")
+1946:        || name.endsWith(".mkv") || name.endsWith(".mov") || name.endsWith(".bmp")
+1947:        || name.endsWith(".lk") || name.endsWith(".msi") || name.endsWith(".r")
+1948:        || name.endsWith(".jar") || name.endsWith(".rar") || name.endsWith(".zip")
+1949:        || name.endsWith(".gif") || name.endsWith(".gz") || name.endsWith(".wrx")
+1950:        || name.endsWith(".swf") || name.endsWith(".fla") || name.endsWith(".ico")
+1951:        || name.endsWith(".cur") || name.endsWith(".wrx") || name.endsWith(".db")
+1952:        || name.endsWith(".b1") || name.endsWith(".d1")) {
+1958:  public static boolean isEmail(String str) {
+1959:    if (EMAIL_PATTERN.matcher(str).matches()) {
+1965:  public static boolean isCapitalized(String str) {
+1966:    return Character.isUpperCase(str.charAt(0));
+1993:  public static boolean hasArabicCharacter(String str) {
+1995:      if (ARABIC_BLOCKS.contains(UnicodeBlock.of(c))) {
+2002:  public static void setToClipboard(String aString) {
+2003:    StringSelection stringSelection = new StringSelection(aString);
+2004:    Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
+2005:    clipboard.setContents(stringSelection, null);
+2014:  /**
+2015:   * Return tabular data
+2016:   * @param labels Labels array
+2017:   * @param data Data bidimensional array
+2018:   * @param padding Total space between fields
+2019:   * @return String
+2020:   */
+2022:    int[] size = new int[labels.length];
+2023:    
+2024:    for (int i = 0; i < labels.length; i++) {
+2025:      size[i] = labels[i].length() + padding;
+2027:    
+2028:    for (String[] row : data) {
+2029:      for (int i = 0; i < labels.length; i++) {
+2030:        if (row[i].length() >= size[i]) {
+2031:          size[i] = row[i].length() + padding;
+2035:    
+2037:    
+2038:    for (int i = 0; i < labels.length; i++) {
+2039:      tabularData.append(labels[i]);
+2040:      tabularData.append(fill(' ', size[i] - labels[i].length()));
+2042:    
+2043:    tabularData.append("\n");
+2044:    
+2045:    for (int i = 0; i < labels.length; i++) {
+2046:      tabularData.append(fill('=', size[i] - 1)).append(" ");
+2048:    
+2049:    tabularData.append("\n");
+2050:    
+2051:    
+2052:    for (String[] row : data) {
+2053:      for (int i = 0; i < labels.length; i++) {
+2054:        tabularData.append(row[i]);
+2055:        tabularData.append(fill(' ', size[i] - row[i].length()));
+2057:      
+2058:      tabularData.append("\n");
+2060:    
+2063:  
+2064:  
+2065:  
+2066:  /**
+2067:   * Replace text with HTML entities
+2068:   * @param content Content
+2069:   * @return Replaced content
+2070:   */
+2074:    
+2075:  /**
+2076:   * Replace text with HTML entities
+2077:   * @param content Content
+2078:   * @param map Map to replace
+2079:   * @return Replaced content
+2080:   */
+2082:    
+2084:      
+2088:      
+2090:    
+2093:  
+2094:  /**
+2095:   * Replace HTML entities
+2096:   * @param content Content
+2097:   * @return Replaced content
+2098:   */
+2100:    return replaceHtmlEntities(content, escapeStrings);
+2102:  
+2103:  
+2104:  /**
+2105:   * Replace HTML entities
+2106:   * @param content Content
+2107:   * @param map Map
+2108:   * @return Replaced content
+2109:   */
+2110:  public static String replaceHtmlEntities(String content, Map<String, Character> map) {
+2111:    
+2113:      
+2117:      
+2119:    
+src/main/java/org/brunocvcunha/inutils4j/MyZipUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyArrUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyTextRegex.java
+src/main/java/org/brunocvcunha/inutils4j/MyNumberUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyDateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyImageUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyClasspathUtils.java
+src/main/java/org/brunocvcunha/inutils4j/FixType.java
+src/main/java/org/brunocvcunha/inutils4j/thirdparty/DateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyHTTPUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionDifferenceHandler.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyDefaultReflectionDifferenceHandler.java

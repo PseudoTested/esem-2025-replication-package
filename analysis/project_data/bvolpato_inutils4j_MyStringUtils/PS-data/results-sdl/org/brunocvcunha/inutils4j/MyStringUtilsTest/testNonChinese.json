@@ -1,0 +1,15 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testNonChinese",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 119, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Stmt(FOR_EACH, 982, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(FOR_EACH, 982, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 983, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 983, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 985, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 985, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 8
+}

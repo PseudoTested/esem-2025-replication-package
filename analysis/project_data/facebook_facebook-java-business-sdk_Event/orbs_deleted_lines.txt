@@ -1,0 +1,2454 @@
+src/main/java/com/facebook/ads/utils/VideoUtils.java
+src/main/java/com/facebook/ads/utils/CustomDataAdapter.java
+src/main/java/com/facebook/ads/utils/AppDataAdapter.java
+src/main/java/com/facebook/ads/utils/ServerSideApiUtil.java
+src/main/java/com/facebook/ads/utils/BusinessDataApiConstants.java
+src/main/java/com/facebook/ads/utils/ServerSideApiConstants.java
+src/main/java/com/facebook/ads/sdk/AdAccountPromotableObjects.java
+src/main/java/com/facebook/ads/sdk/AREffect.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogPricingVariablesBatch.java
+src/main/java/com/facebook/ads/sdk/ExternalEventSourceCPASEventsDebuggingInfo.java
+src/main/java/com/facebook/ads/sdk/WorkSkill.java
+src/main/java/com/facebook/ads/sdk/AdCreativeContextualMultiAds.java
+src/main/java/com/facebook/ads/sdk/OwnedDomain.java
+src/main/java/com/facebook/ads/sdk/AdCreativeVideoDataCustomOverlaySpec.java
+src/main/java/com/facebook/ads/sdk/MusicWorkCopyright.java
+src/main/java/com/facebook/ads/sdk/VehicleOffer.java
+src/main/java/com/facebook/ads/sdk/BatchRequest.java
+src/main/java/com/facebook/ads/sdk/PartnershipAdsIdentity.java
+src/main/java/com/facebook/ads/sdk/AdAssetMessageExtensions.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataSponsorshipInfoSpec.java
+src/main/java/com/facebook/ads/sdk/PageBroadcast.java
+src/main/java/com/facebook/ads/sdk/InstantArticleInsightsQueryResult.java
+src/main/java/com/facebook/ads/sdk/IGVideoCopyrightCheckMatchesInformation.java
+src/main/java/com/facebook/ads/sdk/APIException.java
+src/main/java/com/facebook/ads/sdk/LeadGenDataDraft.java
+src/main/java/com/facebook/ads/sdk/AdCampaignLearningStageInfo.java
+src/main/java/com/facebook/ads/sdk/Dataset.java
+src/main/java/com/facebook/ads/sdk/Post.java
+src/main/java/com/facebook/ads/sdk/IGShoppingReviewStatusOnsiteEligibility.java
+src/main/java/com/facebook/ads/sdk/ExternalMerchantSettings.java
+src/main/java/com/facebook/ads/sdk/CatalogItemChannelsToIntegrityStatus.java
+src/main/java/com/facebook/ads/sdk/PageLocationsBreakdown.java
+src/main/java/com/facebook/ads/sdk/AdsPixelDomainControlRule.java
+src/main/java/com/facebook/ads/sdk/Photo.java
+src/main/java/com/facebook/ads/sdk/ProductFeedRule.java
+src/main/java/com/facebook/ads/sdk/CopyrightAttributionInsights.java
+src/main/java/com/facebook/ads/sdk/ThirdPartyPartnerPanelScheduled.java
+src/main/java/com/facebook/ads/sdk/ProductFeedUploadErrorReport.java
+src/main/java/com/facebook/ads/sdk/AdCampaignGroupIncrementalConversionOptimizationConfig.java
+src/main/java/com/facebook/ads/sdk/FlexibleTargeting.java
+src/main/java/com/facebook/ads/sdk/CPASLsbImageBank.java
+src/main/java/com/facebook/ads/sdk/AppEventConfig.java
+src/main/java/com/facebook/ads/sdk/MCExperienceConfigForApi.java
+src/main/java/com/facebook/ads/sdk/AdCampaignStats.java
+src/main/java/com/facebook/ads/sdk/APINode.java
+src/main/java/com/facebook/ads/sdk/OfflineConversionDataSetUpload.java
+src/main/java/com/facebook/ads/sdk/AdCampaignConversionValueExpressionSpec.java
+src/main/java/com/facebook/ads/sdk/Profile.java
+src/main/java/com/facebook/ads/sdk/AdCampaignMetricsMetadata.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogFacets.java
+src/main/java/com/facebook/ads/sdk/AdAssetCallToActionType.java
+src/main/java/com/facebook/ads/sdk/ScheduledPost.java
+src/main/java/com/facebook/ads/sdk/AdAccountBillingDatePreference.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogHotelRoomsBatch.java
+src/main/java/com/facebook/ads/sdk/CommerceMerchantSettingsSetupStatus.java
+src/main/java/com/facebook/ads/sdk/UserDevice.java
+src/main/java/com/facebook/ads/sdk/AdCreativeSourcingSpec.java
+src/main/java/com/facebook/ads/sdk/AdCreativeVideoDataMediaElements.java
+src/main/java/com/facebook/ads/sdk/AdCreativeProductData.java
+src/main/java/com/facebook/ads/sdk/Page.java
+src/main/java/com/facebook/ads/sdk/CustomConversion.java
+src/main/java/com/facebook/ads/sdk/ProductItemLocalInfoLatLongShape.java
+src/main/java/com/facebook/ads/sdk/DayPart.java
+src/main/java/com/facebook/ads/sdk/AudioVisualReferenceMatch.java
+src/main/java/com/facebook/ads/sdk/AdsPixelMicrodataStats.java
+src/main/java/com/facebook/ads/sdk/AdDefaultValues.java
+src/main/java/com/facebook/ads/sdk/VideoCopyrightGeoGate.java
+src/main/java/com/facebook/ads/sdk/WhatsAppBusinessHealthStatusForMessageSend.java
+src/main/java/com/facebook/ads/sdk/PageStartInfo.java
+src/main/java/com/facebook/ads/sdk/AdsDataPartner.java
+src/main/java/com/facebook/ads/sdk/TargetingDynamicRule.java
+src/main/java/com/facebook/ads/sdk/PublisherWhiteList.java
+src/main/java/com/facebook/ads/sdk/VideoCopyrightRule.java
+src/main/java/com/facebook/ads/sdk/serverside/CustomEndpointRequest.java
+src/main/java/com/facebook/ads/sdk/serverside/MessagingChannel.java
+src/main/java/com/facebook/ads/sdk/serverside/AppData.java
+src/main/java/com/facebook/ads/sdk/serverside/HttpServiceInterface.java
+src/main/java/com/facebook/ads/sdk/serverside/EventResponse.java
+src/main/java/com/facebook/ads/sdk/serverside/ActionSource.java
+src/main/java/com/facebook/ads/sdk/serverside/utils/Sha256StringAdaptor.java
+src/main/java/com/facebook/ads/sdk/serverside/utils/Sha256StringListAdaptor.java
+src/main/java/com/facebook/ads/sdk/serverside/utils/HashedListAdaptor.java
+src/main/java/com/facebook/ads/sdk/serverside/utils/Sha256GenderEnumListAdaptor.java
+src/main/java/com/facebook/ads/sdk/serverside/ExtendedDeviceInfo.java
+src/main/java/com/facebook/ads/sdk/serverside/AttributionData.java
+src/main/java/com/facebook/ads/sdk/serverside/BatchProcessor.java
+src/main/java/com/facebook/ads/sdk/serverside/OriginalEventData.java
+src/main/java/com/facebook/ads/sdk/serverside/Event.java
+src/main/java/com/facebook/ads/sdk/serverside/CustomEndpointResponse.java
+src/main/java/com/facebook/ads/sdk/serverside/CAPIGatewayEndpoint.java
+src/main/java/com/facebook/ads/sdk/serverside/EventRequest.java
+src/main/java/com/facebook/ads/sdk/serverside/UserData.java
+src/main/java/com/facebook/ads/sdk/serverside/DeliveryCategory.java
+src/main/java/com/facebook/ads/sdk/serverside/AttributionModelEnum.java
+src/main/java/com/facebook/ads/sdk/serverside/CustomData.java
+src/main/java/com/facebook/ads/sdk/serverside/HttpMethodEnum.java
+src/main/java/com/facebook/ads/sdk/serverside/HttpServiceParams.java
+src/main/java/com/facebook/ads/sdk/serverside/Content.java
+src/main/java/com/facebook/ads/sdk/serverside/GenderEnum.java
+src/main/java/com/facebook/ads/sdk/AppRequestFormerRecipient.java
+src/main/java/com/facebook/ads/sdk/CloudGame.java
+src/main/java/com/facebook/ads/sdk/CatalogWebsiteSettings.java
+src/main/java/com/facebook/ads/sdk/SiteLink.java
+src/main/java/com/facebook/ads/sdk/SystemUser.java
+src/main/java/com/facebook/ads/sdk/ShadowIGMediaCollaborators.java
+src/main/java/com/facebook/ads/sdk/PagePartnerWithLeadsAccess.java
+src/main/java/com/facebook/ads/sdk/TargetingProductAudienceSubSpec.java
+src/main/java/com/facebook/ads/sdk/AdAccountUserPermissions.java
+src/main/java/com/facebook/ads/sdk/ShadowIGMediaBuilder.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecVideo.java
+src/main/java/com/facebook/ads/sdk/AdsStartYourDayWidget.java
+src/main/java/com/facebook/ads/sdk/PartnerStudy.java
+src/main/java/com/facebook/ads/sdk/TargetingMarketingMessageChannels.java
+src/main/java/com/facebook/ads/sdk/AdLightAdgroup.java
+src/main/java/com/facebook/ads/sdk/NullNode.java
+src/main/java/com/facebook/ads/sdk/PaymentSubscription.java
+src/main/java/com/facebook/ads/sdk/AdAccountPaymentOptions.java
+src/main/java/com/facebook/ads/sdk/FundingSourceDetails.java
+src/main/java/com/facebook/ads/sdk/OmegaCustomerTrx.java
+src/main/java/com/facebook/ads/sdk/RawCustomAudience.java
+src/main/java/com/facebook/ads/sdk/ContextualBundlingSpec.java
+src/main/java/com/facebook/ads/sdk/Status.java
+src/main/java/com/facebook/ads/sdk/WhatsappSubscribedAppsInfo.java
+src/main/java/com/facebook/ads/sdk/PublisherDeliveryReport.java
+src/main/java/com/facebook/ads/sdk/PagePublisher.java
+src/main/java/com/facebook/ads/sdk/PageDirectIntegrationCrmWithLeadsAccess.java
+src/main/java/com/facebook/ads/sdk/MIXInsightsResult.java
+src/main/java/com/facebook/ads/sdk/FinanceObject.java
+src/main/java/com/facebook/ads/sdk/AdsPixelCapabilityOverride.java
+src/main/java/com/facebook/ads/sdk/AdAccountSmartSuggestedAds.java
+src/main/java/com/facebook/ads/sdk/CRMAddress.java
+src/main/java/com/facebook/ads/sdk/FBPayButtonLogin.java
+src/main/java/com/facebook/ads/sdk/CASSSetupOfflineEventSetProgress.java
+src/main/java/com/facebook/ads/sdk/ALMEvent.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceCapabilities.java
+src/main/java/com/facebook/ads/sdk/LinkedInstagramAccountData.java
+src/main/java/com/facebook/ads/sdk/AdCreativeAssetGroupsSpec.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataChildAttachment.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecTitle.java
+src/main/java/com/facebook/ads/sdk/AdCreativePostClickConfiguration.java
+src/main/java/com/facebook/ads/sdk/WhatsAppBusinessPartnerClientVerificationSubmission.java
+src/main/java/com/facebook/ads/sdk/AgeRange.java
+src/main/java/com/facebook/ads/sdk/AdsPixelItemPrice.java
+src/main/java/com/facebook/ads/sdk/PageGameBotQuotaInformation.java
+src/main/java/com/facebook/ads/sdk/PageCategory.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedAdditionalDataPageNudgeMessage.java
+src/main/java/com/facebook/ads/sdk/AdAccountRecommendedCamapaignBudget.java
+src/main/java/com/facebook/ads/sdk/AdsGuidanceQEExposure.java
+src/main/java/com/facebook/ads/sdk/PageParking.java
+src/main/java/com/facebook/ads/sdk/InstagramComment.java
+src/main/java/com/facebook/ads/sdk/CPASSetupPageStructureProgress.java
+src/main/java/com/facebook/ads/sdk/AdAccountSubscribedApps.java
+src/main/java/com/facebook/ads/sdk/LiveVideoAdCampaignConfig.java
+src/main/java/com/facebook/ads/sdk/CPASMerchantConfig.java
+src/main/java/com/facebook/ads/sdk/WorkUserBadges.java
+src/main/java/com/facebook/ads/sdk/ProductFeedUploadProgress.java
+src/main/java/com/facebook/ads/sdk/ProductEventStat.java
+src/main/java/com/facebook/ads/sdk/WorkAccessCode.java
+src/main/java/com/facebook/ads/sdk/PageCTXBudgetSimilarAdvertiserBudgetRecommendation.java
+src/main/java/com/facebook/ads/sdk/AdAccountASLSchedule.java
+src/main/java/com/facebook/ads/sdk/MessengerCallSettings.java
+src/main/java/com/facebook/ads/sdk/Link.java
+src/main/java/com/facebook/ads/sdk/WebPublisher.java
+src/main/java/com/facebook/ads/sdk/FAMEKumo.java
+src/main/java/com/facebook/ads/sdk/ProductItemInvalidationError.java
+src/main/java/com/facebook/ads/sdk/IGRefreshAccessTokenForIGOnlyAPI.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogDataSource.java
+src/main/java/com/facebook/ads/sdk/IGUserForIGOnlyAPI.java
+src/main/java/com/facebook/ads/sdk/APIRequest.java
+src/main/java/com/facebook/ads/sdk/PrivateLiftStudyInstance.java
+src/main/java/com/facebook/ads/sdk/Application.java
+src/main/java/com/facebook/ads/sdk/ThirdPartyPartnerViewabilityRequest.java
+src/main/java/com/facebook/ads/sdk/ALMAdAccountInfo.java
+src/main/java/com/facebook/ads/sdk/McomInvoiceBankAccount.java
+src/main/java/com/facebook/ads/sdk/DynamicVideoMetadata.java
+src/main/java/com/facebook/ads/sdk/BusinessSettingLogsData.java
+src/main/java/com/facebook/ads/sdk/AdsPivotRules.java
+src/main/java/com/facebook/ads/sdk/AdvertiserVerificationStatus.java
+src/main/java/com/facebook/ads/sdk/WebAppLink.java
+src/main/java/com/facebook/ads/sdk/AdAssetLinkURL.java
+src/main/java/com/facebook/ads/sdk/LeadGenQuestion.java
+src/main/java/com/facebook/ads/sdk/AvatarProfilePicture.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceSalts.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationLocationExpansion.java
+src/main/java/com/facebook/ads/sdk/ConversionActionQuery.java
+src/main/java/com/facebook/ads/sdk/PaymentRequestDetails.java
+src/main/java/com/facebook/ads/sdk/AdsReportBuilderMMMReport.java
+src/main/java/com/facebook/ads/sdk/CallAdsPhoneData.java
+src/main/java/com/facebook/ads/sdk/DraftPost.java
+src/main/java/com/facebook/ads/sdk/AudiencePermission.java
+src/main/java/com/facebook/ads/sdk/InstagramShoppingMerchantReviewMessage.java
+src/main/java/com/facebook/ads/sdk/CatalogItemAppLinks.java
+src/main/java/com/facebook/ads/sdk/PageUserMessageThreadLabel.java
+src/main/java/com/facebook/ads/sdk/BCPCampaign.java
+src/main/java/com/facebook/ads/sdk/WorkExperience.java
+src/main/java/com/facebook/ads/sdk/IosAppLink.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationCustomLocation.java
+src/main/java/com/facebook/ads/sdk/IGShoppingProductAppeal.java
+src/main/java/com/facebook/ads/sdk/AdAccountCustomAudienceLimits.java
+src/main/java/com/facebook/ads/sdk/OpenBridgeConfiguration.java
+src/main/java/com/facebook/ads/sdk/AdsPixel.java
+src/main/java/com/facebook/ads/sdk/RightsManagerDataExport.java
+src/main/java/com/facebook/ads/sdk/PartnerIntegrationLinked.java
+src/main/java/com/facebook/ads/sdk/Group.java
+src/main/java/com/facebook/ads/sdk/AdCreativeDegreesOfFreedomSpec.java
+src/main/java/com/facebook/ads/sdk/CatalogSmartPixelSettings.java
+src/main/java/com/facebook/ads/sdk/VideoCopyrightCheckStatus.java
+src/main/java/com/facebook/ads/sdk/InsightsResult.java
+src/main/java/com/facebook/ads/sdk/Recommendation.java
+src/main/java/com/facebook/ads/sdk/AdSavedKeywords.java
+src/main/java/com/facebook/ads/sdk/BusinessAgreement.java
+src/main/java/com/facebook/ads/sdk/PageUserWithLeadsAccess.java
+src/main/java/com/facebook/ads/sdk/AdAssetImage.java
+src/main/java/com/facebook/ads/sdk/MeasurementReport.java
+src/main/java/com/facebook/ads/sdk/AdVideo.java
+src/main/java/com/facebook/ads/sdk/PagePaymentOptions.java
+src/main/java/com/facebook/ads/sdk/PageAboutStoryComposedBlockInlineStyle.java
+src/main/java/com/facebook/ads/sdk/AdAccountOptimizationGoalsAEMv2Eligibility.java
+src/main/java/com/facebook/ads/sdk/AdCreative.java
+src/main/java/com/facebook/ads/sdk/AdAssetOnsiteDestinations.java
+src/main/java/com/facebook/ads/sdk/ProductDaEventSamplesBatch.java
+src/main/java/com/facebook/ads/sdk/TargetingRelaxation.java
+src/main/java/com/facebook/ads/sdk/DynamicPriceConfigByDate.java
+src/main/java/com/facebook/ads/sdk/EmailImport.java
+src/main/java/com/facebook/ads/sdk/AdgroupFacebookFeedback.java
+src/main/java/com/facebook/ads/sdk/LiveVideoError.java
+src/main/java/com/facebook/ads/sdk/VideoCopyrightSegment.java
+src/main/java/com/facebook/ads/sdk/BusinessCreativeInsights.java
+src/main/java/com/facebook/ads/sdk/ProductItemImporterAddress.java
+src/main/java/com/facebook/ads/sdk/Album.java
+src/main/java/com/facebook/ads/sdk/VideoUploadLimits.java
+src/main/java/com/facebook/ads/sdk/MessagingAppsInfo.java
+src/main/java/com/facebook/ads/sdk/FavoriteCatalog.java
+src/main/java/com/facebook/ads/sdk/AdsNamingTemplate.java
+src/main/java/com/facebook/ads/sdk/FundingSourceDetailsCoupon.java
+src/main/java/com/facebook/ads/sdk/CPASBusinessSetupConfig.java
+src/main/java/com/facebook/ads/sdk/UserLeadGenFieldData.java
+src/main/java/com/facebook/ads/sdk/ThirdPartyPartnerLiftRequest.java
+src/main/java/com/facebook/ads/sdk/UserMobileConfig.java
+src/main/java/com/facebook/ads/sdk/UserNotificationSeenStateData.java
+src/main/java/com/facebook/ads/sdk/AdsPixelStatsResult.java
+src/main/java/com/facebook/ads/sdk/CatalogItemOverride.java
+src/main/java/com/facebook/ads/sdk/CoverPhoto.java
+src/main/java/com/facebook/ads/sdk/LeadGenLegalContentCheckbox.java
+src/main/java/com/facebook/ads/sdk/OpenGraphContext.java
+src/main/java/com/facebook/ads/sdk/MediaFingerprint.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecImage.java
+src/main/java/com/facebook/ads/sdk/LeadGenLegalContent.java
+src/main/java/com/facebook/ads/sdk/AdLimitsEnforcementData.java
+src/main/java/com/facebook/ads/sdk/AdAccountMatchedSearchApplicationsEdgeData.java
+src/main/java/com/facebook/ads/sdk/CatalogWebsiteOnboardingSettings.java
+src/main/java/com/facebook/ads/sdk/PageGetStartedNullstate.java
+src/main/java/com/facebook/ads/sdk/CloudbridgeDatasetStatus.java
+src/main/java/com/facebook/ads/sdk/AdRuleFilters.java
+src/main/java/com/facebook/ads/sdk/TaggableSubject.java
+src/main/java/com/facebook/ads/sdk/AdCreativeFeatureActionMetadata.java
+src/main/java/com/facebook/ads/sdk/InstagramVideoMetadata.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogProductSetsBatch.java
+src/main/java/com/facebook/ads/sdk/ProductItemLocalInfo.java
+src/main/java/com/facebook/ads/sdk/AdAccountDeliveryEstimate.java
+src/main/java/com/facebook/ads/sdk/TrackingAndConversionWithDefaults.java
+src/main/java/com/facebook/ads/sdk/ProductDeliveryPreference.java
+src/main/java/com/facebook/ads/sdk/PageLeadsAccessConfig.java
+src/main/java/com/facebook/ads/sdk/ProductItem.java
+src/main/java/com/facebook/ads/sdk/ProductImage.java
+src/main/java/com/facebook/ads/sdk/PartnerCategory.java
+src/main/java/com/facebook/ads/sdk/AudienceSharingRecipientAccounts.java
+src/main/java/com/facebook/ads/sdk/MessengerProfile.java
+src/main/java/com/facebook/ads/sdk/Avatar.java
+src/main/java/com/facebook/ads/sdk/APIResponse.java
+src/main/java/com/facebook/ads/sdk/AdBidAdjustments.java
+src/main/java/com/facebook/ads/sdk/VideoStatus.java
+src/main/java/com/facebook/ads/sdk/AdsReportBuilder.java
+src/main/java/com/facebook/ads/sdk/WhatsAppBusinessPreVerifiedPhoneNumber.java
+src/main/java/com/facebook/ads/sdk/AdAccountPrepayDetails.java
+src/main/java/com/facebook/ads/sdk/WifiInformation.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkData.java
+src/main/java/com/facebook/ads/sdk/BusinessVideoTBusinessFolderPathItem.java
+src/main/java/com/facebook/ads/sdk/AdsTargetingInsights.java
+src/main/java/com/facebook/ads/sdk/AdsUserSettings.java
+src/main/java/com/facebook/ads/sdk/Hotel.java
+src/main/java/com/facebook/ads/sdk/EntWithSponsor.java
+src/main/java/com/facebook/ads/sdk/McomInvoiceDetails.java
+src/main/java/com/facebook/ads/sdk/CreativeHistory.java
+src/main/java/com/facebook/ads/sdk/TimezoneOffset.java
+src/main/java/com/facebook/ads/sdk/AdCreativeFacebookBrandedContent.java
+src/main/java/com/facebook/ads/sdk/ExtendedCreditAllocationConfig.java
+src/main/java/com/facebook/ads/sdk/VoipInfo.java
+src/main/java/com/facebook/ads/sdk/JobOpening.java
+src/main/java/com/facebook/ads/sdk/ConversionHealthKPI.java
+src/main/java/com/facebook/ads/sdk/VideoStats.java
+src/main/java/com/facebook/ads/sdk/BroadTargetingCategories.java
+src/main/java/com/facebook/ads/sdk/UserAvailableCatalogs.java
+src/main/java/com/facebook/ads/sdk/WindowsPhoneAppLink.java
+src/main/java/com/facebook/ads/sdk/AdCampaignPacedBidInfo.java
+src/main/java/com/facebook/ads/sdk/AnalyticsConfig.java
+src/main/java/com/facebook/ads/sdk/PagePost.java
+src/main/java/com/facebook/ads/sdk/AdAccountBankInfoList.java
+src/main/java/com/facebook/ads/sdk/Organization.java
+src/main/java/com/facebook/ads/sdk/CPASCollaborationRequest.java
+src/main/java/com/facebook/ads/sdk/ShadowIGUserCatalogProductVariant.java
+src/main/java/com/facebook/ads/sdk/BusinessMediaAdPlacementValidationResult.java
+src/main/java/com/facebook/ads/sdk/FundraiserPersonToCharity.java
+src/main/java/com/facebook/ads/sdk/IGBoostMediaAd.java
+src/main/java/com/facebook/ads/sdk/Place.java
+src/main/java/com/facebook/ads/sdk/WoodhengeSupporter.java
+src/main/java/com/facebook/ads/sdk/AdCreativeInteractiveComponentsSpec.java
+src/main/java/com/facebook/ads/sdk/PartnerAccountLinking.java
+src/main/java/com/facebook/ads/sdk/LeadGenThankYouPageGatedPromo.java
+src/main/java/com/facebook/ads/sdk/WebsiteCreativeAssetSource.java
+src/main/java/com/facebook/ads/sdk/MinimumBudget.java
+src/main/java/com/facebook/ads/sdk/CommerceOrderTransactionDetail.java
+src/main/java/com/facebook/ads/sdk/StoreCatalogSettings.java
+src/main/java/com/facebook/ads/sdk/VideoMetricsReport.java
+src/main/java/com/facebook/ads/sdk/CalibratorExistingRule.java
+src/main/java/com/facebook/ads/sdk/ProductItemUnitPrice.java
+src/main/java/com/facebook/ads/sdk/VideoCopyrightMatch.java
+src/main/java/com/facebook/ads/sdk/LeadgenForm.java
+src/main/java/com/facebook/ads/sdk/AdRule.java
+src/main/java/com/facebook/ads/sdk/LeadGenFormPreviewDetails.java
+src/main/java/com/facebook/ads/sdk/AdLabel.java
+src/main/java/com/facebook/ads/sdk/ProductFeedUploadError.java
+src/main/java/com/facebook/ads/sdk/PageThreadOwner.java
+src/main/java/com/facebook/ads/sdk/CreativeAssetTag.java
+src/main/java/com/facebook/ads/sdk/InstagramMedia.java
+src/main/java/com/facebook/ads/sdk/SavedAudience.java
+src/main/java/com/facebook/ads/sdk/LeadGenDraftQuestion.java
+src/main/java/com/facebook/ads/sdk/PageAboutStoryComposedBlock.java
+src/main/java/com/facebook/ads/sdk/LeadGenThankYouPageGatedFile.java
+src/main/java/com/facebook/ads/sdk/EventTour.java
+src/main/java/com/facebook/ads/sdk/AdCreativeFeatureDetails.java
+src/main/java/com/facebook/ads/sdk/LeadGenAppointmentTimeSlot.java
+src/main/java/com/facebook/ads/sdk/AdCreativePortraitCustomizations.java
+src/main/java/com/facebook/ads/sdk/AdsPixelDomainLastFiredTime.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecDescription.java
+src/main/java/com/facebook/ads/sdk/FranchiseProgramMember.java
+src/main/java/com/facebook/ads/sdk/BusinessPartnerPremiumOptions.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogImageSettingsInternal.java
+src/main/java/com/facebook/ads/sdk/AdStudyObjectiveID.java
+src/main/java/com/facebook/ads/sdk/OutcomePredictionPoint.java
+src/main/java/com/facebook/ads/sdk/ProductSetMetadata.java
+src/main/java/com/facebook/ads/sdk/DynamicItemDisplayBundle.java
+src/main/java/com/facebook/ads/sdk/AdsImageCrops.java
+src/main/java/com/facebook/ads/sdk/AdsTabular.java
+src/main/java/com/facebook/ads/sdk/BusinessTag.java
+src/main/java/com/facebook/ads/sdk/LeadGenCustomDisclaimer.java
+src/main/java/com/facebook/ads/sdk/AdAccountSpendLimit.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecCarouselChildAttachment.java
+src/main/java/com/facebook/ads/sdk/OffsiteSignalContainerBusinessObject.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceDataSource.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataTemplateVideoSpec.java
+src/main/java/com/facebook/ads/sdk/SavedMessageResponse.java
+src/main/java/com/facebook/ads/sdk/MessengerBusinessTemplate.java
+src/main/java/com/facebook/ads/sdk/MailingAddress.java
+src/main/java/com/facebook/ads/sdk/AdRuleHistoryResultAction.java
+src/main/java/com/facebook/ads/sdk/OrderIDAttributions.java
+src/main/java/com/facebook/ads/sdk/LiveVideoInputStream.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationMarket.java
+src/main/java/com/facebook/ads/sdk/ProductItemError.java
+src/main/java/com/facebook/ads/sdk/AdCreativeInstagramBrandedContent.java
+src/main/java/com/facebook/ads/sdk/UserCoverPhoto.java
+src/main/java/com/facebook/ads/sdk/MessagingFeatureReview.java
+src/main/java/com/facebook/ads/sdk/MarketingMessageTargeting.java
+src/main/java/com/facebook/ads/sdk/CreditCard.java
+src/main/java/com/facebook/ads/sdk/ThirdPartyPartnerPanelRequest.java
+src/main/java/com/facebook/ads/sdk/AdRecommendationData.java
+src/main/java/com/facebook/ads/sdk/EntityAtTextRange.java
+src/main/java/com/facebook/ads/sdk/IGMediaBoostEligibilityInfo.java
+src/main/java/com/facebook/ads/sdk/AdCampaignDeliveryEstimate.java
+src/main/java/com/facebook/ads/sdk/IGResumableVideoUploadStatus.java
+src/main/java/com/facebook/ads/sdk/AdAccountRecommendations.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationZip.java
+src/main/java/com/facebook/ads/sdk/EventTicketSetting.java
+src/main/java/com/facebook/ads/sdk/SplitTestConfig.java
+src/main/java/com/facebook/ads/sdk/FBPageAndInstagramAccount.java
+src/main/java/com/facebook/ads/sdk/InstagramUser.java
+src/main/java/com/facebook/ads/sdk/LeadGenCustomDisclaimerBody.java
+src/main/java/com/facebook/ads/sdk/BusinessTrafficAnalysisReport.java
+src/main/java/com/facebook/ads/sdk/AdsPixelRecentEventsResult.java
+src/main/java/com/facebook/ads/sdk/SecuritySettings.java
+src/main/java/com/facebook/ads/sdk/AdCustomDerivedMetrics.java
+src/main/java/com/facebook/ads/sdk/PageRestaurantSpecialties.java
+src/main/java/com/facebook/ads/sdk/BrandSafetyBlockListUsage.java
+src/main/java/com/facebook/ads/sdk/OfflineConversionDataSetOptimizationStatus.java
+src/main/java/com/facebook/ads/sdk/CTWAWhatsAppNumbersInfo.java
+src/main/java/com/facebook/ads/sdk/AdAccountAdsRecommendedAudios.java
+src/main/java/com/facebook/ads/sdk/AdAccountDefaultObjective.java
+src/main/java/com/facebook/ads/sdk/AppOptimizedCustomEvents.java
+src/main/java/com/facebook/ads/sdk/AdRuleEvaluationSpec.java
+src/main/java/com/facebook/ads/sdk/VideoGroup.java
+src/main/java/com/facebook/ads/sdk/AdProposal.java
+src/main/java/com/facebook/ads/sdk/PageInsightsAsyncExportRun.java
+src/main/java/com/facebook/ads/sdk/MessengerDestinationPageWelcomeMessage.java
+src/main/java/com/facebook/ads/sdk/AdCustomizationRuleSpec.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceStatus.java
+src/main/java/com/facebook/ads/sdk/AudioIsrc.java
+src/main/java/com/facebook/ads/sdk/WhitehatFBDLRun.java
+src/main/java/com/facebook/ads/sdk/LocalServiceBusiness.java
+src/main/java/com/facebook/ads/sdk/URL.java
+src/main/java/com/facebook/ads/sdk/PreapprovalReview.java
+src/main/java/com/facebook/ads/sdk/AdAccountUserSettings.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedAdditionalData.java
+src/main/java/com/facebook/ads/sdk/McomInvoiceLists.java
+src/main/java/com/facebook/ads/sdk/AdAccountAdVolume.java
+src/main/java/com/facebook/ads/sdk/AdCampaignIssuesInfo.java
+src/main/java/com/facebook/ads/sdk/LeadGenContextCard.java
+src/main/java/com/facebook/ads/sdk/ImageCopyright.java
+src/main/java/com/facebook/ads/sdk/ProductFeedSchedule.java
+src/main/java/com/facebook/ads/sdk/CustomUserSettings.java
+src/main/java/com/facebook/ads/sdk/BusinessCreative.java
+src/main/java/com/facebook/ads/sdk/AdKeywordStats.java
+src/main/java/com/facebook/ads/sdk/CatalogAdvertiserInsight.java
+src/main/java/com/facebook/ads/sdk/UserPaymentMethodsInfo.java
+src/main/java/com/facebook/ads/sdk/ProfilePictureSource.java
+src/main/java/com/facebook/ads/sdk/MerchantReport.java
+src/main/java/com/facebook/ads/sdk/User.java
+src/main/java/com/facebook/ads/sdk/HighDemandPeriod.java
+src/main/java/com/facebook/ads/sdk/ProductGroup.java
+src/main/java/com/facebook/ads/sdk/OffsitePixel.java
+src/main/java/com/facebook/ads/sdk/AdsHistogramStats.java
+src/main/java/com/facebook/ads/sdk/Robot.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecAssetLabel.java
+src/main/java/com/facebook/ads/sdk/AdAssetTitle.java
+src/main/java/com/facebook/ads/sdk/BespokePartnerGuidanceLaser.java
+src/main/java/com/facebook/ads/sdk/AdActivity.java
+src/main/java/com/facebook/ads/sdk/AdCreativeCollectionThumbnailInfo.java
+src/main/java/com/facebook/ads/sdk/BusinessAdsReportingReportSpecs.java
+src/main/java/com/facebook/ads/sdk/FBImageCopyrightMatch.java
+src/main/java/com/facebook/ads/sdk/AppRequest.java
+src/main/java/com/facebook/ads/sdk/PublisherBlockList.java
+src/main/java/com/facebook/ads/sdk/AdCreativeImageDataMediaElements.java
+src/main/java/com/facebook/ads/sdk/AdCreativeVideoData.java
+src/main/java/com/facebook/ads/sdk/MessagingFeatureStatus.java
+src/main/java/com/facebook/ads/sdk/ScimCompanyUserPhoneNumber.java
+src/main/java/com/facebook/ads/sdk/StreamFilter.java
+src/main/java/com/facebook/ads/sdk/ANBlockedBICategory.java
+src/main/java/com/facebook/ads/sdk/TimeSuggestion.java
+src/main/java/com/facebook/ads/sdk/AdAccountYouthAdsAdvertiser.java
+src/main/java/com/facebook/ads/sdk/AdAssetTargetRuleTargeting.java
+src/main/java/com/facebook/ads/sdk/AdAccountBusinessConstraints.java
+src/main/java/com/facebook/ads/sdk/AdsCustomPivotsPreview.java
+src/main/java/com/facebook/ads/sdk/ShadowIGHashtag.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationPoliticalDistrict.java
+src/main/java/com/facebook/ads/sdk/Hours.java
+src/main/java/com/facebook/ads/sdk/AppPublisher.java
+src/main/java/com/facebook/ads/sdk/AdCampaignFrequencyControlSpecs.java
+src/main/java/com/facebook/ads/sdk/AdAssetVideo.java
+src/main/java/com/facebook/ads/sdk/OfflineConversionDataSetActivities.java
+src/main/java/com/facebook/ads/sdk/AdImage.java
+src/main/java/com/facebook/ads/sdk/CatalogItemRejectionReasons.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogCategory.java
+src/main/java/com/facebook/ads/sdk/IGUserSubscribedAppsData.java
+src/main/java/com/facebook/ads/sdk/PlaceTopic.java
+src/main/java/com/facebook/ads/sdk/AdsPixelEventSuggestionRule.java
+src/main/java/com/facebook/ads/sdk/AdKeywords.java
+src/main/java/com/facebook/ads/sdk/CanvasDynamicSetting.java
+src/main/java/com/facebook/ads/sdk/AdsQuickViews.java
+src/main/java/com/facebook/ads/sdk/Destination.java
+src/main/java/com/facebook/ads/sdk/AdCreativeSiteLinksSpec.java
+src/main/java/com/facebook/ads/sdk/InsightsValue.java
+src/main/java/com/facebook/ads/sdk/AdSet.java
+src/main/java/com/facebook/ads/sdk/AdCampaignMultiAds.java
+src/main/java/com/facebook/ads/sdk/CanvasCollectionThumbnail.java
+src/main/java/com/facebook/ads/sdk/RevSharePolicy.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogImageSettings.java
+src/main/java/com/facebook/ads/sdk/RichMediaElement.java
+src/main/java/com/facebook/ads/sdk/AdsPaymentCycle.java
+src/main/java/com/facebook/ads/sdk/LookalikeSpec.java
+src/main/java/com/facebook/ads/sdk/PageCTSTopic.java
+src/main/java/com/facebook/ads/sdk/IGCommentFromUser.java
+src/main/java/com/facebook/ads/sdk/AdCreativeFeatureCustomizations.java
+src/main/java/com/facebook/ads/sdk/AdAccountIosFourteenCampaignLimits.java
+src/main/java/com/facebook/ads/sdk/Lead.java
+src/main/java/com/facebook/ads/sdk/BusinessImageTBusinessFolderPathItem.java
+src/main/java/com/facebook/ads/sdk/AdContract.java
+src/main/java/com/facebook/ads/sdk/MediaCopyrightUpdateRecord.java
+src/main/java/com/facebook/ads/sdk/TargetingAutomation.java
+src/main/java/com/facebook/ads/sdk/AdAccountAdRulesHistory.java
+src/main/java/com/facebook/ads/sdk/OverrideDetails.java
+src/main/java/com/facebook/ads/sdk/AdPlacement.java
+src/main/java/com/facebook/ads/sdk/CreatorAssetCreative.java
+src/main/java/com/facebook/ads/sdk/AdsActionStats.java
+src/main/java/com/facebook/ads/sdk/AndroidAppLink.java
+src/main/java/com/facebook/ads/sdk/BusinessApplicationRequest.java
+src/main/java/com/facebook/ads/sdk/P2MInvoicePayments.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecCarousel.java
+src/main/java/com/facebook/ads/sdk/ValueBasedEligibleSource.java
+src/main/java/com/facebook/ads/sdk/MediaTitle.java
+src/main/java/com/facebook/ads/sdk/AdCreativeGenerativeAssetSpec.java
+src/main/java/com/facebook/ads/sdk/AdCreativePhotoDataMediaElements.java
+src/main/java/com/facebook/ads/sdk/ContentBlockList.java
+src/main/java/com/facebook/ads/sdk/AdStudyCell.java
+src/main/java/com/facebook/ads/sdk/AdsAnomalyDetection.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecCallToAction.java
+src/main/java/com/facebook/ads/sdk/PhotoMetadata.java
+src/main/java/com/facebook/ads/sdk/CopyrightAudioAsset.java
+src/main/java/com/facebook/ads/sdk/UserPaymentModulesOptions.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencySpec.java
+src/main/java/com/facebook/ads/sdk/Shop.java
+src/main/java/com/facebook/ads/sdk/PlaceTag.java
+src/main/java/com/facebook/ads/sdk/ExtendedCreditInfo.java
+src/main/java/com/facebook/ads/sdk/AdsReportBuilderMMMReportScheduler.java
+src/main/java/com/facebook/ads/sdk/ProductItemShipping.java
+src/main/java/com/facebook/ads/sdk/CommerceMerchantSettings.java
+src/main/java/com/facebook/ads/sdk/ManagedPartnerBusiness.java
+src/main/java/com/facebook/ads/sdk/AdAccountDefaultDestination.java
+src/main/java/com/facebook/ads/sdk/AdCreativePlaceData.java
+src/main/java/com/facebook/ads/sdk/AdPlacePageSetMetadata.java
+src/main/java/com/facebook/ads/sdk/AdDynamicCreative.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataAppLinkSpec.java
+src/main/java/com/facebook/ads/sdk/McomOnboardingStatus.java
+src/main/java/com/facebook/ads/sdk/HomeListing.java
+src/main/java/com/facebook/ads/sdk/GeoGatingPolicy.java
+src/main/java/com/facebook/ads/sdk/ThirdPartyMeasurementReportDataset.java
+src/main/java/com/facebook/ads/sdk/AdSavedLocation.java
+src/main/java/com/facebook/ads/sdk/AppLinks.java
+src/main/java/com/facebook/ads/sdk/IGUser.java
+src/main/java/com/facebook/ads/sdk/APIContext.java
+src/main/java/com/facebook/ads/sdk/CanvasAdSettings.java
+src/main/java/com/facebook/ads/sdk/RegionalRegulationIdentities.java
+src/main/java/com/facebook/ads/sdk/ShadowIGMediaBoostedInsightsResult.java
+src/main/java/com/facebook/ads/sdk/AgencyClientDeclaration.java
+src/main/java/com/facebook/ads/sdk/CPASParentCatalogSettings.java
+src/main/java/com/facebook/ads/sdk/AdsValueAdjustmentRuleCollection.java
+src/main/java/com/facebook/ads/sdk/AdsPixelEventLastFiredTime.java
+src/main/java/com/facebook/ads/sdk/AdCreativeRegionalRegulationDisclaimer.java
+src/main/java/com/facebook/ads/sdk/AdNetworkAnalyticsAsyncQueryExport.java
+src/main/java/com/facebook/ads/sdk/DeliveryStatus.java
+src/main/java/com/facebook/ads/sdk/AdCreativeInsights.java
+src/main/java/com/facebook/ads/sdk/ALMGuidanceMetrics.java
+src/main/java/com/facebook/ads/sdk/UserLeadGenDisclaimerResponse.java
+src/main/java/com/facebook/ads/sdk/CPASAdCreationTemplate.java
+src/main/java/com/facebook/ads/sdk/ProductFeedUpload.java
+src/main/java/com/facebook/ads/sdk/VideoCopyrightConditionGroup.java
+src/main/java/com/facebook/ads/sdk/ExternalEventSource.java
+src/main/java/com/facebook/ads/sdk/LeadGenURLEntityAtRanges.java
+src/main/java/com/facebook/ads/sdk/ImageCopyrightDispute.java
+src/main/java/com/facebook/ads/sdk/VideoCopyright.java
+src/main/java/com/facebook/ads/sdk/Experience.java
+src/main/java/com/facebook/ads/sdk/Event.java
+1:/*
+2: * Copyright (c) Meta Platforms, Inc. and affiliates.
+3: * All rights reserved.
+4: *
+5: * This source code is licensed under the license found in the
+6: * LICENSE file in the root directory of this source tree.
+7: */
+11:import java.io.File;
+12:import java.lang.reflect.Modifier;
+13:import java.lang.reflect.Type;
+23:import com.google.common.util.concurrent.SettableFuture;
+25:import com.google.gson.JsonArray;
+26:import com.google.gson.annotations.SerializedName;
+27:import com.google.gson.reflect.TypeToken;
+28:import com.google.gson.Gson;
+29:import com.google.gson.GsonBuilder;
+35:/**
+36: * This class is auto-generated.
+37: *
+38: * For any issues or feature requests related to this class, please let us know
+39: * on github and we'll fix in our codegen framework. We'll not be able to accept
+40: * pull request for this class.
+41: *
+42: */
+44:  @SerializedName("attending_count")
+45:  private Long mAttendingCount = null;
+46:  @SerializedName("can_guests_invite")
+47:  private Boolean mCanGuestsInvite = null;
+48:  @SerializedName("category")
+49:  private EnumCategory mCategory = null;
+50:  @SerializedName("cover")
+51:  private CoverPhoto mCover = null;
+52:  @SerializedName("created_time")
+53:  private String mCreatedTime = null;
+54:  @SerializedName("declined_count")
+55:  private Long mDeclinedCount = null;
+56:  @SerializedName("description")
+57:  private String mDescription = null;
+58:  @SerializedName("discount_code_enabled")
+59:  private Boolean mDiscountCodeEnabled = null;
+60:  @SerializedName("end_time")
+61:  private String mEndTime = null;
+62:  @SerializedName("event_times")
+63:  private List<ChildEvent> mEventTimes = null;
+64:  @SerializedName("guest_list_enabled")
+65:  private Boolean mGuestListEnabled = null;
+66:  @SerializedName("id")
+67:  private String mId = null;
+68:  @SerializedName("interested_count")
+69:  private Long mInterestedCount = null;
+70:  @SerializedName("is_canceled")
+71:  private Boolean mIsCanceled = null;
+72:  @SerializedName("is_draft")
+73:  private Boolean mIsDraft = null;
+74:  @SerializedName("is_online")
+75:  private Boolean mIsOnline = null;
+76:  @SerializedName("is_page_owned")
+77:  private Boolean mIsPageOwned = null;
+78:  @SerializedName("maybe_count")
+79:  private Long mMaybeCount = null;
+80:  @SerializedName("name")
+81:  private String mName = null;
+82:  @SerializedName("noreply_count")
+83:  private Long mNoreplyCount = null;
+84:  @SerializedName("online_event_format")
+85:  private EnumOnlineEventFormat mOnlineEventFormat = null;
+86:  @SerializedName("online_event_third_party_url")
+87:  private String mOnlineEventThirdPartyUrl = null;
+88:  @SerializedName("owner")
+89:  private Object mOwner = null;
+90:  @SerializedName("parent_group")
+91:  private Group mParentGroup = null;
+92:  @SerializedName("place")
+93:  private Place mPlace = null;
+94:  @SerializedName("registration_setting")
+95:  private EventRegistrationSetting mRegistrationSetting = null;
+96:  @SerializedName("scheduled_publish_time")
+97:  private String mScheduledPublishTime = null;
+98:  @SerializedName("start_time")
+99:  private String mStartTime = null;
+100:  @SerializedName("ticket_setting")
+101:  private EventTicketSetting mTicketSetting = null;
+102:  @SerializedName("ticket_uri")
+103:  private String mTicketUri = null;
+104:  @SerializedName("ticket_uri_start_sales_time")
+105:  private String mTicketUriStartSalesTime = null;
+106:  @SerializedName("ticketing_privacy_uri")
+107:  private String mTicketingPrivacyUri = null;
+108:  @SerializedName("ticketing_terms_uri")
+109:  private String mTicketingTermsUri = null;
+110:  @SerializedName("timezone")
+111:  private String mTimezone = null;
+112:  @SerializedName("type")
+113:  private EnumType mType = null;
+114:  @SerializedName("updated_time")
+115:  private String mUpdatedTime = null;
+116:  protected static Gson gson = null;
+118:  Event() {
+121:  public Event(Long id, APIContext context) {
+122:    this(id.toString(), context);
+125:  public Event(String id, APIContext context) {
+126:    this.mId = id;
+128:    this.context = context;
+131:  public Event fetch() throws APIException{
+132:    Event newInstance = fetchById(this.getPrefixedId().toString(), this.context);
+133:    this.copyFrom(newInstance);
+134:    return this;
+137:  public static Event fetchById(Long id, APIContext context) throws APIException {
+138:    return fetchById(id.toString(), context);
+141:  public static ListenableFuture<Event> fetchByIdAsync(Long id, APIContext context) throws APIException {
+142:    return fetchByIdAsync(id.toString(), context);
+148:      .requestAllFields()
+155:      .requestAllFields()
+162:        .setParam("ids", APIRequest.joinStringList(ids))
+163:        .requestFields(fields)
+171:        .setParam("ids", APIRequest.joinStringList(ids))
+172:        .requestFields(fields)
+176:  private String getPrefixedId() {
+177:    return getId();
+180:  public String getId() {
+181:    return getFieldId().toString();
+183:  public static Event loadJSON(String json, APIContext context, String header) {
+184:    Event event = getGson().fromJson(json, Event.class);
+185:    if (context.isDebug()) {
+186:      JsonParser parser = new JsonParser();
+187:      JsonElement o1 = parser.parse(json);
+188:      JsonElement o2 = parser.parse(event.toString());
+189:      if (o1.getAsJsonObject().get("__fb_trace_id__") != null) {
+190:        o2.getAsJsonObject().add("__fb_trace_id__", o1.getAsJsonObject().get("__fb_trace_id__"));
+192:      if (!o1.equals(o2)) {
+193:        context.log("[Warning] When parsing response, object is not consistent with JSON:");
+194:        context.log("[JSON]" + o1);
+195:        context.log("[Object]" + o2);
+198:    event.context = context;
+199:    event.rawValue = json;
+200:    event.header = header;
+201:    return event;
+206:    JsonArray arr;
+209:    Exception exception = null;
+213:        // First, check if it's a pure JSON Array
+214:        arr = result.getAsJsonArray();
+215:        for (int i = 0; i < arr.size(); i++) {
+216:          events.add(loadJSON(arr.get(i).getAsJsonObject().toString(), context, header));
+217:        };
+218:        return events;
+219:      } else if (result.isJsonObject()) {
+230:            String previous = paging.has("previous") ? paging.get("previous").getAsString() : null;
+231:            String next = paging.has("next") ? paging.get("next").getAsString() : null;
+232:            events.setPaging(previous, next);
+233:            if (context.hasAppSecret()) {
+234:              events.setAppSecret(context.getAppSecretProof());
+237:          if (obj.get("data").isJsonArray()) {
+238:            // Second, check if it's a JSON array with "data"
+239:            arr = obj.get("data").getAsJsonArray();
+240:            for (int i = 0; i < arr.size(); i++) {
+241:              events.add(loadJSON(arr.get(i).getAsJsonObject().toString(), context, header));
+242:            };
+243:          } else if (obj.get("data").isJsonObject()) {
+244:            // Third, check if it's a JSON object with "data"
+245:            obj = obj.get("data").getAsJsonObject();
+246:            boolean isRedownload = false;
+247:            for (String s : new String[]{"campaigns", "adsets", "ads"}) {
+248:              if (obj.has(s)) {
+249:                isRedownload = true;
+250:                obj = obj.getAsJsonObject(s);
+251:                for (Map.Entry<String, JsonElement> entry : obj.entrySet()) {
+252:                  events.add(loadJSON(entry.getValue().toString(), context, header));
+253:                }
+254:                break;
+255:              }
+257:            if (!isRedownload) {
+258:              events.add(loadJSON(obj.toString(), context, header));
+261:          return events;
+262:        } else if (obj.has("images")) {
+263:          // Fourth, check if it's a map of image objects
+264:          obj = obj.get("images").getAsJsonObject();
+265:          for (Map.Entry<String, JsonElement> entry : obj.entrySet()) {
+266:              events.add(loadJSON(entry.getValue().toString(), context, header));
+268:          return events;
+269:        } else {
+270:          // Fifth, check if it's an array of objects indexed by id
+271:          boolean isIdIndexedArray = true;
+272:          for (Map.Entry entry : obj.entrySet()) {
+273:            String key = (String) entry.getKey();
+274:            if (key.equals("__fb_trace_id__")) {
+275:              continue;
+277:            JsonElement value = (JsonElement) entry.getValue();
+278:            if (
+279:              value != null &&
+280:              value.isJsonObject() &&
+281:              value.getAsJsonObject().has("id") &&
+282:              value.getAsJsonObject().get("id") != null &&
+283:              value.getAsJsonObject().get("id").getAsString().equals(key)
+284:            ) {
+285:              events.add(loadJSON(value.toString(), context, header));
+286:            } else {
+287:              isIdIndexedArray = false;
+288:              break;
+291:          if (isIdIndexedArray) {
+292:            return events;
+295:          // Sixth, check if it's pure JsonObject
+296:          events.clear();
+297:          events.add(loadJSON(json, context, header));
+298:          return events;
+302:      exception = e;
+305:      "Invalid response string: " + json,
+306:      exception
+310:  @Override
+311:  public APIContext getContext() {
+312:    return context;
+315:  @Override
+316:  public void setContext(APIContext context) {
+317:    this.context = context;
+320:  @Override
+321:  public String toString() {
+322:    return getGson().toJson(this);
+325:  public APIRequestGetComments getComments() {
+326:    return new APIRequestGetComments(this.getPrefixedId().toString(), context);
+329:  public APIRequestGetFeed getFeed() {
+330:    return new APIRequestGetFeed(this.getPrefixedId().toString(), context);
+333:  public APIRequestGetLiveVideos getLiveVideos() {
+334:    return new APIRequestGetLiveVideos(this.getPrefixedId().toString(), context);
+337:  public APIRequestCreateLiveVideo createLiveVideo() {
+338:    return new APIRequestCreateLiveVideo(this.getPrefixedId().toString(), context);
+341:  public APIRequestGetPhotos getPhotos() {
+342:    return new APIRequestGetPhotos(this.getPrefixedId().toString(), context);
+345:  public APIRequestGetPicture getPicture() {
+346:    return new APIRequestGetPicture(this.getPrefixedId().toString(), context);
+349:  public APIRequestGetPosts getPosts() {
+350:    return new APIRequestGetPosts(this.getPrefixedId().toString(), context);
+353:  public APIRequestGetRoles getRoles() {
+354:    return new APIRequestGetRoles(this.getPrefixedId().toString(), context);
+357:  public APIRequestGetTicketTiers getTicketTiers() {
+358:    return new APIRequestGetTicketTiers(this.getPrefixedId().toString(), context);
+361:  public APIRequestGetVideos getVideos() {
+362:    return new APIRequestGetVideos(this.getPrefixedId().toString(), context);
+365:  public APIRequestGet get() {
+366:    return new APIRequestGet(this.getPrefixedId().toString(), context);
+370:  public Long getFieldAttendingCount() {
+371:    return mAttendingCount;
+374:  public Boolean getFieldCanGuestsInvite() {
+375:    return mCanGuestsInvite;
+378:  public EnumCategory getFieldCategory() {
+379:    return mCategory;
+382:  public CoverPhoto getFieldCover() {
+383:    return mCover;
+386:  public String getFieldCreatedTime() {
+387:    return mCreatedTime;
+390:  public Long getFieldDeclinedCount() {
+391:    return mDeclinedCount;
+394:  public String getFieldDescription() {
+395:    return mDescription;
+398:  public Boolean getFieldDiscountCodeEnabled() {
+399:    return mDiscountCodeEnabled;
+402:  public String getFieldEndTime() {
+403:    return mEndTime;
+406:  public List<ChildEvent> getFieldEventTimes() {
+407:    return mEventTimes;
+410:  public Boolean getFieldGuestListEnabled() {
+411:    return mGuestListEnabled;
+414:  public String getFieldId() {
+415:    return mId;
+418:  public Long getFieldInterestedCount() {
+419:    return mInterestedCount;
+422:  public Boolean getFieldIsCanceled() {
+423:    return mIsCanceled;
+426:  public Boolean getFieldIsDraft() {
+427:    return mIsDraft;
+430:  public Boolean getFieldIsOnline() {
+431:    return mIsOnline;
+434:  public Boolean getFieldIsPageOwned() {
+435:    return mIsPageOwned;
+438:  public Long getFieldMaybeCount() {
+439:    return mMaybeCount;
+442:  public String getFieldName() {
+443:    return mName;
+446:  public Long getFieldNoreplyCount() {
+447:    return mNoreplyCount;
+450:  public EnumOnlineEventFormat getFieldOnlineEventFormat() {
+451:    return mOnlineEventFormat;
+454:  public String getFieldOnlineEventThirdPartyUrl() {
+455:    return mOnlineEventThirdPartyUrl;
+458:  public Object getFieldOwner() {
+459:    return mOwner;
+462:  public Group getFieldParentGroup() {
+463:    if (mParentGroup != null) {
+464:      mParentGroup.context = getContext();
+466:    return mParentGroup;
+469:  public Place getFieldPlace() {
+470:    if (mPlace != null) {
+471:      mPlace.context = getContext();
+473:    return mPlace;
+476:  public EventRegistrationSetting getFieldRegistrationSetting() {
+477:    if (mRegistrationSetting != null) {
+478:      mRegistrationSetting.context = getContext();
+480:    return mRegistrationSetting;
+483:  public String getFieldScheduledPublishTime() {
+484:    return mScheduledPublishTime;
+487:  public String getFieldStartTime() {
+488:    return mStartTime;
+491:  public EventTicketSetting getFieldTicketSetting() {
+492:    if (mTicketSetting != null) {
+493:      mTicketSetting.context = getContext();
+495:    return mTicketSetting;
+498:  public String getFieldTicketUri() {
+499:    return mTicketUri;
+502:  public String getFieldTicketUriStartSalesTime() {
+503:    return mTicketUriStartSalesTime;
+506:  public String getFieldTicketingPrivacyUri() {
+507:    return mTicketingPrivacyUri;
+510:  public String getFieldTicketingTermsUri() {
+511:    return mTicketingTermsUri;
+514:  public String getFieldTimezone() {
+515:    return mTimezone;
+518:  public EnumType getFieldType() {
+519:    return mType;
+522:  public String getFieldUpdatedTime() {
+523:    return mUpdatedTime;
+531:    @Override
+532:    public APINodeList<NullNode> getLastResponse() {
+538:    public static final String[] FIELDS = {
+541:    @Override
+543:      return NullNode.parseResponse(response, getContext(), this, header);
+546:    @Override
+547:    public APINodeList<NullNode> execute() throws APIException {
+548:      return execute(new HashMap<String, Object>());
+551:    @Override
+552:    public APINodeList<NullNode> execute(Map<String, Object> extraParams) throws APIException {
+553:      ResponseWrapper rw = executeInternal(extraParams);
+554:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+558:    public ListenableFuture<APINodeList<NullNode>> executeAsync() throws APIException {
+582:    @Override
+583:    public APIRequestGetComments setParam(String param, Object value) {
+584:      setParamInternal(param, value);
+585:      return this;
+588:    @Override
+589:    public APIRequestGetComments setParams(Map<String, Object> params) {
+590:      setParamsInternal(params);
+591:      return this;
+595:    public APIRequestGetComments requestAllFields () {
+596:      return this.requestAllFields(true);
+599:    public APIRequestGetComments requestAllFields (boolean value) {
+600:      for (String field : FIELDS) {
+601:        this.requestField(field, value);
+603:      return this;
+606:    @Override
+607:    public APIRequestGetComments requestFields (List<String> fields) {
+608:      return this.requestFields(fields, true);
+611:    @Override
+612:    public APIRequestGetComments requestFields (List<String> fields, boolean value) {
+613:      for (String field : fields) {
+614:        this.requestField(field, value);
+616:      return this;
+619:    @Override
+620:    public APIRequestGetComments requestField (String field) {
+621:      this.requestField(field, true);
+622:      return this;
+625:    @Override
+626:    public APIRequestGetComments requestField (String field, boolean value) {
+627:      this.requestFieldInternal(field, value);
+628:      return this;
+636:    @Override
+637:    public APINodeList<NullNode> getLastResponse() {
+643:    public static final String[] FIELDS = {
+646:    @Override
+648:      return NullNode.parseResponse(response, getContext(), this, header);
+651:    @Override
+652:    public APINodeList<NullNode> execute() throws APIException {
+653:      return execute(new HashMap<String, Object>());
+656:    @Override
+657:    public APINodeList<NullNode> execute(Map<String, Object> extraParams) throws APIException {
+658:      ResponseWrapper rw = executeInternal(extraParams);
+659:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+663:    public ListenableFuture<APINodeList<NullNode>> executeAsync() throws APIException {
+687:    @Override
+688:    public APIRequestGetFeed setParam(String param, Object value) {
+689:      setParamInternal(param, value);
+690:      return this;
+693:    @Override
+694:    public APIRequestGetFeed setParams(Map<String, Object> params) {
+695:      setParamsInternal(params);
+696:      return this;
+700:    public APIRequestGetFeed requestAllFields () {
+701:      return this.requestAllFields(true);
+704:    public APIRequestGetFeed requestAllFields (boolean value) {
+705:      for (String field : FIELDS) {
+706:        this.requestField(field, value);
+708:      return this;
+711:    @Override
+712:    public APIRequestGetFeed requestFields (List<String> fields) {
+713:      return this.requestFields(fields, true);
+716:    @Override
+717:    public APIRequestGetFeed requestFields (List<String> fields, boolean value) {
+718:      for (String field : fields) {
+719:        this.requestField(field, value);
+721:      return this;
+724:    @Override
+725:    public APIRequestGetFeed requestField (String field) {
+726:      this.requestField(field, true);
+727:      return this;
+730:    @Override
+731:    public APIRequestGetFeed requestField (String field, boolean value) {
+732:      this.requestFieldInternal(field, value);
+733:      return this;
+741:    @Override
+742:    public APINodeList<NullNode> getLastResponse() {
+748:    public static final String[] FIELDS = {
+751:    @Override
+753:      return NullNode.parseResponse(response, getContext(), this, header);
+756:    @Override
+757:    public APINodeList<NullNode> execute() throws APIException {
+758:      return execute(new HashMap<String, Object>());
+761:    @Override
+762:    public APINodeList<NullNode> execute(Map<String, Object> extraParams) throws APIException {
+763:      ResponseWrapper rw = executeInternal(extraParams);
+764:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+768:    public ListenableFuture<APINodeList<NullNode>> executeAsync() throws APIException {
+792:    @Override
+793:    public APIRequestGetLiveVideos setParam(String param, Object value) {
+794:      setParamInternal(param, value);
+795:      return this;
+798:    @Override
+799:    public APIRequestGetLiveVideos setParams(Map<String, Object> params) {
+800:      setParamsInternal(params);
+801:      return this;
+805:    public APIRequestGetLiveVideos requestAllFields () {
+806:      return this.requestAllFields(true);
+809:    public APIRequestGetLiveVideos requestAllFields (boolean value) {
+810:      for (String field : FIELDS) {
+811:        this.requestField(field, value);
+813:      return this;
+816:    @Override
+817:    public APIRequestGetLiveVideos requestFields (List<String> fields) {
+818:      return this.requestFields(fields, true);
+821:    @Override
+822:    public APIRequestGetLiveVideos requestFields (List<String> fields, boolean value) {
+823:      for (String field : fields) {
+824:        this.requestField(field, value);
+826:      return this;
+829:    @Override
+830:    public APIRequestGetLiveVideos requestField (String field) {
+831:      this.requestField(field, true);
+832:      return this;
+835:    @Override
+836:    public APIRequestGetLiveVideos requestField (String field, boolean value) {
+837:      this.requestFieldInternal(field, value);
+838:      return this;
+846:    @Override
+847:    public LiveVideo getLastResponse() {
+851:      "content_tags",
+852:      "description",
+853:      "enable_backup_ingest",
+854:      "encoding_settings",
+855:      "event_params",
+856:      "fisheye_video_cropped",
+857:      "front_z_rotation",
+858:      "is_audio_only",
+859:      "is_spherical",
+860:      "original_fov",
+861:      "privacy",
+862:      "projection",
+863:      "published",
+864:      "schedule_custom_profile_image",
+865:      "spatial_audio_format",
+866:      "status",
+867:      "stereoscopic_mode",
+868:      "stop_on_delete_stream",
+869:      "stream_type",
+870:      "title",
+873:    public static final String[] FIELDS = {
+876:    @Override
+878:      return LiveVideo.parseResponse(response, getContext(), this, header).head();
+881:    @Override
+882:    public LiveVideo execute() throws APIException {
+883:      return execute(new HashMap<String, Object>());
+886:    @Override
+887:    public LiveVideo execute(Map<String, Object> extraParams) throws APIException {
+888:      ResponseWrapper rw = executeInternal(extraParams);
+889:      lastResponse = parseResponse(rw.getBody(), rw.getHeader());
+893:    public ListenableFuture<LiveVideo> executeAsync() throws APIException {
+917:    @Override
+918:    public APIRequestCreateLiveVideo setParam(String param, Object value) {
+919:      setParamInternal(param, value);
+920:      return this;
+923:    @Override
+924:    public APIRequestCreateLiveVideo setParams(Map<String, Object> params) {
+925:      setParamsInternal(params);
+926:      return this;
+930:    public APIRequestCreateLiveVideo setContentTags (List<String> contentTags) {
+931:      this.setParam("content_tags", contentTags);
+932:      return this;
+934:    public APIRequestCreateLiveVideo setContentTags (String contentTags) {
+935:      this.setParam("content_tags", contentTags);
+936:      return this;
+939:    public APIRequestCreateLiveVideo setDescription (String description) {
+940:      this.setParam("description", description);
+941:      return this;
+944:    public APIRequestCreateLiveVideo setEnableBackupIngest (Boolean enableBackupIngest) {
+945:      this.setParam("enable_backup_ingest", enableBackupIngest);
+946:      return this;
+948:    public APIRequestCreateLiveVideo setEnableBackupIngest (String enableBackupIngest) {
+949:      this.setParam("enable_backup_ingest", enableBackupIngest);
+950:      return this;
+953:    public APIRequestCreateLiveVideo setEncodingSettings (String encodingSettings) {
+954:      this.setParam("encoding_settings", encodingSettings);
+955:      return this;
+958:    public APIRequestCreateLiveVideo setEventParams (Object eventParams) {
+959:      this.setParam("event_params", eventParams);
+960:      return this;
+962:    public APIRequestCreateLiveVideo setEventParams (String eventParams) {
+963:      this.setParam("event_params", eventParams);
+964:      return this;
+967:    public APIRequestCreateLiveVideo setFisheyeVideoCropped (Boolean fisheyeVideoCropped) {
+968:      this.setParam("fisheye_video_cropped", fisheyeVideoCropped);
+969:      return this;
+971:    public APIRequestCreateLiveVideo setFisheyeVideoCropped (String fisheyeVideoCropped) {
+972:      this.setParam("fisheye_video_cropped", fisheyeVideoCropped);
+973:      return this;
+976:    public APIRequestCreateLiveVideo setFrontZRotation (Double frontZRotation) {
+977:      this.setParam("front_z_rotation", frontZRotation);
+978:      return this;
+980:    public APIRequestCreateLiveVideo setFrontZRotation (String frontZRotation) {
+981:      this.setParam("front_z_rotation", frontZRotation);
+982:      return this;
+985:    public APIRequestCreateLiveVideo setIsAudioOnly (Boolean isAudioOnly) {
+986:      this.setParam("is_audio_only", isAudioOnly);
+987:      return this;
+989:    public APIRequestCreateLiveVideo setIsAudioOnly (String isAudioOnly) {
+990:      this.setParam("is_audio_only", isAudioOnly);
+991:      return this;
+994:    public APIRequestCreateLiveVideo setIsSpherical (Boolean isSpherical) {
+995:      this.setParam("is_spherical", isSpherical);
+996:      return this;
+998:    public APIRequestCreateLiveVideo setIsSpherical (String isSpherical) {
+999:      this.setParam("is_spherical", isSpherical);
+1000:      return this;
+1003:    public APIRequestCreateLiveVideo setOriginalFov (Long originalFov) {
+1004:      this.setParam("original_fov", originalFov);
+1005:      return this;
+1007:    public APIRequestCreateLiveVideo setOriginalFov (String originalFov) {
+1008:      this.setParam("original_fov", originalFov);
+1009:      return this;
+1012:    public APIRequestCreateLiveVideo setPrivacy (String privacy) {
+1013:      this.setParam("privacy", privacy);
+1014:      return this;
+1017:    public APIRequestCreateLiveVideo setProjection (LiveVideo.EnumProjection projection) {
+1018:      this.setParam("projection", projection);
+1019:      return this;
+1021:    public APIRequestCreateLiveVideo setProjection (String projection) {
+1022:      this.setParam("projection", projection);
+1023:      return this;
+1026:    public APIRequestCreateLiveVideo setPublished (Boolean published) {
+1027:      this.setParam("published", published);
+1028:      return this;
+1030:    public APIRequestCreateLiveVideo setPublished (String published) {
+1031:      this.setParam("published", published);
+1032:      return this;
+1035:    public APIRequestCreateLiveVideo setScheduleCustomProfileImage (File scheduleCustomProfileImage) {
+1036:      this.setParam("schedule_custom_profile_image", scheduleCustomProfileImage);
+1037:      return this;
+1039:    public APIRequestCreateLiveVideo setScheduleCustomProfileImage (String scheduleCustomProfileImage) {
+1040:      this.setParam("schedule_custom_profile_image", scheduleCustomProfileImage);
+1041:      return this;
+1044:    public APIRequestCreateLiveVideo setSpatialAudioFormat (LiveVideo.EnumSpatialAudioFormat spatialAudioFormat) {
+1045:      this.setParam("spatial_audio_format", spatialAudioFormat);
+1046:      return this;
+1048:    public APIRequestCreateLiveVideo setSpatialAudioFormat (String spatialAudioFormat) {
+1049:      this.setParam("spatial_audio_format", spatialAudioFormat);
+1050:      return this;
+1053:    public APIRequestCreateLiveVideo setStatus (LiveVideo.EnumStatus status) {
+1054:      this.setParam("status", status);
+1055:      return this;
+1057:    public APIRequestCreateLiveVideo setStatus (String status) {
+1058:      this.setParam("status", status);
+1059:      return this;
+1062:    public APIRequestCreateLiveVideo setStereoscopicMode (LiveVideo.EnumStereoscopicMode stereoscopicMode) {
+1063:      this.setParam("stereoscopic_mode", stereoscopicMode);
+1064:      return this;
+1066:    public APIRequestCreateLiveVideo setStereoscopicMode (String stereoscopicMode) {
+1067:      this.setParam("stereoscopic_mode", stereoscopicMode);
+1068:      return this;
+1071:    public APIRequestCreateLiveVideo setStopOnDeleteStream (Boolean stopOnDeleteStream) {
+1072:      this.setParam("stop_on_delete_stream", stopOnDeleteStream);
+1073:      return this;
+1075:    public APIRequestCreateLiveVideo setStopOnDeleteStream (String stopOnDeleteStream) {
+1076:      this.setParam("stop_on_delete_stream", stopOnDeleteStream);
+1077:      return this;
+1080:    public APIRequestCreateLiveVideo setStreamType (LiveVideo.EnumStreamType streamType) {
+1081:      this.setParam("stream_type", streamType);
+1082:      return this;
+1084:    public APIRequestCreateLiveVideo setStreamType (String streamType) {
+1085:      this.setParam("stream_type", streamType);
+1086:      return this;
+1089:    public APIRequestCreateLiveVideo setTitle (String title) {
+1090:      this.setParam("title", title);
+1091:      return this;
+1094:    public APIRequestCreateLiveVideo requestAllFields () {
+1095:      return this.requestAllFields(true);
+1098:    public APIRequestCreateLiveVideo requestAllFields (boolean value) {
+1099:      for (String field : FIELDS) {
+1100:        this.requestField(field, value);
+1102:      return this;
+1105:    @Override
+1106:    public APIRequestCreateLiveVideo requestFields (List<String> fields) {
+1107:      return this.requestFields(fields, true);
+1110:    @Override
+1111:    public APIRequestCreateLiveVideo requestFields (List<String> fields, boolean value) {
+1112:      for (String field : fields) {
+1113:        this.requestField(field, value);
+1115:      return this;
+1118:    @Override
+1119:    public APIRequestCreateLiveVideo requestField (String field) {
+1120:      this.requestField(field, true);
+1121:      return this;
+1124:    @Override
+1125:    public APIRequestCreateLiveVideo requestField (String field, boolean value) {
+1126:      this.requestFieldInternal(field, value);
+1127:      return this;
+1135:    @Override
+1136:    public APINodeList<NullNode> getLastResponse() {
+1142:    public static final String[] FIELDS = {
+1145:    @Override
+1147:      return NullNode.parseResponse(response, getContext(), this, header);
+1150:    @Override
+1151:    public APINodeList<NullNode> execute() throws APIException {
+1152:      return execute(new HashMap<String, Object>());
+1155:    @Override
+1156:    public APINodeList<NullNode> execute(Map<String, Object> extraParams) throws APIException {
+1157:      ResponseWrapper rw = executeInternal(extraParams);
+1158:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+1162:    public ListenableFuture<APINodeList<NullNode>> executeAsync() throws APIException {
+1186:    @Override
+1187:    public APIRequestGetPhotos setParam(String param, Object value) {
+1188:      setParamInternal(param, value);
+1189:      return this;
+1192:    @Override
+1193:    public APIRequestGetPhotos setParams(Map<String, Object> params) {
+1194:      setParamsInternal(params);
+1195:      return this;
+1199:    public APIRequestGetPhotos requestAllFields () {
+1200:      return this.requestAllFields(true);
+1203:    public APIRequestGetPhotos requestAllFields (boolean value) {
+1204:      for (String field : FIELDS) {
+1205:        this.requestField(field, value);
+1207:      return this;
+1210:    @Override
+1211:    public APIRequestGetPhotos requestFields (List<String> fields) {
+1212:      return this.requestFields(fields, true);
+1215:    @Override
+1216:    public APIRequestGetPhotos requestFields (List<String> fields, boolean value) {
+1217:      for (String field : fields) {
+1218:        this.requestField(field, value);
+1220:      return this;
+1223:    @Override
+1224:    public APIRequestGetPhotos requestField (String field) {
+1225:      this.requestField(field, true);
+1226:      return this;
+1229:    @Override
+1230:    public APIRequestGetPhotos requestField (String field, boolean value) {
+1231:      this.requestFieldInternal(field, value);
+1232:      return this;
+1240:    @Override
+1241:    public APINodeList<NullNode> getLastResponse() {
+1247:    public static final String[] FIELDS = {
+1250:    @Override
+1252:      return NullNode.parseResponse(response, getContext(), this, header);
+1255:    @Override
+1256:    public APINodeList<NullNode> execute() throws APIException {
+1257:      return execute(new HashMap<String, Object>());
+1260:    @Override
+1261:    public APINodeList<NullNode> execute(Map<String, Object> extraParams) throws APIException {
+1262:      ResponseWrapper rw = executeInternal(extraParams);
+1263:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+1267:    public ListenableFuture<APINodeList<NullNode>> executeAsync() throws APIException {
+1291:    @Override
+1292:    public APIRequestGetPicture setParam(String param, Object value) {
+1293:      setParamInternal(param, value);
+1294:      return this;
+1297:    @Override
+1298:    public APIRequestGetPicture setParams(Map<String, Object> params) {
+1299:      setParamsInternal(params);
+1300:      return this;
+1304:    public APIRequestGetPicture requestAllFields () {
+1305:      return this.requestAllFields(true);
+1308:    public APIRequestGetPicture requestAllFields (boolean value) {
+1309:      for (String field : FIELDS) {
+1310:        this.requestField(field, value);
+1312:      return this;
+1315:    @Override
+1316:    public APIRequestGetPicture requestFields (List<String> fields) {
+1317:      return this.requestFields(fields, true);
+1320:    @Override
+1321:    public APIRequestGetPicture requestFields (List<String> fields, boolean value) {
+1322:      for (String field : fields) {
+1323:        this.requestField(field, value);
+1325:      return this;
+1328:    @Override
+1329:    public APIRequestGetPicture requestField (String field) {
+1330:      this.requestField(field, true);
+1331:      return this;
+1334:    @Override
+1335:    public APIRequestGetPicture requestField (String field, boolean value) {
+1336:      this.requestFieldInternal(field, value);
+1337:      return this;
+1345:    @Override
+1346:    public APINodeList<NullNode> getLastResponse() {
+1352:    public static final String[] FIELDS = {
+1355:    @Override
+1357:      return NullNode.parseResponse(response, getContext(), this, header);
+1360:    @Override
+1361:    public APINodeList<NullNode> execute() throws APIException {
+1362:      return execute(new HashMap<String, Object>());
+1365:    @Override
+1366:    public APINodeList<NullNode> execute(Map<String, Object> extraParams) throws APIException {
+1367:      ResponseWrapper rw = executeInternal(extraParams);
+1368:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+1372:    public ListenableFuture<APINodeList<NullNode>> executeAsync() throws APIException {
+1396:    @Override
+1397:    public APIRequestGetPosts setParam(String param, Object value) {
+1398:      setParamInternal(param, value);
+1399:      return this;
+1402:    @Override
+1403:    public APIRequestGetPosts setParams(Map<String, Object> params) {
+1404:      setParamsInternal(params);
+1405:      return this;
+1409:    public APIRequestGetPosts requestAllFields () {
+1410:      return this.requestAllFields(true);
+1413:    public APIRequestGetPosts requestAllFields (boolean value) {
+1414:      for (String field : FIELDS) {
+1415:        this.requestField(field, value);
+1417:      return this;
+1420:    @Override
+1421:    public APIRequestGetPosts requestFields (List<String> fields) {
+1422:      return this.requestFields(fields, true);
+1425:    @Override
+1426:    public APIRequestGetPosts requestFields (List<String> fields, boolean value) {
+1427:      for (String field : fields) {
+1428:        this.requestField(field, value);
+1430:      return this;
+1433:    @Override
+1434:    public APIRequestGetPosts requestField (String field) {
+1435:      this.requestField(field, true);
+1436:      return this;
+1439:    @Override
+1440:    public APIRequestGetPosts requestField (String field, boolean value) {
+1441:      this.requestFieldInternal(field, value);
+1442:      return this;
+1450:    @Override
+1451:    public APINodeList<Profile> getLastResponse() {
+1457:    public static final String[] FIELDS = {
+1458:      "can_post",
+1459:      "id",
+1460:      "link",
+1461:      "name",
+1462:      "pic",
+1463:      "pic_crop",
+1464:      "pic_large",
+1465:      "pic_small",
+1466:      "pic_square",
+1467:      "profile_type",
+1468:      "username",
+1471:    @Override
+1473:      return Profile.parseResponse(response, getContext(), this, header);
+1476:    @Override
+1477:    public APINodeList<Profile> execute() throws APIException {
+1478:      return execute(new HashMap<String, Object>());
+1481:    @Override
+1482:    public APINodeList<Profile> execute(Map<String, Object> extraParams) throws APIException {
+1483:      ResponseWrapper rw = executeInternal(extraParams);
+1484:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+1488:    public ListenableFuture<APINodeList<Profile>> executeAsync() throws APIException {
+1512:    @Override
+1513:    public APIRequestGetRoles setParam(String param, Object value) {
+1514:      setParamInternal(param, value);
+1515:      return this;
+1518:    @Override
+1519:    public APIRequestGetRoles setParams(Map<String, Object> params) {
+1520:      setParamsInternal(params);
+1521:      return this;
+1525:    public APIRequestGetRoles requestAllFields () {
+1526:      return this.requestAllFields(true);
+1529:    public APIRequestGetRoles requestAllFields (boolean value) {
+1530:      for (String field : FIELDS) {
+1531:        this.requestField(field, value);
+1533:      return this;
+1536:    @Override
+1537:    public APIRequestGetRoles requestFields (List<String> fields) {
+1538:      return this.requestFields(fields, true);
+1541:    @Override
+1542:    public APIRequestGetRoles requestFields (List<String> fields, boolean value) {
+1543:      for (String field : fields) {
+1544:        this.requestField(field, value);
+1546:      return this;
+1549:    @Override
+1550:    public APIRequestGetRoles requestField (String field) {
+1551:      this.requestField(field, true);
+1552:      return this;
+1555:    @Override
+1556:    public APIRequestGetRoles requestField (String field, boolean value) {
+1557:      this.requestFieldInternal(field, value);
+1558:      return this;
+1561:    public APIRequestGetRoles requestCanPostField () {
+1562:      return this.requestCanPostField(true);
+1564:    public APIRequestGetRoles requestCanPostField (boolean value) {
+1565:      this.requestField("can_post", value);
+1566:      return this;
+1568:    public APIRequestGetRoles requestIdField () {
+1569:      return this.requestIdField(true);
+1571:    public APIRequestGetRoles requestIdField (boolean value) {
+1572:      this.requestField("id", value);
+1573:      return this;
+1575:    public APIRequestGetRoles requestLinkField () {
+1576:      return this.requestLinkField(true);
+1578:    public APIRequestGetRoles requestLinkField (boolean value) {
+1579:      this.requestField("link", value);
+1580:      return this;
+1582:    public APIRequestGetRoles requestNameField () {
+1583:      return this.requestNameField(true);
+1585:    public APIRequestGetRoles requestNameField (boolean value) {
+1586:      this.requestField("name", value);
+1587:      return this;
+1589:    public APIRequestGetRoles requestPicField () {
+1590:      return this.requestPicField(true);
+1592:    public APIRequestGetRoles requestPicField (boolean value) {
+1593:      this.requestField("pic", value);
+1594:      return this;
+1596:    public APIRequestGetRoles requestPicCropField () {
+1597:      return this.requestPicCropField(true);
+1599:    public APIRequestGetRoles requestPicCropField (boolean value) {
+1600:      this.requestField("pic_crop", value);
+1601:      return this;
+1603:    public APIRequestGetRoles requestPicLargeField () {
+1604:      return this.requestPicLargeField(true);
+1606:    public APIRequestGetRoles requestPicLargeField (boolean value) {
+1607:      this.requestField("pic_large", value);
+1608:      return this;
+1610:    public APIRequestGetRoles requestPicSmallField () {
+1611:      return this.requestPicSmallField(true);
+1613:    public APIRequestGetRoles requestPicSmallField (boolean value) {
+1614:      this.requestField("pic_small", value);
+1615:      return this;
+1617:    public APIRequestGetRoles requestPicSquareField () {
+1618:      return this.requestPicSquareField(true);
+1620:    public APIRequestGetRoles requestPicSquareField (boolean value) {
+1621:      this.requestField("pic_square", value);
+1622:      return this;
+1624:    public APIRequestGetRoles requestProfileTypeField () {
+1625:      return this.requestProfileTypeField(true);
+1627:    public APIRequestGetRoles requestProfileTypeField (boolean value) {
+1628:      this.requestField("profile_type", value);
+1629:      return this;
+1631:    public APIRequestGetRoles requestUsernameField () {
+1632:      return this.requestUsernameField(true);
+1634:    public APIRequestGetRoles requestUsernameField (boolean value) {
+1635:      this.requestField("username", value);
+1636:      return this;
+1643:    @Override
+1644:    public APINodeList<EventTicketTier> getLastResponse() {
+1650:    public static final String[] FIELDS = {
+1651:      "currency",
+1652:      "description",
+1653:      "end_sales_time",
+1654:      "end_show_time",
+1655:      "fee_settings",
+1656:      "id",
+1657:      "maximum_quantity",
+1658:      "metadata",
+1659:      "minimum_quantity",
+1660:      "name",
+1661:      "price",
+1662:      "priority",
+1663:      "retailer_id",
+1664:      "seating_map_image_url",
+1665:      "start_sales_time",
+1666:      "start_show_time",
+1667:      "status",
+1668:      "total_quantity",
+1671:    @Override
+1673:      return EventTicketTier.parseResponse(response, getContext(), this, header);
+1676:    @Override
+1677:    public APINodeList<EventTicketTier> execute() throws APIException {
+1678:      return execute(new HashMap<String, Object>());
+1681:    @Override
+1682:    public APINodeList<EventTicketTier> execute(Map<String, Object> extraParams) throws APIException {
+1683:      ResponseWrapper rw = executeInternal(extraParams);
+1684:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+1688:    public ListenableFuture<APINodeList<EventTicketTier>> executeAsync() throws APIException {
+1712:    @Override
+1713:    public APIRequestGetTicketTiers setParam(String param, Object value) {
+1714:      setParamInternal(param, value);
+1715:      return this;
+1718:    @Override
+1719:    public APIRequestGetTicketTiers setParams(Map<String, Object> params) {
+1720:      setParamsInternal(params);
+1721:      return this;
+1725:    public APIRequestGetTicketTiers requestAllFields () {
+1726:      return this.requestAllFields(true);
+1729:    public APIRequestGetTicketTiers requestAllFields (boolean value) {
+1730:      for (String field : FIELDS) {
+1731:        this.requestField(field, value);
+1733:      return this;
+1736:    @Override
+1737:    public APIRequestGetTicketTiers requestFields (List<String> fields) {
+1738:      return this.requestFields(fields, true);
+1741:    @Override
+1742:    public APIRequestGetTicketTiers requestFields (List<String> fields, boolean value) {
+1743:      for (String field : fields) {
+1744:        this.requestField(field, value);
+1746:      return this;
+1749:    @Override
+1750:    public APIRequestGetTicketTiers requestField (String field) {
+1751:      this.requestField(field, true);
+1752:      return this;
+1755:    @Override
+1756:    public APIRequestGetTicketTiers requestField (String field, boolean value) {
+1757:      this.requestFieldInternal(field, value);
+1758:      return this;
+1761:    public APIRequestGetTicketTiers requestCurrencyField () {
+1762:      return this.requestCurrencyField(true);
+1764:    public APIRequestGetTicketTiers requestCurrencyField (boolean value) {
+1765:      this.requestField("currency", value);
+1766:      return this;
+1768:    public APIRequestGetTicketTiers requestDescriptionField () {
+1769:      return this.requestDescriptionField(true);
+1771:    public APIRequestGetTicketTiers requestDescriptionField (boolean value) {
+1772:      this.requestField("description", value);
+1773:      return this;
+1775:    public APIRequestGetTicketTiers requestEndSalesTimeField () {
+1776:      return this.requestEndSalesTimeField(true);
+1778:    public APIRequestGetTicketTiers requestEndSalesTimeField (boolean value) {
+1779:      this.requestField("end_sales_time", value);
+1780:      return this;
+1782:    public APIRequestGetTicketTiers requestEndShowTimeField () {
+1783:      return this.requestEndShowTimeField(true);
+1785:    public APIRequestGetTicketTiers requestEndShowTimeField (boolean value) {
+1786:      this.requestField("end_show_time", value);
+1787:      return this;
+1789:    public APIRequestGetTicketTiers requestFeeSettingsField () {
+1790:      return this.requestFeeSettingsField(true);
+1792:    public APIRequestGetTicketTiers requestFeeSettingsField (boolean value) {
+1793:      this.requestField("fee_settings", value);
+1794:      return this;
+1796:    public APIRequestGetTicketTiers requestIdField () {
+1797:      return this.requestIdField(true);
+1799:    public APIRequestGetTicketTiers requestIdField (boolean value) {
+1800:      this.requestField("id", value);
+1801:      return this;
+1803:    public APIRequestGetTicketTiers requestMaximumQuantityField () {
+1804:      return this.requestMaximumQuantityField(true);
+1806:    public APIRequestGetTicketTiers requestMaximumQuantityField (boolean value) {
+1807:      this.requestField("maximum_quantity", value);
+1808:      return this;
+1810:    public APIRequestGetTicketTiers requestMetadataField () {
+1811:      return this.requestMetadataField(true);
+1813:    public APIRequestGetTicketTiers requestMetadataField (boolean value) {
+1814:      this.requestField("metadata", value);
+1815:      return this;
+1817:    public APIRequestGetTicketTiers requestMinimumQuantityField () {
+1818:      return this.requestMinimumQuantityField(true);
+1820:    public APIRequestGetTicketTiers requestMinimumQuantityField (boolean value) {
+1821:      this.requestField("minimum_quantity", value);
+1822:      return this;
+1824:    public APIRequestGetTicketTiers requestNameField () {
+1825:      return this.requestNameField(true);
+1827:    public APIRequestGetTicketTiers requestNameField (boolean value) {
+1828:      this.requestField("name", value);
+1829:      return this;
+1831:    public APIRequestGetTicketTiers requestPriceField () {
+1832:      return this.requestPriceField(true);
+1834:    public APIRequestGetTicketTiers requestPriceField (boolean value) {
+1835:      this.requestField("price", value);
+1836:      return this;
+1838:    public APIRequestGetTicketTiers requestPriorityField () {
+1839:      return this.requestPriorityField(true);
+1841:    public APIRequestGetTicketTiers requestPriorityField (boolean value) {
+1842:      this.requestField("priority", value);
+1843:      return this;
+1845:    public APIRequestGetTicketTiers requestRetailerIdField () {
+1846:      return this.requestRetailerIdField(true);
+1848:    public APIRequestGetTicketTiers requestRetailerIdField (boolean value) {
+1849:      this.requestField("retailer_id", value);
+1850:      return this;
+1852:    public APIRequestGetTicketTiers requestSeatingMapImageUrlField () {
+1853:      return this.requestSeatingMapImageUrlField(true);
+1855:    public APIRequestGetTicketTiers requestSeatingMapImageUrlField (boolean value) {
+1856:      this.requestField("seating_map_image_url", value);
+1857:      return this;
+1859:    public APIRequestGetTicketTiers requestStartSalesTimeField () {
+1860:      return this.requestStartSalesTimeField(true);
+1862:    public APIRequestGetTicketTiers requestStartSalesTimeField (boolean value) {
+1863:      this.requestField("start_sales_time", value);
+1864:      return this;
+1866:    public APIRequestGetTicketTiers requestStartShowTimeField () {
+1867:      return this.requestStartShowTimeField(true);
+1869:    public APIRequestGetTicketTiers requestStartShowTimeField (boolean value) {
+1870:      this.requestField("start_show_time", value);
+1871:      return this;
+1873:    public APIRequestGetTicketTiers requestStatusField () {
+1874:      return this.requestStatusField(true);
+1876:    public APIRequestGetTicketTiers requestStatusField (boolean value) {
+1877:      this.requestField("status", value);
+1878:      return this;
+1880:    public APIRequestGetTicketTiers requestTotalQuantityField () {
+1881:      return this.requestTotalQuantityField(true);
+1883:    public APIRequestGetTicketTiers requestTotalQuantityField (boolean value) {
+1884:      this.requestField("total_quantity", value);
+1885:      return this;
+1892:    @Override
+1893:    public APINodeList<NullNode> getLastResponse() {
+1899:    public static final String[] FIELDS = {
+1902:    @Override
+1904:      return NullNode.parseResponse(response, getContext(), this, header);
+1907:    @Override
+1908:    public APINodeList<NullNode> execute() throws APIException {
+1909:      return execute(new HashMap<String, Object>());
+1912:    @Override
+1913:    public APINodeList<NullNode> execute(Map<String, Object> extraParams) throws APIException {
+1914:      ResponseWrapper rw = executeInternal(extraParams);
+1915:      lastResponse = parseResponse(rw.getBody(),rw.getHeader());
+1919:    public ListenableFuture<APINodeList<NullNode>> executeAsync() throws APIException {
+1943:    @Override
+1944:    public APIRequestGetVideos setParam(String param, Object value) {
+1945:      setParamInternal(param, value);
+1946:      return this;
+1949:    @Override
+1950:    public APIRequestGetVideos setParams(Map<String, Object> params) {
+1951:      setParamsInternal(params);
+1952:      return this;
+1956:    public APIRequestGetVideos requestAllFields () {
+1957:      return this.requestAllFields(true);
+1960:    public APIRequestGetVideos requestAllFields (boolean value) {
+1961:      for (String field : FIELDS) {
+1962:        this.requestField(field, value);
+1964:      return this;
+1967:    @Override
+1968:    public APIRequestGetVideos requestFields (List<String> fields) {
+1969:      return this.requestFields(fields, true);
+1972:    @Override
+1973:    public APIRequestGetVideos requestFields (List<String> fields, boolean value) {
+1974:      for (String field : fields) {
+1975:        this.requestField(field, value);
+1977:      return this;
+1980:    @Override
+1981:    public APIRequestGetVideos requestField (String field) {
+1982:      this.requestField(field, true);
+1983:      return this;
+1986:    @Override
+1987:    public APIRequestGetVideos requestField (String field, boolean value) {
+1988:      this.requestFieldInternal(field, value);
+1989:      return this;
+1997:    @Override
+1998:    public Event getLastResponse() {
+2004:    public static final String[] FIELDS = {
+2005:      "attending_count",
+2006:      "can_guests_invite",
+2007:      "category",
+2008:      "cover",
+2009:      "created_time",
+2010:      "declined_count",
+2011:      "description",
+2012:      "discount_code_enabled",
+2013:      "end_time",
+2014:      "event_times",
+2015:      "guest_list_enabled",
+2016:      "id",
+2017:      "interested_count",
+2018:      "is_canceled",
+2019:      "is_draft",
+2020:      "is_online",
+2021:      "is_page_owned",
+2022:      "maybe_count",
+2023:      "name",
+2024:      "noreply_count",
+2025:      "online_event_format",
+2026:      "online_event_third_party_url",
+2027:      "owner",
+2028:      "parent_group",
+2029:      "place",
+2030:      "registration_setting",
+2031:      "scheduled_publish_time",
+2032:      "start_time",
+2033:      "ticket_setting",
+2034:      "ticket_uri",
+2035:      "ticket_uri_start_sales_time",
+2036:      "ticketing_privacy_uri",
+2037:      "ticketing_terms_uri",
+2038:      "timezone",
+2039:      "type",
+2040:      "updated_time",
+2043:    @Override
+2048:    @Override
+2050:      return execute(new HashMap<String, Object>());
+2053:    @Override
+2054:    public Event execute(Map<String, Object> extraParams) throws APIException {
+2055:      ResponseWrapper rw = executeInternal(extraParams);
+2056:      lastResponse = parseResponse(rw.getBody(), rw.getHeader());
+2084:    @Override
+2085:    public APIRequestGet setParam(String param, Object value) {
+2086:      setParamInternal(param, value);
+2087:      return this;
+2090:    @Override
+2091:    public APIRequestGet setParams(Map<String, Object> params) {
+2092:      setParamsInternal(params);
+2093:      return this;
+2097:    public APIRequestGet requestAllFields () {
+2098:      return this.requestAllFields(true);
+2101:    public APIRequestGet requestAllFields (boolean value) {
+2102:      for (String field : FIELDS) {
+2103:        this.requestField(field, value);
+2105:      return this;
+2108:    @Override
+2109:    public APIRequestGet requestFields (List<String> fields) {
+2110:      return this.requestFields(fields, true);
+2113:    @Override
+2114:    public APIRequestGet requestFields (List<String> fields, boolean value) {
+2115:      for (String field : fields) {
+2116:        this.requestField(field, value);
+2118:      return this;
+2121:    @Override
+2122:    public APIRequestGet requestField (String field) {
+2123:      this.requestField(field, true);
+2124:      return this;
+2127:    @Override
+2128:    public APIRequestGet requestField (String field, boolean value) {
+2129:      this.requestFieldInternal(field, value);
+2130:      return this;
+2133:    public APIRequestGet requestAttendingCountField () {
+2134:      return this.requestAttendingCountField(true);
+2136:    public APIRequestGet requestAttendingCountField (boolean value) {
+2137:      this.requestField("attending_count", value);
+2138:      return this;
+2140:    public APIRequestGet requestCanGuestsInviteField () {
+2141:      return this.requestCanGuestsInviteField(true);
+2143:    public APIRequestGet requestCanGuestsInviteField (boolean value) {
+2144:      this.requestField("can_guests_invite", value);
+2145:      return this;
+2147:    public APIRequestGet requestCategoryField () {
+2148:      return this.requestCategoryField(true);
+2150:    public APIRequestGet requestCategoryField (boolean value) {
+2151:      this.requestField("category", value);
+2152:      return this;
+2154:    public APIRequestGet requestCoverField () {
+2155:      return this.requestCoverField(true);
+2157:    public APIRequestGet requestCoverField (boolean value) {
+2158:      this.requestField("cover", value);
+2159:      return this;
+2161:    public APIRequestGet requestCreatedTimeField () {
+2162:      return this.requestCreatedTimeField(true);
+2164:    public APIRequestGet requestCreatedTimeField (boolean value) {
+2165:      this.requestField("created_time", value);
+2166:      return this;
+2168:    public APIRequestGet requestDeclinedCountField () {
+2169:      return this.requestDeclinedCountField(true);
+2171:    public APIRequestGet requestDeclinedCountField (boolean value) {
+2172:      this.requestField("declined_count", value);
+2173:      return this;
+2175:    public APIRequestGet requestDescriptionField () {
+2176:      return this.requestDescriptionField(true);
+2178:    public APIRequestGet requestDescriptionField (boolean value) {
+2179:      this.requestField("description", value);
+2180:      return this;
+2182:    public APIRequestGet requestDiscountCodeEnabledField () {
+2183:      return this.requestDiscountCodeEnabledField(true);
+2185:    public APIRequestGet requestDiscountCodeEnabledField (boolean value) {
+2186:      this.requestField("discount_code_enabled", value);
+2187:      return this;
+2189:    public APIRequestGet requestEndTimeField () {
+2190:      return this.requestEndTimeField(true);
+2192:    public APIRequestGet requestEndTimeField (boolean value) {
+2193:      this.requestField("end_time", value);
+2194:      return this;
+2196:    public APIRequestGet requestEventTimesField () {
+2197:      return this.requestEventTimesField(true);
+2199:    public APIRequestGet requestEventTimesField (boolean value) {
+2200:      this.requestField("event_times", value);
+2201:      return this;
+2203:    public APIRequestGet requestGuestListEnabledField () {
+2204:      return this.requestGuestListEnabledField(true);
+2206:    public APIRequestGet requestGuestListEnabledField (boolean value) {
+2207:      this.requestField("guest_list_enabled", value);
+2208:      return this;
+2210:    public APIRequestGet requestIdField () {
+2211:      return this.requestIdField(true);
+2213:    public APIRequestGet requestIdField (boolean value) {
+2214:      this.requestField("id", value);
+2215:      return this;
+2217:    public APIRequestGet requestInterestedCountField () {
+2218:      return this.requestInterestedCountField(true);
+2220:    public APIRequestGet requestInterestedCountField (boolean value) {
+2221:      this.requestField("interested_count", value);
+2222:      return this;
+2224:    public APIRequestGet requestIsCanceledField () {
+2225:      return this.requestIsCanceledField(true);
+2227:    public APIRequestGet requestIsCanceledField (boolean value) {
+2228:      this.requestField("is_canceled", value);
+2229:      return this;
+2231:    public APIRequestGet requestIsDraftField () {
+2232:      return this.requestIsDraftField(true);
+2234:    public APIRequestGet requestIsDraftField (boolean value) {
+2235:      this.requestField("is_draft", value);
+2236:      return this;
+2238:    public APIRequestGet requestIsOnlineField () {
+2239:      return this.requestIsOnlineField(true);
+2241:    public APIRequestGet requestIsOnlineField (boolean value) {
+2242:      this.requestField("is_online", value);
+2243:      return this;
+2245:    public APIRequestGet requestIsPageOwnedField () {
+2246:      return this.requestIsPageOwnedField(true);
+2248:    public APIRequestGet requestIsPageOwnedField (boolean value) {
+2249:      this.requestField("is_page_owned", value);
+2250:      return this;
+2252:    public APIRequestGet requestMaybeCountField () {
+2253:      return this.requestMaybeCountField(true);
+2255:    public APIRequestGet requestMaybeCountField (boolean value) {
+2256:      this.requestField("maybe_count", value);
+2257:      return this;
+2259:    public APIRequestGet requestNameField () {
+2260:      return this.requestNameField(true);
+2262:    public APIRequestGet requestNameField (boolean value) {
+2263:      this.requestField("name", value);
+2264:      return this;
+2266:    public APIRequestGet requestNoreplyCountField () {
+2267:      return this.requestNoreplyCountField(true);
+2269:    public APIRequestGet requestNoreplyCountField (boolean value) {
+2270:      this.requestField("noreply_count", value);
+2271:      return this;
+2273:    public APIRequestGet requestOnlineEventFormatField () {
+2274:      return this.requestOnlineEventFormatField(true);
+2276:    public APIRequestGet requestOnlineEventFormatField (boolean value) {
+2277:      this.requestField("online_event_format", value);
+2278:      return this;
+2280:    public APIRequestGet requestOnlineEventThirdPartyUrlField () {
+2281:      return this.requestOnlineEventThirdPartyUrlField(true);
+2283:    public APIRequestGet requestOnlineEventThirdPartyUrlField (boolean value) {
+2284:      this.requestField("online_event_third_party_url", value);
+2285:      return this;
+2287:    public APIRequestGet requestOwnerField () {
+2288:      return this.requestOwnerField(true);
+2290:    public APIRequestGet requestOwnerField (boolean value) {
+2291:      this.requestField("owner", value);
+2292:      return this;
+2294:    public APIRequestGet requestParentGroupField () {
+2295:      return this.requestParentGroupField(true);
+2297:    public APIRequestGet requestParentGroupField (boolean value) {
+2298:      this.requestField("parent_group", value);
+2299:      return this;
+2301:    public APIRequestGet requestPlaceField () {
+2302:      return this.requestPlaceField(true);
+2304:    public APIRequestGet requestPlaceField (boolean value) {
+2305:      this.requestField("place", value);
+2306:      return this;
+2308:    public APIRequestGet requestRegistrationSettingField () {
+2309:      return this.requestRegistrationSettingField(true);
+2311:    public APIRequestGet requestRegistrationSettingField (boolean value) {
+2312:      this.requestField("registration_setting", value);
+2313:      return this;
+2315:    public APIRequestGet requestScheduledPublishTimeField () {
+2316:      return this.requestScheduledPublishTimeField(true);
+2318:    public APIRequestGet requestScheduledPublishTimeField (boolean value) {
+2319:      this.requestField("scheduled_publish_time", value);
+2320:      return this;
+2322:    public APIRequestGet requestStartTimeField () {
+2323:      return this.requestStartTimeField(true);
+2325:    public APIRequestGet requestStartTimeField (boolean value) {
+2326:      this.requestField("start_time", value);
+2327:      return this;
+2329:    public APIRequestGet requestTicketSettingField () {
+2330:      return this.requestTicketSettingField(true);
+2332:    public APIRequestGet requestTicketSettingField (boolean value) {
+2333:      this.requestField("ticket_setting", value);
+2334:      return this;
+2336:    public APIRequestGet requestTicketUriField () {
+2337:      return this.requestTicketUriField(true);
+2339:    public APIRequestGet requestTicketUriField (boolean value) {
+2340:      this.requestField("ticket_uri", value);
+2341:      return this;
+2343:    public APIRequestGet requestTicketUriStartSalesTimeField () {
+2344:      return this.requestTicketUriStartSalesTimeField(true);
+2346:    public APIRequestGet requestTicketUriStartSalesTimeField (boolean value) {
+2347:      this.requestField("ticket_uri_start_sales_time", value);
+2348:      return this;
+2350:    public APIRequestGet requestTicketingPrivacyUriField () {
+2351:      return this.requestTicketingPrivacyUriField(true);
+2353:    public APIRequestGet requestTicketingPrivacyUriField (boolean value) {
+2354:      this.requestField("ticketing_privacy_uri", value);
+2355:      return this;
+2357:    public APIRequestGet requestTicketingTermsUriField () {
+2358:      return this.requestTicketingTermsUriField(true);
+2360:    public APIRequestGet requestTicketingTermsUriField (boolean value) {
+2361:      this.requestField("ticketing_terms_uri", value);
+2362:      return this;
+2364:    public APIRequestGet requestTimezoneField () {
+2365:      return this.requestTimezoneField(true);
+2367:    public APIRequestGet requestTimezoneField (boolean value) {
+2368:      this.requestField("timezone", value);
+2369:      return this;
+2371:    public APIRequestGet requestTypeField () {
+2372:      return this.requestTypeField(true);
+2374:    public APIRequestGet requestTypeField (boolean value) {
+2375:      this.requestField("type", value);
+2376:      return this;
+2378:    public APIRequestGet requestUpdatedTimeField () {
+2379:      return this.requestUpdatedTimeField(true);
+2381:    public APIRequestGet requestUpdatedTimeField (boolean value) {
+2382:      this.requestField("updated_time", value);
+2383:      return this;
+2387:  public static enum EnumCategory {
+2388:      @SerializedName("CLASSIC_LITERATURE")
+2389:      VALUE_CLASSIC_LITERATURE("CLASSIC_LITERATURE"),
+2390:      @SerializedName("COMEDY")
+2391:      VALUE_COMEDY("COMEDY"),
+2392:      @SerializedName("CRAFTS")
+2393:      VALUE_CRAFTS("CRAFTS"),
+2394:      @SerializedName("DANCE")
+2395:      VALUE_DANCE("DANCE"),
+2396:      @SerializedName("DRINKS")
+2397:      VALUE_DRINKS("DRINKS"),
+2398:      @SerializedName("FITNESS_AND_WORKOUTS")
+2399:      VALUE_FITNESS_AND_WORKOUTS("FITNESS_AND_WORKOUTS"),
+2400:      @SerializedName("FOODS")
+2401:      VALUE_FOODS("FOODS"),
+2402:      @SerializedName("GAMES")
+2403:      VALUE_GAMES("GAMES"),
+2404:      @SerializedName("GARDENING")
+2405:      VALUE_GARDENING("GARDENING"),
+2406:      @SerializedName("HEALTHY_LIVING_AND_SELF_CARE")
+2407:      VALUE_HEALTHY_LIVING_AND_SELF_CARE("HEALTHY_LIVING_AND_SELF_CARE"),
+2408:      @SerializedName("HEALTH_AND_MEDICAL")
+2409:      VALUE_HEALTH_AND_MEDICAL("HEALTH_AND_MEDICAL"),
+2410:      @SerializedName("HOME_AND_GARDEN")
+2411:      VALUE_HOME_AND_GARDEN("HOME_AND_GARDEN"),
+2412:      @SerializedName("MUSIC_AND_AUDIO")
+2413:      VALUE_MUSIC_AND_AUDIO("MUSIC_AND_AUDIO"),
+2414:      @SerializedName("PARTIES")
+2415:      VALUE_PARTIES("PARTIES"),
+2416:      @SerializedName("PROFESSIONAL_NETWORKING")
+2417:      VALUE_PROFESSIONAL_NETWORKING("PROFESSIONAL_NETWORKING"),
+2418:      @SerializedName("RELIGIONS")
+2419:      VALUE_RELIGIONS("RELIGIONS"),
+2420:      @SerializedName("SHOPPING_EVENT")
+2421:      VALUE_SHOPPING_EVENT("SHOPPING_EVENT"),
+2422:      @SerializedName("SOCIAL_ISSUES")
+2423:      VALUE_SOCIAL_ISSUES("SOCIAL_ISSUES"),
+2424:      @SerializedName("SPORTS")
+2425:      VALUE_SPORTS("SPORTS"),
+2426:      @SerializedName("THEATER")
+2427:      VALUE_THEATER("THEATER"),
+2428:      @SerializedName("TV_AND_MOVIES")
+2429:      VALUE_TV_AND_MOVIES("TV_AND_MOVIES"),
+2430:      @SerializedName("VISUAL_ARTS")
+2431:      VALUE_VISUAL_ARTS("VISUAL_ARTS"),
+2432:      ;
+2434:      private String value;
+2436:      private EnumCategory(String value) {
+2437:        this.value = value;
+2440:      @Override
+2441:      public String toString() {
+2442:        return value;
+2446:  public static enum EnumOnlineEventFormat {
+2447:      @SerializedName("fb_live")
+2448:      VALUE_FB_LIVE("fb_live"),
+2449:      @SerializedName("horizon_world")
+2450:      VALUE_HORIZON_WORLD("horizon_world"),
+2451:      @SerializedName("messenger_room")
+2452:      VALUE_MESSENGER_ROOM("messenger_room"),
+2453:      @SerializedName("none")
+2454:      VALUE_NONE("none"),
+2455:      @SerializedName("other")
+2456:      VALUE_OTHER("other"),
+2457:      @SerializedName("third_party")
+2458:      VALUE_THIRD_PARTY("third_party"),
+2459:      ;
+2461:      private String value;
+2463:      private EnumOnlineEventFormat(String value) {
+2464:        this.value = value;
+2467:      @Override
+2468:      public String toString() {
+2469:        return value;
+2474:      @SerializedName("community")
+2475:      VALUE_COMMUNITY("community"),
+2476:      @SerializedName("friends")
+2477:      VALUE_FRIENDS("friends"),
+2478:      @SerializedName("group")
+2479:      VALUE_GROUP("group"),
+2480:      @SerializedName("private")
+2481:      VALUE_PRIVATE("private"),
+2482:      @SerializedName("public")
+2483:      VALUE_PUBLIC("public"),
+2484:      @SerializedName("work_company")
+2485:      VALUE_WORK_COMPANY("work_company"),
+2486:      ;
+2488:      private String value;
+2490:      private EnumType(String value) {
+2491:        this.value = value;
+2494:      @Override
+2495:      public String toString() {
+2496:        return value;
+2501:      @SerializedName("canceled")
+2502:      VALUE_CANCELED("canceled"),
+2503:      @SerializedName("draft")
+2504:      VALUE_DRAFT("draft"),
+2505:      @SerializedName("published")
+2506:      VALUE_PUBLISHED("published"),
+2507:      @SerializedName("scheduled_draft_for_publication")
+2508:      VALUE_SCHEDULED_DRAFT_FOR_PUBLICATION("scheduled_draft_for_publication"),
+2509:      ;
+2511:      private String value;
+2513:      private EnumEventStateFilter(String value) {
+2514:        this.value = value;
+2517:      @Override
+2518:      public String toString() {
+2519:        return value;
+2524:      @SerializedName("past")
+2525:      VALUE_PAST("past"),
+2526:      @SerializedName("upcoming")
+2527:      VALUE_UPCOMING("upcoming"),
+2528:      ;
+2530:      private String value;
+2532:      private EnumTimeFilter(String value) {
+2533:        this.value = value;
+2536:      @Override
+2537:      public String toString() {
+2538:        return value;
+2543:  synchronized /*package*/ static Gson getGson() {
+2544:    if (gson != null) {
+2545:      return gson;
+2546:    } else {
+2547:      gson = new GsonBuilder()
+2548:        .excludeFieldsWithModifiers(Modifier.STATIC)
+2549:        .excludeFieldsWithModifiers(Modifier.PROTECTED)
+2550:        .disableHtmlEscaping()
+2551:        .create();
+2553:    return gson;
+2556:  public Event copyFrom(Event instance) {
+2557:    this.mAttendingCount = instance.mAttendingCount;
+2558:    this.mCanGuestsInvite = instance.mCanGuestsInvite;
+2559:    this.mCategory = instance.mCategory;
+2560:    this.mCover = instance.mCover;
+2561:    this.mCreatedTime = instance.mCreatedTime;
+2562:    this.mDeclinedCount = instance.mDeclinedCount;
+2563:    this.mDescription = instance.mDescription;
+2564:    this.mDiscountCodeEnabled = instance.mDiscountCodeEnabled;
+2565:    this.mEndTime = instance.mEndTime;
+2566:    this.mEventTimes = instance.mEventTimes;
+2567:    this.mGuestListEnabled = instance.mGuestListEnabled;
+2568:    this.mId = instance.mId;
+2569:    this.mInterestedCount = instance.mInterestedCount;
+2570:    this.mIsCanceled = instance.mIsCanceled;
+2571:    this.mIsDraft = instance.mIsDraft;
+2572:    this.mIsOnline = instance.mIsOnline;
+2573:    this.mIsPageOwned = instance.mIsPageOwned;
+2574:    this.mMaybeCount = instance.mMaybeCount;
+2575:    this.mName = instance.mName;
+2576:    this.mNoreplyCount = instance.mNoreplyCount;
+2577:    this.mOnlineEventFormat = instance.mOnlineEventFormat;
+2578:    this.mOnlineEventThirdPartyUrl = instance.mOnlineEventThirdPartyUrl;
+2579:    this.mOwner = instance.mOwner;
+2580:    this.mParentGroup = instance.mParentGroup;
+2581:    this.mPlace = instance.mPlace;
+2582:    this.mRegistrationSetting = instance.mRegistrationSetting;
+2583:    this.mScheduledPublishTime = instance.mScheduledPublishTime;
+2584:    this.mStartTime = instance.mStartTime;
+2585:    this.mTicketSetting = instance.mTicketSetting;
+2586:    this.mTicketUri = instance.mTicketUri;
+2587:    this.mTicketUriStartSalesTime = instance.mTicketUriStartSalesTime;
+2588:    this.mTicketingPrivacyUri = instance.mTicketingPrivacyUri;
+2589:    this.mTicketingTermsUri = instance.mTicketingTermsUri;
+2590:    this.mTimezone = instance.mTimezone;
+2591:    this.mType = instance.mType;
+2592:    this.mUpdatedTime = instance.mUpdatedTime;
+2593:    this.context = instance.context;
+2594:    this.rawValue = instance.rawValue;
+2595:    return this;
+src/main/java/com/facebook/ads/sdk/VideoTextQuestion.java
+src/main/java/com/facebook/ads/sdk/AdColumnSizes.java
+src/main/java/com/facebook/ads/sdk/LeadGenPrivacyPolicy.java
+src/main/java/com/facebook/ads/sdk/AdAccountAllPaymentMethods.java
+src/main/java/com/facebook/ads/sdk/CTXOptimizationEligibility.java
+src/main/java/com/facebook/ads/sdk/AdCreativeMarketingMessageStructuredSpec.java
+src/main/java/com/facebook/ads/sdk/AdCampaignGroupMetricsMetadata.java
+src/main/java/com/facebook/ads/sdk/ProductSetUsage.java
+src/main/java/com/facebook/ads/sdk/AudienceOverlap.java
+src/main/java/com/facebook/ads/sdk/CommerceOrder.java
+src/main/java/com/facebook/ads/sdk/TargetingProductAudienceSpec.java
+src/main/java/com/facebook/ads/sdk/BlockedUserInfo.java
+src/main/java/com/facebook/ads/sdk/WITUser.java
+src/main/java/com/facebook/ads/sdk/businessdataapi/Message.java
+src/main/java/com/facebook/ads/sdk/businessdataapi/EventResponse.java
+src/main/java/com/facebook/ads/sdk/businessdataapi/Event.java
+src/main/java/com/facebook/ads/sdk/businessdataapi/EventRequest.java
+src/main/java/com/facebook/ads/sdk/businessdataapi/UserData.java
+src/main/java/com/facebook/ads/sdk/businessdataapi/CustomData.java
+src/main/java/com/facebook/ads/sdk/businessdataapi/Content.java
+src/main/java/com/facebook/ads/sdk/HighDemandPeriodTimeSuggestionWeeklySegment.java
+src/main/java/com/facebook/ads/sdk/AdNetworkAnalyticsAsyncQueryResult.java
+src/main/java/com/facebook/ads/sdk/AdTopline.java
+src/main/java/com/facebook/ads/sdk/AdCreativeFeaturesSpec.java
+src/main/java/com/facebook/ads/sdk/ProductFeedUploadErrorSample.java
+src/main/java/com/facebook/ads/sdk/AdsPixelDeliveryRecommendations.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataCustomOverlaySpec.java
+src/main/java/com/facebook/ads/sdk/OfflineConversionDataSet.java
+src/main/java/com/facebook/ads/sdk/TransactableItem.java
+src/main/java/com/facebook/ads/sdk/AdStudy.java
+src/main/java/com/facebook/ads/sdk/BusinessProject.java
+src/main/java/com/facebook/ads/sdk/CTXPartnerAppWelcomeMessageFlow.java
+src/main/java/com/facebook/ads/sdk/AdgroupPlacementSpecificReviewFeedback.java
+src/main/java/com/facebook/ads/sdk/MediaCopyrightAttribution.java
+src/main/java/com/facebook/ads/sdk/Stories.java
+src/main/java/com/facebook/ads/sdk/AdCreativeBrandedContentAdsPartners.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataCallToAction.java
+src/main/java/com/facebook/ads/sdk/VideoStatusUploadingPhase.java
+src/main/java/com/facebook/ads/sdk/InstagramInsightsResult.java
+src/main/java/com/facebook/ads/sdk/ProductFeedRuleSuggestion.java
+src/main/java/com/facebook/ads/sdk/AdsPixelSignalsIWLNux.java
+src/main/java/com/facebook/ads/sdk/CopyrightMediaMisuse.java
+src/main/java/com/facebook/ads/sdk/CollaborativeAdsPartnerInfoListItem.java
+src/main/java/com/facebook/ads/sdk/EndStudyCriteria.java
+src/main/java/com/facebook/ads/sdk/ContentPublishingLimitResponse.java
+src/main/java/com/facebook/ads/sdk/AdConversions.java
+src/main/java/com/facebook/ads/sdk/LiveVideo.java
+src/main/java/com/facebook/ads/sdk/AdCreationPackageConfig.java
+src/main/java/com/facebook/ads/sdk/BusinessProductCatalogTOS.java
+src/main/java/com/facebook/ads/sdk/BusinessAssetSharingAgreement.java
+src/main/java/com/facebook/ads/sdk/VideoStatusError.java
+src/main/java/com/facebook/ads/sdk/EventRegistrationSetting.java
+src/main/java/com/facebook/ads/sdk/AdAccountMaxBid.java
+src/main/java/com/facebook/ads/sdk/RTBDynamicPost.java
+src/main/java/com/facebook/ads/sdk/PageChangeProposal.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationCity.java
+src/main/java/com/facebook/ads/sdk/ExtendedCreditInvoiceGroup.java
+src/main/java/com/facebook/ads/sdk/IGShoppingReviewStatus.java
+src/main/java/com/facebook/ads/sdk/AsyncRequest.java
+src/main/java/com/facebook/ads/sdk/DynamicItemDisplayBundleFolder.java
+src/main/java/com/facebook/ads/sdk/AdAccountSuggestedTag.java
+src/main/java/com/facebook/ads/sdk/BusinessImage.java
+src/main/java/com/facebook/ads/sdk/AdAccountDsaRecommendations.java
+src/main/java/com/facebook/ads/sdk/AdDraft.java
+src/main/java/com/facebook/ads/sdk/AdAccountCampaignAttributionOptionInfo.java
+src/main/java/com/facebook/ads/sdk/AdLightCampaignGroup.java
+src/main/java/com/facebook/ads/sdk/Placement.java
+src/main/java/com/facebook/ads/sdk/AdAccountUser.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecLinkURL.java
+src/main/java/com/facebook/ads/sdk/BrandSafetyDownloadable.java
+src/main/java/com/facebook/ads/sdk/PageCTXDefaultGreetingText.java
+src/main/java/com/facebook/ads/sdk/LeadGenConditionalQuestionsGroupChoices.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecBody.java
+src/main/java/com/facebook/ads/sdk/BizInboxOffsiteEmailAccount.java
+src/main/java/com/facebook/ads/sdk/AdAccountAppSetupRequirements.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogUserTasks.java
+src/main/java/com/facebook/ads/sdk/ChatPlugin.java
+src/main/java/com/facebook/ads/sdk/AdsConversionGoal.java
+src/main/java/com/facebook/ads/sdk/LeadGenThankYouPage.java
+src/main/java/com/facebook/ads/sdk/VideoList.java
+src/main/java/com/facebook/ads/sdk/AdToplineDetail.java
+src/main/java/com/facebook/ads/sdk/AdRuleHistory.java
+src/main/java/com/facebook/ads/sdk/AdPreview.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataMoment.java
+src/main/java/com/facebook/ads/sdk/IGProductTaggingInvalidationError.java
+src/main/java/com/facebook/ads/sdk/AnalyticsUserConfig.java
+src/main/java/com/facebook/ads/sdk/AdCreativeRewardInfo.java
+src/main/java/com/facebook/ads/sdk/AdAccountPromotionProgressBar.java
+src/main/java/com/facebook/ads/sdk/MerchantCompliance.java
+src/main/java/com/facebook/ads/sdk/AutomotiveModel.java
+src/main/java/com/facebook/ads/sdk/PagePostExperiment.java
+src/main/java/com/facebook/ads/sdk/AdCreativePhotoData.java
+src/main/java/com/facebook/ads/sdk/CatalogSubVerticalList.java
+src/main/java/com/facebook/ads/sdk/CPASSetup.java
+src/main/java/com/facebook/ads/sdk/AdAsyncRequest.java
+src/main/java/com/facebook/ads/sdk/Comment.java
+src/main/java/com/facebook/ads/sdk/MessageDeliveryEstimate.java
+src/main/java/com/facebook/ads/sdk/IPObject.java
+src/main/java/com/facebook/ads/sdk/AdsInsights.java
+src/main/java/com/facebook/ads/sdk/CampaignGroupCollaborativeAdsPartnerInfo.java
+src/main/java/com/facebook/ads/sdk/CatalogBasedTargeting.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogLocalizationSettings.java
+src/main/java/com/facebook/ads/sdk/BrandedContentShadowIGUserID.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceGroup.java
+src/main/java/com/facebook/ads/sdk/AdAccountLiveVideoAdvertiser.java
+src/main/java/com/facebook/ads/sdk/AdAsyncRequestSetNotificationResult.java
+src/main/java/com/facebook/ads/sdk/UniqueAdCreative.java
+src/main/java/com/facebook/ads/sdk/UnifiedThread.java
+src/main/java/com/facebook/ads/sdk/AudioRelease.java
+src/main/java/com/facebook/ads/sdk/AdAccountAdRulesCountByType.java
+src/main/java/com/facebook/ads/sdk/AdCreativePlatformCustomization.java
+src/main/java/com/facebook/ads/sdk/AdRuleExecutionOptions.java
+src/main/java/com/facebook/ads/sdk/LeadGenAppointmentBookingInfo.java
+src/main/java/com/facebook/ads/sdk/AdRuleTrigger.java
+src/main/java/com/facebook/ads/sdk/WearableDevicePublicKey.java
+src/main/java/com/facebook/ads/sdk/AdCreativeBrandedContentAds.java
+src/main/java/com/facebook/ads/sdk/LoomConfig.java
+src/main/java/com/facebook/ads/sdk/BusinessManagedPartnerEligibility.java
+src/main/java/com/facebook/ads/sdk/BrandRequest.java
+src/main/java/com/facebook/ads/sdk/AdsPixelCAPISetupQuality.java
+src/main/java/com/facebook/ads/sdk/UserPaymentMobilePricepoints.java
+src/main/java/com/facebook/ads/sdk/CheckBatchRequestStatus.java
+src/main/java/com/facebook/ads/sdk/AdsValueAdjustmentRule.java
+src/main/java/com/facebook/ads/sdk/WhatsAppBusinessProfile.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyCurveUpperConfidenceRange.java
+src/main/java/com/facebook/ads/sdk/WebsiteCreativeAssetSuggestions.java
+src/main/java/com/facebook/ads/sdk/Permission.java
+src/main/java/com/facebook/ads/sdk/AdAssetBody.java
+src/main/java/com/facebook/ads/sdk/ResellerGuidance.java
+src/main/java/com/facebook/ads/sdk/WorkUserFrontline.java
+src/main/java/com/facebook/ads/sdk/ProductItemOffer.java
+src/main/java/com/facebook/ads/sdk/Currency.java
+src/main/java/com/facebook/ads/sdk/AdLightCampaign.java
+src/main/java/com/facebook/ads/sdk/AdRuleSchedule.java
+src/main/java/com/facebook/ads/sdk/IGUpcomingEvent.java
+src/main/java/com/facebook/ads/sdk/AdNetworkAnalyticsSyncQueryResult.java
+src/main/java/com/facebook/ads/sdk/BusinessRequest.java
+src/main/java/com/facebook/ads/sdk/CommercePayout.java
+src/main/java/com/facebook/ads/sdk/ExtendedCredit.java
+src/main/java/com/facebook/ads/sdk/ConnectionsTargeting.java
+src/main/java/com/facebook/ads/sdk/InstagramRelatedProductTags.java
+src/main/java/com/facebook/ads/sdk/AdsDataset.java
+src/main/java/com/facebook/ads/sdk/PageSettings.java
+src/main/java/com/facebook/ads/sdk/LifeEvent.java
+src/main/java/com/facebook/ads/sdk/AdAccountRelatedIcoStudy.java
+src/main/java/com/facebook/ads/sdk/CommerceSettings.java
+src/main/java/com/facebook/ads/sdk/BusinessAdvertisableApplicationsResult.java
+src/main/java/com/facebook/ads/sdk/ManagedPartnerExtendedCredit.java
+src/main/java/com/facebook/ads/sdk/AdCreativeAdDisclaimer.java
+src/main/java/com/facebook/ads/sdk/AdCreativeStaticFallbackSpec.java
+src/main/java/com/facebook/ads/sdk/AdsReportBuilderExportCore.java
+src/main/java/com/facebook/ads/sdk/APIConfig.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyPrediction.java
+src/main/java/com/facebook/ads/sdk/BAPIDomain.java
+src/main/java/com/facebook/ads/sdk/BusinessPageRequest.java
+src/main/java/com/facebook/ads/sdk/AdStudyObjective.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogDiagnosticGroup.java
+src/main/java/com/facebook/ads/sdk/ProductFeed.java
+src/main/java/com/facebook/ads/sdk/CPASAdvertiserPartnershipRecommendation.java
+src/main/java/com/facebook/ads/sdk/AuthLink.java
+src/main/java/com/facebook/ads/sdk/AdsSignalDiagnosticIssue.java
+src/main/java/com/facebook/ads/sdk/TargetingProspectingAudience.java
+src/main/java/com/facebook/ads/sdk/AdAccountAAASimilarCampaigns.java
+src/main/java/com/facebook/ads/sdk/RecommendedIGMedia.java
+src/main/java/com/facebook/ads/sdk/PaymentPricepoints.java
+src/main/java/com/facebook/ads/sdk/AdReportRun.java
+src/main/java/com/facebook/ads/sdk/ChinaBusinessOnboardingVettingRequest.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationPlace.java
+src/main/java/com/facebook/ads/sdk/CurrencyAmount.java
+src/main/java/com/facebook/ads/sdk/CrashReporter.java
+src/main/java/com/facebook/ads/sdk/AdCampaignBidConstraint.java
+src/main/java/com/facebook/ads/sdk/PageRestaurantServices.java
+src/main/java/com/facebook/ads/sdk/BidSchedule.java
+src/main/java/com/facebook/ads/sdk/AdjacentContentDeliveryReport.java
+src/main/java/com/facebook/ads/sdk/AdgroupReviewFeedback.java
+src/main/java/com/facebook/ads/sdk/AdCreativeWhatsAppChannelSpec.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceSharedAccountCampaignInfo.java
+src/main/java/com/facebook/ads/sdk/DeliveryWindow.java
+src/main/java/com/facebook/ads/sdk/Location.java
+src/main/java/com/facebook/ads/sdk/AdAssetCustomizationRuleCustomizationSpec.java
+src/main/java/com/facebook/ads/sdk/PlatformSessionKey.java
+src/main/java/com/facebook/ads/sdk/PageUserPermissions.java
+src/main/java/com/facebook/ads/sdk/LeadGenConditionalQuestionsGroupQuestions.java
+src/main/java/com/facebook/ads/sdk/AsyncSession.java
+src/main/java/com/facebook/ads/sdk/AdAccountCreationRequest.java
+src/main/java/com/facebook/ads/sdk/AdSavedReport.java
+src/main/java/com/facebook/ads/sdk/AdRuleHistoryResult.java
+src/main/java/com/facebook/ads/sdk/AdAccountPaymentDetails.java
+src/main/java/com/facebook/ads/sdk/VideoStatusPublishingPhase.java
+src/main/java/com/facebook/ads/sdk/BrandedContentEligibleSponsorIDs.java
+src/main/java/com/facebook/ads/sdk/IGShoppingReviewStatusReasonWithHelpMessage.java
+src/main/java/com/facebook/ads/sdk/AdAccountURLForAssetExtraction.java
+src/main/java/com/facebook/ads/sdk/Engagement.java
+src/main/java/com/facebook/ads/sdk/InstagramCarousel.java
+src/main/java/com/facebook/ads/sdk/ContentDeliveryReport.java
+src/main/java/com/facebook/ads/sdk/ProductSet.java
+src/main/java/com/facebook/ads/sdk/WindowsAppLink.java
+src/main/java/com/facebook/ads/sdk/AdsPixelEventPrediction.java
+src/main/java/com/facebook/ads/sdk/DeliveryCheckExtraInfo.java
+src/main/java/com/facebook/ads/sdk/Targeting.java
+src/main/java/com/facebook/ads/sdk/ArAdsDataContainer.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceAdAccount.java
+src/main/java/com/facebook/ads/sdk/ColumnSuggestions.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocation.java
+src/main/java/com/facebook/ads/sdk/BusinessVideo.java
+src/main/java/com/facebook/ads/sdk/FBLiteToNTTransitions.java
+src/main/java/com/facebook/ads/sdk/BusinessUser.java
+src/main/java/com/facebook/ads/sdk/AdCreativeTemplateURLSpec.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyActivity.java
+src/main/java/com/facebook/ads/sdk/ProductFeedRulePreviewSample.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceSharingStatus.java
+src/main/java/com/facebook/ads/sdk/AdKpiShift.java
+src/main/java/com/facebook/ads/sdk/AssignedUser.java
+src/main/java/com/facebook/ads/sdk/LeadGenPostSubmissionCheckResult.java
+src/main/java/com/facebook/ads/sdk/SalesRightsInventoryManagement.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataImageOverlaySpec.java
+src/main/java/com/facebook/ads/sdk/SocialWifiSite.java
+src/main/java/com/facebook/ads/sdk/AdAsyncRequestSet.java
+src/main/java/com/facebook/ads/sdk/AdCreativeObjectStorySpec.java
+src/main/java/com/facebook/ads/sdk/HasLeadAccess.java
+src/main/java/com/facebook/ads/sdk/CollaborativeAdsPartnerBusinesses.java
+src/main/java/com/facebook/ads/sdk/Business.java
+src/main/java/com/facebook/ads/sdk/VideoThumbnail.java
+src/main/java/com/facebook/ads/sdk/ExternalEventSourceCPASEventsDebugging.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecCaption.java
+src/main/java/com/facebook/ads/sdk/OfflineConversionDataSetUsage.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyCurveLowerConfidenceRange.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataImageLayerSpec.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationGeoEntities.java
+src/main/java/com/facebook/ads/sdk/ReportingAudience.java
+src/main/java/com/facebook/ads/sdk/AdLimitSetting.java
+src/main/java/com/facebook/ads/sdk/UserPageOneTimeOptInTokenSettings.java
+src/main/java/com/facebook/ads/sdk/PartnershipAdContentSearchMedia.java
+src/main/java/com/facebook/ads/sdk/ShadowIGUserPartnershipAdsMediaErrors.java
+src/main/java/com/facebook/ads/sdk/TextWithEntities.java
+src/main/java/com/facebook/ads/sdk/IGComment.java
+src/main/java/com/facebook/ads/sdk/BusinessAssetGroup.java
+src/main/java/com/facebook/ads/sdk/AdCreativePromotionMetadataSpec.java
+src/main/java/com/facebook/ads/sdk/BusinessObject.java
+src/main/java/com/facebook/ads/sdk/PageAboutStoryComposedBlockEntityRanges.java
+src/main/java/com/facebook/ads/sdk/VideoPoll.java
+src/main/java/com/facebook/ads/sdk/ProductItemSubscriptionInfo.java
+src/main/java/com/facebook/ads/sdk/ShadowIGMediaProductTags.java
+src/main/java/com/facebook/ads/sdk/CampaignGroupBrandConfiguration.java
+src/main/java/com/facebook/ads/sdk/PlayableContent.java
+src/main/java/com/facebook/ads/sdk/AdEntityTargetSpend.java
+src/main/java/com/facebook/ads/sdk/AdAssetDescription.java
+src/main/java/com/facebook/ads/sdk/AdCreativeShopSpec.java
+src/main/java/com/facebook/ads/sdk/BusinessOwnedObjectOnBehalfOfRequest.java
+src/main/java/com/facebook/ads/sdk/ProductCatalog.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyDayPart.java
+src/main/java/com/facebook/ads/sdk/AdAccountAAACompatibleAdObjects.java
+src/main/java/com/facebook/ads/sdk/ProductItemCommerceInsights.java
+src/main/java/com/facebook/ads/sdk/VideoStatusProcessingPhase.java
+src/main/java/com/facebook/ads/sdk/AdsPixelStats.java
+src/main/java/com/facebook/ads/sdk/ProductItemInsights.java
+src/main/java/com/facebook/ads/sdk/AdRuleExecutionSpec.java
+src/main/java/com/facebook/ads/sdk/IGAccessTokenForIGOnlyAPI.java
+src/main/java/com/facebook/ads/sdk/AnalyticsQueryResult.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationLocationCluster.java
+src/main/java/com/facebook/ads/sdk/CatalogItemValidationErrorList.java
+src/main/java/com/facebook/ads/sdk/Vehicle.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyEstimatesCurve.java
+src/main/java/com/facebook/ads/sdk/BrandedContentShadowIGMediaID.java
+src/main/java/com/facebook/ads/sdk/LeadGenAppointmentSlotsByDay.java
+src/main/java/com/facebook/ads/sdk/PaymentEnginePayment.java
+src/main/java/com/facebook/ads/sdk/OfflineConversionDataSetPermissions.java
+src/main/java/com/facebook/ads/sdk/WhatsAppPaymentCapabilities.java
+src/main/java/com/facebook/ads/sdk/AdPromotedObject.java
+src/main/java/com/facebook/ads/sdk/WhatsAppBusinessAccount.java
+src/main/java/com/facebook/ads/sdk/AdMonetizationProperty.java
+src/main/java/com/facebook/ads/sdk/ExtendedCreditEmail.java
+src/main/java/com/facebook/ads/sdk/AdAccountTrackingData.java
+src/main/java/com/facebook/ads/sdk/AudioAsset.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyAdFormat.java
+src/main/java/com/facebook/ads/sdk/IGUserExportForCAM.java
+src/main/java/com/facebook/ads/sdk/AdgroupIssuesInfo.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogImageSettingsOperation.java
+src/main/java/com/facebook/ads/sdk/AnalyticsFunnelQueryResult.java
+src/main/java/com/facebook/ads/sdk/AdsReportBuilderSavedReport.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogUserActions.java
+src/main/java/com/facebook/ads/sdk/IGVideoCopyrightCheckStatus.java
+src/main/java/com/facebook/ads/sdk/McomPayouts.java
+src/main/java/com/facebook/ads/sdk/InstagramBoostableMediaForAccessToken.java
+src/main/java/com/facebook/ads/sdk/PrivacyOption.java
+src/main/java/com/facebook/ads/sdk/FranchiseProgram.java
+src/main/java/com/facebook/ads/sdk/AdgroupMetadata.java
+src/main/java/com/facebook/ads/sdk/AdAccountReachEstimate.java
+src/main/java/com/facebook/ads/sdk/CustomAudience.java
+src/main/java/com/facebook/ads/sdk/FantasyGame.java
+src/main/java/com/facebook/ads/sdk/InstagramInsightsValue.java
+src/main/java/com/facebook/ads/sdk/CanvasBodyElement.java
+src/main/java/com/facebook/ads/sdk/CreditPartitionActionOptions.java
+src/main/java/com/facebook/ads/sdk/PremiumMusicVideo.java
+src/main/java/com/facebook/ads/sdk/Persona.java
+src/main/java/com/facebook/ads/sdk/ALMEndAdvertiserInfo.java
+src/main/java/com/facebook/ads/sdk/UserContext.java
+src/main/java/com/facebook/ads/sdk/AdCampaignDeliveryStats.java
+src/main/java/com/facebook/ads/sdk/AdAccountSubsidyAmountDetails.java
+src/main/java/com/facebook/ads/sdk/ResearchPollStudy.java
+src/main/java/com/facebook/ads/sdk/EventExternalTicketInfo.java
+src/main/java/com/facebook/ads/sdk/DACheck.java
+src/main/java/com/facebook/ads/sdk/CanvasPreview.java
+src/main/java/com/facebook/ads/sdk/SlicedEventSourceGroup.java
+src/main/java/com/facebook/ads/sdk/CustomAudienceSession.java
+src/main/java/com/facebook/ads/sdk/AudienceSharingAccountValid.java
+src/main/java/com/facebook/ads/sdk/AdsPixelSignalsIWLFeedbackNux.java
+src/main/java/com/facebook/ads/sdk/PersonalAdsPersona.java
+src/main/java/com/facebook/ads/sdk/PageCTXMessagingFeatureLimit.java
+src/main/java/com/facebook/ads/sdk/PageMessageResponsivenessMetrics.java
+src/main/java/com/facebook/ads/sdk/PlatformImageSource.java
+src/main/java/com/facebook/ads/sdk/BrandSafetyCampaignConfig.java
+src/main/java/com/facebook/ads/sdk/AdStudyObjectiveOffsiteDatasets.java
+src/main/java/com/facebook/ads/sdk/AnalyticsPlatformMetricsConfig.java
+src/main/java/com/facebook/ads/sdk/DeliveryCheck.java
+src/main/java/com/facebook/ads/sdk/AdAccountTargetingUnified.java
+src/main/java/com/facebook/ads/sdk/DeliveryInfo.java
+src/main/java/com/facebook/ads/sdk/McomInvoiceStatus.java
+src/main/java/com/facebook/ads/sdk/EventSourceGroup.java
+src/main/java/com/facebook/ads/sdk/ProductVariant.java
+src/main/java/com/facebook/ads/sdk/AdCreativeHouseShopsAdsSellerContent.java
+src/main/java/com/facebook/ads/sdk/ShadowIGUserCatalogProductSearch.java
+src/main/java/com/facebook/ads/sdk/CustomConversionStatsResult.java
+src/main/java/com/facebook/ads/sdk/ProductSetTaxonCategory.java
+src/main/java/com/facebook/ads/sdk/WoodhengePurchasedPAYGReceipt.java
+src/main/java/com/facebook/ads/sdk/AdConversionValues.java
+src/main/java/com/facebook/ads/sdk/Canvas.java
+src/main/java/com/facebook/ads/sdk/AdCreativeDestinationSpec.java
+src/main/java/com/facebook/ads/sdk/WithAsset3D.java
+src/main/java/com/facebook/ads/sdk/BrandedContentAdError.java
+src/main/java/com/facebook/ads/sdk/AudioCopyright.java
+src/main/java/com/facebook/ads/sdk/MessengerAdsPartialAutomatedStepList.java
+src/main/java/com/facebook/ads/sdk/Tab.java
+src/main/java/com/facebook/ads/sdk/EducationExperience.java
+src/main/java/com/facebook/ads/sdk/AdsCreationSavedState.java
+src/main/java/com/facebook/ads/sdk/PrivateComputationEnvironment.java
+src/main/java/com/facebook/ads/sdk/AudiencePermissionForActions.java
+src/main/java/com/facebook/ads/sdk/ProductVisualVariant.java
+src/main/java/com/facebook/ads/sdk/AdCreativeRecommenderSettings.java
+src/main/java/com/facebook/ads/sdk/AdAccountAdLimitsInsights.java
+src/main/java/com/facebook/ads/sdk/ExtendedCreditApplication.java
+src/main/java/com/facebook/ads/sdk/BusinessObjectTransferOwnershipAgreement.java
+src/main/java/com/facebook/ads/sdk/PageCrmsWithLeadsAccess.java
+src/main/java/com/facebook/ads/sdk/OfflineTermsOfService.java
+src/main/java/com/facebook/ads/sdk/BusinessRoleRequest.java
+src/main/java/com/facebook/ads/sdk/LiveVideoRecommendedEncoderSettings.java
+src/main/java/com/facebook/ads/sdk/PageCallToAction.java
+src/main/java/com/facebook/ads/sdk/AdCampaignGroupStats.java
+src/main/java/com/facebook/ads/sdk/AdCampaignDeliveryStatsUnsupportedReasons.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecGroupRule.java
+src/main/java/com/facebook/ads/sdk/PageAppWithLeadsAccess.java
+src/main/java/com/facebook/ads/sdk/AdRecommendation.java
+src/main/java/com/facebook/ads/sdk/customtype/TargetingOptimizationTuple.java
+src/main/java/com/facebook/ads/sdk/AMOneshopSettings.java
+src/main/java/com/facebook/ads/sdk/CopyrightReferenceContainer.java
+src/main/java/com/facebook/ads/sdk/RecommendedPagePost.java
+src/main/java/com/facebook/ads/sdk/UserIDForApp.java
+src/main/java/com/facebook/ads/sdk/BusinessCreativeFolder.java
+src/main/java/com/facebook/ads/sdk/IDName.java
+src/main/java/com/facebook/ads/sdk/AdsPixelRawFiresResult.java
+src/main/java/com/facebook/ads/sdk/signal/Event.java
+src/main/java/com/facebook/ads/sdk/signal/SignalResponse.java
+src/main/java/com/facebook/ads/sdk/signal/EventRequest.java
+src/main/java/com/facebook/ads/sdk/signal/UserData.java
+src/main/java/com/facebook/ads/sdk/signal/CustomData.java
+src/main/java/com/facebook/ads/sdk/signal/Content.java
+src/main/java/com/facebook/ads/sdk/AdCreativeOmnichannelLinkSpec.java
+src/main/java/com/facebook/ads/sdk/CampaignActionsData.java
+src/main/java/com/facebook/ads/sdk/SplitTestWinner.java
+src/main/java/com/facebook/ads/sdk/NegativeKeywordList.java
+src/main/java/com/facebook/ads/sdk/LiveVideoAdBreakConfig.java
+src/main/java/com/facebook/ads/sdk/Ad.java
+src/main/java/com/facebook/ads/sdk/HotelRoom.java
+src/main/java/com/facebook/ads/sdk/BusinessAdAccountRequest.java
+src/main/java/com/facebook/ads/sdk/CustomConversionActivities.java
+src/main/java/com/facebook/ads/sdk/Flight.java
+src/main/java/com/facebook/ads/sdk/ProductCatalogUserPermissions.java
+src/main/java/com/facebook/ads/sdk/ProductItemLandingPageData.java
+src/main/java/com/facebook/ads/sdk/DynamicARMetadata.java
+src/main/java/com/facebook/ads/sdk/SingleOwnerAdditionalProfile.java
+src/main/java/com/facebook/ads/sdk/AdsOptimalDeliveryGrowthOpportunity.java
+src/main/java/com/facebook/ads/sdk/AttributionSpec.java
+src/main/java/com/facebook/ads/sdk/AdAccount.java
+src/main/java/com/facebook/ads/sdk/LeadGenDirectCRMIntegrationConfig.java
+src/main/java/com/facebook/ads/sdk/SignalsIWLExtractor.java
+src/main/java/com/facebook/ads/sdk/ALMGuidance.java
+src/main/java/com/facebook/ads/sdk/UserIDForPage.java
+src/main/java/com/facebook/ads/sdk/BlindPig.java
+src/main/java/com/facebook/ads/sdk/Privacy.java
+src/main/java/com/facebook/ads/sdk/CollaborativeAdsShareSettings.java
+src/main/java/com/facebook/ads/sdk/AnalyticsEntityUserConfig.java
+src/main/java/com/facebook/ads/sdk/IGMediaForIGOnlyAPI.java
+src/main/java/com/facebook/ads/sdk/AdCampaignOptimizationEvent.java
+src/main/java/com/facebook/ads/sdk/AdCreativeTextData.java
+src/main/java/com/facebook/ads/sdk/LiveVideoTargeting.java
+src/main/java/com/facebook/ads/sdk/ImageReferenceMatch.java
+src/main/java/com/facebook/ads/sdk/AdExportPreset.java
+src/main/java/com/facebook/ads/sdk/AdsSegments.java
+src/main/java/com/facebook/ads/sdk/LeadGenQuestionOption.java
+src/main/java/com/facebook/ads/sdk/APINodeList.java
+src/main/java/com/facebook/ads/sdk/AudienceFunnel.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecEvents.java
+src/main/java/com/facebook/ads/sdk/ParentCatalogReport.java
+src/main/java/com/facebook/ads/sdk/ReachFrequencyEstimatesPlacementBreakdown.java
+src/main/java/com/facebook/ads/sdk/AnalyticsSegment.java
+src/main/java/com/facebook/ads/sdk/ContactsMessengerSyncConfig.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationElectoralDistrict.java
+src/main/java/com/facebook/ads/sdk/ChildEvent.java
+src/main/java/com/facebook/ads/sdk/DirectDebit.java
+src/main/java/com/facebook/ads/sdk/AdvAInstance.java
+src/main/java/com/facebook/ads/sdk/KeyValue.java
+src/main/java/com/facebook/ads/sdk/PageUpcomingChange.java
+src/main/java/com/facebook/ads/sdk/SmartPixelInsights.java
+src/main/java/com/facebook/ads/sdk/AdsPixelRealTimeEventLogResult.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpecAssetCustomizationRule.java
+src/main/java/com/facebook/ads/sdk/CustomAudiencesharedAccountInfo.java
+src/main/java/com/facebook/ads/sdk/DynamicContentSet.java
+src/main/java/com/facebook/ads/sdk/MusicVideoCopyright.java
+src/main/java/com/facebook/ads/sdk/AdRuleScheduleSpec.java
+src/main/java/com/facebook/ads/sdk/CustomAudiencesTOS.java
+src/main/java/com/facebook/ads/sdk/TargetingSentenceLine.java
+src/main/java/com/facebook/ads/sdk/EventTicketTier.java
+src/main/java/com/facebook/ads/sdk/Campaign.java
+src/main/java/com/facebook/ads/sdk/AdsTextSuggestions.java
+src/main/java/com/facebook/ads/sdk/CanvasTemplate.java
+src/main/java/com/facebook/ads/sdk/TargetingGeoLocationRegion.java
+src/main/java/com/facebook/ads/sdk/AdCampaignGroupStructureTree.java
+src/main/java/com/facebook/ads/sdk/AdPlacePageSet.java
+src/main/java/com/facebook/ads/sdk/IGBCAdsPermission.java
+src/main/java/com/facebook/ads/sdk/RightsManagerInsights.java
+src/main/java/com/facebook/ads/sdk/IGMedia.java
+src/main/java/com/facebook/ads/sdk/KeywordDeliveryReport.java
+src/main/java/com/facebook/ads/sdk/AdAssetFeedSpec.java
+src/main/java/com/facebook/ads/sdk/AdCreativeLinkDataCallToActionValue.java
+src/main/java/com/facebook/ads/sdk/BusinessFranchiseConfig.java
+src/main/java/com/facebook/ads/sdk/Transaction.java
+src/main/java/com/facebook/ads/sdk/OfflineProductItem.java
+src/main/java/com/facebook/ads/sdk/DynamicPostChildAttachment.java
+src/main/java/com/facebook/ads/sdk/AdVolume.java
+src/main/java/com/facebook/ads/sdk/Domain.java
+src/main/java/com/facebook/ads/sdk/WhatsAppBusinessHealthStatus.java

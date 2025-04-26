@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/Transform2.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "Transform2",
+  "typeMetricsHashMap" : {
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 100,
+      "coveredCount" : 48,
+      "effectualCount" : 47,
+      "coverageGap" : [ "Stmt(EXPRESSION, 175, org.xmlcml.euclid.Transform2, DEFAULT)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 48.0,
+      "effectualPercentage" : 47.0,
+      "coverageGapPercentage" : 1.0
+    },
+    "IF" : {
+      "elementCount" : 28,
+      "coveredCount" : 12,
+      "effectualCount" : 10,
+      "coverageGap" : [ "Stmt(IF, 93, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 94, org.xmlcml.euclid.Transform2, DEFAULT)" ],
+      "coverageGapSize" : 2,
+      "coveredPercentage" : 42.86,
+      "effectualPercentage" : 35.71,
+      "coverageGapPercentage" : 7.14
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 6,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 66.67,
+      "effectualPercentage" : 66.67,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 2,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 60,
+      "coveredCount" : 22,
+      "effectualCount" : 21,
+      "coverageGap" : [ "Stmt(RETURN, 78, org.xmlcml.euclid.Transform2, NON_DEFAULT)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 36.67,
+      "effectualPercentage" : 35.0,
+      "coverageGapPercentage" : 1.67
+    },
+    "DECISION" : {
+      "elementCount" : 34,
+      "coveredCount" : 14,
+      "effectualCount" : 14,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 41.18,
+      "effectualPercentage" : 41.18,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 47,
+      "coveredCount" : 14,
+      "effectualCount" : 14,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 29.79,
+      "effectualPercentage" : 29.79,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(VARIABLE_DECLARATION, 141, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, LOOP, 1, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 42, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 125, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 92, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 24, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 2, org.xmlcml.euclid.Transform2)", "Stmt(VARIABLE_DECLARATION, 140, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 41, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 18, org.xmlcml.euclid.Transform2)", "Stmt(VARIABLE_DECLARATION, 91, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 124, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 124, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 25, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 143, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 176, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 44, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 127, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 127, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(IF, 94, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 28, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 175, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 142, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, LOOP, 0, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 43, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 93, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 126, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 27, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 178, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 46, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 129, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 129, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Decision(true, LOOP, 5, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 162, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 177, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 177, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(IF, 45, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 78, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 78, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Decision(true, IF, 6, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 161, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 128, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 29, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 15, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 131, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 131, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 164, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 19, org.xmlcml.euclid.Transform2)", "Stmt(VARIABLE_DECLARATION, 32, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 21, org.xmlcml.euclid.Transform2)", "Stmt(IF, 146, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, LOOP, 4, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 47, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 163, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 130, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 20, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 31, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 26, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 149, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 116, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 17, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 50, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 166, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 34, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 27, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 115, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 49, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 16, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 165, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 165, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 33, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 0, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 19, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 52, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 168, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 36, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 117, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 25, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 150, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 51, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 18, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 167, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 35, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 21, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(THROW, 54, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 38, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 121, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 152, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 53, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 20, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 169, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 169, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 37, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 23, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 56, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 40, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 123, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 90, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 90, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 55, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 12, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 39, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 6, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 89, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 122, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 122, org.xmlcml.euclid.Transform2, NON_DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(VARIABLE_DECLARATION, 141, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, LOOP, 1, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 42, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 125, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 92, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 24, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 2, org.xmlcml.euclid.Transform2)", "Stmt(VARIABLE_DECLARATION, 140, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 41, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 18, org.xmlcml.euclid.Transform2)", "Stmt(VARIABLE_DECLARATION, 91, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 124, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 124, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 25, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 143, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 176, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 44, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 127, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 127, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 28, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 142, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, LOOP, 0, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 43, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 126, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 27, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 178, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 46, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 129, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 129, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Decision(true, LOOP, 5, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 162, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 177, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 177, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(IF, 45, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 78, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 6, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 161, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 128, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 29, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 15, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 131, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 131, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 164, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 19, org.xmlcml.euclid.Transform2)", "Stmt(VARIABLE_DECLARATION, 32, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 21, org.xmlcml.euclid.Transform2)", "Stmt(IF, 146, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, LOOP, 4, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 47, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 163, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 130, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 20, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 31, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 26, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 149, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 116, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 17, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 50, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 166, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 34, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 27, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 115, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 49, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 16, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 165, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 165, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 33, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(FOR, 0, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 151, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 19, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 52, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 168, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 36, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 117, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 25, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 150, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 51, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 18, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 167, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 35, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 21, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(THROW, 54, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 38, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 121, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 152, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(IF, 53, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 20, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 169, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 169, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 37, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 23, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 56, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 40, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 123, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 90, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 90, org.xmlcml.euclid.Transform2, NON_DEFAULT)", "Stmt(EXPRESSION, 55, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.Transform2, DEFAULT)", "Decision(true, IF, 12, org.xmlcml.euclid.Transform2)", "Stmt(EXPRESSION, 39, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 6, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(EXPRESSION, 89, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 122, org.xmlcml.euclid.Transform2, DEFAULT)", "Stmt(RETURN, 122, org.xmlcml.euclid.Transform2, NON_DEFAULT)" ],
+  "totalElementCount" : 277,
+  "totalCoveredCount" : 115,
+  "totalEffectualCount" : 111,
+  "totalCoverageGap" : 4
+}

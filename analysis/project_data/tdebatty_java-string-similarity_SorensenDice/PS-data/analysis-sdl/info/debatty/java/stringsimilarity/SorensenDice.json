@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/SorensenDice.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "SorensenDice",
+  "typeMetricsHashMap" : {
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DECISION" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "RETURN" : {
+      "elementCount" : 6,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 3,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "IF" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "THROW" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    }
+  },
+  "covered" : [ "Decision(true, IF, 0, info.debatty.java.stringsimilarity.SorensenDice)", "Decision(true, IF, 2, info.debatty.java.stringsimilarity.SorensenDice)", "Stmt(IF, 2, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(IF, 0, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)", "Stmt(IF, 9, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(EXPRESSION, 7, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 15, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 13, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Decision(true, IF, 1, info.debatty.java.stringsimilarity.SorensenDice)", "Decision(true, IF, 3, info.debatty.java.stringsimilarity.SorensenDice)", "Stmt(THROW, 3, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(THROW, 1, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(EXPRESSION, 10, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(FOR_EACH, 8, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(EXPRESSION, 6, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(IF, 4, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 14, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 12, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" ],
+  "effectualCovered" : [ "Decision(true, IF, 0, info.debatty.java.stringsimilarity.SorensenDice)", "Decision(true, IF, 2, info.debatty.java.stringsimilarity.SorensenDice)", "Stmt(IF, 2, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(IF, 0, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 11, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)", "Stmt(IF, 9, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(EXPRESSION, 7, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 15, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 13, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Decision(true, IF, 1, info.debatty.java.stringsimilarity.SorensenDice)", "Decision(true, IF, 3, info.debatty.java.stringsimilarity.SorensenDice)", "Stmt(THROW, 3, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(THROW, 1, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(EXPRESSION, 10, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(FOR_EACH, 8, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(EXPRESSION, 6, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(IF, 4, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.SorensenDice, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 14, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 12, info.debatty.java.stringsimilarity.SorensenDice, DEFAULT)" ],
+  "totalElementCount" : 24,
+  "totalCoveredCount" : 24,
+  "totalEffectualCount" : 24,
+  "totalCoverageGap" : 0
+}

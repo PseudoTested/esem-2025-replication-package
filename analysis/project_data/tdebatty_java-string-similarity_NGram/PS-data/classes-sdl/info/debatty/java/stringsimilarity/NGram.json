@@ -1,0 +1,427 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/NGram.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "NGram",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 46,
+      "endLine" : 46,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 1, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 50,
+      "endLine" : 50,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 2, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 54,
+      "endLine" : 54,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 3, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Decision(true, IF, 4, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 13,
+      "endCol" : 28
+    },
+    "Decision(true, LOOP, 5, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 68,
+      "endLine" : 68,
+      "startCol" : 52,
+      "endCol" : 57
+    },
+    "Decision(true, IF, 6, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 69,
+      "endLine" : 69,
+      "startCol" : 21,
+      "endCol" : 48
+    },
+    "Decision(true, LOOP, 7, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 25,
+      "endCol" : 37
+    },
+    "Decision(true, IF, 8, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 17,
+      "endCol" : 25
+    },
+    "Decision(true, LOOP, 9, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 21,
+      "endCol" : 27
+    },
+    "Decision(true, LOOP, 10, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 21,
+      "endCol" : 27
+    },
+    "Decision(true, IF, 11, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 104,
+      "endLine" : 104,
+      "startCol" : 17,
+      "endCol" : 21
+    },
+    "Decision(true, LOOP, 12, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 105,
+      "endLine" : 105,
+      "startCol" : 34,
+      "endCol" : 43
+    },
+    "Decision(true, LOOP, 13, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 38,
+      "endCol" : 43
+    },
+    "Decision(true, LOOP, 14, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 115,
+      "endLine" : 115,
+      "startCol" : 25,
+      "endCol" : 31
+    },
+    "Decision(true, LOOP, 15, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 119,
+      "endLine" : 119,
+      "startCol" : 34,
+      "endCol" : 39
+    },
+    "Decision(true, IF, 16, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 25,
+      "endCol" : 49
+    },
+    "Decision(true, IF, 17, info.debatty.java.stringsimilarity.NGram)" : {
+      "startLine" : 122,
+      "endLine" : 122,
+      "startCol" : 32,
+      "endCol" : 56
+    },
+    "Stmt(EXPRESSION, 0, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 28,
+      "endLine" : 28,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(EXPRESSION, 1, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 35,
+      "endLine" : 35,
+      "startCol" : 9,
+      "endCol" : 27
+    },
+    "Stmt(IF, 2, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 46,
+      "endLine" : 48,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 3, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 47,
+      "endLine" : 47,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 4, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 50,
+      "endLine" : 52,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 5, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 51,
+      "endLine" : 51,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 6, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 54,
+      "endLine" : 56,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 55,
+      "endLine" : 55,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)" : {
+      "startLine" : 55,
+      "endLine" : 55,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(IF, 8, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 64,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 63,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 63,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(IF, 10, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 74,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 11, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 68,
+      "endLine" : 72,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 12, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 69,
+      "endLine" : 71,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 13, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 21,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 14, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 13,
+      "endCol" : 51
+    },
+    "Stmt(RETURN, 14, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 13,
+      "endCol" : 51
+    },
+    "Stmt(FOR, 15, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 88,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(IF, 16, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 87,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 17, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 17,
+      "endCol" : 45
+    },
+    "Stmt(EXPRESSION, 18, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 84,
+      "endLine" : 84,
+      "startCol" : 17,
+      "endCol" : 32
+    },
+    "Stmt(EXPRESSION, 19, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 89,
+      "endLine" : 89,
+      "startCol" : 9,
+      "endCol" : 30
+    },
+    "Stmt(EXPRESSION, 20, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 9,
+      "endCol" : 30
+    },
+    "Stmt(FOR, 21, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 100,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 22, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(FOR, 23, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 137,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(IF, 24, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 113,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 25, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 112,
+      "endLine" : 112,
+      "startCol" : 17,
+      "endCol" : 59
+    },
+    "Stmt(FOR, 26, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 105,
+      "endLine" : 107,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 27, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 106,
+      "endLine" : 106,
+      "startCol" : 21,
+      "endCol" : 38
+    },
+    "Stmt(FOR, 28, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 110,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 29, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 21,
+      "endCol" : 54
+    },
+    "Stmt(EXPRESSION, 30, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 114,
+      "endLine" : 114,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(FOR, 31, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 115,
+      "endLine" : 132,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 32, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 116,
+      "endLine" : 116,
+      "startCol" : 17,
+      "endCol" : 25
+    },
+    "Stmt(FOR, 33, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 119,
+      "endLine" : 126,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(IF, 34, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 125,
+      "startCol" : 21,
+      "endCol" : 21
+    },
+    "Stmt(IF, 35, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 122,
+      "endLine" : 125,
+      "startCol" : 28,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 36, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 124,
+      "endLine" : 124,
+      "startCol" : 25,
+      "endCol" : 29
+    },
+    "Stmt(EXPRESSION, 37, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 121,
+      "endLine" : 121,
+      "startCol" : 25,
+      "endCol" : 31
+    },
+    "Stmt(EXPRESSION, 38, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 130,
+      "endLine" : 131,
+      "startCol" : 17,
+      "endCol" : 73
+    },
+    "Stmt(VARIABLE_DECLARATION, 39, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 117,
+      "endLine" : 117,
+      "startCol" : 21,
+      "endCol" : 26
+    },
+    "Stmt(VARIABLE_DECLARATION, 40, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 127,
+      "endLine" : 127,
+      "startCol" : 23,
+      "endCol" : 44
+    },
+    "Stmt(EXPRESSION, 41, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 134,
+      "endLine" : 134,
+      "startCol" : 13,
+      "endCol" : 19
+    },
+    "Stmt(EXPRESSION, 42, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 135,
+      "endLine" : 135,
+      "startCol" : 13,
+      "endCol" : 18
+    },
+    "Stmt(EXPRESSION, 43, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 136,
+      "endLine" : 136,
+      "startCol" : 13,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 44, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(RETURN, 44, info.debatty.java.stringsimilarity.NGram, NON_DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(VARIABLE_DECLARATION, 45, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 13,
+      "endCol" : 20
+    },
+    "Stmt(VARIABLE_DECLARATION, 46, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 16,
+      "endCol" : 40
+    },
+    "Stmt(VARIABLE_DECLARATION, 47, info.debatty.java.stringsimilarity.NGram, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 16,
+      "endCol" : 32
+    }
+  }
+}

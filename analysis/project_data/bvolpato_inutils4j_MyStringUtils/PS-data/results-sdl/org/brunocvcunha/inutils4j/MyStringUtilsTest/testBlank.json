@@ -1,0 +1,22 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testBlank",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 40, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 40, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "TIMED_OUT(200)" ],
+    "Decision(true, IF, 41, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Decision(false, IF, 41, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 563, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 563, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(IF, 564, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 564, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 565, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 565, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 566, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 566, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 567, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 567, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 215
+}

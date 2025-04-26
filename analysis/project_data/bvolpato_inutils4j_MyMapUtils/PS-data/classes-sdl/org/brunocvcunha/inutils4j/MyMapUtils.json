@@ -1,0 +1,37 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j",
+  "className" : "MyMapUtils",
+  "coverageElementPositions" : {
+    "Stmt(EXPRESSION, 0, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : {
+      "startLine" : 38,
+      "endLine" : 38,
+      "startCol" : 5,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : {
+      "startLine" : 41,
+      "endLine" : 41,
+      "startCol" : 5,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyMapUtils, NON_DEFAULT)" : {
+      "startLine" : 41,
+      "endLine" : 41,
+      "startCol" : 5,
+      "endCol" : 21
+    },
+    "Stmt(VARIABLE_DECLARATION, 2, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : {
+      "startLine" : 37,
+      "endLine" : 37,
+      "startCol" : 21,
+      "endCol" : 90
+    },
+    "Stmt(VARIABLE_DECLARATION, 3, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : {
+      "startLine" : 40,
+      "endLine" : 40,
+      "startCol" : 21,
+      "endCol" : 69
+    }
+  }
+}

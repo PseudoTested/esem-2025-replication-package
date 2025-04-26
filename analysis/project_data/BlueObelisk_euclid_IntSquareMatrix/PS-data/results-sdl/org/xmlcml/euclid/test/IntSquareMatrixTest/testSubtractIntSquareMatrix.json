@@ -1,0 +1,25 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testSubtractIntSquareMatrix",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 3, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(1, org.xmlcml.euclid.EuclidRuntimeException: non square matrix <org.xmlcml.euclid.IntSquareMatrix.<init>(IntSquareMatrix.java:220)>)" ],
+    "Stmt(IF, 11, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 11, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 13, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(1, junit.framework.AssertionFailedError: real matrix; unequal element at (2, 0), (-31 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(EXPRESSION, 13, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: real matrix; unequal element at (2, 0), (-31 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot read field \"rows\" because \"m2\" is null <org.xmlcml.euclid.IntMatrix.subtract(IntMatrix.java:391)>)" ],
+    "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot read field \"rows\" because \"m2\" is null <org.xmlcml.euclid.IntMatrix.subtract(IntMatrix.java:391)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 19, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot read field \"rows\" because \"m\" is null <org.xmlcml.euclid.IntSquareMatrix.<init>(IntSquareMatrix.java:216)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 19, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot read field \"rows\" because \"m\" is null <org.xmlcml.euclid.IntSquareMatrix.<init>(IntSquareMatrix.java:216)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 20, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot read field \"rows\" because \"m2\" is null <org.xmlcml.euclid.IntMatrix.subtract(IntMatrix.java:391)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 20, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot read field \"rows\" because \"m2\" is null <org.xmlcml.euclid.IntMatrix.subtract(IntMatrix.java:391)>)" ],
+    "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: real matrix expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: real matrix expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot read field \"rows\" because \"m\" is null <org.xmlcml.euclid.IntSquareMatrix.<init>(IntSquareMatrix.java:216)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot read field \"rows\" because \"m\" is null <org.xmlcml.euclid.IntSquareMatrix.<init>(IntSquareMatrix.java:216)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 23, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: real matrix expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 23, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: real matrix expected:<IntMatrix> but was:<null> <junit.framework.Assert.fail(Assert.java:57)>)" ]
+  },
+  "timeTaken" : 24
+}

@@ -1,0 +1,28 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.Real3RangeTest",
+  "testMethodName" : "testGetXYZRange",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 0, org.xmlcml.euclid.Real3Range)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Decision(false, LOOP, 0, org.xmlcml.euclid.Real3Range)" : [ "THREW_EXCEPTION(0, java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3 <org.xmlcml.euclid.Real3Range.<init>(Real3Range.java:42)>)" ],
+    "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"x\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:127)>)" ],
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"x\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:127)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"x\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:127)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"x\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:127)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"y\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:129)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"y\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:129)>)" ],
+    "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"z\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:131)>)" ],
+    "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"z\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:131)>)" ],
+    "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"x\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:127)>)" ],
+    "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"x\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:127)>)" ],
+    "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"y\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:129)>)" ],
+    "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"y\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:129)>)" ],
+    "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"z\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:131)>)" ],
+    "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.RealRange.toString()\" because \"z\" is null <org.xmlcml.euclid.test.Real3RangeTest.testGetXYZRange(Real3RangeTest.java:131)>)" ]
+  },
+  "timeTaken" : 18
+}

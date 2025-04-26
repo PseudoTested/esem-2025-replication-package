@@ -1,0 +1,14 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testCheckChars",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(RETURN, 975, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 975, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(VARIABLE_DECLARATION, 976, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.regex.Pattern.matcher(java.lang.CharSequence)\" because \"regexChars\" is null <org.brunocvcunha.inutils4j.MyStringUtils.hasInvalidChar(MyStringUtils.java:3966)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 976, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.regex.Pattern.matcher(java.lang.CharSequence)\" because \"regexChars\" is null <org.brunocvcunha.inutils4j.MyStringUtils.hasInvalidChar(MyStringUtils.java:3966)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 977, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 977, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 5
+}

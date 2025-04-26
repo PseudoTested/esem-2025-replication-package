@@ -1,0 +1,16 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.ReadYamlStreamTest",
+  "testMethodName" : "worksWithNoLines",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(LAMBDA, 0, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.startMarkers\" is null <com.amihaiemil.eoyaml.ReadYamlStream.values(ReadYamlStream.java:69)>)" ],
+    "Stmt(LAMBDA, 0, com.amihaiemil.eoyaml.ReadYamlStream, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.iterator()\" because \"this.startMarkers\" is null <com.amihaiemil.eoyaml.ReadYamlStream.values(ReadYamlStream.java:69)>)" ],
+    "Stmt(LAMBDA, 1, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(LAMBDA, 1, com.amihaiemil.eoyaml.ReadYamlStream, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(FOR_EACH, 2, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(FOR_EACH, 2, com.amihaiemil.eoyaml.ReadYamlStream, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 5, com.amihaiemil.eoyaml.ReadYamlStream, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 5, com.amihaiemil.eoyaml.ReadYamlStream, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ]
+  },
+  "timeTaken" : 14
+}

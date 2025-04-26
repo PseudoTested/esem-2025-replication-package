@@ -1,0 +1,99 @@
+src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyListUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyObjectUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyConcurrencyUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyFileUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyVideoUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MySystemUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStreamUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyZipUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyArrUtils.java
+1:/*
+2: * Copyright © 2014 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
+3: *
+4: * Licensed under the Apache License, Version 2.0 (the "License");
+5: * you may not use this file except in compliance with the License.
+6: * You may obtain a copy of the License at
+7: *
+8: *     http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: * Unless required by applicable law or agreed to in writing, software
+11: * distributed under the License is distributed on an "AS IS" BASIS,
+12: * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: * See the License for the specific language governing permissions and
+14: * limitations under the License.
+15: */
+18:import java.util.Arrays;
+26:  protected static Random _rnd = new Random();
+28:  public static <T> int indexOf(T[] values, T value) {
+29:    int count = (values == null) ? 0 : values.length;
+30:    for (int ii = 0; ii < count; ++ii) {
+31:      if (MyObjectUtils.equals(values[ii], value)) {
+32:        return ii;
+33:      }
+35:    return -1;
+38:  public static <T> T peekRandom(T[] list) {
+39:    return peekRandom(Arrays.asList(list));
+47:  public static <T> Set<T> peekRandom(T[] list, int quantity) {
+48:    return peekRandom(Arrays.asList(list), quantity);
+69:  public static int indexOf(int[] values, int value) {
+70:    int count = (values == null) ? 0 : values.length;
+71:    for (int ii = 0; ii < count; ++ii) {
+72:      if (values[ii] == value) {
+73:        return ii;
+74:      }
+76:    return -1;
+79:  public static int indexOf(byte[] values, byte value) {
+80:    int count = (values == null) ? 0 : values.length;
+81:    for (int ii = 0; ii < count; ++ii) {
+82:      if (values[ii] == value) {
+83:        return ii;
+84:      }
+86:    return -1;
+89:  public static int indexOf(float[] values, float value) {
+90:    int count = (values == null) ? 0 : values.length;
+91:    for (int ii = 0; ii < count; ++ii) {
+92:      if (values[ii] == value) {
+93:        return ii;
+94:      }
+96:    return -1;
+115:  public static void reverse(int[] values) {
+119:  public static void reverse(int[] values, int offset, int length) {
+123:      int value = values[aidx];
+132:  public static int findArray(byte[] largeArray, byte[] subArray) {
+134:    /* If any of the arrays is empty then not found */
+135:    if (largeArray.length == 0 || subArray.length == 0) {
+136:      return -1;
+139:    /* If subarray is larger than large array then not found */
+140:    if (subArray.length > largeArray.length) {
+141:      return -1;
+144:    for (int i = 0; i < largeArray.length; i++) {
+145:      /* Check if the next element of large array is the same as the first element of subarray */
+146:      if (largeArray[i] == subArray[0]) {
+148:        boolean subArrayFound = true;
+149:        for (int j = 0; j < subArray.length; j++) {
+150:          /* If outside of large array or elements not equal then leave the loop */
+151:          if (largeArray.length <= i + j || subArray[j] != largeArray[i + j]) {
+152:            subArrayFound = false;
+153:            break;
+154:          }
+155:        }
+157:        /* Sub array found - return its index */
+158:        if (subArrayFound) {
+159:          return i;
+160:        }
+162:      }
+165:    /* Return default value */
+166:    return -1;
+src/main/java/org/brunocvcunha/inutils4j/MyTextRegex.java
+src/main/java/org/brunocvcunha/inutils4j/MyNumberUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyDateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyImageUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyClasspathUtils.java
+src/main/java/org/brunocvcunha/inutils4j/FixType.java
+src/main/java/org/brunocvcunha/inutils4j/thirdparty/DateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyHTTPUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionDifferenceHandler.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyDefaultReflectionDifferenceHandler.java

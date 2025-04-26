@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/sdk/serverside/CAPIGatewayEndpoint.java",
+  "packageName" : "com.facebook.ads.sdk.serverside",
+  "className" : "CAPIGatewayEndpoint",
+  "typeMetricsHashMap" : {
+    "RETURN" : {
+      "elementCount" : 12,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 21,
+      "coveredCount" : 9,
+      "effectualCount" : 9,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 42.86,
+      "effectualPercentage" : 42.86,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 4,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 4,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 1,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 3,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 33.33,
+      "effectualPercentage" : 33.33,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 2,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(LAMBDA, 13, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 9, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(TRY, 5, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 1, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(IF, 14, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 10, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Decision(true, IF, 1, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)", "Stmt(THROW, 6, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 2, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 15, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)", "Stmt(EXPRESSION, 7, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Decision(true, IF, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)", "Stmt(IF, 12, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 8, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 8, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)", "Stmt(RETURN, 16, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 16, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)", "Stmt(EXPRESSION, 4, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(LAMBDA, 13, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 9, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(TRY, 5, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 1, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(IF, 14, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 10, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Decision(true, IF, 1, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)", "Stmt(THROW, 6, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 2, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 15, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)", "Stmt(EXPRESSION, 7, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Decision(true, IF, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint)", "Stmt(IF, 12, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 8, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 8, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)", "Stmt(RETURN, 16, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(RETURN, 16, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, NON_DEFAULT)", "Stmt(EXPRESSION, 4, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)", "Stmt(EXPRESSION, 0, com.facebook.ads.sdk.serverside.CAPIGatewayEndpoint, DEFAULT)" ],
+  "totalElementCount" : 48,
+  "totalCoveredCount" : 22,
+  "totalEffectualCount" : 22,
+  "totalCoverageGap" : 0
+}

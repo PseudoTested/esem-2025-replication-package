@@ -1,0 +1,22 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testParseInt",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 64, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 64, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(1, java.util.NoSuchElementException <java.base/java.util.StringTokenizer.nextToken(StringTokenizer.java:347)>)" ],
+    "Stmt(FOR, 684, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 684, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(TRY, 685, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(TRY, 685, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 687, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 687, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 688, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 <org.brunocvcunha.inutils4j.MyStringUtilsTest.testParseInt(MyStringUtilsTest.java:149)>)" ],
+    "Stmt(RETURN, 688, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot load from int array because \"arr\" is null <org.brunocvcunha.inutils4j.MyStringUtilsTest.testParseInt(MyStringUtilsTest.java:149)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 689, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"java.util.StringTokenizer.countTokens()\" because \"tok\" is null <org.brunocvcunha.inutils4j.MyStringUtils.parseIntArray(MyStringUtils.java:2713)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 689, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.StringTokenizer.countTokens()\" because \"tok\" is null <org.brunocvcunha.inutils4j.MyStringUtils.parseIntArray(MyStringUtils.java:2713)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 690, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 <org.brunocvcunha.inutils4j.MyStringUtilsTest.testParseInt(MyStringUtilsTest.java:149)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 690, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0 <org.brunocvcunha.inutils4j.MyStringUtilsTest.testParseInt(MyStringUtilsTest.java:149)>)" ]
+  },
+  "timeTaken" : 10
+}

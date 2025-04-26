@@ -1,0 +1,31 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.Int2RangeTest",
+  "testMethodName" : "testPlus",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 0, org.xmlcml.euclid.Int2Range)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Decision(false, IF, 4, org.xmlcml.euclid.Int2Range)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: plus expected:<([(1,5),(11,15)])> but was:<([NULL,NULL])> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Decision(false, IF, 6, org.xmlcml.euclid.Int2Range)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.plus(org.xmlcml.euclid.IntRange)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.plus(Int2Range.java:202)>)" ],
+    "Stmt(IF, 20, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(IF, 20, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(IF, 24, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.plus(org.xmlcml.euclid.IntRange)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.plus(Int2Range.java:202)>)" ],
+    "Stmt(IF, 24, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.plus(org.xmlcml.euclid.IntRange)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.plus(Int2Range.java:202)>)" ],
+    "Stmt(RETURN, 26, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(RETURN, 26, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.toString()\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.toString(Int2Range.java:378)>)" ],
+    "Stmt(RETURN, 52, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: plus expected:<[((1,5),(11,15))]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 52, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: plus expected:<[((1,5),(11,15))]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 39
+}

@@ -1,0 +1,22 @@
+criterion: org.brunocvcunha.inutils4j.MyNumberUtilsTest:45
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:47
+org.brunocvcunha.inutils4j.MyNumberUtils:35
+org.brunocvcunha.inutils4j.MyNumberUtils:36
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:48
+criterion: org.brunocvcunha.inutils4j.MyNumberUtilsTest:45
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:47
+org.brunocvcunha.inutils4j.MyNumberUtils:35
+org.brunocvcunha.inutils4j.MyNumberUtils:36
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:49
+criterion: org.brunocvcunha.inutils4j.MyNumberUtilsTest:59
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:61
+org.brunocvcunha.inutils4j.MyNumberUtils:47
+org.brunocvcunha.inutils4j.MyNumberUtils:48
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:62
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:-1
+criterion: org.brunocvcunha.inutils4j.MyNumberUtilsTest:59
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:61
+org.brunocvcunha.inutils4j.MyNumberUtils:47
+org.brunocvcunha.inutils4j.MyNumberUtils:48
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:63
+org.brunocvcunha.inutils4j.MyNumberUtilsTest:-1

@@ -1,0 +1,14 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.SkipTest",
+  "testMethodName" : "delegatesToYamlNode",
+  "testOutcomes" : [ "PASSED(1495)", "PASSED(2)", "PASSED(2)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "THREW_EXCEPTION(3, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.nextYamlNode(com.amihaiemil.eoyaml.YamlLine)\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.Skip.nextYamlNode(Skip.java:127)>)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "THREW_EXCEPTION(2, java.lang.NullPointerException: Cannot invoke \"com.amihaiemil.eoyaml.YamlLines.nextYamlNode(com.amihaiemil.eoyaml.YamlLine)\" because \"this.yamlLines\" is null <com.amihaiemil.eoyaml.Skip.nextYamlNode(Skip.java:127)>)" ],
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "PASSED(2)", "PASSED(2)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "PASSED(2)", "PASSED(2)", "PASSED(2)" ],
+    "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, DEFAULT)" : [ "FAILED(6)" ],
+    "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : [ "FAILED(2)" ]
+  },
+  "timeTaken" : 1658
+}

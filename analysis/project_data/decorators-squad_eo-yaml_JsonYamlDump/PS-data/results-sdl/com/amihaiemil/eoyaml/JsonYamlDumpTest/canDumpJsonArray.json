@@ -1,0 +1,25 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.JsonYamlDumpTest",
+  "testMethodName" : "canDumpJsonArray",
+  "testOutcomes" : [ "PASSED(6)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 0, com.amihaiemil.eoyaml.JsonYamlDump)" : [ "FAILED(0)" ],
+    "Decision(false, IF, 1, com.amihaiemil.eoyaml.JsonYamlDump)" : [ "THREW_EXCEPTION(0, java.lang.ClassCastException: class org.glassfish.json.JsonArrayBuilderImpl$JsonArrayImpl cannot be cast to class javax.json.JsonObject (org.glassfish.json.JsonArrayBuilderImpl$JsonArrayImpl and javax.json.JsonObject are in unnamed module of loader 'app') <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:76)>)" ],
+    "Decision(true, IF, 2, com.amihaiemil.eoyaml.JsonYamlDump)" : [ "FAILED(3)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(IF, 1, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(IF, 1, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"javax.json.JsonValue.toString()\" because \"safeValue\" is null <com.amihaiemil.eoyaml.JsonYamlDump.dump(JsonYamlDump.java:85)>)" ],
+    "Stmt(IF, 4, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 4, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(IF, 5, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 5, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.JsonYamlDump, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.JsonYamlDump, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 45
+}

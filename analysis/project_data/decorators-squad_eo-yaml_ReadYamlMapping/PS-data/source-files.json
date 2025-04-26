@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java" : [ "com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey", "com.amihaiemil.eoyaml.ReadYamlMapping" ]
+  }
+}

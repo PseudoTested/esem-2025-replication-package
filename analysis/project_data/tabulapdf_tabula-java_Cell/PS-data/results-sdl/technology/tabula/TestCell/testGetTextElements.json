@@ -1,0 +1,16 @@
+{
+  "testClassName" : "technology.tabula.TestCell",
+  "testMethodName" : "testGetTextElements",
+  "testOutcomes" : [ "PASSED(434)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, technology.tabula.Cell, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 0, technology.tabula.Cell, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Cell, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Cell, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 17, technology.tabula.Cell, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 17, technology.tabula.Cell, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 19, technology.tabula.Cell, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 19, technology.tabula.Cell, NON_DEFAULT)" : [ "PASSED(1)", "PASSED(1)", "PASSED(0)" ]
+  },
+  "timeTaken" : 470
+}

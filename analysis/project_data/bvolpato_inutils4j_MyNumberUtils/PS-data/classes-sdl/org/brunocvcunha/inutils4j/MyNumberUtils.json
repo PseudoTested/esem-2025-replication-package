@@ -1,0 +1,55 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/MyNumberUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j",
+  "className" : "MyNumberUtils",
+  "coverageElementPositions" : {
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyNumberUtils, DEFAULT)" : {
+      "startLine" : 36,
+      "endLine" : 36,
+      "startCol" : 5,
+      "endCol" : 47
+    },
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyNumberUtils, NON_DEFAULT)" : {
+      "startLine" : 36,
+      "endLine" : 36,
+      "startCol" : 5,
+      "endCol" : 47
+    },
+    "Stmt(VARIABLE_DECLARATION, 1, org.brunocvcunha.inutils4j.MyNumberUtils, DEFAULT)" : {
+      "startLine" : 35,
+      "endLine" : 35,
+      "startCol" : 12,
+      "endCol" : 30
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyNumberUtils, DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 5,
+      "endCol" : 58
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyNumberUtils, NON_DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 5,
+      "endCol" : 58
+    },
+    "Stmt(VARIABLE_DECLARATION, 3, org.brunocvcunha.inutils4j.MyNumberUtils, DEFAULT)" : {
+      "startLine" : 47,
+      "endLine" : 47,
+      "startCol" : 12,
+      "endCol" : 30
+    },
+    "Stmt(RETURN, 4, org.brunocvcunha.inutils4j.MyNumberUtils, DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 5,
+      "endCol" : 40
+    },
+    "Stmt(RETURN, 4, org.brunocvcunha.inutils4j.MyNumberUtils, NON_DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 5,
+      "endCol" : 40
+    }
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/Skip.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "Skip$Line",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.amihaiemil.eoyaml.Skip$Line)" : {
+      "startLine" : 154,
+      "endLine" : 154,
+      "startCol" : 17,
+      "endCol" : 40
+    },
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 151,
+      "endLine" : 151,
+      "startCol" : 13,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 152,
+      "endLine" : 152,
+      "startCol" : 13,
+      "endCol" : 37
+    },
+    "Stmt(IF, 2, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 154,
+      "endLine" : 159,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 3, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 158,
+      "endLine" : 158,
+      "startCol" : 17,
+      "endCol" : 43
+    },
+    "Stmt(EXPRESSION, 4, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 156,
+      "endLine" : 156,
+      "startCol" : 17,
+      "endCol" : 40
+    },
+    "Stmt(EXPRESSION, 5, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 160,
+      "endLine" : 160,
+      "startCol" : 13,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 6, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 165,
+      "endLine" : 165,
+      "startCol" : 13,
+      "endCol" : 40
+    },
+    "Stmt(RETURN, 6, com.amihaiemil.eoyaml.Skip$Line, NON_DEFAULT)" : {
+      "startLine" : 165,
+      "endLine" : 165,
+      "startCol" : 13,
+      "endCol" : 40
+    },
+    "Stmt(RETURN, 7, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 170,
+      "endLine" : 170,
+      "startCol" : 13,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 7, com.amihaiemil.eoyaml.Skip$Line, NON_DEFAULT)" : {
+      "startLine" : 170,
+      "endLine" : 170,
+      "startCol" : 13,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 8, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 175,
+      "endLine" : 175,
+      "startCol" : 13,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 8, com.amihaiemil.eoyaml.Skip$Line, NON_DEFAULT)" : {
+      "startLine" : 175,
+      "endLine" : 175,
+      "startCol" : 13,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 183,
+      "endLine" : 183,
+      "startCol" : 13,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 9, com.amihaiemil.eoyaml.Skip$Line, NON_DEFAULT)" : {
+      "startLine" : 183,
+      "endLine" : 183,
+      "startCol" : 13,
+      "endCol" : 33
+    },
+    "Stmt(EXPRESSION, 10, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 191,
+      "endLine" : 191,
+      "startCol" : 13,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 11, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 199,
+      "endLine" : 199,
+      "startCol" : 13,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 11, com.amihaiemil.eoyaml.Skip$Line, NON_DEFAULT)" : {
+      "startLine" : 199,
+      "endLine" : 199,
+      "startCol" : 13,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 12, com.amihaiemil.eoyaml.Skip$Line, DEFAULT)" : {
+      "startLine" : 207,
+      "endLine" : 207,
+      "startCol" : 13,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 12, com.amihaiemil.eoyaml.Skip$Line, NON_DEFAULT)" : {
+      "startLine" : 207,
+      "endLine" : 207,
+      "startCol" : 13,
+      "endCol" : 32
+    }
+  }
+}

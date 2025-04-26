@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/technology/tabula/Table.java" : [ "technology.tabula.CellPosition", "technology.tabula.Table" ]
+  }
+}

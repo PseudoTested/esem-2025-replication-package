@@ -1,0 +1,28 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testAcentuacao1",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(1)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 369, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 369, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 370, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 370, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 371, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 371, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 372, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 372, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 373, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 373, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 374, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 374, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 375, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[E importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orc]amento setorial.> but was:<[É importante questionar o quanto o consenso sobre a necessidade de qualificaçao maximiza as possibilidades por conta do orç]amento setorial.> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 375, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[E importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orc]amento setorial.> but was:<[É importante questionar o quanto o consenso sobre a necessidade de qualificaçao maximiza as possibilidades por conta do orç]amento setorial.> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 376, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<E[ importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orc]amento setorial.> but was:<E[́ importante questionar o quanto o consenso sobre a necessidade de qualificaçao maximiza as possibilidades por conta do orç]amento setorial.> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 376, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<E[ importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orc]amento setorial.> but was:<E[́ importante questionar o quanto o consenso sobre a necessidade de qualificaçao maximiza as possibilidades por conta do orç]amento setorial.> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 377, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[E importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orcamento setorial.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 377, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[E importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orcamento setorial.]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 378, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[E importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orcamento setorial.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 378, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[E importante questionar o quanto o consenso sobre a necessidade de qualificacao maximiza as possibilidades por conta do orcamento setorial.]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ]
+  },
+  "timeTaken" : 32
+}

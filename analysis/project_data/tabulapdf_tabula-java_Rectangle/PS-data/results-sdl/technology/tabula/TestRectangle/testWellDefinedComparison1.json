@@ -1,0 +1,7 @@
+{
+  "testClassName" : "technology.tabula.TestRectangle",
+  "testMethodName" : "testWellDefinedComparison1",
+  "testOutcomes" : [ "SKIPPED(0)" ],
+  "coverageElementTestOutcomes" : { },
+  "timeTaken" : 0
+}

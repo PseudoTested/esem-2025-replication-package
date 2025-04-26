@@ -1,0 +1,133 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/sdk/serverside/BatchProcessor.java",
+  "packageName" : "com.facebook.ads.sdk.serverside",
+  "className" : "BatchProcessor$EventIterator",
+  "coverageElementPositions" : {
+    "Decision(true, LOOP, 0, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator)" : {
+      "startLine" : 72,
+      "endLine" : 72,
+      "startCol" : 14,
+      "endCol" : 71
+    },
+    "Stmt(EXPRESSION, 0, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 58,
+      "endLine" : 58,
+      "startCol" : 7,
+      "endCol" : 53
+    },
+    "Stmt(EXPRESSION, 1, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 7,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 2, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 7,
+      "endCol" : 33
+    },
+    "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 61,
+      "endLine" : 61,
+      "startCol" : 7,
+      "endCol" : 51
+    },
+    "Stmt(EXPRESSION, 4, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 7,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 5, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 7,
+      "endCol" : 35
+    },
+    "Stmt(RETURN, 5, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, NON_DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 7,
+      "endCol" : 35
+    },
+    "Stmt(WHILE, 6, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 72,
+      "endLine" : 84,
+      "startCol" : 7,
+      "endCol" : 7
+    },
+    "Stmt(EXPRESSION, 7, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 9,
+      "endCol" : 58
+    },
+    "Stmt(TRY, 8, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 82,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 9, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 11,
+      "endCol" : 30
+    },
+    "Stmt(EXPRESSION, 10, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 77,
+      "endLine" : 79,
+      "startCol" : 11,
+      "endCol" : 12
+    },
+    "Stmt(EXPRESSION, 11, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 23
+    },
+    "Stmt(VARIABLE_DECLARATION, 12, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 22,
+      "endCol" : 74
+    },
+    "Stmt(VARIABLE_DECLARATION, 13, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 13,
+      "endCol" : 61
+    },
+    "Stmt(EXPRESSION, 14, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 7,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 15, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 7,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 15, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, NON_DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 7,
+      "endCol" : 23
+    },
+    "Stmt(VARIABLE_DECLARATION, 16, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 45,
+      "endCol" : 104
+    },
+    "Stmt(VARIABLE_DECLARATION, 17, com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator, DEFAULT)" : {
+      "startLine" : 71,
+      "endLine" : 71,
+      "startCol" : 11,
+      "endCol" : 19
+    }
+  }
+}

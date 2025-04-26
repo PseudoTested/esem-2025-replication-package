@@ -1,0 +1,84 @@
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:48
+org.brunocvcunha.inutils4j.MyArrUtilsTest:52
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:48
+org.brunocvcunha.inutils4j.MyArrUtilsTest:53
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:48
+org.brunocvcunha.inutils4j.MyArrUtilsTest:54
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:59
+org.brunocvcunha.inutils4j.MyArrUtilsTest:60
+org.brunocvcunha.inutils4j.MyArrUtilsTest:61
+org.brunocvcunha.inutils4j.MyArrUtilsTest:62
+org.brunocvcunha.inutils4j.MyArrUtilsTest:64
+org.brunocvcunha.inutils4j.MyArrUtilsTest:65
+org.brunocvcunha.inutils4j.MyArrUtils:43
+org.brunocvcunha.inutils4j.MyArrUtils:44
+org.brunocvcunha.inutils4j.MyArrUtilsTest:66
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:59
+org.brunocvcunha.inutils4j.MyArrUtilsTest:60
+org.brunocvcunha.inutils4j.MyArrUtilsTest:61
+org.brunocvcunha.inutils4j.MyArrUtilsTest:62
+org.brunocvcunha.inutils4j.MyArrUtilsTest:64
+org.brunocvcunha.inutils4j.MyArrUtilsTest:65
+org.brunocvcunha.inutils4j.MyArrUtils:43
+org.brunocvcunha.inutils4j.MyArrUtils:44
+org.brunocvcunha.inutils4j.MyArrUtilsTest:66
+org.brunocvcunha.inutils4j.MyArrUtilsTest:67
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:73
+org.brunocvcunha.inutils4j.MyArrUtilsTest:74
+org.brunocvcunha.inutils4j.MyArrUtilsTest:75
+org.brunocvcunha.inutils4j.MyArrUtilsTest:76
+org.brunocvcunha.inutils4j.MyArrUtilsTest:77
+org.brunocvcunha.inutils4j.MyArrUtilsTest:79
+org.brunocvcunha.inutils4j.MyArrUtils:52
+org.brunocvcunha.inutils4j.MyArrUtils:57
+org.brunocvcunha.inutils4j.MyArrUtils:58
+org.brunocvcunha.inutils4j.MyArrUtils:59
+org.brunocvcunha.inutils4j.MyArrUtils:60
+org.brunocvcunha.inutils4j.MyArrUtils:62
+org.brunocvcunha.inutils4j.MyArrUtils:65
+org.brunocvcunha.inutils4j.MyArrUtilsTest:80
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:73
+org.brunocvcunha.inutils4j.MyArrUtilsTest:74
+org.brunocvcunha.inutils4j.MyArrUtilsTest:75
+org.brunocvcunha.inutils4j.MyArrUtilsTest:76
+org.brunocvcunha.inutils4j.MyArrUtilsTest:77
+org.brunocvcunha.inutils4j.MyArrUtilsTest:79
+org.brunocvcunha.inutils4j.MyArrUtils:52
+org.brunocvcunha.inutils4j.MyArrUtils:57
+org.brunocvcunha.inutils4j.MyArrUtils:58
+org.brunocvcunha.inutils4j.MyArrUtils:59
+org.brunocvcunha.inutils4j.MyArrUtils:60
+org.brunocvcunha.inutils4j.MyArrUtils:62
+org.brunocvcunha.inutils4j.MyArrUtils:65
+org.brunocvcunha.inutils4j.MyArrUtilsTest:80
+org.brunocvcunha.inutils4j.MyArrUtilsTest:82
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:73
+org.brunocvcunha.inutils4j.MyArrUtilsTest:74
+org.brunocvcunha.inutils4j.MyArrUtilsTest:75
+org.brunocvcunha.inutils4j.MyArrUtilsTest:76
+org.brunocvcunha.inutils4j.MyArrUtilsTest:77
+org.brunocvcunha.inutils4j.MyArrUtilsTest:79
+org.brunocvcunha.inutils4j.MyArrUtils:52
+org.brunocvcunha.inutils4j.MyArrUtils:57
+org.brunocvcunha.inutils4j.MyArrUtils:58
+org.brunocvcunha.inutils4j.MyArrUtils:59
+org.brunocvcunha.inutils4j.MyArrUtils:60
+org.brunocvcunha.inutils4j.MyArrUtils:62
+org.brunocvcunha.inutils4j.MyArrUtils:65
+org.brunocvcunha.inutils4j.MyArrUtilsTest:80
+org.brunocvcunha.inutils4j.MyArrUtilsTest:83
+criterion: org.brunocvcunha.inutils4j.MyArrUtilsTest:73
+org.brunocvcunha.inutils4j.MyArrUtilsTest:74
+org.brunocvcunha.inutils4j.MyArrUtilsTest:75
+org.brunocvcunha.inutils4j.MyArrUtilsTest:76
+org.brunocvcunha.inutils4j.MyArrUtilsTest:77
+org.brunocvcunha.inutils4j.MyArrUtilsTest:79
+org.brunocvcunha.inutils4j.MyArrUtils:52
+org.brunocvcunha.inutils4j.MyArrUtils:57
+org.brunocvcunha.inutils4j.MyArrUtils:58
+org.brunocvcunha.inutils4j.MyArrUtils:59
+org.brunocvcunha.inutils4j.MyArrUtils:60
+org.brunocvcunha.inutils4j.MyArrUtils:62
+org.brunocvcunha.inutils4j.MyArrUtils:65
+org.brunocvcunha.inutils4j.MyArrUtilsTest:80
+org.brunocvcunha.inutils4j.MyArrUtilsTest:84

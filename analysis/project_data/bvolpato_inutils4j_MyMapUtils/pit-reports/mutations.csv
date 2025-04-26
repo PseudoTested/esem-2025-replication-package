@@ -1,0 +1,2 @@
+MyMapUtils.java,org.brunocvcunha.inutils4j.MyMapUtils,org.pitest.mutationtest.engine.gregor.mutators.VoidMethodCallMutator,rankMapOnIntegerValue,38,KILLED,org.brunocvcunha.inutils4j.MyMapUtilsTest.testRank(org.brunocvcunha.inutils4j.MyMapUtilsTest)
+MyMapUtils.java,org.brunocvcunha.inutils4j.MyMapUtils,org.pitest.mutationtest.engine.gregor.mutators.returns.EmptyObjectReturnValsMutator,rankMapOnIntegerValue,41,KILLED,org.brunocvcunha.inutils4j.MyMapUtilsTest.testRank(org.brunocvcunha.inutils4j.MyMapUtilsTest)

@@ -1,0 +1,26 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyMapUtilsTest",
+  "testMethodName" : "testRank",
+  "testOutcomes" : [ "PASSED(9)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 0, org.brunocvcunha.inutils4j.IntegerValueComparator)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Decision(false, IF, 0, org.brunocvcunha.inutils4j.IntegerValueComparator)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[a]> but was:<[d]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 0, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 0, org.brunocvcunha.inutils4j.IntegerValueComparator, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(IF, 1, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(IF, 1, org.brunocvcunha.inutils4j.IntegerValueComparator, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.IntegerValueComparator, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 3, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : [ "THREW_EXCEPTION(1, java.util.NoSuchElementException <java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)>)" ],
+    "Stmt(RETURN, 3, org.brunocvcunha.inutils4j.IntegerValueComparator, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, org.junit.ComparisonFailure: expected:<[d]> but was:<[c]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(EXPRESSION, 0, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : [ "THREW_EXCEPTION(1, java.util.NoSuchElementException <java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)>)" ],
+    "Stmt(EXPRESSION, 0, org.brunocvcunha.inutils4j.MyMapUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.util.NoSuchElementException <java.base/java.util.LinkedHashMap$LinkedHashIterator.nextNode(LinkedHashMap.java:758)>)" ],
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : [ "THREW_EXCEPTION(2, java.lang.NullPointerException: Cannot invoke \"java.util.Map.keySet()\" because \"orderedMap\" is null <org.brunocvcunha.inutils4j.MyMapUtilsTest.testRank(MyMapUtilsTest.java:39)>)" ],
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyMapUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.util.NoSuchElementException <java.base/java.util.HashMap$HashIterator.nextNode(HashMap.java:1599)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 2, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"java.util.Map.putAll(java.util.Map)\" because \"newMap\" is null <org.brunocvcunha.inutils4j.MyMapUtils.rankMapOnIntegerValue(MyMapUtils.java:40)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 2, org.brunocvcunha.inutils4j.MyMapUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Map.putAll(java.util.Map)\" because \"newMap\" is null <org.brunocvcunha.inutils4j.MyMapUtils.rankMapOnIntegerValue(MyMapUtils.java:40)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 3, org.brunocvcunha.inutils4j.MyMapUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Map.keySet()\" because \"orderedMap\" is null <org.brunocvcunha.inutils4j.MyMapUtilsTest.testRank(MyMapUtilsTest.java:39)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 3, org.brunocvcunha.inutils4j.MyMapUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"java.util.Map.keySet()\" because \"orderedMap\" is null <org.brunocvcunha.inutils4j.MyMapUtilsTest.testRank(MyMapUtilsTest.java:39)>)" ]
+  },
+  "timeTaken" : 190
+}

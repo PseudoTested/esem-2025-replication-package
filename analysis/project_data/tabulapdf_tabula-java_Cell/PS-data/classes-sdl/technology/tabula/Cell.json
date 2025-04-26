@@ -1,0 +1,169 @@
+{
+  "fileName" : "src/main/java/technology/tabula/Cell.java",
+  "packageName" : "technology.tabula",
+  "className" : "Cell",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, technology.tabula.Cell)" : {
+      "startLine" : 26,
+      "endLine" : 26,
+      "startCol" : 7,
+      "endCol" : 35
+    },
+    "Decision(true, IF, 1, technology.tabula.Cell)" : {
+      "startLine" : 33,
+      "endLine" : 33,
+      "startCol" : 8,
+      "endCol" : 45
+    },
+    "Stmt(EXPRESSION, 0, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 11,
+      "endLine" : 11,
+      "startCol" : 3,
+      "endCol" : 29
+    },
+    "Stmt(EXPRESSION, 1, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 12,
+      "endLine" : 12,
+      "startCol" : 3,
+      "endCol" : 26
+    },
+    "Stmt(EXPRESSION, 2, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 17,
+      "endLine" : 17,
+      "startCol" : 3,
+      "endCol" : 29
+    },
+    "Stmt(EXPRESSION, 3, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 18,
+      "endLine" : 18,
+      "startCol" : 3,
+      "endCol" : 26
+    },
+    "Stmt(IF, 4, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 26,
+      "endLine" : 28,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(RETURN, 5, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 27,
+      "endLine" : 27,
+      "startCol" : 4,
+      "endCol" : 13
+    },
+    "Stmt(RETURN, 5, technology.tabula.Cell, NON_DEFAULT)" : {
+      "startLine" : 27,
+      "endLine" : 27,
+      "startCol" : 4,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 6, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 30,
+      "endLine" : 30,
+      "startCol" : 3,
+      "endCol" : 54
+    },
+    "Stmt(FOR_EACH, 7, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 32,
+      "endLine" : 38,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(IF, 8, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 33,
+      "endLine" : 35,
+      "startCol" : 4,
+      "endCol" : 4
+    },
+    "Stmt(EXPRESSION, 9, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 34,
+      "endLine" : 34,
+      "startCol" : 5,
+      "endCol" : 20
+    },
+    "Stmt(EXPRESSION, 10, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 36,
+      "endLine" : 36,
+      "startCol" : 4,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 11, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 37,
+      "endLine" : 37,
+      "startCol" : 4,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 12, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 39,
+      "endLine" : 39,
+      "startCol" : 3,
+      "endCol" : 30
+    },
+    "Stmt(RETURN, 12, technology.tabula.Cell, NON_DEFAULT)" : {
+      "startLine" : 39,
+      "endLine" : 39,
+      "startCol" : 3,
+      "endCol" : 30
+    },
+    "Stmt(VARIABLE_DECLARATION, 13, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 29,
+      "endLine" : 29,
+      "startCol" : 17,
+      "endCol" : 40
+    },
+    "Stmt(VARIABLE_DECLARATION, 14, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 31,
+      "endLine" : 31,
+      "startCol" : 10,
+      "endCol" : 51
+    },
+    "Stmt(RETURN, 15, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 3,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 15, technology.tabula.Cell, NON_DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 3,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 16, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 16, technology.tabula.Cell, NON_DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(EXPRESSION, 17, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 3,
+      "endCol" : 27
+    },
+    "Stmt(RETURN, 18, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 3,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 18, technology.tabula.Cell, NON_DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 3,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 19, technology.tabula.Cell, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 3,
+      "endCol" : 33
+    }
+  }
+}

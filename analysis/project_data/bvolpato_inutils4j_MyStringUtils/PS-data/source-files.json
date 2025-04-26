@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java" : [ "org.brunocvcunha.inutils4j.MyStringUtils$Formatter", "org.brunocvcunha.inutils4j.MyStringUtils$Sort", "org.brunocvcunha.inutils4j.MyStringUtils$UniqueSort", "org.brunocvcunha.inutils4j.MyStringUtils$Unique", "org.brunocvcunha.inutils4j.MyStringUtils", "org.brunocvcunha.inutils4j.MyStringUtils$CharacterValidator" ]
+  }
+}

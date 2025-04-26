@@ -1,0 +1,20 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testeExtractSuffix",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 108, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(1, arrays first differed at element [0]; expected:<c-lbl-[]> but was:<c-lbl-[15]> <org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)>)" ],
+    "Decision(false, IF, 108, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(0, java.lang.IllegalStateException: No match found <java.base/java.util.regex.Matcher.group(Matcher.java:644)>)" ],
+    "Stmt(IF, 926, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, arrays first differed at element [0]; expected:<c-lbl-[]> but was:<c-lbl-[15]> <org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)>)" ],
+    "Stmt(IF, 926, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, arrays first differed at element [0]; expected:<c-lbl-[]> but was:<c-lbl-[15]> <org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)>)" ],
+    "Stmt(RETURN, 927, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, arrays first differed at element [0]; expected:<c-lbl-[]> but was:<c-lbl-[15]> <org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)>)" ],
+    "Stmt(RETURN, 927, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, arrays first differed at element [0]; expected:<c-lbl-[]> but was:<c-lbl-[15]> <org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)>)" ],
+    "Stmt(RETURN, 928, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 928, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 929, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.regex.Pattern.matcher(java.lang.CharSequence)\" because \"regexPattern\" is null <org.brunocvcunha.inutils4j.MyStringUtils.extractSuffixInt(MyStringUtils.java:3758)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 929, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.regex.Pattern.matcher(java.lang.CharSequence)\" because \"regexPattern\" is null <org.brunocvcunha.inutils4j.MyStringUtils.extractSuffixInt(MyStringUtils.java:3758)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 930, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, arrays first differed at element [0]; expected:<c-lbl-[]> but was:<c-lbl-[15]> <org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 930, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, arrays first differed at element [0]; expected:<c-lbl-[]> but was:<c-lbl-[15]> <org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:78)>)" ]
+  },
+  "timeTaken" : 12
+}

@@ -1,0 +1,239 @@
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/DynamicIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/Interval.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/RedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/ThriftyList.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/StaticIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/OrderLinkedRedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/optimization/HungarianAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/KnuthMorrisPrattAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/DamerauLevenshteinAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/geometry/ClosestPointPairAlgorithm.java
+src/main/java/org/xmlcml/xml/XPathGenerator.java
+src/main/java/org/xmlcml/xml/XMLConstants.java
+src/main/java/org/xmlcml/xml/XMLUtil.java
+src/main/java/org/xmlcml/stml/STMLType.java
+src/main/java/org/xmlcml/stml/attribute/StringSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IdAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DictRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/StringArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/AttributeFactory.java
+src/main/java/org/xmlcml/stml/attribute/UnitsAttribute.java
+src/main/java/org/xmlcml/stml/attribute/NamespaceRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DelimiterAttribute.java
+src/main/java/org/xmlcml/stml/STMLArray.java
+src/main/java/org/xmlcml/stml/interfacex/HasUnits.java
+src/main/java/org/xmlcml/stml/interfacex/HasDelimiter.java
+src/main/java/org/xmlcml/stml/interfacex/HasDictRef.java
+src/main/java/org/xmlcml/stml/interfacex/HasArraySize.java
+src/main/java/org/xmlcml/stml/interfacex/HasScalar.java
+src/main/java/org/xmlcml/stml/interfacex/HasDataType.java
+src/main/java/org/xmlcml/stml/AbstractSTMTool.java
+src/main/java/org/xmlcml/stml/STMLElement.java
+src/main/java/org/xmlcml/stml/STMLScalar.java
+src/main/java/org/xmlcml/stml/STMLAttribute.java
+src/main/java/org/xmlcml/stml/STMLConstants.java
+src/main/java/org/xmlcml/euclid/Euclid.java
+src/main/java/org/xmlcml/euclid/Int2Range.java
+src/main/java/org/xmlcml/euclid/Real2RangeComparator.java
+src/main/java/org/xmlcml/euclid/ParsedSymop.java
+src/main/java/org/xmlcml/euclid/Util.java
+src/main/java/org/xmlcml/euclid/test/StringTestBase.java
+src/main/java/org/xmlcml/euclid/test/DoubleTestBase.java
+src/main/java/org/xmlcml/euclid/test/EuclidTestBase.java
+src/main/java/org/xmlcml/euclid/Angle.java
+src/main/java/org/xmlcml/euclid/Real3Range.java
+1:/**
+2: *    Copyright 2011 Peter Murray-Rust
+3: *
+4: *    Licensed under the Apache License, Version 2.0 (the "License");
+5: *    you may not use this file except in compliance with the License.
+6: *    You may obtain a copy of the License at
+7: *
+8: *        http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: *    Unless required by applicable law or agreed to in writing, software
+11: *    distributed under the License is distributed on an "AS IS" BASIS,
+12: *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: *    See the License for the specific language governing permissions and
+14: *    limitations under the License.
+15: */
+21:/**
+22: * 3-D double limits
+23: * 
+24: * Contains 3 RealRanges. Can therefore be used to describe 3-dimensional limits
+25: * (for example axes of 3-D graphs, boxes in graphics, limits of a molecule,
+26: * etc.)
+27: * <P>
+28: * Default is three invalid RealRange components.
+29: * 
+30: * @author (C) P. Murray-Rust, 1996
+31: */
+37:    /**
+38:     * default is three default RealRanges
+39:     */
+46:    /**
+47:     * initialise with min and max values; takes COPIES
+48:     * 
+49:     * @param xr
+50:     * @param yr
+51:     * @param zr
+52:     */
+54:        setRanges(xr, yr, zr);
+57:    /** reset ranges.
+58:     * clears any existing content
+59:     * @param xr
+60:     * @param yr
+61:     * @param zr
+62:     */
+63:    public void setRanges(RealRange xr, RealRange yr, RealRange zr) {
+69:    /**
+70:     * copy constructor
+71:     * 
+72:     * @param r
+73:     */
+79:    
+80:    /**
+81:     * is equal to.
+82:     * 
+83:     * @param r3
+84:     * @return tru if equals
+85:     */
+92:    /**
+93:     * is equal to.
+94:     * 
+95:     * @param r3
+96:     * @return tru if equals
+97:     */
+98:    @Deprecated
+99:    public boolean isEqualTo(Real3Range r3) {
+100:        return (xyzrange[0].isEqualTo(r3.xyzrange[0])
+101:                && xyzrange[1].isEqualTo(r3.xyzrange[1]) && xyzrange[2]
+102:                .isEqualTo(r3.xyzrange[2]));
+105:    /**
+106:     * add two ranges. applies plus to each of x, y, z. creates minima and
+107:     * maxima of this, r3
+108:     * 
+109:     * @param r3
+110:     * @return new range
+111:     */
+117:    /**
+118:     * get xrange
+119:     * 
+120:     * @return range
+121:     */
+126:    /**
+127:     * get yrange
+128:     * 
+129:     * @return range
+130:     */
+135:    /**
+136:     * get zrange
+137:     * 
+138:     * @return range
+139:     */
+144:    /**
+145:     * add a single value
+146:     * 
+147:     * @param ax
+148:     * @param value
+149:     */
+154:    /**
+155:     * add a single value
+156:     * 
+157:     * @param ax
+158:     * @param range
+159:     */
+161:        xyzrange[ax.value] = range;
+164:    /**
+165:     * add a single value - not for general use
+166:     * 
+167:     * @param axis
+168:     * @param value
+169:     */
+170:    protected void add(int axis, double value) {
+171:        xyzrange[axis].add(value);
+174:    /**
+175:     * is a Point3 within a Real3Range
+176:     * 
+177:     * @param p
+178:     * @return includes
+179:     */
+187:    /**
+188:     * add a Point3 to a range
+189:     * 
+190:     * @param p
+191:     */
+198:    
+199:    /** get point with min x, y, z.
+200:     * 
+201:     * @return the point.
+202:     */
+208:    /** get point with max x, y, z.
+209:     * 
+210:     * @return the point.
+211:     */
+217:    /** transforms range.
+218:     * modifies this
+219:     * @param transform
+220:     */
+234:    
+235:    /**
+236:     * to string.
+237:     * 
+238:     * @return string
+239:     */
+src/main/java/org/xmlcml/euclid/Bivariate.java
+src/main/java/org/xmlcml/euclid/Line2AndReal2Calculator.java
+src/main/java/org/xmlcml/euclid/RealRange.java
+src/main/java/org/xmlcml/euclid/EuclidConstants.java
+src/main/java/org/xmlcml/euclid/IntSet.java
+src/main/java/org/xmlcml/euclid/Real2.java
+src/main/java/org/xmlcml/euclid/Int.java
+src/main/java/org/xmlcml/euclid/Axis.java
+src/main/java/org/xmlcml/euclid/Polar.java
+src/main/java/org/xmlcml/euclid/RealArray.java
+src/main/java/org/xmlcml/euclid/Real2Array.java
+src/main/java/org/xmlcml/euclid/RealComparator.java
+src/main/java/org/xmlcml/euclid/RandomNumberGenerator.java
+src/main/java/org/xmlcml/euclid/JodaDate.java
+src/main/java/org/xmlcml/euclid/RealRangeComparator.java
+src/main/java/org/xmlcml/euclid/Real2Range.java
+src/main/java/org/xmlcml/euclid/IntMatrix.java
+src/main/java/org/xmlcml/euclid/IntArray.java
+src/main/java/org/xmlcml/euclid/Int2.java
+src/main/java/org/xmlcml/euclid/Window2.java
+src/main/java/org/xmlcml/euclid/RealSquareMatrix.java
+src/main/java/org/xmlcml/euclid/Point3Vector.java
+src/main/java/org/xmlcml/euclid/EuclidException.java
+src/main/java/org/xmlcml/euclid/Real.java
+src/main/java/org/xmlcml/euclid/RealRangeList.java
+src/main/java/org/xmlcml/euclid/Transform2.java
+src/main/java/org/xmlcml/euclid/StringComparator.java
+src/main/java/org/xmlcml/euclid/IntRange.java
+src/main/java/org/xmlcml/euclid/Point2.java
+src/main/java/org/xmlcml/euclid/Vector2.java
+src/main/java/org/xmlcml/euclid/Line3.java
+src/main/java/org/xmlcml/euclid/Line2.java
+src/main/java/org/xmlcml/euclid/Vector3.java
+src/main/java/org/xmlcml/euclid/Point3.java
+src/main/java/org/xmlcml/euclid/EuclidTestUtils.java
+src/main/java/org/xmlcml/euclid/Transform3.java
+src/main/java/org/xmlcml/euclid/EC.java
+src/main/java/org/xmlcml/euclid/RealRangeArray.java
+src/main/java/org/xmlcml/euclid/RealInterval.java
+src/main/java/org/xmlcml/euclid/Real2Vector.java
+src/main/java/org/xmlcml/euclid/EuclidRuntimeException.java
+src/main/java/org/xmlcml/euclid/UnivariateBin.java
+src/main/java/org/xmlcml/euclid/IntRangeArray.java
+src/main/java/org/xmlcml/euclid/Real2Interval.java
+src/main/java/org/xmlcml/euclid/Plane3.java
+src/main/java/org/xmlcml/euclid/Complex.java
+src/main/java/org/xmlcml/euclid/ArrayBase.java
+src/main/java/org/xmlcml/euclid/IntSquareMatrix.java
+src/main/java/org/xmlcml/euclid/RealMatrix.java
+src/main/java/org/xmlcml/euclid/DoubleTool.java
+src/main/java/org/xmlcml/euclid/Univariate.java

@@ -1,0 +1,22 @@
+{
+  "testClassName" : "technology.tabula.TestRectangle",
+  "testMethodName" : "testMergeNoOverlappingRectangles",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 5, technology.tabula.Rectangle, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 5, technology.tabula.Rectangle, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 8, technology.tabula.Rectangle, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 8, technology.tabula.Rectangle, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 29, technology.tabula.Rectangle, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 29, technology.tabula.Rectangle, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 30, technology.tabula.Rectangle, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 30, technology.tabula.Rectangle, NON_DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 31, technology.tabula.Rectangle, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 31, technology.tabula.Rectangle, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 36, technology.tabula.Rectangle, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 36, technology.tabula.Rectangle, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 39, technology.tabula.Rectangle, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 39, technology.tabula.Rectangle, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 19
+}

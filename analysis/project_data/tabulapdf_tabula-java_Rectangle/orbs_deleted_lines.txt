@@ -1,0 +1,73 @@
+src/main/java/technology/tabula/RectangleSpatialIndex.java
+src/main/java/technology/tabula/TextChunk.java
+src/main/java/technology/tabula/Page.java
+src/main/java/technology/tabula/ObjectExtractorStreamEngine.java
+src/main/java/technology/tabula/PageDims.java
+src/main/java/technology/tabula/TextElement.java
+src/main/java/technology/tabula/Pair.java
+src/main/java/technology/tabula/writers/Writer.java
+src/main/java/technology/tabula/writers/CSVWriter.java
+src/main/java/technology/tabula/writers/JSONWriter.java
+src/main/java/technology/tabula/writers/TSVWriter.java
+src/main/java/technology/tabula/RectangularTextContainer.java
+src/main/java/technology/tabula/CommandLineApp.java
+src/main/java/technology/tabula/Ruling.java
+src/main/java/technology/tabula/QuickSort.java
+src/main/java/technology/tabula/Table.java
+src/main/java/technology/tabula/TableWithRulingLines.java
+src/main/java/technology/tabula/Utils.java
+src/main/java/technology/tabula/ObjectExtractor.java
+src/main/java/technology/tabula/ProjectionProfile.java
+src/main/java/technology/tabula/json/TableSerializer.java
+src/main/java/technology/tabula/json/RectangularTextContainerSerializer.java
+src/main/java/technology/tabula/Rectangle.java
+7:import java.util.Locale;
+9:@SuppressWarnings("serial")
+12:	/**
+13:	 * Ill-defined comparator, from when Rectangle was Comparable.
+14:	 * 
+15:	 * @see <a href="https://github.com/tabulapdf/tabula-java/issues/116">PR 116</a>
+16:	 * @deprecated with no replacement
+17:	 */
+18:	@Deprecated
+21:			if (o1.equals(o2)) return 0;
+31:	
+35:		super();
+39:		super();
+47:	// I'm bad at Java and need this for fancy sorting in
+48:	// technology.tabula.TextChunk.
+78:			rv = (other.getBottom() - this.getTop()) / delta;
+82:		} else if (this.getTop() <= other.getTop() && other.getTop() <= other.getBottom()
+84:			rv = (other.getBottom() - other.getTop()) / delta;
+85:		} else if (other.getTop() <= this.getTop() && this.getTop() <= this.getBottom()
+87:			rv = (this.getBottom() - this.getTop()) / delta;
+115:		float deltaHeight = top - this.y;
+116:		this.setRect(this.x, top, this.width, this.height - deltaHeight);
+124:		this.setRect(this.x, this.y, right - this.x, this.height);
+132:		float deltaWidth = left - this.x;
+133:		this.setRect(left, this.y, this.width - deltaWidth, this.height);
+141:		this.setRect(this.x, this.y, this.width, bottom - this.y);
+150:	@Override
+151:	public String toString() {
+152:		StringBuilder sb = new StringBuilder();
+153:		String s = super.toString();
+154:		sb.append(s.substring(0, s.length() - 1));
+155:		sb.append(String.format(Locale.US, ",bottom=%f,right=%f]", this.getBottom(), this.getRight()));
+156:		return sb.toString();
+159:	/**
+160:	 * @param rectangles
+161:	 * @return minimum bounding box that contains all the rectangles
+162:	 */
+src/main/java/technology/tabula/CohenSutherlandClipping.java
+src/main/java/technology/tabula/HasText.java
+src/main/java/technology/tabula/TextStripper.java
+src/main/java/technology/tabula/detectors/NurminenDetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/DetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/SpreadsheetDetectionAlgorithm.java
+src/main/java/technology/tabula/extractors/ExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/BasicExtractionAlgorithm.java
+src/main/java/technology/tabula/Cell.java
+src/main/java/technology/tabula/PageIterator.java
+src/main/java/technology/tabula/debug/Debug.java
+src/main/java/technology/tabula/Line.java

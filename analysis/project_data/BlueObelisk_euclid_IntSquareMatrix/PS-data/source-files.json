@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/org/xmlcml/euclid/IntSquareMatrix.java" : [ "org.xmlcml.euclid.IntSquareMatrix$Type", "org.xmlcml.euclid.IntSquareMatrix" ]
+  }
+}

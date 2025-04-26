@@ -1,0 +1,129 @@
+src/main/java9/module-info.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComments.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrintVisitor.java
+src/main/java/com/amihaiemil/eoyaml/Scalar.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedFlowLines.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlScalar.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/Node.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlNode.java
+src/main/java/com/amihaiemil/eoyaml/GreaterIndentation.java
+src/main/java/com/amihaiemil/eoyaml/YamlInput.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlDump.java
+1:/**
+2: * Copyright (c) 2016-2024, Mihai Emil Andronache
+3: * All rights reserved.
+4: * <p>
+5: * Redistribution and use in source and binary forms, with or without
+6: * modification, are permitted provided that the following conditions are met:
+7: * Redistributions of source code must retain the above copyright notice, this
+8: * list of conditions and the following disclaimer.
+9: * Redistributions in binary form must reproduce the above copyright notice,
+10: * this list of conditions and the following disclaimer in the documentation
+11: * and/or other materials provided with the distribution.
+12: * Neither the name of the copyright holder nor the names of its
+13: * contributors may be used to endorse or promote products derived from
+14: * this software without specific prior written permission.
+15: * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+16: * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+17: * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+18: * ARE
+19: * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+20: * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+21: * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+22: * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+23: * CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+24: * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+25: * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+26: * SUCH DAMAGE.
+27: */
+34:/**
+35: * A YamlDump that works with javax-json-api.
+36: * @author criske
+37: * @version $Id: 5435565c9ae4a965c35b50eafba676204e19f1d8 $
+38: * @since 5.1.7
+39: */
+42:    /**
+43:     * JsonValue to dump.
+44:     */
+47:    /**
+48:     * Constructor.
+49:     *
+50:     * @param value JsonValue to dump.
+51:     */
+56:    @Override
+72:                .replace("\"", "")
+src/main/java/com/amihaiemil/eoyaml/YamlToJsonVisitor.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/Indented.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlDump.java
+src/main/java/com/amihaiemil/eoyaml/Edited.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/YamlStream.java
+src/main/java/com/amihaiemil/eoyaml/StrictYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Backwards.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/StartMarkers.java
+src/main/java/com/amihaiemil/eoyaml/Yaml.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlPrinter.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/YamlComment.java
+src/main/java/com/amihaiemil/eoyaml/WellIndented.java
+src/main/java/com/amihaiemil/eoyaml/ReadFlowMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadFlowSequence.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlIndentationException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlPrintException.java
+src/main/java/com/amihaiemil/eoyaml/exceptions/YamlReadingException.java
+src/main/java/com/amihaiemil/eoyaml/ReadLiteralBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlDump.java
+src/main/java/com/amihaiemil/eoyaml/YamlLine.java
+src/main/java/com/amihaiemil/eoyaml/ReflectedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/extensions/package-info.java
+src/main/java/com/amihaiemil/eoyaml/extensions/MergedYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/BaseScalar.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/Follows.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlScalarBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadFoldedBlockScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlVisitor.java
+src/main/java/com/amihaiemil/eoyaml/YamlNode.java
+src/main/java/com/amihaiemil/eoyaml/Comment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/YamlNodeNotFoundException.java
+src/main/java/com/amihaiemil/eoyaml/EmptyYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/ReadPlainScalar.java
+src/main/java/com/amihaiemil/eoyaml/PlainStringScalar.java
+src/main/java/com/amihaiemil/eoyaml/JsonYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ScalarComment.java
+src/main/java/com/amihaiemil/eoyaml/InlineComment.java
+src/main/java/com/amihaiemil/eoyaml/YamlMappingBuilder.java
+src/main/java/com/amihaiemil/eoyaml/CollapsedYamlLine.java
+src/main/java/com/amihaiemil/eoyaml/MutableYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadComment.java
+src/main/java/com/amihaiemil/eoyaml/SameIndentationLevel.java
+src/main/java/com/amihaiemil/eoyaml/Comments.java
+src/main/java/com/amihaiemil/eoyaml/BaseFoldedScalar.java
+src/main/java/com/amihaiemil/eoyaml/YamlLines.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlInput.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlSequenceBuilder.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/RtYamlMapping.java
+src/main/java/com/amihaiemil/eoyaml/FirstCommentFound.java
+src/main/java/com/amihaiemil/eoyaml/YamlStreamBuilder.java
+src/main/java/com/amihaiemil/eoyaml/YamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlStream.java
+src/main/java/com/amihaiemil/eoyaml/BaseYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/ReadYamlSequence.java
+src/main/java/com/amihaiemil/eoyaml/Skip.java
+src/main/java/com/amihaiemil/eoyaml/Concatenated.java
+src/main/java/com/amihaiemil/eoyaml/AllYamlLines.java
+src/main/java/com/amihaiemil/eoyaml/BuiltComment.java

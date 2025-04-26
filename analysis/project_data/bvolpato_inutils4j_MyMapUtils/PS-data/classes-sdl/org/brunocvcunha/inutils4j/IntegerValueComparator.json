@@ -1,0 +1,49 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j",
+  "className" : "IntegerValueComparator",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, org.brunocvcunha.inutils4j.IntegerValueComparator)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(EXPRESSION, 0, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : {
+      "startLine" : 51,
+      "endLine" : 51,
+      "startCol" : 5,
+      "endCol" : 21
+    },
+    "Stmt(IF, 1, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 61,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 7,
+      "endCol" : 16
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.IntegerValueComparator, NON_DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 7,
+      "endCol" : 16
+    },
+    "Stmt(RETURN, 3, org.brunocvcunha.inutils4j.IntegerValueComparator, DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 63,
+      "startCol" : 5,
+      "endCol" : 13
+    },
+    "Stmt(RETURN, 3, org.brunocvcunha.inutils4j.IntegerValueComparator, NON_DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 63,
+      "startCol" : 5,
+      "endCol" : 13
+    }
+  }
+}

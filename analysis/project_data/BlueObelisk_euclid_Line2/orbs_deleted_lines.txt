@@ -1,0 +1,352 @@
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/DynamicIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/Interval.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/RedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/ThriftyList.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/StaticIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/OrderLinkedRedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/optimization/HungarianAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/KnuthMorrisPrattAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/DamerauLevenshteinAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/geometry/ClosestPointPairAlgorithm.java
+src/main/java/org/xmlcml/xml/XPathGenerator.java
+src/main/java/org/xmlcml/xml/XMLConstants.java
+src/main/java/org/xmlcml/xml/XMLUtil.java
+src/main/java/org/xmlcml/stml/STMLType.java
+src/main/java/org/xmlcml/stml/attribute/StringSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IdAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DictRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/StringArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/AttributeFactory.java
+src/main/java/org/xmlcml/stml/attribute/UnitsAttribute.java
+src/main/java/org/xmlcml/stml/attribute/NamespaceRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DelimiterAttribute.java
+src/main/java/org/xmlcml/stml/STMLArray.java
+src/main/java/org/xmlcml/stml/interfacex/HasUnits.java
+src/main/java/org/xmlcml/stml/interfacex/HasDelimiter.java
+src/main/java/org/xmlcml/stml/interfacex/HasDictRef.java
+src/main/java/org/xmlcml/stml/interfacex/HasArraySize.java
+src/main/java/org/xmlcml/stml/interfacex/HasScalar.java
+src/main/java/org/xmlcml/stml/interfacex/HasDataType.java
+src/main/java/org/xmlcml/stml/AbstractSTMTool.java
+src/main/java/org/xmlcml/stml/STMLElement.java
+src/main/java/org/xmlcml/stml/STMLScalar.java
+src/main/java/org/xmlcml/stml/STMLAttribute.java
+src/main/java/org/xmlcml/stml/STMLConstants.java
+src/main/java/org/xmlcml/euclid/Euclid.java
+src/main/java/org/xmlcml/euclid/Int2Range.java
+src/main/java/org/xmlcml/euclid/Real2RangeComparator.java
+src/main/java/org/xmlcml/euclid/ParsedSymop.java
+src/main/java/org/xmlcml/euclid/Util.java
+src/main/java/org/xmlcml/euclid/test/StringTestBase.java
+src/main/java/org/xmlcml/euclid/test/DoubleTestBase.java
+src/main/java/org/xmlcml/euclid/test/EuclidTestBase.java
+src/main/java/org/xmlcml/euclid/Angle.java
+src/main/java/org/xmlcml/euclid/Real3Range.java
+src/main/java/org/xmlcml/euclid/Bivariate.java
+src/main/java/org/xmlcml/euclid/Line2AndReal2Calculator.java
+src/main/java/org/xmlcml/euclid/RealRange.java
+src/main/java/org/xmlcml/euclid/EuclidConstants.java
+src/main/java/org/xmlcml/euclid/IntSet.java
+src/main/java/org/xmlcml/euclid/Real2.java
+src/main/java/org/xmlcml/euclid/Int.java
+src/main/java/org/xmlcml/euclid/Axis.java
+src/main/java/org/xmlcml/euclid/Polar.java
+src/main/java/org/xmlcml/euclid/RealArray.java
+src/main/java/org/xmlcml/euclid/Real2Array.java
+src/main/java/org/xmlcml/euclid/RealComparator.java
+src/main/java/org/xmlcml/euclid/RandomNumberGenerator.java
+src/main/java/org/xmlcml/euclid/JodaDate.java
+src/main/java/org/xmlcml/euclid/RealRangeComparator.java
+src/main/java/org/xmlcml/euclid/Real2Range.java
+src/main/java/org/xmlcml/euclid/IntMatrix.java
+src/main/java/org/xmlcml/euclid/IntArray.java
+src/main/java/org/xmlcml/euclid/Int2.java
+src/main/java/org/xmlcml/euclid/Window2.java
+src/main/java/org/xmlcml/euclid/RealSquareMatrix.java
+src/main/java/org/xmlcml/euclid/Point3Vector.java
+src/main/java/org/xmlcml/euclid/EuclidException.java
+src/main/java/org/xmlcml/euclid/Real.java
+src/main/java/org/xmlcml/euclid/RealRangeList.java
+src/main/java/org/xmlcml/euclid/Transform2.java
+src/main/java/org/xmlcml/euclid/StringComparator.java
+src/main/java/org/xmlcml/euclid/IntRange.java
+src/main/java/org/xmlcml/euclid/Point2.java
+src/main/java/org/xmlcml/euclid/Vector2.java
+src/main/java/org/xmlcml/euclid/Line3.java
+src/main/java/org/xmlcml/euclid/Line2.java
+1:/**
+2: *    Copyright 2011 Peter Murray-Rust
+3: *
+4: *    Licensed under the Apache License, Version 2.0 (the "License");
+5: *    you may not use this file except in compliance with the License.
+6: *    You may obtain a copy of the License at
+7: *
+8: *        http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: *    Unless required by applicable law or agreed to in writing, software
+11: *    distributed under the License is distributed on an "AS IS" BASIS,
+12: *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: *    See the License for the specific language governing permissions and
+14: *    limitations under the License.
+15: */
+19:import org.apache.log4j.Logger;
+21:/** line
+22: * determined by one point (R) and a vector (V)
+23: * this gives L = R + nV
+24: * can assume that R and R+V are the two "ends of the line"
+25: * the semantics of this are application-dependent
+26: * @author pm286
+27: *
+28: */
+30:	private static Logger LOG = Logger.getLogger(Line2.class);
+34:	
+40:	// lazy evaluation
+44:	
+45:	/**
+46:	 * generates vector
+47:	 * @param from
+48:	 * @param to
+49:	 */
+53:		createVector();
+54:		init();
+57:	private void createVector() {
+59:		if (vector.getLength() < Real.EPS) {
+60:			LOG.trace("line has coincident points: "+from+" ... "+to);
+63:	
+64:	private void init() {
+65:		slope = Double.NaN;
+66:		c = Double.NaN;
+67:		xint = Double.NaN;
+69:	
+70:	/**
+71:	 * generates to
+72:	 * @param from
+73:	 * @param v
+74:	 */
+76:		if (v.getLength() < Real.EPS) {
+77:			throw new EuclidRuntimeException("Cannot form line from coincident points");
+84:	/** get slope.
+85:	 * "m" in y=m*x+c
+86:	 * if x component is zero returns Double.*_INFINITY;
+87:	 * @return slope, Double.POSITIVE_INFINITY or Double.NEGATIVE_INFINITY;
+88:	 */
+94:				slope = (vector.getY() > 0) ? Double.POSITIVE_INFINITY : Double.NEGATIVE_INFINITY;
+100:	/**
+101:	 * 	 * "c" in y=m*x+c
+102:	 * @return intercept or Double.NaN if slope is infinite
+103:	 */
+116:	
+117:	/**
+118:	 * "c" in y=m*x+c
+119:	 * @return intercept or Double.NaN if slope is infinite
+120:	 */
+125:					Double.compare(slope, Double.NEGATIVE_INFINITY) == 0 ||
+136:	/** get intersection of two lines
+137:	 * see softSurfer algorithm
+138:	 * @param line1
+139:	 * @return null if parallel or antiparallel
+140:	 */
+149:			// this = point + lambda * vector;
+156:	/** does a line contain a point.
+157:	 * line is of zero thickness
+158:	 * 
+159:	 * @param point
+160:	 * @param eps distance within which point muct approach line
+161:	 * @param allowExtension if true allow point to be "outside" line
+162:	 * segment
+163:	 * @return true if within eps of line
+164:	 */
+165:	public boolean contains(Real2 point, double eps, boolean allowExtension) {
+166:		boolean contains = false;
+167:		if (point != null) {
+168:			double dist = Math.abs(this.getDistanceFromPoint(point));
+169:			if (dist < eps) {
+170:				double length = this.getLength() + eps; 
+171:				contains = allowExtension ||
+172:					(point.getDistance(from) < length &&
+173:					point.getDistance(to) < length);
+174:				}
+176:		return contains;
+180:	/** swaps to and from coordinates.
+181:	 * 
+182:	 */
+183:	public void flipCoordinates() {
+184:		Real2 temp = from;
+185:		from = to;
+186:		to = temp;
+188:	
+189:	/**
+190:	 * get unit vector convenience
+191:	 * @return vector
+192:	 */
+199:	/** signed perpendicular distance from point to infinite line.
+200:	 * @param point
+201:	 * @return distance
+202:	 * @deprecated use new name (unsignedDistanceFromPoint)
+203:	 */
+205:		//FIXME for lines parallel to axis
+207:		LOG.trace(unitVector);
+209:		LOG.trace(w);
+214:	/** signed perpendicular distance from point to infinite line.
+215:	 * 
+216:	 * will depend on direction of line.
+217:	 * 
+218:	 * @param point
+219:	 * @return distance
+220:	 */
+221:	public double getSignedDistanceFromPoint(Real2 point) {
+223:		LOG.trace(unitVector);
+225:		LOG.trace(w);
+230:	
+231:	/** perpendicular distance from point to infinite line.
+232:	 * @param point
+233:	 * @return distance
+234:	 */
+240:	/** may be redundant...
+241:	 * 
+242:	 * @param point
+243:	 * @return
+244:	 */
+246:/**		dist_Point_to_Line( Point P, Line L)
+247:		{
+248:		     Vector v = L.P1 - L.P0;
+249:		     Vector w = P - L.P0;
+251:		     double c1 = dot(w,v);
+252:		     double c2 = dot(v,v);
+253:		     double b = c1 / c2;
+255:		     Point Pb = L.P0 + b * v;
+256:		     return d(P, Pb);
+258:*/
+268:	/** get nearest point on infinite line.
+269:	 * @param point
+270:	 * @return distance
+271:	 */
+280:	/** are two lines parallel within tolerance.
+281:	 * 
+282:	 * @param line
+283:	 * @param eps maximum allowed angle between lines
+284:	 * @return null if any arguments null
+285:	 */
+290:			angle.normalizeToPlusMinusPI();
+296:	/**
+297:	 * @param line
+298:	 * @param eps maximum allowed angle between unsigned lines (i.e. {@literal <}{@literal <} Math.PI/2)
+299:	 * @return null if any arguments null
+300:	 */
+305:			angle.normalizeTo2Pi();
+310:	
+311:	/** are unsigned lines parallel.
+312:	 *
+313:	 * @param line
+314:	 * @param eps
+315:	 * @return isParallel() or isAntiParallel; null if line or eps is null
+316:	 */
+324:	
+325:	/** calculated unsigned distance between parallel lines.
+326:	 * 
+327:	 * <p>uses distance from this.getXY(0) to nearest point on line.</p>
+328:	 * 
+329:	 * <p>if lines are not exactly parallel the result has no absolute meaning but is heuristically useful.</p>
+330:	 * 
+331:	 * @param line
+332:	 * @param eps
+333:	 * @return null if args are null or lines are not parallel
+334:	 */
+344:	
+345:	/** convenience method.
+346:	 * gets angle formed between lines using 
+347:	 * Vector2.getAngleMadeWith(Vector2)
+348:	 * @param line
+349:	 * @return angle or null
+350:	 */
+358:	
+360:		if (line == null || angleEps == null) return null;
+364:	
+365:	/** gets multiplier of point from "from"
+366:	 * finds nearest point (pp) on line (so avoids rounding errors)
+367:	 * then finds pp = from + vector * lambda
+368:	 * if pp is within segment , lambda is 0, 1
+369:	 * @param p
+370:	 * @return lambda
+371:	 */
+380:	/** get mid point
+381:	 * @return mid point
+382:	 */
+388:	/** get length
+389:	 * @return length
+390:	 */
+395:	/**
+396:	 * @return the from
+397:	 */
+402:	/**
+403:	 * @return the to
+404:	 */
+409:	/** get point at either end.
+410:	 * 
+411:	 * @param i (0/from or 1/to)
+412:	 * @return
+413:	 */
+421:			throw new EuclidRuntimeException("Bad point in Line2 "+i);
+426:	/** set point at either end.
+427:	 * 
+428:	 * @param i (0/from or 1/to)
+429:	 */
+430:	public void setXY(Real2 xy, int i) {
+432:			from = new Real2(xy);
+434:			to = new Real2(xy);
+436:			throw new EuclidRuntimeException("Bad point in Line2 "+i);
+438:		createVector();
+441:	/**
+442:	 * @return the vector
+443:	 */
+448:	/** creates point at (signed) distance dist from "from" point
+449:	 * 
+450:	 * newPoint = from + (dist / line.length) * vector
+451:	 * @param dist
+452:	 * @return new Point
+453:	 * 
+454:	 */
+463:	
+464:	/** creates point at (signed) distance dist from index point
+465:	 * 
+466:	 * vector = xy(1-index) {@literal <}- xy(index)
+467:	 * newPoint = xy(index) + (dist / line.length) * vector
+468:	 * @param dist
+469:     * @param index
+470:	 * @return new Point
+471:	 */
+482:	
+483:	/** gets serial number of point in line specification
+484:	 * if point is within EPS of "from" returns 0
+485:	 * if point is within EPS of "to" returns 1
+486:	 * else returns -1
+487:	 */
+497:	
+498:	/**
+499:	 * @return string
+500:	 */
+501:	public String toString() {
+502:		return "line: from("+from+") to("+to+") v("+vector+")";
+src/main/java/org/xmlcml/euclid/Vector3.java
+src/main/java/org/xmlcml/euclid/Point3.java
+src/main/java/org/xmlcml/euclid/EuclidTestUtils.java
+src/main/java/org/xmlcml/euclid/Transform3.java
+src/main/java/org/xmlcml/euclid/EC.java
+src/main/java/org/xmlcml/euclid/RealRangeArray.java
+src/main/java/org/xmlcml/euclid/RealInterval.java
+src/main/java/org/xmlcml/euclid/Real2Vector.java
+src/main/java/org/xmlcml/euclid/EuclidRuntimeException.java
+src/main/java/org/xmlcml/euclid/UnivariateBin.java
+src/main/java/org/xmlcml/euclid/IntRangeArray.java
+src/main/java/org/xmlcml/euclid/Real2Interval.java
+src/main/java/org/xmlcml/euclid/Plane3.java
+src/main/java/org/xmlcml/euclid/Complex.java
+src/main/java/org/xmlcml/euclid/ArrayBase.java
+src/main/java/org/xmlcml/euclid/IntSquareMatrix.java
+src/main/java/org/xmlcml/euclid/RealMatrix.java
+src/main/java/org/xmlcml/euclid/DoubleTool.java
+src/main/java/org/xmlcml/euclid/Univariate.java

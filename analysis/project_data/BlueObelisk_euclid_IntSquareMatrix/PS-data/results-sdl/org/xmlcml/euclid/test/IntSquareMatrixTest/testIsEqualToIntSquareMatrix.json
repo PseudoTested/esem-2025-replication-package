@@ -1,0 +1,10 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testIsEqualToIntSquareMatrix",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ]
+  },
+  "timeTaken" : 5
+}

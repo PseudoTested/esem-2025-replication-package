@@ -1,0 +1,118 @@
+src/main/java/info/debatty/java/stringsimilarity/Jaccard.java
+src/main/java/info/debatty/java/stringsimilarity/Damerau.java
+src/main/java/info/debatty/java/stringsimilarity/experimental/Sift4.java
+src/main/java/info/debatty/java/stringsimilarity/SorensenDice.java
+src/main/java/info/debatty/java/stringsimilarity/CharacterInsDelInterface.java
+src/main/java/info/debatty/java/stringsimilarity/WeightedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NormalizedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NGram.java
+4:import net.jcip.annotations.Immutable;
+6:/**
+7: * N-Gram Similarity as defined by Kondrak, "N-Gram Similarity and Distance",
+8: * String Processing and Information Retrieval, Lecture Notes in Computer
+9: * Science Volume 3772, 2005, pp 115-126.
+10: *
+11: * The algorithm uses affixing with special character '\n' to increase the
+12: * weight of first characters. The normalization is achieved by dividing the
+13: * total similarity score the original length of the longest word.
+14: *
+15: * http://webdocs.cs.ualberta.ca/~kondrak/papers/spire05.pdf
+16: */
+17:@Immutable
+23:    /**
+24:     * Instantiate with given value for n-gram length.
+25:     * @param n
+26:     */
+31:    /**
+32:     * Instantiate with default value for n-gram length (2).
+33:     */
+38:    /**
+39:     * Compute n-gram distance.
+40:     * @param s0 The first string to compare.
+41:     * @param s1 The second string to compare.
+42:     * @return The computed n-gram distance in the range [0, 1]
+43:     * @throws NullPointerException if s0 or s1 is null.
+44:     */
+46:        if (s0 == null) {
+47:            throw new NullPointerException("s0 must not be null");
+50:        if (s1 == null) {
+51:            throw new NullPointerException("s1 must not be null");
+58:        final char special = '\n';
+66:        int cost = 0;
+67:        if (sl < n || tl < n) {
+68:            for (int i = 0, ni = Math.min(sl, tl); i < ni; i++) {
+69:                if (s0.charAt(i) == s1.charAt(i)) {
+70:                    cost++;
+71:                }
+72:            }
+73:            return (float) cost / Math.max(sl, tl);
+76:        char[] sa = new char[sl + n - 1];
+78:        float[] d; // cost array, horizontally
+79:        float[] d2; //placeholder to assist in swapping p and d
+81:        //construct sa with prefix
+82:        for (int i = 0; i < sa.length; i++) {
+83:            if (i < n - 1) {
+84:                sa[i] = special; //add prefix
+85:            } else {
+86:                sa[i] = s0.charAt(i - n + 1);
+87:            }
+90:        d = new float[sl + 1];
+92:        // indexes into strings s and t
+94:        int j; // iterates through target
+96:        char[] t_j = new char[n]; // jth n-gram of t
+102:        for (j = 1; j <= tl; j++) {
+103:            //construct t_j n-gram
+104:            if (j < n) {
+105:                for (int ti = 0; ti < n - j; ti++) {
+106:                    t_j[ti] = special; //add prefix
+107:                }
+108:                for (int ti = n - j; ti < n; ti++) {
+109:                    t_j[ti] = s1.charAt(ti - (n - j));
+110:                }
+111:            } else {
+112:                t_j = s1.substring(j - n, j).toCharArray();
+113:            }
+114:            d[0] = j;
+115:            for (i = 1; i <= sl; i++) {
+116:                cost = 0;
+117:                int tn = n;
+118:                //compare sa to t_j
+119:                for (int ni = 0; ni < n; ni++) {
+120:                    if (sa[i - 1 + ni] != t_j[ni]) {
+121:                        cost++;
+122:                    } else if (sa[i - 1 + ni] == special) {
+123:                        //discount matches on prefix
+124:                        tn--;
+125:                    }
+126:                }
+127:                float ec = (float) cost / tn;
+128:                // minimum of cell to the left+1, to the top+1,
+129:                // diagonally left and up +cost
+130:                d[i] = Math.min(
+131:                        Math.min(d[i - 1] + 1, p[i] + 1), p[i - 1] + ec);
+132:            }
+133:            // copy current distance counts to 'previous row' distance counts
+134:            d2 = p;
+135:            p = d;
+136:            d = d2;
+139:        // our last action in the above loop was to switch d and p, so p now
+140:        // actually has the most recent cost counts
+src/main/java/info/debatty/java/stringsimilarity/CharacterSubstitutionInterface.java
+src/main/java/info/debatty/java/stringsimilarity/QGram.java
+src/main/java/info/debatty/java/stringsimilarity/Levenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/ShingleBased.java
+src/main/java/info/debatty/java/stringsimilarity/JaroWinkler.java
+src/main/java/info/debatty/java/stringsimilarity/Cosine.java
+src/main/java/info/debatty/java/stringsimilarity/OptimalStringAlignment.java
+src/main/java/info/debatty/java/stringsimilarity/examples/PrecomputedCosine.java
+src/main/java/info/debatty/java/stringsimilarity/examples/Examples.java
+src/main/java/info/debatty/java/stringsimilarity/examples/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/examples/nischay21.java
+src/main/java/info/debatty/java/stringsimilarity/LongestCommonSubsequence.java
+src/main/java/info/debatty/java/stringsimilarity/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/RatcliffObershelp.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/MetricStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringDistance.java

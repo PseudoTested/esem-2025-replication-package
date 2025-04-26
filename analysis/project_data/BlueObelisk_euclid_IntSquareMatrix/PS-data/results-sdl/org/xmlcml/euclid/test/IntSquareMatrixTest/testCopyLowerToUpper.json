@@ -1,0 +1,20 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testCopyLowerToUpper",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 20, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Decision(false, LOOP, 20, org.xmlcml.euclid.IntSquareMatrix)" : [ "TIMED_OUT(200)" ],
+    "Decision(true, LOOP, 21, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Decision(false, LOOP, 21, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(1, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(FOR, 56, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(FOR, 56, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(FOR, 57, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(FOR, 57, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(EXPRESSION, 58, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(EXPRESSION, 58, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, junit.framework.AssertionFailedError: copy upper; unequal element at (1, 2), (2 != 4) <junit.framework.Assert.fail(Assert.java:57)>)" ]
+  },
+  "timeTaken" : 228
+}

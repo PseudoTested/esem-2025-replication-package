@@ -1,0 +1,338 @@
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/DynamicIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/Interval.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/RedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/ThriftyList.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/StaticIntervalTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/data_structure/OrderLinkedRedBlackTree.java
+src/main/java/blogspot/software_and_algorithms/stern_library/optimization/HungarianAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/KnuthMorrisPrattAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/string/DamerauLevenshteinAlgorithm.java
+src/main/java/blogspot/software_and_algorithms/stern_library/geometry/ClosestPointPairAlgorithm.java
+src/main/java/org/xmlcml/xml/XPathGenerator.java
+src/main/java/org/xmlcml/xml/XMLConstants.java
+src/main/java/org/xmlcml/xml/XMLUtil.java
+src/main/java/org/xmlcml/stml/STMLType.java
+src/main/java/org/xmlcml/stml/attribute/StringSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IdAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DictRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/StringArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntArraySTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/IntSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DoubleSTAttribute.java
+src/main/java/org/xmlcml/stml/attribute/AttributeFactory.java
+src/main/java/org/xmlcml/stml/attribute/UnitsAttribute.java
+src/main/java/org/xmlcml/stml/attribute/NamespaceRefAttribute.java
+src/main/java/org/xmlcml/stml/attribute/DelimiterAttribute.java
+src/main/java/org/xmlcml/stml/STMLArray.java
+src/main/java/org/xmlcml/stml/interfacex/HasUnits.java
+src/main/java/org/xmlcml/stml/interfacex/HasDelimiter.java
+src/main/java/org/xmlcml/stml/interfacex/HasDictRef.java
+src/main/java/org/xmlcml/stml/interfacex/HasArraySize.java
+src/main/java/org/xmlcml/stml/interfacex/HasScalar.java
+src/main/java/org/xmlcml/stml/interfacex/HasDataType.java
+src/main/java/org/xmlcml/stml/AbstractSTMTool.java
+src/main/java/org/xmlcml/stml/STMLElement.java
+src/main/java/org/xmlcml/stml/STMLScalar.java
+src/main/java/org/xmlcml/stml/STMLAttribute.java
+src/main/java/org/xmlcml/stml/STMLConstants.java
+src/main/java/org/xmlcml/euclid/Euclid.java
+src/main/java/org/xmlcml/euclid/Int2Range.java
+src/main/java/org/xmlcml/euclid/Real2RangeComparator.java
+src/main/java/org/xmlcml/euclid/ParsedSymop.java
+src/main/java/org/xmlcml/euclid/Util.java
+src/main/java/org/xmlcml/euclid/test/StringTestBase.java
+src/main/java/org/xmlcml/euclid/test/DoubleTestBase.java
+src/main/java/org/xmlcml/euclid/test/EuclidTestBase.java
+src/main/java/org/xmlcml/euclid/Angle.java
+src/main/java/org/xmlcml/euclid/Real3Range.java
+src/main/java/org/xmlcml/euclid/Bivariate.java
+src/main/java/org/xmlcml/euclid/Line2AndReal2Calculator.java
+src/main/java/org/xmlcml/euclid/RealRange.java
+src/main/java/org/xmlcml/euclid/EuclidConstants.java
+src/main/java/org/xmlcml/euclid/IntSet.java
+src/main/java/org/xmlcml/euclid/Real2.java
+src/main/java/org/xmlcml/euclid/Int.java
+src/main/java/org/xmlcml/euclid/Axis.java
+src/main/java/org/xmlcml/euclid/Polar.java
+src/main/java/org/xmlcml/euclid/RealArray.java
+src/main/java/org/xmlcml/euclid/Real2Array.java
+src/main/java/org/xmlcml/euclid/RealComparator.java
+src/main/java/org/xmlcml/euclid/RandomNumberGenerator.java
+src/main/java/org/xmlcml/euclid/JodaDate.java
+src/main/java/org/xmlcml/euclid/RealRangeComparator.java
+src/main/java/org/xmlcml/euclid/Real2Range.java
+src/main/java/org/xmlcml/euclid/IntMatrix.java
+src/main/java/org/xmlcml/euclid/IntArray.java
+src/main/java/org/xmlcml/euclid/Int2.java
+src/main/java/org/xmlcml/euclid/Window2.java
+src/main/java/org/xmlcml/euclid/RealSquareMatrix.java
+src/main/java/org/xmlcml/euclid/Point3Vector.java
+src/main/java/org/xmlcml/euclid/EuclidException.java
+src/main/java/org/xmlcml/euclid/Real.java
+src/main/java/org/xmlcml/euclid/RealRangeList.java
+src/main/java/org/xmlcml/euclid/Transform2.java
+src/main/java/org/xmlcml/euclid/StringComparator.java
+src/main/java/org/xmlcml/euclid/IntRange.java
+src/main/java/org/xmlcml/euclid/Point2.java
+src/main/java/org/xmlcml/euclid/Vector2.java
+src/main/java/org/xmlcml/euclid/Line3.java
+src/main/java/org/xmlcml/euclid/Line2.java
+src/main/java/org/xmlcml/euclid/Vector3.java
+src/main/java/org/xmlcml/euclid/Point3.java
+src/main/java/org/xmlcml/euclid/EuclidTestUtils.java
+src/main/java/org/xmlcml/euclid/Transform3.java
+src/main/java/org/xmlcml/euclid/EC.java
+src/main/java/org/xmlcml/euclid/RealRangeArray.java
+src/main/java/org/xmlcml/euclid/RealInterval.java
+src/main/java/org/xmlcml/euclid/Real2Vector.java
+src/main/java/org/xmlcml/euclid/EuclidRuntimeException.java
+src/main/java/org/xmlcml/euclid/UnivariateBin.java
+src/main/java/org/xmlcml/euclid/IntRangeArray.java
+src/main/java/org/xmlcml/euclid/Real2Interval.java
+src/main/java/org/xmlcml/euclid/Plane3.java
+src/main/java/org/xmlcml/euclid/Complex.java
+src/main/java/org/xmlcml/euclid/ArrayBase.java
+src/main/java/org/xmlcml/euclid/IntSquareMatrix.java
+1:/**
+2: *    Copyright 2011 Peter Murray-Rust
+3: *
+4: *    Licensed under the Apache License, Version 2.0 (the "License");
+5: *    you may not use this file except in compliance with the License.
+6: *    You may obtain a copy of the License at
+7: *
+8: *        http://www.apache.org/licenses/LICENSE-2.0
+9: *
+10: *    Unless required by applicable law or agreed to in writing, software
+11: *    distributed under the License is distributed on an "AS IS" BASIS,
+12: *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+13: *    See the License for the specific language governing permissions and
+14: *    limitations under the License.
+15: */
+19:import org.apache.log4j.Logger;
+21:/**
+22: * square matrix class
+23: * 
+24: * IntSquareMatrix represents a square m-x-m matrix. The basic matrix algebra
+25: * for square matrices is represented here Check out the exciting member
+26: * functions, which are supported by Exceptions where appropriate. (NB. No
+27: * attempt has been made to provide numerical robustness and inversion,
+28: * diagonalisation, etc are as you find them.)
+29: * <P>
+30: * 
+31: * @author (C) P. Murray-Rust, 1996
+32: */
+34:    /**
+35:     * helper class to provide types of matrix.
+36:     */
+37:    /** type */
+38:    public enum Type {
+39:        /**  */
+40:        UPPER_TRIANGLE(1),
+41:        /**  */
+42:        LOWER_TRIANGLE(2),
+43:        /**  */
+44:        SYMMETRIC(3),
+45:        /**  */
+46:        DIAGONAL(4),
+47:        /**  */
+48:        OUTER_PRODUCT(5),
+49:        /**  */
+50:        UNKNOWN(6);
+51:        /** integer value */
+52:        public int i;
+53:        private Type(int i) {
+54:            this.i = i;
+57:    final static Logger LOG = Logger.getLogger(IntSquareMatrix.class);
+58:    /**
+59:     * Constructor. This gives a default matrix with cols = rows = 0.
+60:     */
+62:        super();
+64:    /**
+65:     * Constructor.
+66:     * 
+67:     * @param rows
+68:     *            number of rows and columns values are set to zero
+69:     */
+73:    /**
+74:     * Creates square matrix from real matrix.
+75:     * 
+76:     * @param f
+77:     *            real array (length rows) multiplied to give outer product
+78:     * @return square matrix of size rows * rows
+79:     */
+90:    /**
+91:     * create diagonal matrix from real matrix.
+92:     * 
+93:     * @param f
+94:     *            real array (length rows)
+95:     * @return square matrix with elem (i, i) = f(i), else 0
+96:     */
+105:    /**
+106:     * Creates real square matrix from array THE COLUMN IS THE FASTEST MOVING
+107:     * INDEX, that is the matrix is filled as mat(0,0), mat(0,1) ... C-LIKE
+108:     * 
+109:     * @param rows
+110:     *            the final rows and cols of real square matrix
+111:     * @param array
+112:     *            of size (rows * rows)
+113:     * @exception EuclidRuntimeException
+114:     *                <code>array</code> size must be multiple of <code>rows</code>
+115:     */
+119:    /**
+120:     * Creates real square matrix with all elements initialized to int value.
+121:     * 
+122:     * @param rows
+123:     *            size of square matrix
+124:     * @param f
+125:     *            value of all elements
+126:     */
+130:    /**
+131:     * Constructor for submatrix of another matrix.
+132:     * 
+133:     * @param m
+134:     *            matrix to slice (need not be square)
+135:     * @param lowrow
+136:     *            the start row inclusive (count from 0)
+137:     * @param lowcol
+138:     *            the start column inclusive (count from 0)
+139:     * @param rows
+140:     *            size of final matrix
+141:     * @throws EuclidRuntimeException
+142:     */
+147:    /**
+148:     * copy constructor.
+149:     * 
+150:     * @param m
+151:     *            matrix to copy
+152:     */
+153:    public IntSquareMatrix(IntSquareMatrix m) {
+154:        super(m);
+156:    /**
+157:     * shallow copy from IntMatrix
+158:     * 
+159:     * the array values are not copied (only the reference)
+160:     * 
+161:     * @param m
+162:     *            matrix to copy reference from
+163:     * 
+164:     * @exception EuclidRuntimeException
+165:     *                <code>m</code> must be square (that is cols = rows)
+166:     */
+169:        if (m.cols != m.rows) {
+170:            throw new EuclidRuntimeException("non square matrix");
+174:    /**
+175:     * constructor from array.
+176:     * 
+177:     * form from a Java 2-D array (it holds row and column count)
+178:     * 
+179:     * @param matrix
+180:     *            to copy
+181:     * @exception EuclidRuntimeException
+182:     *                <code>matrix</code> is not square (might even not be
+183:     *                rectangular!)
+184:     */
+187:        if (cols != rows) {
+188:            throw new EuclidRuntimeException("non square matrix");
+191:    /**
+192:     * shallowCopy an existing square matrix.
+193:     * 
+194:     * @param m
+195:     *            matrix to shallow copy
+196:     * @exception EuclidRuntimeException
+197:     *                <code>m</code> must have the same number of rows and cols as
+198:     *                <code>this</code>
+199:     */
+200:    public void shallowCopy(IntSquareMatrix m) throws EuclidRuntimeException {
+201:        super.shallowCopy((IntMatrix) m);
+203:    /**
+204:     * are two matrices identical
+205:     * 
+206:     * @param r
+207:     *            matrix to compare
+208:     * @return true if equal (see IntMatrix.equals for details)
+209:     */
+210:    public boolean isEqualTo(IntSquareMatrix r) {
+211:        return super.isEqualTo((IntMatrix) r);
+213:    /**
+214:     * matrix addition. adds conformable matrices. Does NOT alter this.
+215:     * 
+216:     * @param m
+217:     *            matrix to add
+218:     * @exception EuclidRuntimeException
+219:     *                <code>m</code> must have the same number of rows and cols as
+220:     *                <code>this</code>
+221:     * @return resultant matrix
+222:     */
+228:    /**
+229:     * matrix subtraction. subtracts conformable matrices. Does NOT alter this.
+230:     * 
+231:     * @param m
+232:     *            matrix to subtract from this
+233:     * @exception EuclidRuntimeException
+234:     *                <code>m</code> must have the same number of rows and cols as
+235:     *                <code>this</code>
+236:     * @return resultant matrix
+237:     */
+243:    /**
+244:     * matrix multiplication.
+245:     * 
+246:     * multiplies conformable matrices; result is <code>this*m </code>
+247:     * 
+248:     * @param m
+249:     *            matrix to multiply by
+250:     * @exception EuclidRuntimeException
+251:     *                <code>m</code> must have the same number of rows as <code>this</code>
+252:     *                has cols
+253:     * @return new matrix
+254:     */
+260:    /**
+261:     * trace.
+262:     * 
+263:     * @return the trace
+264:     */
+265:    public int trace() {
+266:        int trace = 0;
+268:            trace += flmat[i][i];
+270:        return trace;
+272:    /**
+273:     * is it a unit matrix.
+274:     * 
+275:     * @return are all diagonals 1 and off-diagonal zero (within Int.isEqual())
+276:     */
+288:    /**
+289:     * is matrix symmetric.
+290:     * 
+291:     * @return is Int.isEqual(elem(i,j), elem(j,i))
+292:     */
+303:    /**
+304:     * is matrix UpperTriangular.
+305:     * 
+306:     * @return true if all bottom triangle excluding diagona Int.isZero()
+307:     */
+317:    /**
+318:     * is matrix LowerTriangular. diagonal must also be zero
+319:     * 
+320:     * @return true if all bottom triangle Int.isZero()
+321:     */
+331:    /**
+332:     * copy upper triangle into lower triangle. alters this to make it symmetric
+333:     * 
+334:     * @return this as new square matrix
+335:     */
+344:    /**
+345:     * copy lower triangle into upper triangle. alters this to make it symmetric
+346:     * 
+347:     * @return this as new square matrix
+348:     */
+357:    /**
+358:     * copy lower triangle into linear array; order: 0,0; 1,0; 1,1; 2,0
+359:     * 
+360:     * @return linear array of size rows * (rows+1) / 2
+361:     */
+373:    /**
+374:     * transpose. MODIFIES this
+375:     */
+src/main/java/org/xmlcml/euclid/RealMatrix.java
+src/main/java/org/xmlcml/euclid/DoubleTool.java
+src/main/java/org/xmlcml/euclid/Univariate.java

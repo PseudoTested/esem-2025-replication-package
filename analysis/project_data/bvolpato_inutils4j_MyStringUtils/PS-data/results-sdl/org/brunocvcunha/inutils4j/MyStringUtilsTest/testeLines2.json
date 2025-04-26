@@ -1,0 +1,18 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testeLines2",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 1, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Decision(false, IF, 2, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Stmt(IF, 317, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 317, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 319, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(IF, 319, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 321, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[Linha 1]> but was:<[]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 321, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[Linha 1]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 322, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot load from object array because \"contentSplit\" is null <org.brunocvcunha.inutils4j.MyStringUtils.getLine(MyStringUtils.java:1130)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 322, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot load from object array because \"contentSplit\" is null <org.brunocvcunha.inutils4j.MyStringUtils.getLine(MyStringUtils.java:1130)>)" ]
+  },
+  "timeTaken" : 8
+}

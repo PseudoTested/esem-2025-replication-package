@@ -1,0 +1,14 @@
+criterion: org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:38
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:39
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:40
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:42
+org.brunocvcunha.inutils4j.reflection.PersonPOJO:57
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:44
+org.brunocvcunha.inutils4j.reflection.PersonPOJO:54
+criterion: org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:38
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:39
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:40
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:42
+org.brunocvcunha.inutils4j.reflection.PersonPOJO:63
+org.brunocvcunha.inutils4j.reflection.MyReflectionUtilsTest:45
+org.brunocvcunha.inutils4j.reflection.PersonPOJO:60

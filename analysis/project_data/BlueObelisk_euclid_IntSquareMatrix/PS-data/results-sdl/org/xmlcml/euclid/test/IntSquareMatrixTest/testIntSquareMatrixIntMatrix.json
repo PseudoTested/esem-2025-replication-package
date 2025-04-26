@@ -1,0 +1,13 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testIntSquareMatrixIntMatrix",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 3, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(0, org.xmlcml.euclid.EuclidRuntimeException: non square matrix <org.xmlcml.euclid.IntSquareMatrix.<init>(IntSquareMatrix.java:220)>)" ],
+    "Stmt(IF, 11, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(IF, 11, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 13, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: real matrix; unequal element at (1, 0), (32 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ],
+    "Stmt(EXPRESSION, 13, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, junit.framework.AssertionFailedError: real matrix; unequal element at (1, 0), (32 != 0) <junit.framework.Assert.fail(Assert.java:57)>)" ]
+  },
+  "timeTaken" : 9
+}

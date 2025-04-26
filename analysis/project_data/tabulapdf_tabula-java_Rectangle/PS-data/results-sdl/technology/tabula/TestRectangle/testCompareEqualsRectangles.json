@@ -1,0 +1,7 @@
+{
+  "testClassName" : "technology.tabula.TestRectangle",
+  "testMethodName" : "testCompareEqualsRectangles",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : { },
+  "timeTaken" : 2
+}

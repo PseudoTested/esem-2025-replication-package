@@ -1,0 +1,43 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j",
+  "className" : "MyStringUtils$Sort",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, org.brunocvcunha.inutils4j.MyStringUtils$Sort)" : {
+      "startLine" : 1623,
+      "endLine" : 1623,
+      "startCol" : 11,
+      "endCol" : 27
+    },
+    "Stmt(IF, 0, org.brunocvcunha.inutils4j.MyStringUtils$Sort, DEFAULT)" : {
+      "startLine" : 1623,
+      "endLine" : 1625,
+      "startCol" : 7,
+      "endCol" : 7
+    },
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyStringUtils$Sort, DEFAULT)" : {
+      "startLine" : 1624,
+      "endLine" : 1624,
+      "startCol" : 9,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyStringUtils$Sort, NON_DEFAULT)" : {
+      "startLine" : 1624,
+      "endLine" : 1624,
+      "startCol" : 9,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyStringUtils$Sort, DEFAULT)" : {
+      "startLine" : 1626,
+      "endLine" : 1626,
+      "startCol" : 7,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyStringUtils$Sort, NON_DEFAULT)" : {
+      "startLine" : 1626,
+      "endLine" : 1626,
+      "startCol" : 7,
+      "endCol" : 34
+    }
+  }
+}

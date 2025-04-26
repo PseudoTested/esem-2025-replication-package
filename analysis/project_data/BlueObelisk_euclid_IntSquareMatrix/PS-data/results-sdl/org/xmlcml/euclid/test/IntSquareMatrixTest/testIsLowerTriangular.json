@@ -1,0 +1,24 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testIsLowerTriangular",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 15, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 15, org.xmlcml.euclid.IntSquareMatrix)" : [ "TIMED_OUT(200)" ],
+    "Decision(true, LOOP, 16, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 16, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(true, IF, 17, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, IF, 17, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 47, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(FOR, 47, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 48, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(FOR, 48, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(IF, 49, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 49, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 240
+}

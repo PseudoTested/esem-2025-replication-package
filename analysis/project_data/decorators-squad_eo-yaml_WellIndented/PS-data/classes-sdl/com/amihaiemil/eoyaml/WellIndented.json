@@ -1,0 +1,235 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/WellIndented.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "WellIndented",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 94,
+      "endLine" : 94,
+      "startCol" : 12,
+      "endCol" : 29
+    },
+    "Decision(true, LOOP, 1, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 19,
+      "endCol" : 36
+    },
+    "Decision(true, IF, 2, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 20,
+      "endCol" : 63
+    },
+    "Decision(true, IF, 3, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 24,
+      "endCol" : 54
+    },
+    "Decision(true, IF, 4, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 106,
+      "endLine" : 107,
+      "startCol" : 24,
+      "endCol" : 75
+    },
+    "Decision(true, IF, 5, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 111,
+      "endLine" : 111,
+      "startCol" : 24,
+      "endCol" : 41
+    },
+    "Decision(true, IF, 6, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 113,
+      "endLine" : 113,
+      "startCol" : 29,
+      "endCol" : 63
+    },
+    "Decision(true, IF, 7, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 125,
+      "endLine" : 125,
+      "startCol" : 33,
+      "endCol" : 92
+    },
+    "Decision(true, IF, 8, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 126,
+      "endLine" : 126,
+      "startCol" : 37,
+      "endCol" : 67
+    },
+    "Decision(true, IF, 9, com.amihaiemil.eoyaml.WellIndented)" : {
+      "startLine" : 114,
+      "endLine" : 114,
+      "startCol" : 33,
+      "endCol" : 59
+    },
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 77,
+      "endLine" : 77,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(IF, 1, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 94,
+      "endLine" : 143,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 95,
+      "endLine" : 95,
+      "startCol" : 13,
+      "endCol" : 39
+    },
+    "Stmt(EXPRESSION, 3, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 13,
+      "endCol" : 39
+    },
+    "Stmt(WHILE, 4, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 142,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 5, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 139,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(IF, 6, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 104,
+      "startCol" : 21,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 25,
+      "endCol" : 49
+    },
+    "Stmt(IF, 8, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 106,
+      "endLine" : 110,
+      "startCol" : 21,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 9, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 25,
+      "endCol" : 50
+    },
+    "Stmt(EXPRESSION, 10, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 25,
+      "endCol" : 40
+    },
+    "Stmt(IF, 11, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 111,
+      "endLine" : 138,
+      "startCol" : 21,
+      "endCol" : 21
+    },
+    "Stmt(IF, 12, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 113,
+      "endLine" : 137,
+      "startCol" : 25,
+      "endCol" : 25
+    },
+    "Stmt(IF, 13, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 125,
+      "endLine" : 136,
+      "startCol" : 29,
+      "endCol" : 29
+    },
+    "Stmt(IF, 14, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 126,
+      "endLine" : 135,
+      "startCol" : 33,
+      "endCol" : 33
+    },
+    "Stmt(THROW, 15, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 127,
+      "endLine" : 134,
+      "startCol" : 37,
+      "endCol" : 38
+    },
+    "Stmt(IF, 16, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 114,
+      "endLine" : 123,
+      "startCol" : 29,
+      "endCol" : 29
+    },
+    "Stmt(THROW, 17, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 115,
+      "endLine" : 122,
+      "startCol" : 33,
+      "endCol" : 34
+    },
+    "Stmt(VARIABLE_DECLARATION, 18, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 112,
+      "endLine" : 112,
+      "startCol" : 29,
+      "endCol" : 59
+    },
+    "Stmt(VARIABLE_DECLARATION, 19, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 105,
+      "endLine" : 105,
+      "startCol" : 25,
+      "endCol" : 59
+    },
+    "Stmt(EXPRESSION, 20, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 140,
+      "endLine" : 140,
+      "startCol" : 17,
+      "endCol" : 32
+    },
+    "Stmt(EXPRESSION, 21, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 17,
+      "endCol" : 39
+    },
+    "Stmt(VARIABLE_DECLARATION, 22, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 26,
+      "endCol" : 47
+    },
+    "Stmt(RETURN, 23, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 144,
+      "endLine" : 144,
+      "startCol" : 9,
+      "endCol" : 39
+    },
+    "Stmt(RETURN, 23, com.amihaiemil.eoyaml.WellIndented, NON_DEFAULT)" : {
+      "startLine" : 144,
+      "endLine" : 144,
+      "startCol" : 9,
+      "endCol" : 39
+    },
+    "Stmt(VARIABLE_DECLARATION, 24, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 17,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 25, com.amihaiemil.eoyaml.WellIndented, DEFAULT)" : {
+      "startLine" : 149,
+      "endLine" : 149,
+      "startCol" : 9,
+      "endCol" : 49
+    },
+    "Stmt(RETURN, 25, com.amihaiemil.eoyaml.WellIndented, NON_DEFAULT)" : {
+      "startLine" : 149,
+      "endLine" : 149,
+      "startCol" : 9,
+      "endCol" : 49
+    }
+  }
+}

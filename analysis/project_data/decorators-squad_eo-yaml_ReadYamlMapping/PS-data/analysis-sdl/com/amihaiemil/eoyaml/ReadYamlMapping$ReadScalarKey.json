@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/ReadYamlMapping.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "ReadYamlMapping$ReadScalarKey",
+  "typeMetricsHashMap" : {
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 4,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 1,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 4,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 75.0,
+      "effectualPercentage" : 75.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(IF, 4, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 3, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 3, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, NON_DEFAULT)", "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 7, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 7, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, NON_DEFAULT)", "Stmt(LAMBDA, 5, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(IF, 4, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 3, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 3, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, NON_DEFAULT)", "Stmt(EXPRESSION, 2, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 7, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)", "Stmt(RETURN, 7, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, NON_DEFAULT)", "Stmt(LAMBDA, 5, com.amihaiemil.eoyaml.ReadYamlMapping$ReadScalarKey, DEFAULT)" ],
+  "totalElementCount" : 11,
+  "totalCoveredCount" : 9,
+  "totalEffectualCount" : 9,
+  "totalCoverageGap" : 0
+}

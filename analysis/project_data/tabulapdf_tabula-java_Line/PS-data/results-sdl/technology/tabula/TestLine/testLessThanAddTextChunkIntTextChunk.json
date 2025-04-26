@@ -1,0 +1,31 @@
+{
+  "testClassName" : "technology.tabula.TestLine",
+  "testMethodName" : "testLessThanAddTextChunkIntTextChunk",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 0, technology.tabula.Line)" : [ "THREW_EXCEPTION(0, java.lang.IllegalArgumentException: i can't be less than 0 <technology.tabula.Line.addTextChunk(Line.java:31)>)" ],
+    "Decision(true, IF, 1, technology.tabula.Line)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Decision(false, IF, 1, technology.tabula.Line)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Decision(true, LOOP, 2, technology.tabula.Line)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Decision(false, LOOP, 2, technology.tabula.Line)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(RETURN, 0, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(RETURN, 0, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(IF, 2, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(IF, 2, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(IF, 4, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(IF, 4, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 5, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 5, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(FOR, 6, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(FOR, 6, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 7, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 7, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 8, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 8, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 9, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 9, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 10, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 10, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ]
+  },
+  "timeTaken" : 32
+}

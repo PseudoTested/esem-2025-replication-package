@@ -1,0 +1,271 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/sdk/serverside/utils/HashedListAdaptor.java",
+  "packageName" : "com.facebook.ads.sdk.serverside.utils",
+  "className" : "HashedListAdaptor",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)" : {
+      "startLine" : 36,
+      "endLine" : 36,
+      "startCol" : 13,
+      "endCol" : 43
+    },
+    "Decision(true, LOOP, 1, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)" : {
+      "startLine" : 43,
+      "endLine" : 43,
+      "startCol" : 16,
+      "endCol" : 31
+    },
+    "Decision(true, IF, 2, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)" : {
+      "startLine" : 57,
+      "endLine" : 57,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 3, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 17,
+      "endCol" : 35
+    },
+    "Decision(true, IF, 4, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor)" : {
+      "startLine" : 80,
+      "endLine" : 80,
+      "startCol" : 12,
+      "endCol" : 33
+    },
+    "Stmt(IF, 0, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 36,
+      "endLine" : 39,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 1, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 37,
+      "endLine" : 37,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Stmt(RETURN, 2, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 38,
+      "endLine" : 38,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 2, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)" : {
+      "startLine" : 38,
+      "endLine" : 38,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(EXPRESSION, 3, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 42,
+      "endLine" : 42,
+      "startCol" : 9,
+      "endCol" : 28
+    },
+    "Stmt(WHILE, 4, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 43,
+      "endLine" : 45,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 5, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 13,
+      "endCol" : 43
+    },
+    "Stmt(EXPRESSION, 6, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 46,
+      "endLine" : 46,
+      "startCol" : 9,
+      "endCol" : 26
+    },
+    "Stmt(RETURN, 7, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 47,
+      "endLine" : 47,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 7, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)" : {
+      "startLine" : 47,
+      "endLine" : 47,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(VARIABLE_DECLARATION, 8, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 41,
+      "endLine" : 41,
+      "startCol" : 17,
+      "endCol" : 38
+    },
+    "Stmt(IF, 9, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 57,
+      "endLine" : 60,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 10, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 58,
+      "endLine" : 58,
+      "startCol" : 13,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 13,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 11, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 13,
+      "endCol" : 19
+    },
+    "Stmt(FOR_EACH, 12, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 78,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(TRY, 13, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 73,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 14, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 68,
+      "endLine" : 68,
+      "startCol" : 17,
+      "endCol" : 37
+    },
+    "Stmt(THROW, 15, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 69,
+      "endLine" : 69,
+      "startCol" : 17,
+      "endCol" : 103
+    },
+    "Stmt(EXPRESSION, 16, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 71,
+      "endLine" : 71,
+      "startCol" : 17,
+      "endCol" : 37
+    },
+    "Stmt(THROW, 17, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 72,
+      "endLine" : 72,
+      "startCol" : 17,
+      "endCol" : 103
+    },
+    "Stmt(EXPRESSION, 18, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 17,
+      "endCol" : 54
+    },
+    "Stmt(IF, 19, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 77,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 20, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 17,
+      "endCol" : 46
+    },
+    "Stmt(VARIABLE_DECLARATION, 21, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 64,
+      "endLine" : 64,
+      "startCol" : 20,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 22, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 20,
+      "endCol" : 67
+    },
+    "Stmt(IF, 23, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 80,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 24, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 13,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 25, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 13,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 25, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 13,
+      "endCol" : 19
+    },
+    "Stmt(EXPRESSION, 26, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 9,
+      "endCol" : 28
+    },
+    "Stmt(FOR_EACH, 27, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 88,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 28, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 87,
+      "endLine" : 87,
+      "startCol" : 13,
+      "endCol" : 36
+    },
+    "Stmt(EXPRESSION, 29, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 89,
+      "endLine" : 89,
+      "startCol" : 9,
+      "endCol" : 26
+    },
+    "Stmt(VARIABLE_DECLARATION, 30, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 21,
+      "endCol" : 48
+    },
+    "Stmt(EXPRESSION, 31, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 9,
+      "endCol" : 38
+    },
+    "Stmt(RETURN, 32, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 9,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 32, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, NON_DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 9,
+      "endCol" : 46
+    },
+    "Stmt(VARIABLE_DECLARATION, 33, com.facebook.ads.sdk.serverside.utils.HashedListAdaptor, DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 101,
+      "startCol" : 15,
+      "endCol" : 75
+    }
+  }
+}

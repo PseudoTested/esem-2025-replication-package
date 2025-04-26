@@ -1,0 +1,28 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyStringUtilsTest",
+  "testMethodName" : "testCollections1",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 10, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 10, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(0, java.util.NoSuchElementException <java.base/java.util.ArrayList$Itr.next(ArrayList.java:970)>)" ],
+    "Decision(true, LOOP, 11, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 11, org.brunocvcunha.inutils4j.MyStringUtils)" : [ "THREW_EXCEPTION(0, java.util.NoSuchElementException <java.base/java.util.ArrayList$Itr.next(ArrayList.java:970)>)" ],
+    "Stmt(FOR, 361, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 361, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 362, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 362, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 363, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 363, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 364, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 364, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 365, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 365, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 366, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 366, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 367, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Collection.size()\" because \"c\" is null <org.brunocvcunha.inutils4j.MyStringUtilsTest.testCollections1(MyStringUtilsTest.java:262)>)" ],
+    "Stmt(RETURN, 367, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 368, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Collection.size()\" because \"c\" is null <org.brunocvcunha.inutils4j.MyStringUtilsTest.testCollections1(MyStringUtilsTest.java:262)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 368, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Collection.size()\" because \"c\" is null <org.brunocvcunha.inutils4j.MyStringUtilsTest.testCollections1(MyStringUtilsTest.java:262)>)" ]
+  },
+  "timeTaken" : 12
+}

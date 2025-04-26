@@ -1,0 +1,199 @@
+{
+  "fileName" : "project-overview",
+  "typeMetricsHashMap" : {
+    "DECISION" : {
+      "elementCount" : 131,
+      "coveredCount" : 29,
+      "effectualCount" : 22,
+      "coverageGap" : [ "Decision(true, LOOP, 101, org.brunocvcunha.inutils4j.MyStringUtils)", "Decision(true, LOOP, 126, org.brunocvcunha.inutils4j.MyStringUtils)", "Decision(true, IF, 123, org.brunocvcunha.inutils4j.MyStringUtils)", "Decision(true, LOOP, 122, org.brunocvcunha.inutils4j.MyStringUtils)", "Decision(true, LOOP, 125, org.brunocvcunha.inutils4j.MyStringUtils)", "Decision(true, LOOP, 124, org.brunocvcunha.inutils4j.MyStringUtils)", "Decision(true, LOOP, 121, org.brunocvcunha.inutils4j.MyStringUtils)" ],
+      "coverageGapSize" : 7,
+      "coveredPercentage" : 22.14,
+      "effectualPercentage" : 16.79,
+      "coverageGapPercentage" : 5.34
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 12,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 141,
+      "coveredCount" : 27,
+      "effectualCount" : 26,
+      "coverageGap" : [ "Stmt(VARIABLE_DECLARATION, 1013, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 19.15,
+      "effectualPercentage" : 18.44,
+      "coverageGapPercentage" : 0.71
+    },
+    "BREAK" : {
+      "elementCount" : 3,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 27,
+      "coveredCount" : 7,
+      "effectualCount" : 5,
+      "coverageGap" : [ "Stmt(FOR_EACH, 1007, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(FOR_EACH, 996, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" ],
+      "coverageGapSize" : 2,
+      "coveredPercentage" : 25.93,
+      "effectualPercentage" : 18.52,
+      "coverageGapPercentage" : 7.41
+    },
+    "RETURN" : {
+      "elementCount" : 356,
+      "coveredCount" : 78,
+      "effectualCount" : 72,
+      "coverageGap" : [ "Stmt(RETURN, 628, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)", "Stmt(RETURN, 1012, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(RETURN, 1012, org.brunocvcunha.inutils4j.MyStringUtils, NON_DEFAULT)", "Stmt(RETURN, 629, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(RETURN, 981, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(RETURN, 985, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" ],
+      "coverageGapSize" : 6,
+      "coveredPercentage" : 21.91,
+      "effectualPercentage" : 20.22,
+      "coverageGapPercentage" : 1.69
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 3,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 16,
+      "coveredCount" : 4,
+      "effectualCount" : 0,
+      "coverageGap" : [ "Stmt(WHILE, 897, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(WHILE, 899, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(WHILE, 901, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(WHILE, 903, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" ],
+      "coverageGapSize" : 4,
+      "coveredPercentage" : 25.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 25.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 26,
+      "coveredCount" : 11,
+      "effectualCount" : 6,
+      "coverageGap" : [ "Stmt(FOR, 1008, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(FOR, 994, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(FOR, 997, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(FOR, 1000, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(FOR, 1004, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" ],
+      "coverageGapSize" : 5,
+      "coveredPercentage" : 42.31,
+      "effectualPercentage" : 23.08,
+      "coverageGapPercentage" : 19.23
+    },
+    "EXPRESSION" : {
+      "elementCount" : 508,
+      "coveredCount" : 361,
+      "effectualCount" : 344,
+      "coverageGap" : [ "Stmt(EXPRESSION, 1006, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 1005, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 371, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 1010, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 372, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 1009, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 369, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 370, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 1011, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 373, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 374, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 898, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 995, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 999, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 1002, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 1001, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(EXPRESSION, 1003, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" ],
+      "coverageGapSize" : 17,
+      "coveredPercentage" : 71.06,
+      "effectualPercentage" : 67.72,
+      "coverageGapPercentage" : 3.35
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 89,
+      "coveredCount" : 23,
+      "effectualCount" : 17,
+      "coverageGap" : [ "Stmt(IF, 574, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(IF, 319, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(IF, 317, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(IF, 576, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(IF, 998, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)", "Stmt(IF, 617, org.brunocvcunha.inutils4j.MyStringUtils, DEFAULT)" ],
+      "coverageGapSize" : 6,
+      "coveredPercentage" : 25.84,
+      "effectualPercentage" : 19.1,
+      "coverageGapPercentage" : 6.74
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 32,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 12.5,
+      "effectualPercentage" : 12.5,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "totalElementCount" : 1344,
+  "totalCoveredCount" : 544,
+  "totalEffectualCount" : 496,
+  "totalCoverageGap" : 48
+}

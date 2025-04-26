@@ -1,0 +1,26 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testLowerTriangle",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 22, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(1)" ],
+    "Decision(false, LOOP, 22, org.xmlcml.euclid.IntSquareMatrix)" : [ "TIMED_OUT(200)" ],
+    "Decision(true, LOOP, 23, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 23, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 60, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(FOR, 60, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 61, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(FOR, 61, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 62, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 62, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntArray.getArray()\" because \"ra\" is null <org.xmlcml.euclid.test.IntSquareMatrixTest.testLowerTriangle(IntSquareMatrixTest.java:309)>)" ],
+    "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntArray.getArray()\" because \"ra\" is null <org.xmlcml.euclid.test.IntSquareMatrixTest.testLowerTriangle(IntSquareMatrixTest.java:309)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 64, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 64, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 65, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntArray.getArray()\" because \"ra\" is null <org.xmlcml.euclid.test.IntSquareMatrixTest.testLowerTriangle(IntSquareMatrixTest.java:309)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 65, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntArray.getArray()\" because \"ra\" is null <org.xmlcml.euclid.test.IntSquareMatrixTest.testLowerTriangle(IntSquareMatrixTest.java:309)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 233
+}

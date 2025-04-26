@@ -1,0 +1,901 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/utils/ServerSideApiUtil.java",
+  "packageName" : "com.facebook.ads.utils",
+  "className" : "ServerSideApiUtil",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 10,
+      "endCol" : 26
+    },
+    "Decision(true, IF, 1, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 10,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 2, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 80,
+      "endLine" : 80,
+      "startCol" : 9,
+      "endCol" : 54
+    },
+    "Decision(true, IF, 3, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 17,
+      "endCol" : 69
+    },
+    "Decision(true, IF, 4, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 84,
+      "endLine" : 84,
+      "startCol" : 17,
+      "endCol" : 65
+    },
+    "Decision(true, IF, 5, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 17,
+      "endCol" : 61
+    },
+    "Decision(true, IF, 6, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 88,
+      "endLine" : 88,
+      "startCol" : 17,
+      "endCol" : 64
+    },
+    "Decision(true, IF, 7, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 17,
+      "endCol" : 62
+    },
+    "Decision(true, IF, 8, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 17,
+      "endCol" : 65
+    },
+    "Decision(true, IF, 9, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 94,
+      "endLine" : 94,
+      "startCol" : 17,
+      "endCol" : 64
+    },
+    "Decision(true, IF, 10, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 17,
+      "endCol" : 63
+    },
+    "Decision(true, IF, 11, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 17,
+      "endCol" : 59
+    },
+    "Decision(true, IF, 12, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 17,
+      "endCol" : 61
+    },
+    "Decision(true, IF, 13, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 17,
+      "endCol" : 61
+    },
+    "Decision(true, IF, 14, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 104,
+      "endLine" : 104,
+      "startCol" : 17,
+      "endCol" : 61
+    },
+    "Decision(true, IF, 15, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 128,
+      "endLine" : 128,
+      "startCol" : 10,
+      "endCol" : 44
+    },
+    "Decision(true, IF, 16, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 140,
+      "endLine" : 140,
+      "startCol" : 10,
+      "endCol" : 46
+    },
+    "Decision(true, IF, 17, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 152,
+      "endLine" : 152,
+      "startCol" : 9,
+      "endCol" : 61
+    },
+    "Decision(true, IF, 18, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 161,
+      "endLine" : 161,
+      "startCol" : 10,
+      "endCol" : 29
+    },
+    "Decision(true, IF, 19, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 176,
+      "endLine" : 176,
+      "startCol" : 10,
+      "endCol" : 36
+    },
+    "Decision(true, IF, 20, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 182,
+      "endLine" : 182,
+      "startCol" : 10,
+      "endCol" : 32
+    },
+    "Decision(true, IF, 21, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 202,
+      "endLine" : 202,
+      "startCol" : 10,
+      "endCol" : 27
+    },
+    "Decision(true, IF, 22, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 211,
+      "endLine" : 211,
+      "startCol" : 10,
+      "endCol" : 27
+    },
+    "Decision(true, IF, 23, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 222,
+      "endLine" : 222,
+      "startCol" : 10,
+      "endCol" : 57
+    },
+    "Decision(true, IF, 24, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 231,
+      "endLine" : 231,
+      "startCol" : 10,
+      "endCol" : 27
+    },
+    "Decision(true, IF, 25, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 242,
+      "endLine" : 242,
+      "startCol" : 10,
+      "endCol" : 57
+    },
+    "Decision(true, IF, 26, com.facebook.ads.utils.ServerSideApiUtil)" : {
+      "startLine" : 250,
+      "endLine" : 250,
+      "startCol" : 10,
+      "endCol" : 36
+    },
+    "Stmt(RETURN, 0, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 6,
+      "endCol" : 82
+    },
+    "Stmt(RETURN, 0, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 6,
+      "endCol" : 82
+    },
+    "Stmt(RETURN, 1, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 6,
+      "endCol" : 57
+    },
+    "Stmt(RETURN, 1, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 6,
+      "endCol" : 57
+    },
+    "Stmt(VARIABLE_DECLARATION, 2, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 14,
+      "endCol" : 49
+    },
+    "Stmt(VARIABLE_DECLARATION, 3, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 57,
+      "endLine" : 57,
+      "startCol" : 14,
+      "endCol" : 52
+    },
+    "Stmt(IF, 4, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 72,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 5, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 71,
+      "endLine" : 71,
+      "startCol" : 8,
+      "endCol" : 101
+    },
+    "Stmt(EXPRESSION, 6, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 6,
+      "endCol" : 40
+    },
+    "Stmt(IF, 7, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 77,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(RETURN, 8, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 8,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 8, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 8,
+      "endCol" : 19
+    },
+    "Stmt(IF, 9, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 80,
+      "endLine" : 106,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(IF, 10, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 11, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 84,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 12, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 13, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 88,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 14, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 15, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 16, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 94,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 17, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 18, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 19, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 20, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(IF, 21, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 106,
+      "startCol" : 13,
+      "endCol" : 6
+    },
+    "Stmt(EXPRESSION, 22, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 105,
+      "endLine" : 105,
+      "startCol" : 8,
+      "endCol" : 37
+    },
+    "Stmt(EXPRESSION, 23, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 8,
+      "endCol" : 37
+    },
+    "Stmt(EXPRESSION, 24, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 101,
+      "startCol" : 8,
+      "endCol" : 37
+    },
+    "Stmt(EXPRESSION, 25, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 8,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 26, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 8,
+      "endCol" : 39
+    },
+    "Stmt(EXPRESSION, 27, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 95,
+      "endLine" : 95,
+      "startCol" : 8,
+      "endCol" : 39
+    },
+    "Stmt(EXPRESSION, 28, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 8,
+      "endCol" : 41
+    },
+    "Stmt(EXPRESSION, 29, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 91,
+      "endLine" : 91,
+      "startCol" : 8,
+      "endCol" : 38
+    },
+    "Stmt(EXPRESSION, 30, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 89,
+      "endLine" : 89,
+      "startCol" : 8,
+      "endCol" : 40
+    },
+    "Stmt(EXPRESSION, 31, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 87,
+      "endLine" : 87,
+      "startCol" : 8,
+      "endCol" : 37
+    },
+    "Stmt(EXPRESSION, 32, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 8,
+      "endCol" : 43
+    },
+    "Stmt(EXPRESSION, 33, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 8,
+      "endCol" : 44
+    },
+    "Stmt(EXPRESSION, 34, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 8,
+      "endCol" : 37
+    },
+    "Stmt(RETURN, 35, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 6,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 35, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 6,
+      "endCol" : 19
+    },
+    "Stmt(VARIABLE_DECLARATION, 36, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 78,
+      "endLine" : 78,
+      "startCol" : 13,
+      "endCol" : 26
+    },
+    "Stmt(EXPRESSION, 37, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 112,
+      "endLine" : 112,
+      "startCol" : 6,
+      "endCol" : 41
+    },
+    "Stmt(EXPRESSION, 38, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 115,
+      "endLine" : 115,
+      "startCol" : 6,
+      "endCol" : 37
+    },
+    "Stmt(EXPRESSION, 39, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 118,
+      "endLine" : 118,
+      "startCol" : 6,
+      "endCol" : 67
+    },
+    "Stmt(RETURN, 40, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 40, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 41, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 126,
+      "endLine" : 126,
+      "startCol" : 6,
+      "endCol" : 48
+    },
+    "Stmt(IF, 42, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 128,
+      "endLine" : 130,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 43, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 129,
+      "endLine" : 129,
+      "startCol" : 8,
+      "endCol" : 167
+    },
+    "Stmt(RETURN, 44, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 132,
+      "endLine" : 132,
+      "startCol" : 6,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 44, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 132,
+      "endLine" : 132,
+      "startCol" : 6,
+      "endCol" : 20
+    },
+    "Stmt(EXPRESSION, 45, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 138,
+      "endLine" : 138,
+      "startCol" : 6,
+      "endCol" : 50
+    },
+    "Stmt(IF, 46, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 140,
+      "endLine" : 142,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 47, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 8,
+      "endCol" : 169
+    },
+    "Stmt(RETURN, 48, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 144,
+      "endLine" : 144,
+      "startCol" : 6,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 48, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 144,
+      "endLine" : 144,
+      "startCol" : 6,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 49, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 150,
+      "endLine" : 150,
+      "startCol" : 6,
+      "endCol" : 65
+    },
+    "Stmt(IF, 50, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 152,
+      "endLine" : 154,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 51, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 153,
+      "endLine" : 153,
+      "startCol" : 8,
+      "endCol" : 168
+    },
+    "Stmt(RETURN, 52, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 156,
+      "endLine" : 156,
+      "startCol" : 6,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 52, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 156,
+      "endLine" : 156,
+      "startCol" : 6,
+      "endCol" : 24
+    },
+    "Stmt(IF, 53, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 161,
+      "endLine" : 163,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 54, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 162,
+      "endLine" : 162,
+      "startCol" : 7,
+      "endCol" : 139
+    },
+    "Stmt(RETURN, 55, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 165,
+      "endLine" : 165,
+      "startCol" : 6,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 55, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 165,
+      "endLine" : 165,
+      "startCol" : 6,
+      "endCol" : 18
+    },
+    "Stmt(EXPRESSION, 56, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 171,
+      "endLine" : 171,
+      "startCol" : 6,
+      "endCol" : 54
+    },
+    "Stmt(IF, 57, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 176,
+      "endLine" : 178,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 58, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 177,
+      "endLine" : 177,
+      "startCol" : 8,
+      "endCol" : 113
+    },
+    "Stmt(EXPRESSION, 59, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 181,
+      "endLine" : 181,
+      "startCol" : 6,
+      "endCol" : 37
+    },
+    "Stmt(IF, 60, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 182,
+      "endLine" : 184,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 61, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 183,
+      "endLine" : 183,
+      "startCol" : 8,
+      "endCol" : 153
+    },
+    "Stmt(RETURN, 62, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 186,
+      "endLine" : 186,
+      "startCol" : 6,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 62, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 186,
+      "endLine" : 186,
+      "startCol" : 6,
+      "endCol" : 23
+    },
+    "Stmt(VARIABLE_DECLARATION, 63, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 175,
+      "endLine" : 175,
+      "startCol" : 15,
+      "endCol" : 53
+    },
+    "Stmt(EXPRESSION, 64, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 193,
+      "endLine" : 193,
+      "startCol" : 6,
+      "endCol" : 44
+    },
+    "Stmt(RETURN, 65, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 194,
+      "endLine" : 194,
+      "startCol" : 6,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 65, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 194,
+      "endLine" : 194,
+      "startCol" : 6,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 66, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 198,
+      "endLine" : 198,
+      "startCol" : 6,
+      "endCol" : 58
+    },
+    "Stmt(RETURN, 66, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 198,
+      "endLine" : 198,
+      "startCol" : 6,
+      "endCol" : 58
+    },
+    "Stmt(IF, 67, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 202,
+      "endLine" : 204,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(EXPRESSION, 68, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 203,
+      "endLine" : 203,
+      "startCol" : 8,
+      "endCol" : 37
+    },
+    "Stmt(RETURN, 69, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 206,
+      "endLine" : 206,
+      "startCol" : 6,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 69, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 206,
+      "endLine" : 206,
+      "startCol" : 6,
+      "endCol" : 18
+    },
+    "Stmt(IF, 70, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 211,
+      "endLine" : 213,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(EXPRESSION, 71, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 212,
+      "endLine" : 212,
+      "startCol" : 8,
+      "endCol" : 25
+    },
+    "Stmt(TRY, 72, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 216,
+      "endLine" : 220,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 73, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 219,
+      "endLine" : 219,
+      "startCol" : 8,
+      "endCol" : 115
+    },
+    "Stmt(EXPRESSION, 74, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 217,
+      "endLine" : 217,
+      "startCol" : 8,
+      "endCol" : 40
+    },
+    "Stmt(IF, 75, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 222,
+      "endLine" : 224,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 76, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 223,
+      "endLine" : 223,
+      "startCol" : 8,
+      "endCol" : 115
+    },
+    "Stmt(RETURN, 77, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 226,
+      "endLine" : 226,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 77, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 226,
+      "endLine" : 226,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(VARIABLE_DECLARATION, 78, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 210,
+      "endLine" : 210,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(IF, 79, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 231,
+      "endLine" : 233,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(EXPRESSION, 80, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 232,
+      "endLine" : 232,
+      "startCol" : 8,
+      "endCol" : 25
+    },
+    "Stmt(TRY, 81, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 236,
+      "endLine" : 240,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 82, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 239,
+      "endLine" : 239,
+      "startCol" : 8,
+      "endCol" : 117
+    },
+    "Stmt(EXPRESSION, 83, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 237,
+      "endLine" : 237,
+      "startCol" : 8,
+      "endCol" : 40
+    },
+    "Stmt(IF, 84, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 242,
+      "endLine" : 244,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 85, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 243,
+      "endLine" : 243,
+      "startCol" : 8,
+      "endCol" : 117
+    },
+    "Stmt(RETURN, 86, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 246,
+      "endLine" : 246,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 86, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 246,
+      "endLine" : 246,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(VARIABLE_DECLARATION, 87, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 230,
+      "endLine" : 230,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(IF, 88, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 250,
+      "endLine" : 252,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(THROW, 89, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 251,
+      "endLine" : 251,
+      "startCol" : 8,
+      "endCol" : 117
+    },
+    "Stmt(RETURN, 90, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 254,
+      "endLine" : 254,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 90, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 254,
+      "endLine" : 254,
+      "startCol" : 6,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 91, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 264,
+      "endLine" : 264,
+      "startCol" : 6,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 91, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 264,
+      "endLine" : 264,
+      "startCol" : 6,
+      "endCol" : 24
+    },
+    "Stmt(VARIABLE_DECLARATION, 92, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 263,
+      "endLine" : 263,
+      "startCol" : 14,
+      "endCol" : 44
+    },
+    "Stmt(FOR_EACH, 93, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 271,
+      "endLine" : 273,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(EXPRESSION, 94, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 272,
+      "endLine" : 272,
+      "startCol" : 8,
+      "endCol" : 70
+    },
+    "Stmt(RETURN, 95, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 275,
+      "endLine" : 275,
+      "startCol" : 6,
+      "endCol" : 29
+    },
+    "Stmt(RETURN, 95, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 275,
+      "endLine" : 275,
+      "startCol" : 6,
+      "endCol" : 29
+    },
+    "Stmt(VARIABLE_DECLARATION, 96, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 269,
+      "endLine" : 269,
+      "startCol" : 20,
+      "endCol" : 74
+    },
+    "Stmt(VARIABLE_DECLARATION, 97, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 270,
+      "endLine" : 270,
+      "startCol" : 22,
+      "endCol" : 61
+    },
+    "Stmt(FOR_EACH, 98, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 282,
+      "endLine" : 284,
+      "startCol" : 6,
+      "endCol" : 6
+    },
+    "Stmt(EXPRESSION, 99, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 283,
+      "endLine" : 283,
+      "startCol" : 8,
+      "endCol" : 50
+    },
+    "Stmt(RETURN, 100, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 286,
+      "endLine" : 286,
+      "startCol" : 6,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 100, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : {
+      "startLine" : 286,
+      "endLine" : 286,
+      "startCol" : 6,
+      "endCol" : 28
+    },
+    "Stmt(VARIABLE_DECLARATION, 101, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 280,
+      "endLine" : 280,
+      "startCol" : 19,
+      "endCol" : 78
+    },
+    "Stmt(VARIABLE_DECLARATION, 102, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : {
+      "startLine" : 281,
+      "endLine" : 281,
+      "startCol" : 22,
+      "endCol" : 60
+    }
+  }
+}

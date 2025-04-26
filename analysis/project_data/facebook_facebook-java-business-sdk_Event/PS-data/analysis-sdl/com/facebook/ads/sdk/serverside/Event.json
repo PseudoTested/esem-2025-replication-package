@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/com/facebook/ads/sdk/serverside/Event.java",
+  "packageName" : "com.facebook.ads.sdk.serverside",
+  "className" : "Event",
+  "typeMetricsHashMap" : {
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 3,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 3,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 78,
+      "coveredCount" : 26,
+      "effectualCount" : 26,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 33.33,
+      "effectualPercentage" : 33.33,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 63,
+      "coveredCount" : 13,
+      "effectualCount" : 13,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 20.63,
+      "effectualPercentage" : 20.63,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 2,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(RETURN, 58, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 58, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 50, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 50, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 74, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 74, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 26, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 26, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 59, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 18, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 18, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 51, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 42, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 42, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 75, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 34, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 34, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 27, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 19, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 43, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 35, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 54, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 54, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 78, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 78, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 30, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 22, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 22, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 55, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 46, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 46, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 79, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 38, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 38, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 31, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 31, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 23, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 47, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 39, com.facebook.ads.sdk.serverside.Event, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(RETURN, 58, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 58, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 50, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 50, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 74, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 74, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 26, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 26, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 59, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 18, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 18, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 51, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 42, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 42, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 75, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 34, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 34, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 27, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 19, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 43, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 35, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 54, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 54, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 78, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 78, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 30, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 22, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 22, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 55, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 46, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 46, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 79, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 38, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 38, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(RETURN, 31, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(RETURN, 31, com.facebook.ads.sdk.serverside.Event, NON_DEFAULT)", "Stmt(EXPRESSION, 23, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 47, com.facebook.ads.sdk.serverside.Event, DEFAULT)", "Stmt(EXPRESSION, 39, com.facebook.ads.sdk.serverside.Event, DEFAULT)" ],
+  "totalElementCount" : 149,
+  "totalCoveredCount" : 39,
+  "totalEffectualCount" : 39,
+  "totalCoverageGap" : 0
+}

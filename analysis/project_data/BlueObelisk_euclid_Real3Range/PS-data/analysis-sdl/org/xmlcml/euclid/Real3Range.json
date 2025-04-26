@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/Real3Range.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "Real3Range",
+  "typeMetricsHashMap" : {
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "THROW" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "RETURN" : {
+      "elementCount" : 20,
+      "coveredCount" : 18,
+      "effectualCount" : 17,
+      "coverageGap" : [ "Stmt(RETURN, 8, org.xmlcml.euclid.Real3Range, NON_DEFAULT)" ],
+      "coveredPercentage" : 90.0,
+      "effectualPercentage" : 85.0,
+      "coverageGapPercentage" : 5.0,
+      "coverageGapSize" : 1
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 6,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "IF" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 17,
+      "coveredCount" : 15,
+      "effectualCount" : 15,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 88.24,
+      "effectualPercentage" : 88.24,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DECISION" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0,
+      "coverageGapSize" : 0
+    }
+  },
+  "covered" : [ "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(RETURN, 17, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 17, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 25, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(FOR_EACH, 29, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 33, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 8, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 8, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 20, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 28, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 32, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 19, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 23, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 23, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 27, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 31, org.xmlcml.euclid.Real3Range, DEFAULT)", "Decision(true, LOOP, 1, org.xmlcml.euclid.Real3Range)", "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(FOR, 6, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 10, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 10, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 14, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 18, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, DEFAULT)", "Decision(true, LOOP, 0, org.xmlcml.euclid.Real3Range)", "Stmt(VARIABLE_DECLARATION, 34, org.xmlcml.euclid.Real3Range, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 13, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(RETURN, 17, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 17, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 25, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(FOR_EACH, 29, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 33, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(FOR, 0, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 8, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 12, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 20, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 28, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 32, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 11, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 19, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 23, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 23, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 27, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 31, org.xmlcml.euclid.Real3Range, DEFAULT)", "Decision(true, LOOP, 1, org.xmlcml.euclid.Real3Range)", "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 35, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(FOR, 6, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 10, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(RETURN, 10, org.xmlcml.euclid.Real3Range, NON_DEFAULT)", "Stmt(EXPRESSION, 14, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 18, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Real3Range, DEFAULT)", "Stmt(EXPRESSION, 5, org.xmlcml.euclid.Real3Range, DEFAULT)", "Decision(true, LOOP, 0, org.xmlcml.euclid.Real3Range)", "Stmt(VARIABLE_DECLARATION, 34, org.xmlcml.euclid.Real3Range, DEFAULT)" ],
+  "totalElementCount" : 48,
+  "totalCoveredCount" : 44,
+  "totalEffectualCount" : 43,
+  "totalCoverageGap" : 1
+}

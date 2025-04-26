@@ -1,0 +1,43 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j",
+  "className" : "MyStringUtils$Formatter",
+  "coverageElementPositions" : {
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyStringUtils$Formatter, DEFAULT)" : {
+      "startLine" : 1608,
+      "endLine" : 1608,
+      "startCol" : 7,
+      "endCol" : 61
+    },
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyStringUtils$Formatter, NON_DEFAULT)" : {
+      "startLine" : 1608,
+      "endLine" : 1608,
+      "startCol" : 7,
+      "endCol" : 61
+    },
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyStringUtils$Formatter, DEFAULT)" : {
+      "startLine" : 1612,
+      "endLine" : 1612,
+      "startCol" : 7,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 1, org.brunocvcunha.inutils4j.MyStringUtils$Formatter, NON_DEFAULT)" : {
+      "startLine" : 1612,
+      "endLine" : 1612,
+      "startCol" : 7,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyStringUtils$Formatter, DEFAULT)" : {
+      "startLine" : 1616,
+      "endLine" : 1616,
+      "startCol" : 7,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyStringUtils$Formatter, NON_DEFAULT)" : {
+      "startLine" : 1616,
+      "endLine" : 1616,
+      "startCol" : 7,
+      "endCol" : 17
+    }
+  }
+}

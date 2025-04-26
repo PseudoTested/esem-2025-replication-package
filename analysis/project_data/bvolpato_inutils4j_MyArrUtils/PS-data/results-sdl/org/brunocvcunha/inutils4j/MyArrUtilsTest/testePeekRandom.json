@@ -1,0 +1,27 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyArrUtilsTest",
+  "testMethodName" : "testePeekRandom",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 2, org.brunocvcunha.inutils4j.MyArrUtils)" : [ "THREW_EXCEPTION(0, java.lang.IllegalArgumentException: List unique values cannot be less than quantity <org.brunocvcunha.inutils4j.MyArrUtils.peekRandom(MyArrUtils.java:81)>)" ],
+    "Decision(true, LOOP, 3, org.brunocvcunha.inutils4j.MyArrUtils)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 3, org.brunocvcunha.inutils4j.MyArrUtils)" : [ "TIMED_OUT(200)" ],
+    "Stmt(IF, 9, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 9, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(WHILE, 11, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(WHILE, 11, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 12, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 12, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 13, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 13, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 14, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 14, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 15, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"java.util.Set.size()\" because \"randomSet\" is null <org.brunocvcunha.inutils4j.MyArrUtilsTest.testePeekRandom(MyArrUtilsTest.java:80)>)" ],
+    "Stmt(RETURN, 15, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 16, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(VARIABLE_DECLARATION, 16, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(VARIABLE_DECLARATION, 17, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.Set.size()\" because \"randomSet\" is null <org.brunocvcunha.inutils4j.MyArrUtilsTest.testePeekRandom(MyArrUtilsTest.java:80)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 17, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"java.util.Set.size()\" because \"randomSet\" is null <org.brunocvcunha.inutils4j.MyArrUtilsTest.testePeekRandom(MyArrUtilsTest.java:80)>)" ]
+  },
+  "timeTaken" : 228
+}

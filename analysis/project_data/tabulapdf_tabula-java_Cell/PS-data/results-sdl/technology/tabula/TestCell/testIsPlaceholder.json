@@ -1,0 +1,18 @@
+{
+  "testClassName" : "technology.tabula.TestCell",
+  "testMethodName" : "testIsPlaceholder",
+  "testOutcomes" : [ "PASSED(5)", "PASSED(1)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, technology.tabula.Cell, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(EXPRESSION, 0, technology.tabula.Cell, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Cell, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Cell, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 17, technology.tabula.Cell, DEFAULT)" : [ "PASSED(1)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 17, technology.tabula.Cell, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(RETURN, 18, technology.tabula.Cell, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 18, technology.tabula.Cell, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 19, technology.tabula.Cell, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 19, technology.tabula.Cell, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 80
+}

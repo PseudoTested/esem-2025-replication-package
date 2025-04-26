@@ -1,0 +1,100 @@
+src/main/java/info/debatty/java/stringsimilarity/Jaccard.java
+src/main/java/info/debatty/java/stringsimilarity/Damerau.java
+src/main/java/info/debatty/java/stringsimilarity/experimental/Sift4.java
+src/main/java/info/debatty/java/stringsimilarity/SorensenDice.java
+1:/*
+2: * The MIT License
+3: *
+4: * Copyright 2015 Thibault Debatty.
+5: *
+6: * Permission is hereby granted, free of charge, to any person obtaining a copy
+7: * of this software and associated documentation files (the "Software"), to deal
+8: * in the Software without restriction, including without limitation the rights
+9: * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+10: * copies of the Software, and to permit persons to whom the Software is
+11: * furnished to do so, subject to the following conditions:
+12: *
+13: * The above copyright notice and this permission notice shall be included in
+14: * all copies or substantial portions of the Software.
+15: *
+16: * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+17: * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+18: * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+19: * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+20: * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+21: * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+22: * THE SOFTWARE.
+23: */
+32:import net.jcip.annotations.Immutable;
+34:/**
+35: * Similar to Jaccard index, but this time the similarity is computed as 2 * |V1
+36: * inter V2| / (|V1| + |V2|). Distance is computed as 1 - cosine similarity.
+37: *
+38: * @author Thibault Debatty
+39: */
+40:@Immutable
+44:    /**
+45:     * Sorensen-Dice coefficient, aka Sørensen index, Dice's coefficient or
+46:     * Czekanowski's binary (non-quantitative) index.
+47:     *
+48:     * The strings are first converted to boolean sets of k-shingles (sequences
+49:     * of k characters), then the similarity is computed as 2 * |A inter B| /
+50:     * (|A| + |B|). Attention: Sorensen-Dice distance (and similarity) does not
+51:     * satisfy triangle inequality.
+52:     *
+53:     * @param k
+54:     */
+59:    /**
+60:     * Sorensen-Dice coefficient, aka Sørensen index, Dice's coefficient or
+61:     * Czekanowski's binary (non-quantitative) index.
+62:     *
+63:     * The strings are first converted to boolean sets of k-shingles (sequences
+64:     * of k characters), then the similarity is computed as 2 * |A inter B| /
+65:     * (|A| + |B|). Attention: Sorensen-Dice distance (and similarity) does not
+66:     * satisfy triangle inequality. Default k is 3.
+67:     */
+69:        super();
+72:    /**
+73:     * Similarity is computed as 2 * |A inter B| / (|A| + |B|).
+74:     *
+75:     * @param s1 The first string to compare.
+76:     * @param s2 The second string to compare.
+77:     * @return The computed Sorensen-Dice similarity.
+78:     * @throws NullPointerException if s1 or s2 is null.
+79:     */
+81:        if (s1 == null) {
+82:            throw new NullPointerException("s1 must not be null");
+85:        if (s2 == null) {
+86:            throw new NullPointerException("s2 must not be null");
+98:        union.addAll(profile2.keySet());
+111:    /**
+112:     * Returns 1 - similarity.
+113:     *
+114:     * @param s1 The first string to compare.
+115:     * @param s2 The second string to compare.
+116:     * @return 1.0 - the computed similarity
+117:     * @throws NullPointerException if s1 or s2 is null.
+118:     */
+src/main/java/info/debatty/java/stringsimilarity/CharacterInsDelInterface.java
+src/main/java/info/debatty/java/stringsimilarity/WeightedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NormalizedLevenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/NGram.java
+src/main/java/info/debatty/java/stringsimilarity/CharacterSubstitutionInterface.java
+src/main/java/info/debatty/java/stringsimilarity/QGram.java
+src/main/java/info/debatty/java/stringsimilarity/Levenshtein.java
+src/main/java/info/debatty/java/stringsimilarity/ShingleBased.java
+src/main/java/info/debatty/java/stringsimilarity/JaroWinkler.java
+src/main/java/info/debatty/java/stringsimilarity/Cosine.java
+src/main/java/info/debatty/java/stringsimilarity/OptimalStringAlignment.java
+src/main/java/info/debatty/java/stringsimilarity/examples/PrecomputedCosine.java
+src/main/java/info/debatty/java/stringsimilarity/examples/Examples.java
+src/main/java/info/debatty/java/stringsimilarity/examples/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/examples/nischay21.java
+src/main/java/info/debatty/java/stringsimilarity/LongestCommonSubsequence.java
+src/main/java/info/debatty/java/stringsimilarity/MetricLCS.java
+src/main/java/info/debatty/java/stringsimilarity/RatcliffObershelp.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/NormalizedStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringSimilarity.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/MetricStringDistance.java
+src/main/java/info/debatty/java/stringsimilarity/interfaces/StringDistance.java

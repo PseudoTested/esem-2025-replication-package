@@ -1,0 +1,67 @@
+src/main/java/technology/tabula/RectangleSpatialIndex.java
+src/main/java/technology/tabula/TextChunk.java
+src/main/java/technology/tabula/Page.java
+src/main/java/technology/tabula/ObjectExtractorStreamEngine.java
+src/main/java/technology/tabula/PageDims.java
+src/main/java/technology/tabula/TextElement.java
+src/main/java/technology/tabula/Pair.java
+src/main/java/technology/tabula/writers/Writer.java
+src/main/java/technology/tabula/writers/CSVWriter.java
+src/main/java/technology/tabula/writers/JSONWriter.java
+src/main/java/technology/tabula/writers/TSVWriter.java
+src/main/java/technology/tabula/RectangularTextContainer.java
+src/main/java/technology/tabula/CommandLineApp.java
+src/main/java/technology/tabula/Ruling.java
+src/main/java/technology/tabula/QuickSort.java
+src/main/java/technology/tabula/Table.java
+9:@SuppressWarnings("serial")
+38:		this.merge(chunk);
+39:		
+42:		
+43:		CellPosition cp = new CellPosition(row, col);
+44:		
+45:		RectangularTextContainer old = cells.get(cp);
+46:		if (old != null) chunk.merge(old);
+47:		cells.put(cp, chunk);
+49:		this.memoizedRows = null;
+52:	private List<List<RectangularTextContainer>> memoizedRows = null;
+55:		if (this.memoizedRows == null) this.memoizedRows = computeRows();
+56:		return this.memoizedRows;
+59:	private List<List<RectangularTextContainer>> computeRows() {
+61:		for (int i = 0; i < rowCount; i++) {
+62:			List<RectangularTextContainer> lastRow = new ArrayList<>();
+63:			rows.add(lastRow);
+64:			for (int j = 0; j < colCount; j++) {
+65:				RectangularTextContainer cell = cells.get(new CellPosition(i,j)); // JAVA_8 use getOrDefault()
+66:				lastRow.add(cell != null ? cell : TextChunk.EMPTY);
+67:			}
+68:		}
+71:	
+88:	@Override public int hashCode() {
+89:		return row + 101 * col;
+92:	@Override public boolean equals(Object obj) {
+93:		if (this == obj) return true;
+94:		if (obj == null) return false;
+95:		if (getClass() != obj.getClass()) return false;
+96:		CellPosition other = (CellPosition) obj;
+97:		return row == other.row && col == other.col;
+src/main/java/technology/tabula/TableWithRulingLines.java
+src/main/java/technology/tabula/Utils.java
+src/main/java/technology/tabula/ObjectExtractor.java
+src/main/java/technology/tabula/ProjectionProfile.java
+src/main/java/technology/tabula/json/TableSerializer.java
+src/main/java/technology/tabula/json/RectangularTextContainerSerializer.java
+src/main/java/technology/tabula/Rectangle.java
+src/main/java/technology/tabula/CohenSutherlandClipping.java
+src/main/java/technology/tabula/HasText.java
+src/main/java/technology/tabula/TextStripper.java
+src/main/java/technology/tabula/detectors/NurminenDetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/DetectionAlgorithm.java
+src/main/java/technology/tabula/detectors/SpreadsheetDetectionAlgorithm.java
+src/main/java/technology/tabula/extractors/ExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/SpreadsheetExtractionAlgorithm.java
+src/main/java/technology/tabula/extractors/BasicExtractionAlgorithm.java
+src/main/java/technology/tabula/Cell.java
+src/main/java/technology/tabula/PageIterator.java
+src/main/java/technology/tabula/debug/Debug.java
+src/main/java/technology/tabula/Line.java

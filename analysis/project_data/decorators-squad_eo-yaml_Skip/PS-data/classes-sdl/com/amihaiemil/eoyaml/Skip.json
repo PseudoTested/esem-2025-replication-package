@@ -1,0 +1,151 @@
+{
+  "fileName" : "src/main/java/com/amihaiemil/eoyaml/Skip.java",
+  "packageName" : "com.amihaiemil.eoyaml",
+  "className" : "Skip",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, com.amihaiemil.eoyaml.Skip)" : {
+      "startLine" : 68,
+      "endLine" : 68,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Decision(true, LOOP, 1, com.amihaiemil.eoyaml.Skip)" : {
+      "startLine" : 71,
+      "endLine" : 71,
+      "startCol" : 20,
+      "endCol" : 37
+    },
+    "Decision(true, LOOP, 2, com.amihaiemil.eoyaml.Skip)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 34,
+      "endCol" : 61
+    },
+    "Decision(true, IF, 3, com.amihaiemil.eoyaml.Skip)" : {
+      "startLine" : 77,
+      "endLine" : 77,
+      "startCol" : 24,
+      "endCol" : 58
+    },
+    "Decision(true, IF, 4, com.amihaiemil.eoyaml.Skip)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 20,
+      "endCol" : 24
+    },
+    "Stmt(EXPRESSION, 0, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 61,
+      "endLine" : 61,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 1, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 9,
+      "endCol" : 37
+    },
+    "Stmt(IF, 2, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 68,
+      "endLine" : 87,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(WHILE, 3, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 71,
+      "endLine" : 85,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 4, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 17,
+      "endCol" : 35
+    },
+    "Stmt(FOR, 5, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 81,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(IF, 6, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 77,
+      "endLine" : 80,
+      "startCol" : 21,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 7, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 78,
+      "endLine" : 78,
+      "startCol" : 25,
+      "endCol" : 36
+    },
+    "Stmt(BREAK, 8, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 79,
+      "endLine" : 79,
+      "startCol" : 25,
+      "endCol" : 30
+    },
+    "Stmt(IF, 9, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 84,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 10, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 21,
+      "endCol" : 53
+    },
+    "Stmt(VARIABLE_DECLARATION, 11, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 72,
+      "endLine" : 72,
+      "startCol" : 25,
+      "endCol" : 36
+    },
+    "Stmt(EXPRESSION, 12, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 13,
+      "endCol" : 45
+    },
+    "Stmt(VARIABLE_DECLARATION, 13, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 22,
+      "endCol" : 59
+    },
+    "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 88,
+      "endLine" : 88,
+      "startCol" : 9,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 14, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : {
+      "startLine" : 88,
+      "endLine" : 88,
+      "startCol" : 9,
+      "endCol" : 24
+    },
+    "Stmt(VARIABLE_DECLARATION, 15, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 28,
+      "endCol" : 63
+    },
+    "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 9,
+      "endCol" : 49
+    },
+    "Stmt(RETURN, 16, com.amihaiemil.eoyaml.Skip, NON_DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 9,
+      "endCol" : 49
+    }
+  }
+}

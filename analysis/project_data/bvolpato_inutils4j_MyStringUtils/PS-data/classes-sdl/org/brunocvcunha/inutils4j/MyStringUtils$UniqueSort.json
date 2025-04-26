@@ -1,0 +1,19 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j",
+  "className" : "MyStringUtils$UniqueSort",
+  "coverageElementPositions" : {
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyStringUtils$UniqueSort, DEFAULT)" : {
+      "startLine" : 1643,
+      "endLine" : 1643,
+      "startCol" : 7,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyStringUtils$UniqueSort, NON_DEFAULT)" : {
+      "startLine" : 1643,
+      "endLine" : 1643,
+      "startCol" : 7,
+      "endCol" : 34
+    }
+  }
+}

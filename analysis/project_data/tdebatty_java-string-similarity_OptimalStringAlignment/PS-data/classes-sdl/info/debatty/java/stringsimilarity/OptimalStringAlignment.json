@@ -1,0 +1,265 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/OptimalStringAlignment.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "OptimalStringAlignment",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 55,
+      "endLine" : 55,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 1, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 2, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 63,
+      "endLine" : 63,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 3, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 69,
+      "endLine" : 69,
+      "startCol" : 13,
+      "endCol" : 18
+    },
+    "Decision(true, IF, 4, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 13,
+      "endCol" : 18
+    },
+    "Decision(true, LOOP, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 25,
+      "endCol" : 30
+    },
+    "Decision(true, LOOP, 6, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 84,
+      "endLine" : 84,
+      "startCol" : 25,
+      "endCol" : 30
+    },
+    "Decision(true, LOOP, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 91,
+      "endLine" : 91,
+      "startCol" : 25,
+      "endCol" : 30
+    },
+    "Decision(true, LOOP, 8, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 29,
+      "endCol" : 34
+    },
+    "Decision(true, IF, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 21,
+      "endCol" : 56
+    },
+    "Decision(true, IF, 10, info.debatty.java.stringsimilarity.OptimalStringAlignment)" : {
+      "startLine" : 107,
+      "endLine" : 109,
+      "startCol" : 21,
+      "endCol" : 63
+    },
+    "Stmt(IF, 0, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 55,
+      "endLine" : 57,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 1, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 2, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 61,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 3, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 4, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 65,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 64,
+      "endLine" : 64,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)" : {
+      "startLine" : 64,
+      "endLine" : 64,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(IF, 6, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 69,
+      "endLine" : 71,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 7, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(IF, 8, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 75,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 9, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(FOR, 10, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 11, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(FOR, 12, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 84,
+      "endLine" : 86,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 13, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(FOR, 14, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 91,
+      "endLine" : 113,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 15, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 112,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 16, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 95,
+      "endLine" : 95,
+      "startCol" : 17,
+      "endCol" : 25
+    },
+    "Stmt(IF, 17, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 98,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 18, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 21,
+      "endCol" : 29
+    },
+    "Stmt(EXPRESSION, 19, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 104,
+      "startCol" : 17,
+      "endCol" : 18
+    },
+    "Stmt(IF, 20, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 107,
+      "endLine" : 111,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 21, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 110,
+      "endLine" : 110,
+      "startCol" : 21,
+      "endCol" : 72
+    },
+    "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 115,
+      "endLine" : 115,
+      "startCol" : 9,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 22, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)" : {
+      "startLine" : 115,
+      "endLine" : 115,
+      "startCol" : 9,
+      "endCol" : 23
+    },
+    "Stmt(VARIABLE_DECLARATION, 23, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 13,
+      "endCol" : 27
+    },
+    "Stmt(VARIABLE_DECLARATION, 24, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 30,
+      "endCol" : 44
+    },
+    "Stmt(VARIABLE_DECLARATION, 25, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 78,
+      "endLine" : 78,
+      "startCol" : 17,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 26, info.debatty.java.stringsimilarity.OptimalStringAlignment, DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 9,
+      "endCol" : 43
+    },
+    "Stmt(RETURN, 26, info.debatty.java.stringsimilarity.OptimalStringAlignment, NON_DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 9,
+      "endCol" : 43
+    }
+  }
+}

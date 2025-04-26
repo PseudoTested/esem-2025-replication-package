@@ -1,0 +1,37 @@
+src/main/java/org/brunocvcunha/inutils4j/MyMapUtils.java
+2: * Copyright © 2014 Bruno Candido Volpato da Cunha (brunocvcunha@gmail.com)
+4: * Licensed under the Apache License, Version 2.0 (the "License");
+5: * you may not use this file except in compliance with the License.
+6: * You may obtain a copy of the License at
+23:/**
+24: * Map utilities
+25: * 
+26: * @author Bruno Candido Volpato da Cunha
+32:   * Ranks a map based on integer values
+33:   * @param inputMap Input
+34:   * @return The ranked map
+54:  /* (non-Javadoc)
+55:   * @see java.util.Comparator#compare(java.lang.Object, java.lang.Object)
+57:  @Override
+62:    
+src/main/java/org/brunocvcunha/inutils4j/MyListUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyObjectUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyConcurrencyUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyFileUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyVideoUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MySystemUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStreamUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyStringUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyZipUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyArrUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyTextRegex.java
+src/main/java/org/brunocvcunha/inutils4j/MyNumberUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyDateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyImageUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyClasspathUtils.java
+src/main/java/org/brunocvcunha/inutils4j/FixType.java
+src/main/java/org/brunocvcunha/inutils4j/thirdparty/DateUtils.java
+src/main/java/org/brunocvcunha/inutils4j/MyHTTPUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionDifferenceHandler.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionUtils.java
+src/main/java/org/brunocvcunha/inutils4j/reflection/MyDefaultReflectionDifferenceHandler.java

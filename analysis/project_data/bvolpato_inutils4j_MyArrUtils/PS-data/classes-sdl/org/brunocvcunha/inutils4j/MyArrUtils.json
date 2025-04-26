@@ -1,0 +1,607 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/MyArrUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j",
+  "className" : "MyArrUtils",
+  "coverageElementPositions" : {
+    "Decision(true, LOOP, 0, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 30,
+      "endLine" : 30,
+      "startCol" : 22,
+      "endCol" : 31
+    },
+    "Decision(true, IF, 1, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 31,
+      "endLine" : 31,
+      "startCol" : 11,
+      "endCol" : 49
+    },
+    "Decision(true, IF, 2, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 53,
+      "endLine" : 53,
+      "startCol" : 9,
+      "endCol" : 29
+    },
+    "Decision(true, LOOP, 3, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 58,
+      "endLine" : 58,
+      "startCol" : 12,
+      "endCol" : 39
+    },
+    "Decision(true, LOOP, 4, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 71,
+      "endLine" : 71,
+      "startCol" : 22,
+      "endCol" : 31
+    },
+    "Decision(true, IF, 5, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 72,
+      "endLine" : 72,
+      "startCol" : 11,
+      "endCol" : 29
+    },
+    "Decision(true, LOOP, 6, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 22,
+      "endCol" : 31
+    },
+    "Decision(true, IF, 7, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 11,
+      "endCol" : 29
+    },
+    "Decision(true, LOOP, 8, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 91,
+      "endLine" : 91,
+      "startCol" : 22,
+      "endCol" : 31
+    },
+    "Decision(true, IF, 9, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 11,
+      "endCol" : 29
+    },
+    "Decision(true, LOOP, 10, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 106,
+      "endLine" : 106,
+      "startCol" : 12,
+      "endCol" : 22
+    },
+    "Decision(true, LOOP, 11, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 122,
+      "endLine" : 122,
+      "startCol" : 12,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 12, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 135,
+      "endLine" : 135,
+      "startCol" : 9,
+      "endCol" : 54
+    },
+    "Decision(true, IF, 13, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 140,
+      "endLine" : 140,
+      "startCol" : 9,
+      "endCol" : 43
+    },
+    "Decision(true, LOOP, 14, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 144,
+      "endLine" : 144,
+      "startCol" : 21,
+      "endCol" : 41
+    },
+    "Decision(true, IF, 15, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 146,
+      "endLine" : 146,
+      "startCol" : 11,
+      "endCol" : 38
+    },
+    "Decision(true, LOOP, 16, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 149,
+      "endLine" : 149,
+      "startCol" : 25,
+      "endCol" : 43
+    },
+    "Decision(true, IF, 17, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 151,
+      "endLine" : 151,
+      "startCol" : 15,
+      "endCol" : 76
+    },
+    "Decision(true, IF, 18, org.brunocvcunha.inutils4j.MyArrUtils)" : {
+      "startLine" : 158,
+      "endLine" : 158,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(FOR, 0, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 30,
+      "endLine" : 34,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(IF, 1, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 31,
+      "endLine" : 33,
+      "startCol" : 7,
+      "endCol" : 7
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 32,
+      "endLine" : 32,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 2, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 32,
+      "endLine" : 32,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 3, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 35,
+      "endLine" : 35,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 3, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 35,
+      "endLine" : 35,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(VARIABLE_DECLARATION, 4, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 29,
+      "endLine" : 29,
+      "startCol" : 9,
+      "endCol" : 52
+    },
+    "Stmt(RETURN, 5, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 39,
+      "endLine" : 39,
+      "startCol" : 5,
+      "endCol" : 43
+    },
+    "Stmt(RETURN, 5, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 39,
+      "endLine" : 39,
+      "startCol" : 5,
+      "endCol" : 43
+    },
+    "Stmt(RETURN, 6, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 5,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 6, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 5,
+      "endCol" : 28
+    },
+    "Stmt(VARIABLE_DECLARATION, 7, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 43,
+      "endLine" : 43,
+      "startCol" : 9,
+      "endCol" : 50
+    },
+    "Stmt(RETURN, 8, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 5,
+      "endCol" : 53
+    },
+    "Stmt(RETURN, 8, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 5,
+      "endCol" : 53
+    },
+    "Stmt(IF, 9, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 53,
+      "endLine" : 55,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(THROW, 10, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 54,
+      "endLine" : 54,
+      "startCol" : 7,
+      "endCol" : 92
+    },
+    "Stmt(WHILE, 11, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 58,
+      "endLine" : 63,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(EXPRESSION, 12, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 7,
+      "endCol" : 25
+    },
+    "Stmt(VARIABLE_DECLARATION, 13, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 11,
+      "endCol" : 52
+    },
+    "Stmt(VARIABLE_DECLARATION, 14, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 9,
+      "endCol" : 30
+    },
+    "Stmt(RETURN, 15, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 65,
+      "startCol" : 5,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 15, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 65,
+      "startCol" : 5,
+      "endCol" : 21
+    },
+    "Stmt(VARIABLE_DECLARATION, 16, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 12,
+      "endCol" : 37
+    },
+    "Stmt(VARIABLE_DECLARATION, 17, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 57,
+      "endLine" : 57,
+      "startCol" : 12,
+      "endCol" : 39
+    },
+    "Stmt(FOR, 18, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 71,
+      "endLine" : 75,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(IF, 19, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 72,
+      "endLine" : 74,
+      "startCol" : 7,
+      "endCol" : 7
+    },
+    "Stmt(RETURN, 20, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 20, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 21, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 21, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(VARIABLE_DECLARATION, 22, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 9,
+      "endCol" : 52
+    },
+    "Stmt(FOR, 23, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 85,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(IF, 24, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 84,
+      "startCol" : 7,
+      "endCol" : 7
+    },
+    "Stmt(RETURN, 25, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 25, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 26, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 26, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(VARIABLE_DECLARATION, 27, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 80,
+      "endLine" : 80,
+      "startCol" : 9,
+      "endCol" : 52
+    },
+    "Stmt(FOR, 28, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 91,
+      "endLine" : 95,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(IF, 29, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 94,
+      "startCol" : 7,
+      "endCol" : 7
+    },
+    "Stmt(RETURN, 30, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 30, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 9,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 31, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 31, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 96,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(VARIABLE_DECLARATION, 32, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 9,
+      "endCol" : 52
+    },
+    "Stmt(EXPRESSION, 33, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 5,
+      "endCol" : 38
+    },
+    "Stmt(WHILE, 34, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 106,
+      "endLine" : 112,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(EXPRESSION, 35, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 7,
+      "endCol" : 34
+    },
+    "Stmt(EXPRESSION, 36, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 7,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 37, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 110,
+      "endLine" : 110,
+      "startCol" : 7,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 38, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 111,
+      "endLine" : 111,
+      "startCol" : 7,
+      "endCol" : 13
+    },
+    "Stmt(VARIABLE_DECLARATION, 39, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 107,
+      "endLine" : 107,
+      "startCol" : 12,
+      "endCol" : 31
+    },
+    "Stmt(VARIABLE_DECLARATION, 40, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 104,
+      "startCol" : 9,
+      "endCol" : 21
+    },
+    "Stmt(VARIABLE_DECLARATION, 41, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 105,
+      "endLine" : 105,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(EXPRESSION, 42, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 116,
+      "endLine" : 116,
+      "startCol" : 5,
+      "endCol" : 38
+    },
+    "Stmt(WHILE, 43, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 122,
+      "endLine" : 128,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(EXPRESSION, 44, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 124,
+      "endLine" : 124,
+      "startCol" : 7,
+      "endCol" : 34
+    },
+    "Stmt(EXPRESSION, 45, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 125,
+      "endLine" : 125,
+      "startCol" : 7,
+      "endCol" : 27
+    },
+    "Stmt(EXPRESSION, 46, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 126,
+      "endLine" : 126,
+      "startCol" : 7,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 47, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 127,
+      "endLine" : 127,
+      "startCol" : 7,
+      "endCol" : 13
+    },
+    "Stmt(VARIABLE_DECLARATION, 48, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 123,
+      "endLine" : 123,
+      "startCol" : 11,
+      "endCol" : 30
+    },
+    "Stmt(VARIABLE_DECLARATION, 49, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 9,
+      "endCol" : 21
+    },
+    "Stmt(VARIABLE_DECLARATION, 50, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 121,
+      "endLine" : 121,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(IF, 51, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 135,
+      "endLine" : 137,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(RETURN, 52, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 136,
+      "endLine" : 136,
+      "startCol" : 7,
+      "endCol" : 16
+    },
+    "Stmt(RETURN, 52, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 136,
+      "endLine" : 136,
+      "startCol" : 7,
+      "endCol" : 16
+    },
+    "Stmt(IF, 53, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 140,
+      "endLine" : 142,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(RETURN, 54, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 7,
+      "endCol" : 16
+    },
+    "Stmt(RETURN, 54, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 7,
+      "endCol" : 16
+    },
+    "Stmt(FOR, 55, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 144,
+      "endLine" : 163,
+      "startCol" : 5,
+      "endCol" : 5
+    },
+    "Stmt(IF, 56, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 146,
+      "endLine" : 162,
+      "startCol" : 7,
+      "endCol" : 7
+    },
+    "Stmt(FOR, 57, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 149,
+      "endLine" : 155,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(IF, 58, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 151,
+      "endLine" : 154,
+      "startCol" : 11,
+      "endCol" : 11
+    },
+    "Stmt(EXPRESSION, 59, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 152,
+      "endLine" : 152,
+      "startCol" : 13,
+      "endCol" : 34
+    },
+    "Stmt(BREAK, 60, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 153,
+      "endLine" : 153,
+      "startCol" : 13,
+      "endCol" : 18
+    },
+    "Stmt(IF, 61, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 158,
+      "endLine" : 160,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 62, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 159,
+      "endLine" : 159,
+      "startCol" : 11,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 62, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 159,
+      "endLine" : 159,
+      "startCol" : 11,
+      "endCol" : 19
+    },
+    "Stmt(VARIABLE_DECLARATION, 63, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 148,
+      "endLine" : 148,
+      "startCol" : 17,
+      "endCol" : 36
+    },
+    "Stmt(RETURN, 64, org.brunocvcunha.inutils4j.MyArrUtils, DEFAULT)" : {
+      "startLine" : 166,
+      "endLine" : 166,
+      "startCol" : 5,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 64, org.brunocvcunha.inutils4j.MyArrUtils, NON_DEFAULT)" : {
+      "startLine" : 166,
+      "endLine" : 166,
+      "startCol" : 5,
+      "endCol" : 14
+    }
+  }
+}

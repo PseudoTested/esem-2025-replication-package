@@ -1,0 +1,5 @@
+{
+  "sourceFileClasses" : {
+    "src/main/java/com/facebook/ads/sdk/serverside/BatchProcessor.java" : [ "com.facebook.ads.sdk.serverside.BatchProcessor$EventIterator", "com.facebook.ads.sdk.serverside.BatchProcessor", "com.facebook.ads.sdk.serverside.BatchProcessor$EventRequestIterator" ]
+  }
+}

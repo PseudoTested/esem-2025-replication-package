@@ -1,0 +1,1267 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/Line2.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "Line2",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 59,
+      "endLine" : 59,
+      "startCol" : 7,
+      "endCol" : 35
+    },
+    "Decision(true, IF, 1, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 7,
+      "endCol" : 30
+    },
+    "Decision(true, IF, 2, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 7,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 3, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 105,
+      "endLine" : 105,
+      "startCol" : 7,
+      "endCol" : 21
+    },
+    "Decision(true, IF, 4, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 107,
+      "endLine" : 109,
+      "startCol" : 8,
+      "endCol" : 36
+    },
+    "Decision(true, IF, 5, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 122,
+      "endLine" : 122,
+      "startCol" : 7,
+      "endCol" : 24
+    },
+    "Decision(true, IF, 6, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 124,
+      "endLine" : 126,
+      "startCol" : 8,
+      "endCol" : 57
+    },
+    "Decision(true, IF, 7, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 129,
+      "endLine" : 129,
+      "startCol" : 14,
+      "endCol" : 39
+    },
+    "Decision(true, IF, 8, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 143,
+      "endLine" : 143,
+      "startCol" : 7,
+      "endCol" : 50
+    },
+    "Decision(true, IF, 9, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 167,
+      "endLine" : 167,
+      "startCol" : 7,
+      "endCol" : 19
+    },
+    "Decision(true, IF, 10, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 169,
+      "endLine" : 169,
+      "startCol" : 8,
+      "endCol" : 17
+    },
+    "Decision(true, IF, 11, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 194,
+      "endLine" : 194,
+      "startCol" : 7,
+      "endCol" : 24
+    },
+    "Decision(true, IF, 12, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 288,
+      "endLine" : 288,
+      "startCol" : 7,
+      "endCol" : 33
+    },
+    "Decision(true, IF, 13, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 303,
+      "endLine" : 303,
+      "startCol" : 7,
+      "endCol" : 33
+    },
+    "Decision(true, IF, 14, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 319,
+      "endLine" : 319,
+      "startCol" : 7,
+      "endCol" : 33
+    },
+    "Decision(true, IF, 15, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 337,
+      "endLine" : 337,
+      "startCol" : 7,
+      "endCol" : 48
+    },
+    "Decision(true, IF, 16, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 353,
+      "endLine" : 353,
+      "startCol" : 7,
+      "endCol" : 18
+    },
+    "Decision(true, IF, 17, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 360,
+      "endLine" : 360,
+      "startCol" : 7,
+      "endCol" : 38
+    },
+    "Decision(true, IF, 18, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 416,
+      "endLine" : 416,
+      "startCol" : 7,
+      "endCol" : 12
+    },
+    "Decision(true, IF, 19, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 418,
+      "endLine" : 418,
+      "startCol" : 14,
+      "endCol" : 19
+    },
+    "Decision(true, IF, 20, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 431,
+      "endLine" : 431,
+      "startCol" : 7,
+      "endCol" : 12
+    },
+    "Decision(true, IF, 21, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 433,
+      "endLine" : 433,
+      "startCol" : 14,
+      "endCol" : 19
+    },
+    "Decision(true, IF, 22, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 476,
+      "endLine" : 476,
+      "startCol" : 7,
+      "endCol" : 16
+    },
+    "Decision(true, IF, 23, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 489,
+      "endLine" : 489,
+      "startCol" : 7,
+      "endCol" : 35
+    },
+    "Decision(true, IF, 24, org.xmlcml.euclid.Line2)" : {
+      "startLine" : 492,
+      "endLine" : 492,
+      "startCol" : 7,
+      "endCol" : 47
+    },
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 51,
+      "endLine" : 51,
+      "startCol" : 3,
+      "endCol" : 30
+    },
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 3,
+      "endCol" : 26
+    },
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 53,
+      "endLine" : 53,
+      "startCol" : 3,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 54,
+      "endLine" : 54,
+      "startCol" : 3,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 58,
+      "endLine" : 58,
+      "startCol" : 3,
+      "endCol" : 42
+    },
+    "Stmt(IF, 5, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 59,
+      "endLine" : 61,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 6, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 4,
+      "endCol" : 61
+    },
+    "Stmt(EXPRESSION, 7, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 65,
+      "startCol" : 3,
+      "endCol" : 21
+    },
+    "Stmt(EXPRESSION, 8, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 3,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 9, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 67,
+      "endLine" : 67,
+      "startCol" : 3,
+      "endCol" : 20
+    },
+    "Stmt(IF, 10, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 78,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(THROW, 11, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 77,
+      "endLine" : 77,
+      "startCol" : 4,
+      "endCol" : 79
+    },
+    "Stmt(EXPRESSION, 12, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 79,
+      "endLine" : 79,
+      "startCol" : 3,
+      "endCol" : 30
+    },
+    "Stmt(EXPRESSION, 13, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 80,
+      "endLine" : 80,
+      "startCol" : 3,
+      "endCol" : 31
+    },
+    "Stmt(EXPRESSION, 14, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 3,
+      "endCol" : 20
+    },
+    "Stmt(IF, 15, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 96,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(TRY, 16, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 91,
+      "endLine" : 95,
+      "startCol" : 4,
+      "endCol" : 4
+    },
+    "Stmt(EXPRESSION, 17, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 94,
+      "endLine" : 94,
+      "startCol" : 5,
+      "endCol" : 86
+    },
+    "Stmt(EXPRESSION, 18, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 5,
+      "endCol" : 42
+    },
+    "Stmt(RETURN, 19, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(RETURN, 19, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(IF, 20, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 105,
+      "endLine" : 113,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 21, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 106,
+      "endLine" : 106,
+      "startCol" : 4,
+      "endCol" : 14
+    },
+    "Stmt(IF, 22, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 107,
+      "endLine" : 112,
+      "startCol" : 4,
+      "endCol" : 4
+    },
+    "Stmt(EXPRESSION, 23, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 111,
+      "endLine" : 111,
+      "startCol" : 5,
+      "endCol" : 42
+    },
+    "Stmt(RETURN, 24, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 114,
+      "endLine" : 114,
+      "startCol" : 3,
+      "endCol" : 11
+    },
+    "Stmt(RETURN, 24, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 114,
+      "endLine" : 114,
+      "startCol" : 3,
+      "endCol" : 11
+    },
+    "Stmt(IF, 25, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 122,
+      "endLine" : 132,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 26, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 123,
+      "endLine" : 123,
+      "startCol" : 4,
+      "endCol" : 19
+    },
+    "Stmt(IF, 27, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 124,
+      "endLine" : 131,
+      "startCol" : 4,
+      "endCol" : 4
+    },
+    "Stmt(IF, 28, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 129,
+      "endLine" : 131,
+      "startCol" : 11,
+      "endCol" : 4
+    },
+    "Stmt(EXPRESSION, 29, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 130,
+      "endLine" : 130,
+      "startCol" : 5,
+      "endCol" : 23
+    },
+    "Stmt(EXPRESSION, 30, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 128,
+      "endLine" : 128,
+      "startCol" : 5,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 31, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 133,
+      "endLine" : 133,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 31, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 133,
+      "endLine" : 133,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(IF, 32, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 143,
+      "endLine" : 153,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 33, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 152,
+      "endLine" : 152,
+      "startCol" : 4,
+      "endCol" : 30
+    },
+    "Stmt(VARIABLE_DECLARATION, 34, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 146,
+      "endLine" : 146,
+      "startCol" : 11,
+      "endCol" : 58
+    },
+    "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 147,
+      "endLine" : 147,
+      "startCol" : 12,
+      "endCol" : 58
+    },
+    "Stmt(VARIABLE_DECLARATION, 36, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 148,
+      "endLine" : 148,
+      "startCol" : 11,
+      "endCol" : 48
+    },
+    "Stmt(VARIABLE_DECLARATION, 37, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 150,
+      "endLine" : 150,
+      "startCol" : 11,
+      "endCol" : 32
+    },
+    "Stmt(VARIABLE_DECLARATION, 38, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 151,
+      "endLine" : 151,
+      "startCol" : 10,
+      "endCol" : 39
+    },
+    "Stmt(EXPRESSION, 39, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 144,
+      "endLine" : 144,
+      "startCol" : 4,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 40, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 154,
+      "endLine" : 154,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(RETURN, 40, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 154,
+      "endLine" : 154,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(VARIABLE_DECLARATION, 41, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 142,
+      "endLine" : 142,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(IF, 42, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 167,
+      "endLine" : 175,
+      "startCol" : 3,
+      "endCol" : 4
+    },
+    "Stmt(IF, 43, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 169,
+      "endLine" : 174,
+      "startCol" : 4,
+      "endCol" : 5
+    },
+    "Stmt(EXPRESSION, 44, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 171,
+      "endLine" : 173,
+      "startCol" : 5,
+      "endCol" : 37
+    },
+    "Stmt(VARIABLE_DECLARATION, 45, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 170,
+      "endLine" : 170,
+      "startCol" : 12,
+      "endCol" : 42
+    },
+    "Stmt(VARIABLE_DECLARATION, 46, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 168,
+      "endLine" : 168,
+      "startCol" : 11,
+      "endCol" : 59
+    },
+    "Stmt(RETURN, 47, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 176,
+      "endLine" : 176,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 47, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 176,
+      "endLine" : 176,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(VARIABLE_DECLARATION, 48, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 166,
+      "endLine" : 166,
+      "startCol" : 11,
+      "endCol" : 26
+    },
+    "Stmt(EXPRESSION, 49, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 185,
+      "endLine" : 185,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(EXPRESSION, 50, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 186,
+      "endLine" : 186,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(VARIABLE_DECLARATION, 51, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 184,
+      "endLine" : 184,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(IF, 52, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 194,
+      "endLine" : 196,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 53, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 195,
+      "endLine" : 195,
+      "startCol" : 4,
+      "endCol" : 52
+    },
+    "Stmt(RETURN, 54, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 197,
+      "endLine" : 197,
+      "startCol" : 3,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 54, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 197,
+      "endLine" : 197,
+      "startCol" : 3,
+      "endCol" : 20
+    },
+    "Stmt(EXPRESSION, 55, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 206,
+      "endLine" : 206,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(EXPRESSION, 56, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 207,
+      "endLine" : 207,
+      "startCol" : 3,
+      "endCol" : 24
+    },
+    "Stmt(EXPRESSION, 57, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 209,
+      "endLine" : 209,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(RETURN, 58, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 210,
+      "endLine" : 210,
+      "startCol" : 3,
+      "endCol" : 38
+    },
+    "Stmt(RETURN, 58, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 210,
+      "endLine" : 210,
+      "startCol" : 3,
+      "endCol" : 38
+    },
+    "Stmt(VARIABLE_DECLARATION, 59, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 208,
+      "endLine" : 208,
+      "startCol" : 11,
+      "endCol" : 47
+    },
+    "Stmt(EXPRESSION, 60, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 222,
+      "endLine" : 222,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(EXPRESSION, 61, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 223,
+      "endLine" : 223,
+      "startCol" : 3,
+      "endCol" : 24
+    },
+    "Stmt(EXPRESSION, 62, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 225,
+      "endLine" : 225,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(RETURN, 63, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 226,
+      "endLine" : 226,
+      "startCol" : 3,
+      "endCol" : 38
+    },
+    "Stmt(RETURN, 63, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 226,
+      "endLine" : 226,
+      "startCol" : 3,
+      "endCol" : 38
+    },
+    "Stmt(VARIABLE_DECLARATION, 64, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 224,
+      "endLine" : 224,
+      "startCol" : 11,
+      "endCol" : 47
+    },
+    "Stmt(RETURN, 65, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 237,
+      "endLine" : 237,
+      "startCol" : 3,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 65, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 237,
+      "endLine" : 237,
+      "startCol" : 3,
+      "endCol" : 31
+    },
+    "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 236,
+      "endLine" : 236,
+      "startCol" : 9,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 67, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 265,
+      "endLine" : 265,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 67, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 265,
+      "endLine" : 265,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(VARIABLE_DECLARATION, 68, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 259,
+      "endLine" : 259,
+      "startCol" : 11,
+      "endCol" : 64
+    },
+    "Stmt(VARIABLE_DECLARATION, 69, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 260,
+      "endLine" : 260,
+      "startCol" : 11,
+      "endCol" : 56
+    },
+    "Stmt(VARIABLE_DECLARATION, 70, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 261,
+      "endLine" : 261,
+      "startCol" : 10,
+      "endCol" : 29
+    },
+    "Stmt(VARIABLE_DECLARATION, 71, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 262,
+      "endLine" : 262,
+      "startCol" : 10,
+      "endCol" : 29
+    },
+    "Stmt(VARIABLE_DECLARATION, 72, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 263,
+      "endLine" : 263,
+      "startCol" : 10,
+      "endCol" : 20
+    },
+    "Stmt(VARIABLE_DECLARATION, 73, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 264,
+      "endLine" : 264,
+      "startCol" : 9,
+      "endCol" : 48
+    },
+    "Stmt(EXPRESSION, 74, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 273,
+      "endLine" : 273,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 75, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 277,
+      "endLine" : 277,
+      "startCol" : 3,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 75, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 277,
+      "endLine" : 277,
+      "startCol" : 3,
+      "endCol" : 23
+    },
+    "Stmt(VARIABLE_DECLARATION, 76, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 274,
+      "endLine" : 274,
+      "startCol" : 11,
+      "endCol" : 53
+    },
+    "Stmt(VARIABLE_DECLARATION, 77, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 275,
+      "endLine" : 275,
+      "startCol" : 10,
+      "endCol" : 43
+    },
+    "Stmt(VARIABLE_DECLARATION, 78, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 276,
+      "endLine" : 276,
+      "startCol" : 9,
+      "endCol" : 42
+    },
+    "Stmt(IF, 79, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 288,
+      "endLine" : 292,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 80, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 290,
+      "endLine" : 290,
+      "startCol" : 4,
+      "endCol" : 34
+    },
+    "Stmt(EXPRESSION, 81, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 291,
+      "endLine" : 291,
+      "startCol" : 4,
+      "endCol" : 70
+    },
+    "Stmt(VARIABLE_DECLARATION, 82, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 289,
+      "endLine" : 289,
+      "startCol" : 10,
+      "endCol" : 39
+    },
+    "Stmt(RETURN, 83, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 293,
+      "endLine" : 293,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 83, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 293,
+      "endLine" : 293,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(VARIABLE_DECLARATION, 84, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 287,
+      "endLine" : 287,
+      "startCol" : 11,
+      "endCol" : 25
+    },
+    "Stmt(IF, 85, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 303,
+      "endLine" : 307,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 86, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 305,
+      "endLine" : 305,
+      "startCol" : 4,
+      "endCol" : 26
+    },
+    "Stmt(EXPRESSION, 87, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 306,
+      "endLine" : 306,
+      "startCol" : 4,
+      "endCol" : 94
+    },
+    "Stmt(VARIABLE_DECLARATION, 88, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 304,
+      "endLine" : 304,
+      "startCol" : 10,
+      "endCol" : 39
+    },
+    "Stmt(RETURN, 89, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 308,
+      "endLine" : 308,
+      "startCol" : 3,
+      "endCol" : 22
+    },
+    "Stmt(RETURN, 89, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 308,
+      "endLine" : 308,
+      "startCol" : 3,
+      "endCol" : 22
+    },
+    "Stmt(VARIABLE_DECLARATION, 90, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 302,
+      "endLine" : 302,
+      "startCol" : 11,
+      "endCol" : 29
+    },
+    "Stmt(IF, 91, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 319,
+      "endLine" : 321,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 92, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 320,
+      "endLine" : 320,
+      "startCol" : 4,
+      "endCol" : 75
+    },
+    "Stmt(RETURN, 93, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 322,
+      "endLine" : 322,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 93, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 322,
+      "endLine" : 322,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(VARIABLE_DECLARATION, 94, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 318,
+      "endLine" : 318,
+      "startCol" : 11,
+      "endCol" : 21
+    },
+    "Stmt(IF, 95, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 337,
+      "endLine" : 340,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 96, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 339,
+      "endLine" : 339,
+      "startCol" : 4,
+      "endCol" : 36
+    },
+    "Stmt(VARIABLE_DECLARATION, 97, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 338,
+      "endLine" : 338,
+      "startCol" : 10,
+      "endCol" : 54
+    },
+    "Stmt(RETURN, 98, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 341,
+      "endLine" : 341,
+      "startCol" : 3,
+      "endCol" : 11
+    },
+    "Stmt(RETURN, 98, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 341,
+      "endLine" : 341,
+      "startCol" : 3,
+      "endCol" : 11
+    },
+    "Stmt(VARIABLE_DECLARATION, 99, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 336,
+      "endLine" : 336,
+      "startCol" : 10,
+      "endCol" : 17
+    },
+    "Stmt(IF, 100, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 353,
+      "endLine" : 355,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 101, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 354,
+      "endLine" : 354,
+      "startCol" : 4,
+      "endCol" : 63
+    },
+    "Stmt(RETURN, 102, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 356,
+      "endLine" : 356,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(RETURN, 102, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 356,
+      "endLine" : 356,
+      "startCol" : 3,
+      "endCol" : 15
+    },
+    "Stmt(VARIABLE_DECLARATION, 103, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 352,
+      "endLine" : 352,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(IF, 104, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 360,
+      "endLine" : 360,
+      "startCol" : 3,
+      "endCol" : 52
+    },
+    "Stmt(RETURN, 105, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 360,
+      "endLine" : 360,
+      "startCol" : 41,
+      "endCol" : 52
+    },
+    "Stmt(RETURN, 105, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 360,
+      "endLine" : 360,
+      "startCol" : 41,
+      "endCol" : 52
+    },
+    "Stmt(RETURN, 106, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 362,
+      "endLine" : 362,
+      "startCol" : 3,
+      "endCol" : 86
+    },
+    "Stmt(RETURN, 106, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 362,
+      "endLine" : 362,
+      "startCol" : 3,
+      "endCol" : 86
+    },
+    "Stmt(VARIABLE_DECLARATION, 107, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 361,
+      "endLine" : 361,
+      "startCol" : 9,
+      "endCol" : 43
+    },
+    "Stmt(RETURN, 108, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 377,
+      "endLine" : 377,
+      "startCol" : 3,
+      "endCol" : 16
+    },
+    "Stmt(RETURN, 108, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 377,
+      "endLine" : 377,
+      "startCol" : 3,
+      "endCol" : 16
+    },
+    "Stmt(VARIABLE_DECLARATION, 109, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 373,
+      "endLine" : 373,
+      "startCol" : 9,
+      "endCol" : 44
+    },
+    "Stmt(VARIABLE_DECLARATION, 110, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 374,
+      "endLine" : 374,
+      "startCol" : 9,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 111, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 375,
+      "endLine" : 376,
+      "startCol" : 10,
+      "endCol" : 62
+    },
+    "Stmt(RETURN, 112, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 385,
+      "endLine" : 385,
+      "startCol" : 3,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 112, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 385,
+      "endLine" : 385,
+      "startCol" : 3,
+      "endCol" : 28
+    },
+    "Stmt(VARIABLE_DECLARATION, 113, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 384,
+      "endLine" : 384,
+      "startCol" : 9,
+      "endCol" : 36
+    },
+    "Stmt(RETURN, 114, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 392,
+      "endLine" : 392,
+      "startCol" : 3,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 114, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 392,
+      "endLine" : 392,
+      "startCol" : 3,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 115, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 399,
+      "endLine" : 399,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 115, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 399,
+      "endLine" : 399,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 116, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 406,
+      "endLine" : 406,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 116, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 406,
+      "endLine" : 406,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(IF, 117, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 416,
+      "endLine" : 422,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(IF, 118, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 418,
+      "endLine" : 422,
+      "startCol" : 10,
+      "endCol" : 3
+    },
+    "Stmt(THROW, 119, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 421,
+      "endLine" : 421,
+      "startCol" : 4,
+      "endCol" : 61
+    },
+    "Stmt(EXPRESSION, 120, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 419,
+      "endLine" : 419,
+      "startCol" : 4,
+      "endCol" : 11
+    },
+    "Stmt(EXPRESSION, 121, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 417,
+      "endLine" : 417,
+      "startCol" : 4,
+      "endCol" : 13
+    },
+    "Stmt(RETURN, 122, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 423,
+      "endLine" : 423,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 122, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 423,
+      "endLine" : 423,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(VARIABLE_DECLARATION, 123, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 415,
+      "endLine" : 415,
+      "startCol" : 9,
+      "endCol" : 17
+    },
+    "Stmt(IF, 124, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 431,
+      "endLine" : 437,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(IF, 125, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 433,
+      "endLine" : 437,
+      "startCol" : 10,
+      "endCol" : 3
+    },
+    "Stmt(THROW, 126, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 436,
+      "endLine" : 436,
+      "startCol" : 4,
+      "endCol" : 61
+    },
+    "Stmt(EXPRESSION, 127, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 434,
+      "endLine" : 434,
+      "startCol" : 4,
+      "endCol" : 22
+    },
+    "Stmt(EXPRESSION, 128, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 432,
+      "endLine" : 432,
+      "startCol" : 4,
+      "endCol" : 24
+    },
+    "Stmt(EXPRESSION, 129, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 438,
+      "endLine" : 438,
+      "startCol" : 3,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 130, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 445,
+      "endLine" : 445,
+      "startCol" : 3,
+      "endCol" : 16
+    },
+    "Stmt(RETURN, 130, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 445,
+      "endLine" : 445,
+      "startCol" : 3,
+      "endCol" : 16
+    },
+    "Stmt(EXPRESSION, 131, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 460,
+      "endLine" : 460,
+      "startCol" : 3,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 132, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 461,
+      "endLine" : 461,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 132, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 461,
+      "endLine" : 461,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(VARIABLE_DECLARATION, 133, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 456,
+      "endLine" : 456,
+      "startCol" : 10,
+      "endCol" : 34
+    },
+    "Stmt(VARIABLE_DECLARATION, 134, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 457,
+      "endLine" : 457,
+      "startCol" : 10,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 135, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 458,
+      "endLine" : 458,
+      "startCol" : 9,
+      "endCol" : 49
+    },
+    "Stmt(VARIABLE_DECLARATION, 136, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 459,
+      "endLine" : 459,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(IF, 137, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 476,
+      "endLine" : 478,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 138, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 477,
+      "endLine" : 477,
+      "startCol" : 4,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 139, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 480,
+      "endLine" : 480,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(RETURN, 139, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 480,
+      "endLine" : 480,
+      "startCol" : 3,
+      "endCol" : 18
+    },
+    "Stmt(VARIABLE_DECLARATION, 140, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 473,
+      "endLine" : 473,
+      "startCol" : 10,
+      "endCol" : 34
+    },
+    "Stmt(VARIABLE_DECLARATION, 141, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 474,
+      "endLine" : 474,
+      "startCol" : 10,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 142, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 475,
+      "endLine" : 475,
+      "startCol" : 9,
+      "endCol" : 49
+    },
+    "Stmt(VARIABLE_DECLARATION, 143, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 479,
+      "endLine" : 479,
+      "startCol" : 9,
+      "endCol" : 47
+    },
+    "Stmt(IF, 144, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 489,
+      "endLine" : 491,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(RETURN, 145, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 490,
+      "endLine" : 490,
+      "startCol" : 4,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 145, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 490,
+      "endLine" : 490,
+      "startCol" : 4,
+      "endCol" : 12
+    },
+    "Stmt(IF, 146, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 492,
+      "endLine" : 494,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(RETURN, 147, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 493,
+      "endLine" : 493,
+      "startCol" : 4,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 147, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 493,
+      "endLine" : 493,
+      "startCol" : 4,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 148, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 495,
+      "endLine" : 495,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 148, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 495,
+      "endLine" : 495,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 149, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 502,
+      "endLine" : 502,
+      "startCol" : 3,
+      "endCol" : 57
+    },
+    "Stmt(RETURN, 149, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 502,
+      "endLine" : 502,
+      "startCol" : 3,
+      "endCol" : 57
+    },
+    "Stmt(RETURN, 150, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 506,
+      "endLine" : 506,
+      "startCol" : 3,
+      "endCol" : 53
+    },
+    "Stmt(RETURN, 150, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 506,
+      "endLine" : 506,
+      "startCol" : 3,
+      "endCol" : 53
+    },
+    "Stmt(RETURN, 151, org.xmlcml.euclid.Line2, DEFAULT)" : {
+      "startLine" : 510,
+      "endLine" : 510,
+      "startCol" : 3,
+      "endCol" : 53
+    },
+    "Stmt(RETURN, 151, org.xmlcml.euclid.Line2, NON_DEFAULT)" : {
+      "startLine" : 510,
+      "endLine" : 510,
+      "startCol" : 3,
+      "endCol" : 53
+    }
+  }
+}

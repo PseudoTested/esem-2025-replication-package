@@ -1,0 +1,12 @@
+{
+  "testClassName" : "technology.tabula.TestLine",
+  "testMethodName" : "testSetTextElements",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(RETURN, 0, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"java.util.List.get(int)\" because the return value of \"technology.tabula.Line.getTextElements()\" is null <technology.tabula.TestLine.testSetTextElements(TestLine.java:24)>)" ],
+    "Stmt(RETURN, 0, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Line, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Line, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0 <java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)>)" ]
+  },
+  "timeTaken" : 5
+}

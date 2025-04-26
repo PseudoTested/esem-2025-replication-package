@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/IntSquareMatrix.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "IntSquareMatrix",
+  "typeMetricsHashMap" : {
+    "FOR" : {
+      "elementCount" : 20,
+      "coveredCount" : 19,
+      "effectualCount" : 19,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 95.0,
+      "effectualPercentage" : 95.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 2,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 36,
+      "coveredCount" : 34,
+      "effectualCount" : 33,
+      "coverageGap" : [ "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 94.44,
+      "effectualPercentage" : 91.67,
+      "coverageGapPercentage" : 2.78
+    },
+    "EXPRESSION" : {
+      "elementCount" : 10,
+      "coveredCount" : 8,
+      "effectualCount" : 8,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 80.0,
+      "effectualPercentage" : 80.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 26,
+      "coveredCount" : 23,
+      "effectualCount" : 23,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 88.46,
+      "effectualPercentage" : 88.46,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 6,
+      "coveredCount" : 6,
+      "effectualCount" : 4,
+      "coverageGap" : [ "Stmt(IF, 11, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(IF, 14, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" ],
+      "coverageGapSize" : 2,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 66.67,
+      "coverageGapPercentage" : 33.33
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 16,
+      "coveredCount" : 15,
+      "effectualCount" : 15,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 93.75,
+      "effectualPercentage" : 93.75,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Decision(true, LOOP, 20, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 60, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 12, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 19, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 52, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(IF, 11, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(IF, 44, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 69, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 3, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 3, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(FOR, 61, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 21, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 26, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 13, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 10, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 43, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 68, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 18, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(EXPRESSION, 54, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 10, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(EXPRESSION, 13, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 46, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 46, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 2, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 5, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 38, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 71, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 19, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 53, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, IF, 11, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 20, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 45, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 45, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(FOR, 37, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 70, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 4, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 62, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 24, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 23, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 56, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 16, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 48, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, IF, 8, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(EXPRESSION, 7, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 65, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 0, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 32, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 25, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 55, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 55, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, IF, 17, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(IF, 14, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 47, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 9, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 6, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(IF, 39, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 1, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 31, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 64, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 25, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 58, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 22, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, IF, 14, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 9, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 42, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 6, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 1, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(FOR, 67, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 57, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 23, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 24, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(IF, 49, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 15, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 7, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(IF, 33, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 0, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" ],
+  "effectualCovered" : [ "Decision(true, LOOP, 20, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 60, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 12, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 19, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 52, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(IF, 44, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 69, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 3, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 3, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(FOR, 61, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 21, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 26, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 13, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 10, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 43, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 2, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 68, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 18, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(EXPRESSION, 54, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 10, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(EXPRESSION, 13, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 46, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 46, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 2, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 5, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 38, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 71, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 19, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 53, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, IF, 11, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 20, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 45, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 45, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(FOR, 37, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 70, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 4, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 62, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 24, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 23, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 56, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 16, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 48, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, IF, 8, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(EXPRESSION, 7, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 65, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 0, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 32, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 25, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 55, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 55, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, IF, 17, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 47, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 9, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 6, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(IF, 39, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 1, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 31, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 64, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 25, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(EXPRESSION, 58, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 22, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, IF, 14, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(VARIABLE_DECLARATION, 9, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 42, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 6, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(FOR, 1, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(FOR, 67, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 57, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 23, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 24, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 24, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(IF, 49, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Decision(true, LOOP, 15, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Decision(true, LOOP, 7, org.xmlcml.euclid.IntSquareMatrix)", "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)", "Stmt(IF, 33, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)", "Stmt(FOR, 0, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" ],
+  "totalElementCount" : 116,
+  "totalCoveredCount" : 105,
+  "totalEffectualCount" : 102,
+  "totalCoverageGap" : 3
+}

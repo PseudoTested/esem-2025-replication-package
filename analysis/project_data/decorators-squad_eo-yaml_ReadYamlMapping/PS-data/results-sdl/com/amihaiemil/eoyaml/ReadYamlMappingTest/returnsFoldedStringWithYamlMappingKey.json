@@ -1,0 +1,7 @@
+{
+  "testClassName" : "com.amihaiemil.eoyaml.ReadYamlMappingTest",
+  "testMethodName" : "returnsFoldedStringWithYamlMappingKey",
+  "testOutcomes" : [ "SKIPPED(0)" ],
+  "coverageElementTestOutcomes" : { },
+  "timeTaken" : 0
+}

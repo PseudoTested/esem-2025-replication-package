@@ -1,0 +1,11 @@
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,randomIntBetween,36,SURVIVED,none
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,randomIntBetween,36,SURVIVED,none
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,randomIntBetween,36,SURVIVED,none
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator,randomIntBetween,36,SURVIVED,none
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,randomLongBetween,48,KILLED,org.brunocvcunha.inutils4j.MyNumberUtilsTest.testeRandomLong(org.brunocvcunha.inutils4j.MyNumberUtilsTest)
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,randomLongBetween,48,SURVIVED,none
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.MathMutator,randomLongBetween,48,KILLED,org.brunocvcunha.inutils4j.MyNumberUtilsTest.testeRandomLong(org.brunocvcunha.inutils4j.MyNumberUtilsTest)
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.returns.PrimitiveReturnsMutator,randomLongBetween,48,KILLED,org.brunocvcunha.inutils4j.MyNumberUtilsTest.testeRandomLong(org.brunocvcunha.inutils4j.MyNumberUtilsTest)
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_ELSE,tossCoin,56,NO_COVERAGE,none
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.RemoveConditionalMutator_EQUAL_IF,tossCoin,56,NO_COVERAGE,none
+MyNumberUtils.java,org.brunocvcunha.inutils4j.MyNumberUtils,org.pitest.mutationtest.engine.gregor.mutators.returns.BooleanTrueReturnValsMutator,tossCoin,56,NO_COVERAGE,none

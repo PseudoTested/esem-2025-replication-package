@@ -1,0 +1,703 @@
+{
+  "fileName" : "src/main/java/org/xmlcml/euclid/IntSquareMatrix.java",
+  "packageName" : "org.xmlcml.euclid",
+  "className" : "IntSquareMatrix",
+  "coverageElementPositions" : {
+    "Decision(true, LOOP, 0, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 25,
+      "endCol" : 32
+    },
+    "Decision(true, LOOP, 1, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 84,
+      "endLine" : 84,
+      "startCol" : 29,
+      "endCol" : 36
+    },
+    "Decision(true, LOOP, 2, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 25,
+      "endCol" : 32
+    },
+    "Decision(true, IF, 3, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 169,
+      "endLine" : 169,
+      "startCol" : 13,
+      "endCol" : 28
+    },
+    "Decision(true, IF, 4, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 187,
+      "endLine" : 187,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Decision(true, LOOP, 5, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 267,
+      "endLine" : 267,
+      "startCol" : 25,
+      "endCol" : 32
+    },
+    "Decision(true, LOOP, 6, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 278,
+      "endLine" : 278,
+      "startCol" : 25,
+      "endCol" : 32
+    },
+    "Decision(true, LOOP, 7, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 279,
+      "endLine" : 279,
+      "startCol" : 29,
+      "endCol" : 36
+    },
+    "Decision(true, IF, 8, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 281,
+      "endLine" : 281,
+      "startCol" : 21,
+      "endCol" : 64
+    },
+    "Decision(true, LOOP, 9, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 294,
+      "endLine" : 294,
+      "startCol" : 25,
+      "endCol" : 36
+    },
+    "Decision(true, LOOP, 10, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 295,
+      "endLine" : 295,
+      "startCol" : 33,
+      "endCol" : 40
+    },
+    "Decision(true, IF, 11, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 296,
+      "endLine" : 296,
+      "startCol" : 21,
+      "endCol" : 46
+    },
+    "Decision(true, LOOP, 12, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 309,
+      "endLine" : 309,
+      "startCol" : 25,
+      "endCol" : 32
+    },
+    "Decision(true, LOOP, 13, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 310,
+      "endLine" : 310,
+      "startCol" : 29,
+      "endCol" : 33
+    },
+    "Decision(true, IF, 14, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 311,
+      "endLine" : 311,
+      "startCol" : 21,
+      "endCol" : 36
+    },
+    "Decision(true, LOOP, 15, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 323,
+      "endLine" : 323,
+      "startCol" : 25,
+      "endCol" : 36
+    },
+    "Decision(true, LOOP, 16, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 324,
+      "endLine" : 324,
+      "startCol" : 33,
+      "endCol" : 40
+    },
+    "Decision(true, IF, 17, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 325,
+      "endLine" : 325,
+      "startCol" : 21,
+      "endCol" : 36
+    },
+    "Decision(true, LOOP, 18, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 337,
+      "endLine" : 337,
+      "startCol" : 25,
+      "endCol" : 36
+    },
+    "Decision(true, LOOP, 19, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 338,
+      "endLine" : 338,
+      "startCol" : 33,
+      "endCol" : 40
+    },
+    "Decision(true, LOOP, 20, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 350,
+      "endLine" : 350,
+      "startCol" : 25,
+      "endCol" : 36
+    },
+    "Decision(true, LOOP, 21, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 351,
+      "endLine" : 351,
+      "startCol" : 33,
+      "endCol" : 40
+    },
+    "Decision(true, LOOP, 22, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 366,
+      "endLine" : 366,
+      "startCol" : 25,
+      "endCol" : 32
+    },
+    "Decision(true, LOOP, 23, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 367,
+      "endLine" : 367,
+      "startCol" : 29,
+      "endCol" : 34
+    },
+    "Decision(true, LOOP, 24, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 377,
+      "endLine" : 377,
+      "startCol" : 25,
+      "endCol" : 32
+    },
+    "Decision(true, LOOP, 25, org.xmlcml.euclid.IntSquareMatrix)" : {
+      "startLine" : 378,
+      "endLine" : 378,
+      "startCol" : 29,
+      "endCol" : 33
+    },
+    "Stmt(FOR, 0, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 87,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 1, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 84,
+      "endLine" : 86,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 2, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 17,
+      "endCol" : 67
+    },
+    "Stmt(RETURN, 3, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 88,
+      "endLine" : 88,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 3, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 88,
+      "endLine" : 88,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(VARIABLE_DECLARATION, 4, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 13,
+      "endCol" : 27
+    },
+    "Stmt(VARIABLE_DECLARATION, 5, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 25,
+      "endCol" : 56
+    },
+    "Stmt(FOR, 6, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 102,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 7, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 101,
+      "startCol" : 13,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 8, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(VARIABLE_DECLARATION, 9, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 13,
+      "endCol" : 27
+    },
+    "Stmt(VARIABLE_DECLARATION, 10, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 25,
+      "endCol" : 56
+    },
+    "Stmt(IF, 11, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 169,
+      "endLine" : 171,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 12, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 170,
+      "endLine" : 170,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(EXPRESSION, 13, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 172,
+      "endLine" : 172,
+      "startCol" : 9,
+      "endCol" : 29
+    },
+    "Stmt(IF, 14, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 187,
+      "endLine" : 189,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 15, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 188,
+      "endLine" : 188,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(EXPRESSION, 16, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 201,
+      "endLine" : 201,
+      "startCol" : 9,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 211,
+      "endLine" : 211,
+      "startCol" : 9,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 17, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 211,
+      "endLine" : 211,
+      "startCol" : 9,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 226,
+      "endLine" : 226,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 18, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 226,
+      "endLine" : 226,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(VARIABLE_DECLARATION, 19, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 224,
+      "endLine" : 224,
+      "startCol" : 19,
+      "endCol" : 50
+    },
+    "Stmt(VARIABLE_DECLARATION, 20, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 225,
+      "endLine" : 225,
+      "startCol" : 25,
+      "endCol" : 55
+    },
+    "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 241,
+      "endLine" : 241,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 21, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 241,
+      "endLine" : 241,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(VARIABLE_DECLARATION, 22, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 239,
+      "endLine" : 239,
+      "startCol" : 19,
+      "endCol" : 54
+    },
+    "Stmt(VARIABLE_DECLARATION, 23, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 240,
+      "endLine" : 240,
+      "startCol" : 25,
+      "endCol" : 55
+    },
+    "Stmt(RETURN, 24, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 258,
+      "endLine" : 258,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 24, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 258,
+      "endLine" : 258,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(VARIABLE_DECLARATION, 25, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 256,
+      "endLine" : 256,
+      "startCol" : 19,
+      "endCol" : 54
+    },
+    "Stmt(VARIABLE_DECLARATION, 26, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 257,
+      "endLine" : 257,
+      "startCol" : 25,
+      "endCol" : 55
+    },
+    "Stmt(FOR, 27, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 267,
+      "endLine" : 269,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 28, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 268,
+      "endLine" : 268,
+      "startCol" : 13,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 29, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 270,
+      "endLine" : 270,
+      "startCol" : 9,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 29, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 270,
+      "endLine" : 270,
+      "startCol" : 9,
+      "endCol" : 21
+    },
+    "Stmt(VARIABLE_DECLARATION, 30, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 266,
+      "endLine" : 266,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(FOR, 31, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 278,
+      "endLine" : 285,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 32, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 279,
+      "endLine" : 284,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 33, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 281,
+      "endLine" : 283,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 282,
+      "endLine" : 282,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 34, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 282,
+      "endLine" : 282,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(VARIABLE_DECLARATION, 35, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 280,
+      "endLine" : 280,
+      "startCol" : 21,
+      "endCol" : 35
+    },
+    "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 286,
+      "endLine" : 286,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 36, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 286,
+      "endLine" : 286,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(FOR, 37, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 294,
+      "endLine" : 300,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 38, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 295,
+      "endLine" : 299,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 39, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 296,
+      "endLine" : 298,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 297,
+      "endLine" : 297,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 297,
+      "endLine" : 297,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 301,
+      "endLine" : 301,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 301,
+      "endLine" : 301,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(FOR, 42, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 309,
+      "endLine" : 314,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 43, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 310,
+      "endLine" : 313,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 44, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 311,
+      "endLine" : 312,
+      "startCol" : 17,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 45, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 312,
+      "endLine" : 312,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 45, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 312,
+      "endLine" : 312,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 46, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 315,
+      "endLine" : 315,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 46, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 315,
+      "endLine" : 315,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(FOR, 47, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 323,
+      "endLine" : 328,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 48, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 324,
+      "endLine" : 327,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 49, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 325,
+      "endLine" : 326,
+      "startCol" : 17,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 326,
+      "endLine" : 326,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 50, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 326,
+      "endLine" : 326,
+      "startCol" : 21,
+      "endCol" : 33
+    },
+    "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 329,
+      "endLine" : 329,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 51, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 329,
+      "endLine" : 329,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(FOR, 52, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 337,
+      "endLine" : 341,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 53, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 338,
+      "endLine" : 340,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 54, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 339,
+      "endLine" : 339,
+      "startCol" : 17,
+      "endCol" : 42
+    },
+    "Stmt(RETURN, 55, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 342,
+      "endLine" : 342,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 55, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 342,
+      "endLine" : 342,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(FOR, 56, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 350,
+      "endLine" : 354,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 57, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 351,
+      "endLine" : 353,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 58, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 352,
+      "endLine" : 352,
+      "startCol" : 17,
+      "endCol" : 42
+    },
+    "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 355,
+      "endLine" : 355,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 59, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 355,
+      "endLine" : 355,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(FOR, 60, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 366,
+      "endLine" : 370,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 61, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 367,
+      "endLine" : 369,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 62, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 368,
+      "endLine" : 368,
+      "startCol" : 17,
+      "endCol" : 60
+    },
+    "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 371,
+      "endLine" : 371,
+      "startCol" : 9,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 63, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : {
+      "startLine" : 371,
+      "endLine" : 371,
+      "startCol" : 9,
+      "endCol" : 24
+    },
+    "Stmt(VARIABLE_DECLARATION, 64, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 363,
+      "endLine" : 363,
+      "startCol" : 13,
+      "endCol" : 20
+    },
+    "Stmt(VARIABLE_DECLARATION, 65, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 364,
+      "endLine" : 364,
+      "startCol" : 18,
+      "endCol" : 59
+    },
+    "Stmt(VARIABLE_DECLARATION, 66, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 365,
+      "endLine" : 365,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(FOR, 67, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 377,
+      "endLine" : 383,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 68, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 378,
+      "endLine" : 382,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 69, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 380,
+      "endLine" : 380,
+      "startCol" : 17,
+      "endCol" : 42
+    },
+    "Stmt(EXPRESSION, 70, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 381,
+      "endLine" : 381,
+      "startCol" : 17,
+      "endCol" : 32
+    },
+    "Stmt(VARIABLE_DECLARATION, 71, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : {
+      "startLine" : 379,
+      "endLine" : 379,
+      "startCol" : 21,
+      "endCol" : 35
+    }
+  }
+}

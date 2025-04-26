@@ -1,0 +1,24 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testIsSymmetric",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, LOOP, 9, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 9, org.xmlcml.euclid.IntSquareMatrix)" : [ "TIMED_OUT(200)" ],
+    "Decision(true, LOOP, 10, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(false, LOOP, 10, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Decision(true, IF, 11, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(1)" ],
+    "Decision(false, IF, 11, org.xmlcml.euclid.IntSquareMatrix)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 37, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 37, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 38, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(FOR, 38, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 39, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(IF, 39, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 40, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 41, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 224
+}

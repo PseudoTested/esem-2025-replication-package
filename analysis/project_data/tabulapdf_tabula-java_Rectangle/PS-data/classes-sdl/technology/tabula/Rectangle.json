@@ -1,0 +1,505 @@
+{
+  "fileName" : "src/main/java/technology/tabula/Rectangle.java",
+  "packageName" : "technology.tabula",
+  "className" : "Rectangle",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, technology.tabula.Rectangle)" : {
+      "startLine" : 21,
+      "endLine" : 21,
+      "startCol" : 8,
+      "endCol" : 20
+    },
+    "Decision(true, IF, 1, technology.tabula.Rectangle)" : {
+      "startLine" : 22,
+      "endLine" : 22,
+      "startCol" : 8,
+      "endCol" : 61
+    },
+    "Decision(true, IF, 2, technology.tabula.Rectangle)" : {
+      "startLine" : 76,
+      "endLine" : 77,
+      "startCol" : 7,
+      "endCol" : 44
+    },
+    "Decision(true, IF, 3, technology.tabula.Rectangle)" : {
+      "startLine" : 79,
+      "endLine" : 80,
+      "startCol" : 14,
+      "endCol" : 44
+    },
+    "Decision(true, IF, 4, technology.tabula.Rectangle)" : {
+      "startLine" : 82,
+      "endLine" : 83,
+      "startCol" : 14,
+      "endCol" : 44
+    },
+    "Decision(true, IF, 5, technology.tabula.Rectangle)" : {
+      "startLine" : 85,
+      "endLine" : 86,
+      "startCol" : 14,
+      "endCol" : 44
+    },
+    "Stmt(IF, 0, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 21,
+      "endLine" : 21,
+      "startCol" : 4,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 1, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 21,
+      "endLine" : 21,
+      "startCol" : 23,
+      "endCol" : 31
+    },
+    "Stmt(RETURN, 1, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 21,
+      "endLine" : 21,
+      "startCol" : 23,
+      "endCol" : 31
+    },
+    "Stmt(IF, 2, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 22,
+      "endLine" : 28,
+      "startCol" : 4,
+      "endCol" : 4
+    },
+    "Stmt(RETURN, 3, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 27,
+      "endLine" : 27,
+      "startCol" : 5,
+      "endCol" : 67
+    },
+    "Stmt(RETURN, 3, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 27,
+      "endLine" : 27,
+      "startCol" : 5,
+      "endCol" : 67
+    },
+    "Stmt(RETURN, 4, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 23,
+      "endLine" : 25,
+      "startCol" : 5,
+      "endCol" : 58
+    },
+    "Stmt(RETURN, 4, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 23,
+      "endLine" : 25,
+      "startCol" : 5,
+      "endCol" : 58
+    },
+    "Stmt(EXPRESSION, 5, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 40,
+      "endLine" : 40,
+      "startCol" : 3,
+      "endCol" : 41
+    },
+    "Stmt(RETURN, 6, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 3,
+      "endCol" : 48
+    },
+    "Stmt(RETURN, 6, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 3,
+      "endCol" : 48
+    },
+    "Stmt(RETURN, 7, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 50,
+      "endLine" : 50,
+      "startCol" : 3,
+      "endCol" : 11
+    },
+    "Stmt(RETURN, 7, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 50,
+      "endLine" : 50,
+      "startCol" : 3,
+      "endCol" : 11
+    },
+    "Stmt(RETURN, 8, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 54,
+      "endLine" : 54,
+      "startCol" : 3,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 8, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 54,
+      "endLine" : 54,
+      "startCol" : 3,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 9, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 58,
+      "endLine" : 58,
+      "startCol" : 3,
+      "endCol" : 110
+    },
+    "Stmt(RETURN, 9, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 58,
+      "endLine" : 58,
+      "startCol" : 3,
+      "endCol" : 110
+    },
+    "Stmt(RETURN, 10, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 3,
+      "endCol" : 36
+    },
+    "Stmt(RETURN, 10, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 3,
+      "endCol" : 36
+    },
+    "Stmt(RETURN, 11, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 3,
+      "endCol" : 110
+    },
+    "Stmt(RETURN, 11, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 3,
+      "endCol" : 110
+    },
+    "Stmt(RETURN, 12, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 3,
+      "endCol" : 38
+    },
+    "Stmt(RETURN, 12, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 3,
+      "endCol" : 38
+    },
+    "Stmt(IF, 13, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 88,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(IF, 14, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 79,
+      "endLine" : 88,
+      "startCol" : 10,
+      "endCol" : 3
+    },
+    "Stmt(IF, 15, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 88,
+      "startCol" : 10,
+      "endCol" : 3
+    },
+    "Stmt(IF, 16, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 88,
+      "startCol" : 10,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 17, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 87,
+      "endLine" : 87,
+      "startCol" : 4,
+      "endCol" : 51
+    },
+    "Stmt(EXPRESSION, 18, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 84,
+      "endLine" : 84,
+      "startCol" : 4,
+      "endCol" : 53
+    },
+    "Stmt(EXPRESSION, 19, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 4,
+      "endCol" : 52
+    },
+    "Stmt(EXPRESSION, 20, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 78,
+      "endLine" : 78,
+      "startCol" : 4,
+      "endCol" : 52
+    },
+    "Stmt(RETURN, 21, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(RETURN, 21, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 3,
+      "endCol" : 12
+    },
+    "Stmt(VARIABLE_DECLARATION, 22, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 9,
+      "endCol" : 14
+    },
+    "Stmt(VARIABLE_DECLARATION, 23, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 17,
+      "endCol" : 102
+    },
+    "Stmt(RETURN, 24, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 3,
+      "endCol" : 48
+    },
+    "Stmt(RETURN, 24, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 3,
+      "endCol" : 48
+    },
+    "Stmt(VARIABLE_DECLARATION, 25, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 95,
+      "endLine" : 96,
+      "startCol" : 10,
+      "endCol" : 92
+    },
+    "Stmt(VARIABLE_DECLARATION, 26, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 98,
+      "startCol" : 10,
+      "endCol" : 92
+    },
+    "Stmt(VARIABLE_DECLARATION, 27, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 10,
+      "endCol" : 79
+    },
+    "Stmt(VARIABLE_DECLARATION, 28, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 10,
+      "endCol" : 72
+    },
+    "Stmt(EXPRESSION, 29, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 106,
+      "endLine" : 106,
+      "startCol" : 3,
+      "endCol" : 40
+    },
+    "Stmt(RETURN, 30, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 107,
+      "endLine" : 107,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 30, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 107,
+      "endLine" : 107,
+      "startCol" : 3,
+      "endCol" : 14
+    },
+    "Stmt(RETURN, 31, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 111,
+      "endLine" : 111,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 31, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 111,
+      "endLine" : 111,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(EXPRESSION, 32, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 116,
+      "endLine" : 116,
+      "startCol" : 3,
+      "endCol" : 67
+    },
+    "Stmt(VARIABLE_DECLARATION, 33, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 115,
+      "endLine" : 115,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 34, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 34, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 120,
+      "endLine" : 120,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(EXPRESSION, 35, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 124,
+      "endLine" : 124,
+      "startCol" : 3,
+      "endCol" : 60
+    },
+    "Stmt(RETURN, 36, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 128,
+      "endLine" : 128,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 36, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 128,
+      "endLine" : 128,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(EXPRESSION, 37, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 133,
+      "endLine" : 133,
+      "startCol" : 3,
+      "endCol" : 67
+    },
+    "Stmt(VARIABLE_DECLARATION, 38, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 132,
+      "endLine" : 132,
+      "startCol" : 9,
+      "endCol" : 34
+    },
+    "Stmt(RETURN, 39, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 137,
+      "endLine" : 137,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(RETURN, 39, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 137,
+      "endLine" : 137,
+      "startCol" : 3,
+      "endCol" : 32
+    },
+    "Stmt(EXPRESSION, 40, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 141,
+      "endLine" : 141,
+      "startCol" : 3,
+      "endCol" : 60
+    },
+    "Stmt(RETURN, 41, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 145,
+      "endLine" : 147,
+      "startCol" : 3,
+      "endCol" : 58
+    },
+    "Stmt(RETURN, 41, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 145,
+      "endLine" : 147,
+      "startCol" : 3,
+      "endCol" : 58
+    },
+    "Stmt(EXPRESSION, 42, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 154,
+      "endLine" : 154,
+      "startCol" : 3,
+      "endCol" : 44
+    },
+    "Stmt(EXPRESSION, 43, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 155,
+      "endLine" : 155,
+      "startCol" : 3,
+      "endCol" : 97
+    },
+    "Stmt(RETURN, 44, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 156,
+      "endLine" : 156,
+      "startCol" : 3,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 44, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 156,
+      "endLine" : 156,
+      "startCol" : 3,
+      "endCol" : 23
+    },
+    "Stmt(VARIABLE_DECLARATION, 45, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 152,
+      "endLine" : 152,
+      "startCol" : 17,
+      "endCol" : 40
+    },
+    "Stmt(VARIABLE_DECLARATION, 46, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 153,
+      "endLine" : 153,
+      "startCol" : 10,
+      "endCol" : 29
+    },
+    "Stmt(FOR_EACH, 47, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 169,
+      "endLine" : 174,
+      "startCol" : 3,
+      "endCol" : 3
+    },
+    "Stmt(EXPRESSION, 48, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 170,
+      "endLine" : 170,
+      "startCol" : 4,
+      "endCol" : 46
+    },
+    "Stmt(EXPRESSION, 49, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 171,
+      "endLine" : 171,
+      "startCol" : 4,
+      "endCol" : 46
+    },
+    "Stmt(EXPRESSION, 50, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 172,
+      "endLine" : 172,
+      "startCol" : 4,
+      "endCol" : 46
+    },
+    "Stmt(EXPRESSION, 51, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 173,
+      "endLine" : 173,
+      "startCol" : 4,
+      "endCol" : 46
+    },
+    "Stmt(RETURN, 52, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 175,
+      "endLine" : 175,
+      "startCol" : 3,
+      "endCol" : 61
+    },
+    "Stmt(RETURN, 52, technology.tabula.Rectangle, NON_DEFAULT)" : {
+      "startLine" : 175,
+      "endLine" : 175,
+      "startCol" : 3,
+      "endCol" : 61
+    },
+    "Stmt(VARIABLE_DECLARATION, 53, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 164,
+      "endLine" : 164,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(VARIABLE_DECLARATION, 54, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 165,
+      "endLine" : 165,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(VARIABLE_DECLARATION, 55, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 166,
+      "endLine" : 166,
+      "startCol" : 9,
+      "endCol" : 40
+    },
+    "Stmt(VARIABLE_DECLARATION, 56, technology.tabula.Rectangle, DEFAULT)" : {
+      "startLine" : 167,
+      "endLine" : 167,
+      "startCol" : 9,
+      "endCol" : 40
+    }
+  }
+}

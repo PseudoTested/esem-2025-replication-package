@@ -1,0 +1,26 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.Int2RangeTest",
+  "testMethodName" : "testIncludesInt2",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(true, IF, 0, org.xmlcml.euclid.Int2Range)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Decision(false, IF, 10, org.xmlcml.euclid.Int2Range)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(EXPRESSION, 0, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(EXPRESSION, 1, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(IF, 2, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(EXPRESSION, 3, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(EXPRESSION, 4, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(RETURN, 10, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(IF, 42, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(IF, 42, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"org.xmlcml.euclid.IntRange.includes(int)\" because \"this.xrange\" is null <org.xmlcml.euclid.Int2Range.includes(Int2Range.java:325)>)" ],
+    "Stmt(RETURN, 44, org.xmlcml.euclid.Int2Range, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 44, org.xmlcml.euclid.Int2Range, NON_DEFAULT)" : [ "FAILED(0)" ]
+  },
+  "timeTaken" : 21
+}

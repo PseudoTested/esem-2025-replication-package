@@ -1,0 +1,973 @@
+{
+  "fileName" : "src/main/java/technology/tabula/TextElement.java",
+  "packageName" : "technology.tabula",
+  "className" : "TextElement",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, technology.tabula.TextElement)" : {
+      "startLine" : 81,
+      "endLine" : 81,
+      "startCol" : 13,
+      "endCol" : 23
+    },
+    "Decision(true, IF, 1, technology.tabula.TextElement)" : {
+      "startLine" : 83,
+      "endLine" : 83,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Decision(true, IF, 2, technology.tabula.TextElement)" : {
+      "startLine" : 85,
+      "endLine" : 85,
+      "startCol" : 13,
+      "endCol" : 40
+    },
+    "Decision(true, IF, 3, technology.tabula.TextElement)" : {
+      "startLine" : 88,
+      "endLine" : 89,
+      "startCol" : 13,
+      "endCol" : 42
+    },
+    "Decision(true, IF, 4, technology.tabula.TextElement)" : {
+      "startLine" : 91,
+      "endLine" : 91,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Decision(true, IF, 5, technology.tabula.TextElement)" : {
+      "startLine" : 94,
+      "endLine" : 94,
+      "startCol" : 20,
+      "endCol" : 43
+    },
+    "Decision(true, IF, 6, technology.tabula.TextElement)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 17,
+      "endCol" : 34
+    },
+    "Decision(true, IF, 7, technology.tabula.TextElement)" : {
+      "startLine" : 96,
+      "endLine" : 97,
+      "startCol" : 13,
+      "endCol" : 47
+    },
+    "Decision(true, IF, 8, technology.tabula.TextElement)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Decision(true, IF, 9, technology.tabula.TextElement)" : {
+      "startLine" : 102,
+      "endLine" : 102,
+      "startCol" : 20,
+      "endCol" : 43
+    },
+    "Decision(true, IF, 10, technology.tabula.TextElement)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 17,
+      "endCol" : 34
+    },
+    "Decision(true, IF, 11, technology.tabula.TextElement)" : {
+      "startLine" : 121,
+      "endLine" : 121,
+      "startCol" : 13,
+      "endCol" : 34
+    },
+    "Decision(true, IF, 12, technology.tabula.TextElement)" : {
+      "startLine" : 150,
+      "endLine" : 150,
+      "startCol" : 17,
+      "endCol" : 96
+    },
+    "Decision(true, IF, 13, technology.tabula.TextElement)" : {
+      "startLine" : 155,
+      "endLine" : 155,
+      "startCol" : 17,
+      "endCol" : 135
+    },
+    "Decision(true, IF, 14, technology.tabula.TextElement)" : {
+      "startLine" : 161,
+      "endLine" : 161,
+      "startCol" : 17,
+      "endCol" : 110
+    },
+    "Decision(true, IF, 15, technology.tabula.TextElement)" : {
+      "startLine" : 169,
+      "endLine" : 170,
+      "startCol" : 25,
+      "endCol" : 150
+    },
+    "Decision(true, IF, 16, technology.tabula.TextElement)" : {
+      "startLine" : 181,
+      "endLine" : 181,
+      "startCol" : 17,
+      "endCol" : 70
+    },
+    "Decision(true, IF, 17, technology.tabula.TextElement)" : {
+      "startLine" : 183,
+      "endLine" : 183,
+      "startCol" : 24,
+      "endCol" : 42
+    },
+    "Decision(true, IF, 18, technology.tabula.TextElement)" : {
+      "startLine" : 194,
+      "endLine" : 194,
+      "startCol" : 17,
+      "endCol" : 40
+    },
+    "Decision(true, IF, 19, technology.tabula.TextElement)" : {
+      "startLine" : 205,
+      "endLine" : 205,
+      "startCol" : 17,
+      "endCol" : 36
+    },
+    "Decision(true, IF, 20, technology.tabula.TextElement)" : {
+      "startLine" : 211,
+      "endLine" : 211,
+      "startCol" : 17,
+      "endCol" : 90
+    },
+    "Decision(true, IF, 21, technology.tabula.TextElement)" : {
+      "startLine" : 223,
+      "endLine" : 226,
+      "startCol" : 17,
+      "endCol" : 53
+    },
+    "Decision(true, IF, 22, technology.tabula.TextElement)" : {
+      "startLine" : 248,
+      "endLine" : 250,
+      "startCol" : 17,
+      "endCol" : 90
+    },
+    "Stmt(EXPRESSION, 0, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 25,
+      "endLine" : 25,
+      "startCol" : 9,
+      "endCol" : 42
+    },
+    "Stmt(EXPRESSION, 1, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 26,
+      "endLine" : 26,
+      "startCol" : 9,
+      "endCol" : 22
+    },
+    "Stmt(EXPRESSION, 2, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 27,
+      "endLine" : 27,
+      "startCol" : 9,
+      "endCol" : 41
+    },
+    "Stmt(EXPRESSION, 3, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 28,
+      "endLine" : 28,
+      "startCol" : 9,
+      "endCol" : 33
+    },
+    "Stmt(EXPRESSION, 4, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 29,
+      "endLine" : 29,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(EXPRESSION, 5, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 30,
+      "endLine" : 30,
+      "startCol" : 9,
+      "endCol" : 23
+    },
+    "Stmt(RETURN, 6, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 35,
+      "endLine" : 35,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 6, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 35,
+      "endLine" : 35,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 7, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 40,
+      "endLine" : 40,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 7, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 40,
+      "endLine" : 40,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 8, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 8, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 9,
+      "endCol" : 19
+    },
+    "Stmt(RETURN, 9, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 9,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 9, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 9,
+      "endCol" : 28
+    },
+    "Stmt(RETURN, 10, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 10, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 9,
+      "endCol" : 20
+    },
+    "Stmt(RETURN, 11, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 9,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 11, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 56,
+      "endLine" : 56,
+      "startCol" : 9,
+      "endCol" : 24
+    },
+    "Stmt(EXPRESSION, 12, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 62,
+      "endLine" : 62,
+      "startCol" : 9,
+      "endCol" : 50
+    },
+    "Stmt(EXPRESSION, 13, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 63,
+      "endLine" : 63,
+      "startCol" : 9,
+      "endCol" : 66
+    },
+    "Stmt(RETURN, 14, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 64,
+      "endLine" : 64,
+      "startCol" : 9,
+      "endCol" : 29
+    },
+    "Stmt(RETURN, 14, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 64,
+      "endLine" : 64,
+      "startCol" : 9,
+      "endCol" : 29
+    },
+    "Stmt(VARIABLE_DECLARATION, 15, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 60,
+      "endLine" : 60,
+      "startCol" : 23,
+      "endCol" : 46
+    },
+    "Stmt(VARIABLE_DECLARATION, 16, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 61,
+      "endLine" : 61,
+      "startCol" : 16,
+      "endCol" : 35
+    },
+    "Stmt(EXPRESSION, 17, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 71,
+      "endLine" : 71,
+      "startCol" : 9,
+      "endCol" : 70
+    },
+    "Stmt(EXPRESSION, 18, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 72,
+      "endLine" : 72,
+      "startCol" : 9,
+      "endCol" : 73
+    },
+    "Stmt(EXPRESSION, 19, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 73,
+      "endLine" : 73,
+      "startCol" : 9,
+      "endCol" : 75
+    },
+    "Stmt(EXPRESSION, 20, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 74,
+      "endLine" : 74,
+      "startCol" : 9,
+      "endCol" : 73
+    },
+    "Stmt(EXPRESSION, 21, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 75,
+      "endLine" : 75,
+      "startCol" : 9,
+      "endCol" : 79
+    },
+    "Stmt(RETURN, 22, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 9,
+      "endCol" : 22
+    },
+    "Stmt(RETURN, 22, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 76,
+      "endLine" : 76,
+      "startCol" : 9,
+      "endCol" : 22
+    },
+    "Stmt(VARIABLE_DECLARATION, 23, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 13,
+      "endCol" : 37
+    },
+    "Stmt(IF, 24, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 81,
+      "endLine" : 82,
+      "startCol" : 9,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 25, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(RETURN, 25, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 82,
+      "endLine" : 82,
+      "startCol" : 13,
+      "endCol" : 24
+    },
+    "Stmt(IF, 26, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 83,
+      "endLine" : 84,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 27, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 84,
+      "endLine" : 84,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 27, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 84,
+      "endLine" : 84,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(IF, 28, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 85,
+      "endLine" : 86,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 29, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 29, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 86,
+      "endLine" : 86,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(IF, 30, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 88,
+      "endLine" : 90,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 31, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 31, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(IF, 32, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 91,
+      "endLine" : 95,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(IF, 33, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 94,
+      "endLine" : 95,
+      "startCol" : 16,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 34, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 95,
+      "endLine" : 95,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 34, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 95,
+      "endLine" : 95,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(IF, 35, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 93,
+      "startCol" : 13,
+      "endCol" : 29
+    },
+    "Stmt(RETURN, 36, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 17,
+      "endCol" : 29
+    },
+    "Stmt(RETURN, 36, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 17,
+      "endCol" : 29
+    },
+    "Stmt(IF, 37, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 96,
+      "endLine" : 98,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 38, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 38, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(IF, 39, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 103,
+      "startCol" : 9,
+      "endCol" : 25
+    },
+    "Stmt(IF, 40, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 102,
+      "endLine" : 103,
+      "startCol" : 16,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 41, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(RETURN, 41, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Stmt(IF, 42, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 101,
+      "startCol" : 13,
+      "endCol" : 29
+    },
+    "Stmt(RETURN, 43, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 101,
+      "startCol" : 17,
+      "endCol" : 29
+    },
+    "Stmt(RETURN, 43, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 101,
+      "endLine" : 101,
+      "startCol" : 17,
+      "endCol" : 29
+    },
+    "Stmt(RETURN, 44, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 105,
+      "startCol" : 9,
+      "endCol" : 52
+    },
+    "Stmt(RETURN, 44, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 104,
+      "endLine" : 105,
+      "startCol" : 9,
+      "endCol" : 52
+    },
+    "Stmt(VARIABLE_DECLARATION, 45, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 87,
+      "endLine" : 87,
+      "startCol" : 21,
+      "endCol" : 45
+    },
+    "Stmt(RETURN, 46, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 9,
+      "endCol" : 65
+    },
+    "Stmt(RETURN, 46, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 109,
+      "endLine" : 109,
+      "startCol" : 9,
+      "endCol" : 65
+    },
+    "Stmt(IF, 47, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 121,
+      "endLine" : 123,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 48, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 122,
+      "endLine" : 122,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Stmt(RETURN, 48, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 122,
+      "endLine" : 122,
+      "startCol" : 13,
+      "endCol" : 30
+    },
+    "Stmt(EXPRESSION, 49, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 130,
+      "endLine" : 130,
+      "startCol" : 9,
+      "endCol" : 68
+    },
+    "Stmt(FOR_EACH, 50, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 145,
+      "endLine" : 258,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 51, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 146,
+      "endLine" : 146,
+      "startCol" : 13,
+      "endCol" : 65
+    },
+    "Stmt(EXPRESSION, 52, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 147,
+      "endLine" : 147,
+      "startCol" : 13,
+      "endCol" : 91
+    },
+    "Stmt(IF, 53, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 150,
+      "endLine" : 152,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(CONTINUE, 54, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 151,
+      "endLine" : 151,
+      "startCol" : 17,
+      "endCol" : 25
+    },
+    "Stmt(IF, 55, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 155,
+      "endLine" : 157,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(CONTINUE, 56, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 156,
+      "endLine" : 156,
+      "startCol" : 17,
+      "endCol" : 25
+    },
+    "Stmt(IF, 57, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 161,
+      "endLine" : 163,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 58, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 162,
+      "endLine" : 162,
+      "startCol" : 17,
+      "endCol" : 42
+    },
+    "Stmt(EXPRESSION, 59, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 166,
+      "endLine" : 166,
+      "startCol" : 13,
+      "endCol" : 41
+    },
+    "Stmt(FOR_EACH, 60, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 167,
+      "endLine" : 175,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 61, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 168,
+      "endLine" : 174,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 62, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 172,
+      "endLine" : 172,
+      "startCol" : 21,
+      "endCol" : 48
+    },
+    "Stmt(BREAK, 63, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 173,
+      "endLine" : 173,
+      "startCol" : 21,
+      "endCol" : 26
+    },
+    "Stmt(EXPRESSION, 64, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 179,
+      "endLine" : 179,
+      "startCol" : 13,
+      "endCol" : 48
+    },
+    "Stmt(EXPRESSION, 65, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 180,
+      "endLine" : 180,
+      "startCol" : 13,
+      "endCol" : 27
+    },
+    "Stmt(IF, 66, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 181,
+      "endLine" : 187,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 67, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 183,
+      "endLine" : 187,
+      "startCol" : 20,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 68, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 186,
+      "endLine" : 186,
+      "startCol" : 17,
+      "endCol" : 77
+    },
+    "Stmt(EXPRESSION, 69, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 184,
+      "endLine" : 184,
+      "startCol" : 17,
+      "endCol" : 48
+    },
+    "Stmt(EXPRESSION, 70, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 182,
+      "endLine" : 182,
+      "startCol" : 17,
+      "endCol" : 55
+    },
+    "Stmt(IF, 71, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 194,
+      "endLine" : 198,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 72, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 197,
+      "endLine" : 197,
+      "startCol" : 17,
+      "endCol" : 119
+    },
+    "Stmt(EXPRESSION, 73, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 195,
+      "endLine" : 195,
+      "startCol" : 17,
+      "endCol" : 85
+    },
+    "Stmt(EXPRESSION, 74, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 199,
+      "endLine" : 199,
+      "startCol" : 13,
+      "endCol" : 71
+    },
+    "Stmt(EXPRESSION, 75, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 203,
+      "endLine" : 203,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 76, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 205,
+      "endLine" : 207,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 77, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 206,
+      "endLine" : 206,
+      "startCol" : 17,
+      "endCol" : 97
+    },
+    "Stmt(EXPRESSION, 78, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 210,
+      "endLine" : 210,
+      "startCol" : 13,
+      "endCol" : 28
+    },
+    "Stmt(IF, 79, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 211,
+      "endLine" : 218,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 80, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 212,
+      "endLine" : 212,
+      "startCol" : 17,
+      "endCol" : 36
+    },
+    "Stmt(EXPRESSION, 81, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 213,
+      "endLine" : 213,
+      "startCol" : 17,
+      "endCol" : 70
+    },
+    "Stmt(EXPRESSION, 82, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 214,
+      "endLine" : 214,
+      "startCol" : 17,
+      "endCol" : 57
+    },
+    "Stmt(EXPRESSION, 83, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 215,
+      "endLine" : 215,
+      "startCol" : 17,
+      "endCol" : 38
+    },
+    "Stmt(EXPRESSION, 84, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 216,
+      "endLine" : 216,
+      "startCol" : 17,
+      "endCol" : 59
+    },
+    "Stmt(EXPRESSION, 85, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 217,
+      "endLine" : 217,
+      "startCol" : 17,
+      "endCol" : 33
+    },
+    "Stmt(EXPRESSION, 86, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 220,
+      "endLine" : 220,
+      "startCol" : 13,
+      "endCol" : 44
+    },
+    "Stmt(IF, 87, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 223,
+      "endLine" : 240,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 88, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 239,
+      "endLine" : 239,
+      "startCol" : 17,
+      "endCol" : 26
+    },
+    "Stmt(EXPRESSION, 89, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 228,
+      "endLine" : 235,
+      "startCol" : 17,
+      "endCol" : 52
+    },
+    "Stmt(EXPRESSION, 90, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 237,
+      "endLine" : 237,
+      "startCol" : 17,
+      "endCol" : 37
+    },
+    "Stmt(EXPRESSION, 91, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 242,
+      "endLine" : 242,
+      "startCol" : 13,
+      "endCol" : 65
+    },
+    "Stmt(EXPRESSION, 92, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 243,
+      "endLine" : 243,
+      "startCol" : 13,
+      "endCol" : 83
+    },
+    "Stmt(EXPRESSION, 93, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 244,
+      "endLine" : 244,
+      "startCol" : 13,
+      "endCol" : 68
+    },
+    "Stmt(EXPRESSION, 94, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 246,
+      "endLine" : 246,
+      "startCol" : 13,
+      "endCol" : 86
+    },
+    "Stmt(IF, 95, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 248,
+      "endLine" : 254,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(EXPRESSION, 96, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 253,
+      "endLine" : 253,
+      "startCol" : 17,
+      "endCol" : 51
+    },
+    "Stmt(EXPRESSION, 97, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 251,
+      "endLine" : 251,
+      "startCol" : 17,
+      "endCol" : 38
+    },
+    "Stmt(EXPRESSION, 98, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 256,
+      "endLine" : 256,
+      "startCol" : 13,
+      "endCol" : 42
+    },
+    "Stmt(EXPRESSION, 99, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 257,
+      "endLine" : 257,
+      "startCol" : 13,
+      "endCol" : 119
+    },
+    "Stmt(FOR_EACH, 100, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 263,
+      "endLine" : 268,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(EXPRESSION, 101, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 267,
+      "endLine" : 267,
+      "startCol" : 13,
+      "endCol" : 62
+    },
+    "Stmt(VARIABLE_DECLARATION, 102, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 265,
+      "endLine" : 265,
+      "startCol" : 21,
+      "endCol" : 63
+    },
+    "Stmt(VARIABLE_DECLARATION, 103, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 266,
+      "endLine" : 266,
+      "startCol" : 23,
+      "endCol" : 75
+    },
+    "Stmt(RETURN, 104, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 270,
+      "endLine" : 270,
+      "startCol" : 9,
+      "endCol" : 51
+    },
+    "Stmt(RETURN, 104, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 270,
+      "endLine" : 270,
+      "startCol" : 9,
+      "endCol" : 51
+    },
+    "Stmt(VARIABLE_DECLARATION, 105, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 119,
+      "endLine" : 119,
+      "startCol" : 25,
+      "endCol" : 54
+    },
+    "Stmt(VARIABLE_DECLARATION, 106, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 129,
+      "endLine" : 129,
+      "startCol" : 27,
+      "endCol" : 76
+    },
+    "Stmt(VARIABLE_DECLARATION, 107, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 131,
+      "endLine" : 131,
+      "startCol" : 19,
+      "endCol" : 45
+    },
+    "Stmt(VARIABLE_DECLARATION, 108, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 133,
+      "endLine" : 133,
+      "startCol" : 15,
+      "endCol" : 63
+    },
+    "Stmt(VARIABLE_DECLARATION, 109, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 134,
+      "endLine" : 134,
+      "startCol" : 15,
+      "endCol" : 49
+    },
+    "Stmt(VARIABLE_DECLARATION, 110, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 135,
+      "endLine" : 135,
+      "startCol" : 15,
+      "endCol" : 47
+    },
+    "Stmt(VARIABLE_DECLARATION, 111, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 136,
+      "endLine" : 136,
+      "startCol" : 15,
+      "endCol" : 60
+    },
+    "Stmt(VARIABLE_DECLARATION, 112, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 137,
+      "endLine" : 137,
+      "startCol" : 15,
+      "endCol" : 47
+    },
+    "Stmt(VARIABLE_DECLARATION, 113, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 138,
+      "endLine" : 138,
+      "startCol" : 15,
+      "endCol" : 34
+    },
+    "Stmt(VARIABLE_DECLARATION, 114, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 261,
+      "endLine" : 261,
+      "startCol" : 25,
+      "endCol" : 79
+    },
+    "Stmt(RETURN, 115, technology.tabula.TextElement, DEFAULT)" : {
+      "startLine" : 274,
+      "endLine" : 274,
+      "startCol" : 9,
+      "endCol" : 103
+    },
+    "Stmt(RETURN, 115, technology.tabula.TextElement, NON_DEFAULT)" : {
+      "startLine" : 274,
+      "endLine" : 274,
+      "startCol" : 9,
+      "endCol" : 103
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "testClassName" : "com.facebook.ads.utils.ServerSideApiUtilTest",
+  "testMethodName" : "NormalizeSanitizesEmptyFieldsToNull",
+  "testOutcomes" : [ "PASSED(1)", "PASSED(0)", "PASSED(1)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 0, com.facebook.ads.utils.ServerSideApiUtil)" : [ "THREW_EXCEPTION(0, java.lang.IllegalArgumentException: fieldName is required for normalizing a particular type <com.facebook.ads.utils.ServerSideApiUtil.normalize(ServerSideApiUtil.java:76)>)" ],
+    "Decision(true, IF, 1, com.facebook.ads.utils.ServerSideApiUtil)" : [ "FAILED(0)" ],
+    "Stmt(IF, 4, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 4, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 6, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(EXPRESSION, 6, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 7, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(IF, 7, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 8, com.facebook.ads.utils.ServerSideApiUtil, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 8, com.facebook.ads.utils.ServerSideApiUtil, NON_DEFAULT)" : [ "FAILED(1)" ]
+  },
+  "timeTaken" : 5
+}

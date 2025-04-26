@@ -1,0 +1,205 @@
+{
+  "fileName" : "src/main/java/info/debatty/java/stringsimilarity/LongestCommonSubsequence.java",
+  "packageName" : "info.debatty.java.stringsimilarity",
+  "className" : "LongestCommonSubsequence",
+  "coverageElementPositions" : {
+    "Decision(true, IF, 0, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 40,
+      "endLine" : 40,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 1, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 44,
+      "endLine" : 44,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 2, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 48,
+      "endLine" : 48,
+      "startCol" : 13,
+      "endCol" : 25
+    },
+    "Decision(true, IF, 3, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 65,
+      "endLine" : 65,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, IF, 4, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 69,
+      "endLine" : 69,
+      "startCol" : 13,
+      "endCol" : 22
+    },
+    "Decision(true, LOOP, 5, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 97,
+      "endLine" : 97,
+      "startCol" : 25,
+      "endCol" : 38
+    },
+    "Decision(true, LOOP, 6, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 98,
+      "endLine" : 98,
+      "startCol" : 29,
+      "endCol" : 42
+    },
+    "Decision(true, IF, 7, info.debatty.java.stringsimilarity.LongestCommonSubsequence)" : {
+      "startLine" : 99,
+      "endLine" : 99,
+      "startCol" : 21,
+      "endCol" : 40
+    },
+    "Stmt(IF, 0, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 40,
+      "endLine" : 42,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 1, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 41,
+      "endLine" : 41,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 2, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 44,
+      "endLine" : 46,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 3, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 45,
+      "endLine" : 45,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 4, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 48,
+      "endLine" : 50,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 49,
+      "endLine" : 49,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 5, info.debatty.java.stringsimilarity.LongestCommonSubsequence, NON_DEFAULT)" : {
+      "startLine" : 49,
+      "endLine" : 49,
+      "startCol" : 13,
+      "endCol" : 21
+    },
+    "Stmt(RETURN, 6, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 9,
+      "endCol" : 62
+    },
+    "Stmt(RETURN, 6, info.debatty.java.stringsimilarity.LongestCommonSubsequence, NON_DEFAULT)" : {
+      "startLine" : 52,
+      "endLine" : 52,
+      "startCol" : 9,
+      "endCol" : 62
+    },
+    "Stmt(IF, 7, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 65,
+      "endLine" : 67,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 8, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 66,
+      "endLine" : 66,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(IF, 9, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 69,
+      "endLine" : 71,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(THROW, 10, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 70,
+      "endLine" : 70,
+      "startCol" : 13,
+      "endCol" : 66
+    },
+    "Stmt(FOR, 11, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 97,
+      "endLine" : 106,
+      "startCol" : 9,
+      "endCol" : 9
+    },
+    "Stmt(FOR, 12, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 98,
+      "endLine" : 105,
+      "startCol" : 13,
+      "endCol" : 13
+    },
+    "Stmt(IF, 13, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 99,
+      "endLine" : 104,
+      "startCol" : 17,
+      "endCol" : 17
+    },
+    "Stmt(EXPRESSION, 14, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 103,
+      "endLine" : 103,
+      "startCol" : 21,
+      "endCol" : 65
+    },
+    "Stmt(EXPRESSION, 15, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 100,
+      "endLine" : 100,
+      "startCol" : 21,
+      "endCol" : 50
+    },
+    "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 9,
+      "endCol" : 39
+    },
+    "Stmt(RETURN, 16, info.debatty.java.stringsimilarity.LongestCommonSubsequence, NON_DEFAULT)" : {
+      "startLine" : 108,
+      "endLine" : 108,
+      "startCol" : 9,
+      "endCol" : 39
+    },
+    "Stmt(VARIABLE_DECLARATION, 17, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 90,
+      "endLine" : 90,
+      "startCol" : 13,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 18, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 91,
+      "endLine" : 91,
+      "startCol" : 13,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 19, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 92,
+      "endLine" : 92,
+      "startCol" : 16,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 20, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 93,
+      "endLine" : 93,
+      "startCol" : 16,
+      "endCol" : 35
+    },
+    "Stmt(VARIABLE_DECLARATION, 21, info.debatty.java.stringsimilarity.LongestCommonSubsequence, DEFAULT)" : {
+      "startLine" : 95,
+      "endLine" : 95,
+      "startCol" : 17,
+      "endCol" : 57
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "testClassName" : "org.xmlcml.euclid.test.IntSquareMatrixTest",
+  "testMethodName" : "testIntSquareMatrixIntegerArrayArray",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Decision(false, IF, 4, org.xmlcml.euclid.IntSquareMatrix)" : [ "THREW_EXCEPTION(0, org.xmlcml.euclid.EuclidRuntimeException: non square matrix <org.xmlcml.euclid.IntSquareMatrix.<init>(IntSquareMatrix.java:245)>)" ],
+    "Stmt(IF, 14, org.xmlcml.euclid.IntSquareMatrix, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(IF, 14, org.xmlcml.euclid.IntSquareMatrix, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ]
+  },
+  "timeTaken" : 9
+}

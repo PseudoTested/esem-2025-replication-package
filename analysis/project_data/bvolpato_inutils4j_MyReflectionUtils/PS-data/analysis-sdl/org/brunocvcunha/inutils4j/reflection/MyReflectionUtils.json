@@ -1,0 +1,203 @@
+{
+  "fileName" : "src/main/java/org/brunocvcunha/inutils4j/reflection/MyReflectionUtils.java",
+  "packageName" : "org.brunocvcunha.inutils4j.reflection",
+  "className" : "MyReflectionUtils",
+  "typeMetricsHashMap" : {
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 2,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 5,
+      "coveredCount" : 2,
+      "effectualCount" : 2,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 40.0,
+      "effectualPercentage" : 40.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 4,
+      "coveredCount" : 3,
+      "effectualCount" : 3,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 75.0,
+      "effectualPercentage" : 75.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "RETURN" : {
+      "elementCount" : 6,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 66.67,
+      "effectualPercentage" : 66.67,
+      "coverageGapPercentage" : 0.0
+    },
+    "EXPRESSION" : {
+      "elementCount" : 8,
+      "coveredCount" : 4,
+      "effectualCount" : 4,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 50.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 1,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 9,
+      "coveredCount" : 6,
+      "effectualCount" : 6,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 66.67,
+      "effectualPercentage" : 66.67,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 1,
+      "coveredCount" : 1,
+      "effectualCount" : 1,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 100.0,
+      "effectualPercentage" : 100.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 1,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "covered" : [ "Stmt(VARIABLE_DECLARATION, 15, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(EXPRESSION, 9, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(IF, 11, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 21, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 17, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 19, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Decision(true, IF, 1, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils)", "Stmt(EXPRESSION, 6, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, NON_DEFAULT)", "Stmt(FOR_EACH, 2, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(EXPRESSION, 14, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(IF, 8, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(BREAK, 10, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 20, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 20, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 16, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 18, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Decision(true, IF, 2, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils)", "Stmt(FOR_EACH, 7, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(EXPRESSION, 1, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(IF, 3, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)" ],
+  "effectualCovered" : [ "Stmt(VARIABLE_DECLARATION, 15, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(EXPRESSION, 9, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(IF, 11, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 21, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 17, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 19, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Decision(true, IF, 1, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils)", "Stmt(EXPRESSION, 6, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, NON_DEFAULT)", "Stmt(FOR_EACH, 2, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(EXPRESSION, 14, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(IF, 8, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(BREAK, 10, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 20, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(RETURN, 20, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, NON_DEFAULT)", "Stmt(VARIABLE_DECLARATION, 16, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 18, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Decision(true, IF, 2, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils)", "Stmt(FOR_EACH, 7, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(EXPRESSION, 1, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)", "Stmt(IF, 3, org.brunocvcunha.inutils4j.reflection.MyReflectionUtils, DEFAULT)" ],
+  "totalElementCount" : 37,
+  "totalCoveredCount" : 22,
+  "totalEffectualCount" : 22,
+  "totalCoverageGap" : 0
+}

@@ -1,0 +1,199 @@
+{
+  "fileName" : "project-overview",
+  "typeMetricsHashMap" : {
+    "LAMBDA_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "BREAK" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DO" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "LAMBDA" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "DECISION" : {
+      "elementCount" : 7,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR_EACH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "VARIABLE_DECLARATION" : {
+      "elementCount" : 8,
+      "coveredCount" : 4,
+      "effectualCount" : 1,
+      "coverageGap" : [ "Stmt(VARIABLE_DECLARATION, 12, technology.tabula.CellPosition, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 15, technology.tabula.Table, DEFAULT)", "Stmt(VARIABLE_DECLARATION, 28, technology.tabula.Table, DEFAULT)" ],
+      "coverageGapSize" : 3,
+      "coveredPercentage" : 50.0,
+      "effectualPercentage" : 12.5,
+      "coverageGapPercentage" : 37.5
+    },
+    "EXPRESSION" : {
+      "elementCount" : 13,
+      "coveredCount" : 8,
+      "effectualCount" : 3,
+      "coverageGap" : [ "Stmt(EXPRESSION, 7, technology.tabula.Table, DEFAULT)", "Stmt(EXPRESSION, 0, technology.tabula.CellPosition, DEFAULT)", "Stmt(EXPRESSION, 13, technology.tabula.Table, DEFAULT)", "Stmt(EXPRESSION, 12, technology.tabula.Table, DEFAULT)", "Stmt(EXPRESSION, 1, technology.tabula.CellPosition, DEFAULT)" ],
+      "coverageGapSize" : 5,
+      "coveredPercentage" : 61.54,
+      "effectualPercentage" : 23.08,
+      "coverageGapPercentage" : 38.46
+    },
+    "RETURN" : {
+      "elementCount" : 28,
+      "coveredCount" : 12,
+      "effectualCount" : 9,
+      "coverageGap" : [ "Stmt(RETURN, 6, technology.tabula.Table, DEFAULT)", "Stmt(RETURN, 11, technology.tabula.CellPosition, DEFAULT)", "Stmt(RETURN, 11, technology.tabula.CellPosition, NON_DEFAULT)" ],
+      "coverageGapSize" : 3,
+      "coveredPercentage" : 42.86,
+      "effectualPercentage" : 32.14,
+      "coverageGapPercentage" : 10.71
+    },
+    "INNER_CLASS_RETURN" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "CONTINUE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "TRY" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "IF" : {
+      "elementCount" : 5,
+      "coveredCount" : 1,
+      "effectualCount" : 0,
+      "coverageGap" : [ "Stmt(IF, 10, technology.tabula.Table, DEFAULT)" ],
+      "coverageGapSize" : 1,
+      "coveredPercentage" : 20.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 20.0
+    },
+    "SWITCH_ENTRY_ASSIGNMENT" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "FOR" : {
+      "elementCount" : 2,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "INNER_CLASS" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "WHILE" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "SWITCH" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    },
+    "THROW" : {
+      "elementCount" : 0,
+      "coveredCount" : 0,
+      "effectualCount" : 0,
+      "coverageGap" : [ ],
+      "coverageGapSize" : 0,
+      "coveredPercentage" : 0.0,
+      "effectualPercentage" : 0.0,
+      "coverageGapPercentage" : 0.0
+    }
+  },
+  "totalElementCount" : 63,
+  "totalCoveredCount" : 25,
+  "totalEffectualCount" : 13,
+  "totalCoverageGap" : 12
+}

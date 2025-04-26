@@ -1,0 +1,26 @@
+{
+  "testClassName" : "technology.tabula.TableTest",
+  "testMethodName" : "testEmpty",
+  "testOutcomes" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(EXPRESSION, 0, technology.tabula.CellPosition, DEFAULT)" : [ "PASSED(1)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 0, technology.tabula.CellPosition, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.CellPosition, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.CellPosition, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(3)", "PASSED(0)" ],
+    "Stmt(RETURN, 0, technology.tabula.Table, DEFAULT)" : [ "THREW_EXCEPTION(0, java.lang.NullPointerException: Cannot invoke \"technology.tabula.Table.getCell(int, int)\" because \"empty\" is null <technology.tabula.TableTest.testEmpty(TableTest.java:12)>)" ],
+    "Stmt(RETURN, 0, technology.tabula.Table, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"technology.tabula.Table.getCell(int, int)\" because \"empty\" is null <technology.tabula.TableTest.testEmpty(TableTest.java:12)>)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Table, DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(EXPRESSION, 1, technology.tabula.Table, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 2, technology.tabula.Table, DEFAULT)" : [ "PASSED(1)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(RETURN, 2, technology.tabula.Table, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 3, technology.tabula.Table, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(1)" ],
+    "Stmt(RETURN, 3, technology.tabula.Table, NON_DEFAULT)" : [ "FAILED(0)" ],
+    "Stmt(RETURN, 6, technology.tabula.Table, DEFAULT)" : [ "PASSED(0)", "PASSED(1)", "PASSED(0)" ],
+    "Stmt(RETURN, 6, technology.tabula.Table, NON_DEFAULT)" : [ "THREW_EXCEPTION(0, org.junit.ComparisonFailure: expected:<[]> but was:<[A]> <org.junit.Assert.assertEquals(Assert.java:117)>)" ],
+    "Stmt(RETURN, 27, technology.tabula.Table, DEFAULT)" : [ "FAILED(9)" ],
+    "Stmt(RETURN, 27, technology.tabula.Table, NON_DEFAULT)" : [ "FAILED(1)" ],
+    "Stmt(VARIABLE_DECLARATION, 28, technology.tabula.Table, DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ],
+    "Stmt(VARIABLE_DECLARATION, 28, technology.tabula.Table, NON_DEFAULT)" : [ "PASSED(0)", "PASSED(0)", "PASSED(0)" ]
+  },
+  "timeTaken" : 73
+}

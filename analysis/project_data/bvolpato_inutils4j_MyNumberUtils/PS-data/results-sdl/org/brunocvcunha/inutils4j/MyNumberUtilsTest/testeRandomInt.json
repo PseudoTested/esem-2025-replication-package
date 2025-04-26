@@ -1,0 +1,12 @@
+{
+  "testClassName" : "org.brunocvcunha.inutils4j.MyNumberUtilsTest",
+  "testMethodName" : "testeRandomInt",
+  "testOutcomes" : [ "PASSED(16)", "PASSED(5)", "PASSED(6)" ],
+  "coverageElementTestOutcomes" : {
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyNumberUtils, DEFAULT)" : [ "PASSED(5)", "PASSED(5)", "PASSED(6)" ],
+    "Stmt(RETURN, 0, org.brunocvcunha.inutils4j.MyNumberUtils, NON_DEFAULT)" : [ "PASSED(6)", "PASSED(3)", "PASSED(3)" ],
+    "Stmt(VARIABLE_DECLARATION, 1, org.brunocvcunha.inutils4j.MyNumberUtils, DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"java.util.Random.nextInt(int)\" because \"rand\" is null <org.brunocvcunha.inutils4j.MyNumberUtils.randomIntBetween(MyNumberUtils.java:38)>)" ],
+    "Stmt(VARIABLE_DECLARATION, 1, org.brunocvcunha.inutils4j.MyNumberUtils, NON_DEFAULT)" : [ "THREW_EXCEPTION(1, java.lang.NullPointerException: Cannot invoke \"java.util.Random.nextInt(int)\" because \"rand\" is null <org.brunocvcunha.inutils4j.MyNumberUtils.randomIntBetween(MyNumberUtils.java:38)>)" ]
+  },
+  "timeTaken" : 76
+}
