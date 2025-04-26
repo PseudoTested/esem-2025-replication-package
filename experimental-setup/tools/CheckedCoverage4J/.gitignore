@@ -1,0 +1,14 @@
+.DS_Store
+projects/*/target/**
+projects/*/logs/**
+.vscode/*
+output/
+
+slicingCriteria.csv
+sootOutput/*
+
+tools/criteria-gen/*
+tools/DynamicSlicingCore/*
+tools/Slicer4J/*
+
+
