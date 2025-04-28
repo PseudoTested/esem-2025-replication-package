@@ -11,7 +11,7 @@ def extract_package(line):
 def extract_clazz(package_string):
     parts = package_string.split('.')
     if parts:
-        class_name = parts[-1]  # The last part is the class name
+        class_name = parts[-1]  
         return class_name
     else:
         return None 
