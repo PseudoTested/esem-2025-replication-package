@@ -45,11 +45,13 @@ PIT is currently available at [https://pitest.org/](https://pitest.org/)
 ### Criticality Score
 We used the [OSSF's Criticality Score](https://github.com/ossf/criticality_score) to identify projects. 
 
-### Clover
-To collect code coverage we use [OpenClover's Clover](https://github.com/openclover/clover). This was only used as a baseline to collect information about the projects.
 
 ## Executing tools on project set
 To execute each tool on the projects, use the scripts in the `experimental-setup` directory. 
 The zip file of the project under test must be added to `experimental-setup/projects`.
 The tools will be executed on all classes in the args.csv files where `run-project_1.sh` will run all classes in the `args_1.csv` file and `run-project-mt.sh` will run all classes in the `args_mt.csv`.
+
 ## Analysing the results
+The `analysis` directory contains the scripts and notebooks used to collate and analyze the data.
+First, install requirements.txt and run `analysis/collate_class_info.py` to collate the tool output data in `project_data`.
+Next, run each notebook in `notebooks` to analyze the data and produce plots used in paper.
