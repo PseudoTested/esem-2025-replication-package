@@ -109,10 +109,7 @@ def parse_porbs_report(project_name: str, project_df: pd.DataFrame):
 
             if row[0].isnumeric():
                 line_number = int(row.split(":")[0])
-                # for i in range(line_marker, line_number):
-                #     project_df.loc[
-                #         project_df["line_no"] == int(i), "on_porbs_slice"
-                #     ] = True
+
 
                 if file_path != "":
                     project_df.loc[
@@ -173,7 +170,6 @@ def parse_pseudosweep_report(project_name: str, project_df: pd.DataFrame):
                 project_df["line_no"] == int(line_number), "statement_ps"
             ] = True
 
-    # Mark covered lines as True
     for cov in lines_covered.values():
         for line_number in cov:
             project_df.loc[project_df["line_no"] == int(line_number), "covered_ps"] = (
@@ -191,14 +187,6 @@ def parse_pseudosweep_report(project_name: str, project_df: pd.DataFrame):
             project_df.loc[
                 project_df["line_no"] == int(line_number), "pseudotested_ps"
             ] = True
-
-    # check for inner pseudo-testedness
-
-    # project_df["pseudotested_ps"] = np.where(
-    #     (project_df["required_ps"] == True) & (project_df["pseudotested_ps"] == True),
-    #     False,
-    #     project_df["pseudotested_ps"],
-    # )
 
     for line_number in line_statement_types.keys():
         if len(project_df) != 0:
@@ -275,7 +263,6 @@ def _get_element_locations(
                     else:
                         return None
 
-                # update primary statement type on each line
                 [
                     statement_types.update({i: extract_statement_type(key)})
                     for key, value in data["coverageElementPositions"].items()
@@ -418,7 +405,6 @@ def get_mutant_counts(project_name: str, project_df: pd.DataFrame):
 
 
 def main():
-    # setup
     columns = [
         "project",
         "class",
@@ -443,17 +429,10 @@ def main():
         print("\n", project)
         project_df = pd.DataFrame(columns=columns)
 
-        # get num lines in class
         project_df = parse_clover_report(project, project_df)
-        # read Slicer4J
         project_df = parse_slicer4j_report(project, project_df)
-        # read PORBS
         project_df = parse_porbs_report(project, project_df)
-
-        # read PseudoSweep
         project_df = parse_pseudosweep_report(project, project_df)
-
-        # read PIT mutants
         project_df = get_mutant_counts(project, project_df)
 
         project_df["covered_porbs"] = (
@@ -474,13 +453,9 @@ def main():
             False,
         )
 
-        # calculate coverage gaps
-
-        # write to csv in project file
         csv_path = data_dir + project + f"/{project}.csv"
         project_df.to_csv(csv_path, index=False)
 
-    # create overall data frame
     columns = [
         "project",
         "class",
@@ -516,8 +491,6 @@ def main():
         df = pd.concat([df, project_df])
 
     df.to_csv(data_dir + "all_projects.csv", index=False)
-
-    print(df)  # create overall data frame
 
 
 if __name__ == "__main__":
