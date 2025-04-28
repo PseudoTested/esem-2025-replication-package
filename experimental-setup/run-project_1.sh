@@ -64,7 +64,6 @@ while IFS=',' read -r PROJECT_NAME TEST_CLASS_PACKAGE SRC_FILE TEST_NAME TEST_CL
     rm -rf $CWD/tools_$PROJECT_NAME/PORBS/regression
     wait
     cp $PROJECT_PATH $CWD/tools_$PROJECT_NAME/PORBS/ && unzip $CWD/tools_$PROJECT_NAME/PORBS/$ZIP_NAME -d $CWD/tools_$PROJECT_NAME/PORBS/code/
-    # mv $CWD/tools_$PROJECT_NAME/PORBS/$PROJECT_NAME/ $CWD/tools_$PROJECT_NAME/PORBS/code/ 
     rm -rf $CWD/tools_$PROJECT_NAME/PORBS/code/$PROJECT_NAME/
 
     # pseudosweep
