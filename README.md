@@ -14,10 +14,10 @@
 ## Data
 
 ### Project Data from Tool Execution 
-`analysis/project_data` contains the execution data from each of the tools used to conduct this study.
+`GapGrep/project_data` contains the execution data from each of the tools used to conduct this study.
 
 ### Negotiated Agreement Data
-`analysis/negotiated-agreement-data` contains the agreed purposes of the statements in the oracle gaps reached through negotiated agreement.
+`negotiated-agreement-data` contains the agreed purposes of the statements in the oracle gaps reached through negotiated agreement.
 
 ## Tools
 
@@ -52,6 +52,6 @@ The zip file of the project under test must be added to `experimental-setup/proj
 The tools will be executed on all classes in the args.csv files where `run-project_1.sh` will run all classes in the `args_1.csv` file and `run-project-mt.sh` will run all classes in the `args_mt.csv`.
 
 ## Analysing the results
-The `analysis` directory contains the scripts and notebooks used to collate and analyze the data.
-First, install requirements.txt and run `analysis/collate_class_info.py` to collate the tool output data in `project_data`.
+The `GapGrep` directory contains the scripts and notebooks used to collate and analyze the data.
+First, install requirements.txt and run `GapGrep/collate_class_info.py` to collate the tool output data in `project_data`.
 Next, run each notebook in `notebooks` to analyze the data and produce plots used in paper.

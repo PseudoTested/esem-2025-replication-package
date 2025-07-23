@@ -1,4 +1,4 @@
-# Data Analysis
+# GapGrep
 
 ## Install Python Requirements
 To install the Python pacakge required execute
